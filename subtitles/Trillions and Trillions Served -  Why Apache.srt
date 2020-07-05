@@ -1,17 +1,17 @@
 ﻿1
 00:00:00,030 --> 00:00:04,530
-what we create runs everywhere it's
-我们创造的东西可以说
+what we create runs everywhere
+我们创造的东西在很多地方运行。
 
 2
 00:00:04,730 --> 00:00:06,849
-literally used everywhere in the world
-已经在世界各地无处不在使用
+it's literally used everywhere in the world
+从字面上说，世界各地无处不在使用。
 
 3
 00:00:07,049 --> 00:00:08,919
-today without the passion the internet
-今天如果没有这样的激情，
+today without the Apache the internet
+今天如果没有Apache，
 
 4
 00:00:09,119 --> 00:00:10,180
@@ -30,17 +30,17 @@ streaming framework. We're creating
 
 7
 00:00:14,548 --> 00:00:17,220
-industry's. Programming for fun. People.
-为乐趣而编程。人。
+industry's. Programming for fun.
+为乐趣而编程。
 
 8
 00:00:17,420 --> 00:00:20,409
-it's a great group of people.
-这是一群很棒的人。
+People. It's a great group of people.
+人。 这是一群很棒的人。
 
 9
 00:00:20,609 --> 00:00:22,419
-It's connecting people. it's building bridges
+It's connecting people. It's building bridges
 它把人们联系在一起。 它架起了一座桥梁，
 
 10
@@ -141,7 +141,7 @@ Create incredibly passionate communities who
 29
 00:01:13,170 --> 00:01:17,299
 are then empowered to create incredibly powerful software.
-然后依托这样的社区，创建功能强大的软件
+然后依托这样的共同体，创建功能强大的软件
 
 30
 00:01:17,500 --> 00:01:19,058
@@ -176,7 +176,7 @@ and I don't think many people understand
 36
 00:01:32,849 --> 00:01:35,659
 exactly how Apache has changed the world.
-Apache如何改变了世界。
+Apache是如何改变了世界。
 
 37
 00:01:35,859 --> 00:01:37,579
@@ -190,8 +190,8 @@ something now you know people can touch
 
 39
 00:01:39,430 --> 00:01:41,480
-and you know act with their phones in
-当他们在与他们的手机
+and interact with their phones and
+在与他们的手机
 
 40
 00:01:41,680 --> 00:01:43,429
@@ -201,13 +201,13 @@ their car. And you know you realize all
 41
 00:01:43,629 --> 00:01:45,739
 of them are open-source software and it's like
-这些都是通过开源软件进行的， 你会感叹
+这些都是开源软件时， wow，你会感叹
 
 
 42
 00:01:45,939 --> 00:01:48,049
 wow okay this is something that's truly
-这就是通过开源软件在真的
+开源软件真的在
 
 
 43
@@ -223,12 +223,12 @@ You know it's more than just technology
 45
 00:01:52,209 --> 00:01:54,679
 it's more than just coding. It's bringing
-不仅仅是编码。它还带来了新思想
+不仅仅是编码。
 
 46
 00:01:54,879 --> 00:01:58,730
 new ideas new aspects there's so much
-带来了如此多的
+它还带来了新思想，带来了如此多的
 
 47
 00:01:58,930 --> 00:02:01,399
@@ -268,7 +268,7 @@ in and I'm passionate about.
 54
 00:02:13,300 --> 00:02:15,890
 There's still so much work to do, so like
-我有好多工作要做，例如
+我有好多工作要做，
 
 55
 00:02:16,090 --> 00:02:19,340
@@ -293,9 +293,4 @@ The best software in the world I mean
 59
 00:02:31,590 --> 00:02:34,459
 that's the ASF
-我的意思是ASF
-
-60
-00:02:40,139 --> 00:02:45,139
-you
-就是你。
+我的意思这就是ASF。
