@@ -11,7 +11,7 @@ it's literally used everywhere in the world
 3
 00:00:07,049 --> 00:00:08,919
 today. Without the Apache the internet
-今天.如果没有Apache，
+如果没有Apache，
 
 4
 00:00:09,119 --> 00:00:10,180
