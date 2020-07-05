@@ -3985,7 +3985,7 @@ you know we thought a lot about how do we sustain the foundation
 799
 00:34:46,000 --> 00:34:50,080
 kind of as Greg Stein , you know
-就像您知道的格雷格·斯坦（Greg Stein）
+就像格雷格·斯坦（Greg Stein）
 
 800
 00:34:50,280 --> 00:34:52,360
@@ -3995,32 +3995,32 @@ had often put it was
 801
 00:34:52,600 --> 00:34:54,000
 you know, think about the foundation
-您知道,基金会
+想一想基金会如果
 
 802
 00:34:54,200 --> 00:34:55,880
-living for hundred years and what did that mean
-生活了数百年，这意味着什么
+living for hundred years and what does that mean
+生存上百年，那将意味着什么
 
 803
 00:34:56,040 --> 00:34:58,480
-and it meant growing the
-这意味着成长
+and it means growing the
+这意味着不断发展
 
 804
 00:34:58,720 --> 00:35:02,200
 foundation and providing a stable base
-基金会并提供稳定
+基金会并提供稳定的基础
 
 805
 00:35:02,400 --> 00:35:04,920
-to ensure that success in a way we did
- 确保成功的基础
+to ensure that success. In a way we did
+来确保成功。这其中的一种方式
 
 806
 00:35:05,080 --> 00:35:08,240
 that was an Apache Incubator project
-是一个Apache 孵化项目
+就是Apache 孵化项目
 
 807
 00:35:08,440 --> 00:35:09,880
@@ -4030,7 +4030,7 @@ which is how we found the next
 808
 00:35:10,040 --> 00:35:12,840
 generation of Apache software projects
-Apache软件项目的方式
+Apache软件项目的方法
 
 809
 00:35:13,000 --> 00:35:14,720
@@ -4049,28 +4049,28 @@ that's what the incubation process is
 
 812
 00:35:19,160 --> 00:35:22,200
-all the， let's say rules on
-所有，我们说的规则
+all the，let's say "rules" on
+现存所有项目推荐的"规则"
 
 813
 00:35:22,400 --> 00:35:24,560
 recommendations that exist have a reason
-建议的出现有原因
+都有其理由
 
 814
 00:35:24,760 --> 00:35:26,400
 to be and the reason is sustainability
-原因就是可持续
+那就是未来
 
 815
 00:35:26,600 --> 00:35:27,160
-of the futures
-相对未来
+of the projects in the futures
+项目的可持续性
 
 816
 00:35:27,360 --> 00:35:29,120
-if your product
-如果您的产品
+if your project
+如果您的项目
 
 817
 00:35:29,320 --> 00:35:31,560
@@ -4079,18 +4079,18 @@ is only driven by a unique company
 
 818
 00:35:31,760 --> 00:35:34,080
-is not an Apache project ,is a company product
-不是Apache项目，而是公司产品
+is not an Apache project, it's a company project
+那它就是只是一个公司项目，而不是Apache项目
 
 819
 00:35:34,280 --> 00:35:35,680
 so during the incubation process
-那么在孵化过程中
+因此在孵化过程中
 
 820
 00:35:35,920 --> 00:35:38,000
 you have to show that you have different users
-您必须证明您拥有来自
+您必须证明您的项目拥有来自
 
 821
 00:35:38,160 --> 00:35:40,000
@@ -4110,7 +4110,7 @@ why Apache remains successful
 824
 00:35:47,320 --> 00:35:50,400
 it has to do with with dealing with scaling
-它与处理扩展有关
+这决定了我们如何发展
 
 825
 00:35:50,640 --> 00:35:55,160
@@ -4120,17 +4120,17 @@ growing this culture
 826
 00:35:55,360 --> 00:35:56,920
 not just imposing it upon people
-不仅将其强加于人
+不是将其强加于人
 
 827
 00:35:57,080 --> 00:35:59,240
 but helping them understand why it matters
-而且还帮助他们了解其重要性
+而是帮助大家了解其重要性
 
 828
 00:35:59,440 --> 00:36:00,960
 and bringing them into the family
-并将他们带入家庭
+将他们带入（Apache）家庭
 
 829
 00:36:01,120 --> 00:36:03,000
@@ -4145,7 +4145,7 @@ to me, it feels that, ASF presents
 831
 00:36:06,120 --> 00:36:08,480
 this really amazing lesson to the world
-了非常令人惊讶的课程
+了非常棒的经验
 
 832
 00:36:08,720 --> 00:36:10,920
@@ -4154,18 +4154,18 @@ which I would love to see spread out, you know
 
 833
 00:36:11,080 --> 00:36:13,240
-to even schools ,universities right
-甚至是学校，大学
+to even schools, universities right
+甚至是学校、大学中
 
 834
 00:36:13,400 --> 00:36:13,840
 because if you think about it
-因为如果您考虑一下
+因为如果您思考一下就会发现
 
 835
 00:36:14,000 --> 00:36:16,880
 ASF presents a model of collaboration
-ASF提出一种合作模式
+ASF提出的这种合作模式
 
 836
 00:36:17,040 --> 00:36:19,000
@@ -4174,78 +4174,78 @@ that can not only be applied within corporations
 
 837
 00:36:19,160 --> 00:36:20,960
-interestingly enough,by the way
+interestingly enough, by the way
 有趣的是，顺便说一下
 
 838
 00:36:21,120 --> 00:36:22,760
 a lot of corporations, these days
-如今，许多公司
+如今许多公司
 
 839
 00:36:22,920 --> 00:36:24,760
-have this notion of inner source
-内部资源这一概念
+have this notion of “inner-source”
+都有"内部开源"这一概念
 
 840
 00:36:24,960 --> 00:36:27,400
 basically saying well
-基本上说得很好
+基本上来说
 
 841
 00:36:27,640 --> 00:36:29,160
 even though we may not be contributing to the open source
-即使我们可能没有为开源做出贡献
+即使我们因为法律原因
 
 842
 00:36:29,360 --> 00:36:31,080
 you know, because of the legal reason
-因为 出于法律原因
+或者公司政策原因
 
 843
 00:36:31,280 --> 00:36:33,480
-so just you know， corporate reasons
-公司原因
+or just, you know, corporate reasons
+不能将项目贡献给开源社区
 
 844
 00:36:33,720 --> 00:36:36,120
 inside of the corporation itself
-公司内部
+但在公司内部
 
 845
 00:36:36,320 --> 00:36:38,440
-we will behave our engineers will behave
-我们将表现出我们的工程师的行为
+we will behave, our engineers will behave
+我们的工程师的协作方式
 
 846
 00:36:38,680 --> 00:36:40,760
-as though we're practicing open source right
-就像我们在实践开源权利一样
+as though we're practicing open source, right
+就像我们在参与开源项目一样
 
 847
 00:36:40,960 --> 00:36:43,800
 so that engineers can stop working in the
-这样，工程师就可以停止
+这样，工程师们就不再只是
 
 848
 00:36:44,000 --> 00:36:47,160
 salt mines of siloed over specialized teams
-专门团队的，孤零零的中工作
+在单一团队中孤零零的工作
 
 849
 00:36:47,360 --> 00:36:51,040
 and become the full flowering of
-全身心的参与
+而是可以全身心的参与
 
 850
 00:36:51,240 --> 00:36:52,800
-what it could be， which is collaborative
-协作
+what it could be, which is collaborative
+到协作中，成为
 
 851
 00:36:53,000 --> 00:36:56,720
 members of cooperative that create software
-成为合作成员，可以创建软件
+共同创造软件的一员
 
 852
 00:36:56,920 --> 00:36:59,000
@@ -4255,77 +4255,77 @@ but it doesn't stop there
 853
 00:36:59,120 --> 00:37:01,560
 you can actually manage to get the same model
-您实际上可以设法使用相同的模型
+您实际上可以将相同的模型
 
 854
 00:37:01,760 --> 00:37:04,000
 and apply to all sorts of different areas of human endeavor right
-适用于人类努力的各种不同领域。
+应用于人类协作的各种不同领域。
 
 855
 00:37:06,800 --> 00:37:09,240
 you can build your local organization
-您可以建立您的本地组织
+例如假设您需要建立一个本地组织
 
 856
 00:37:09,480 --> 00:37:12,480
 that is trying to enact change
-即试图实施变更
+来实施
 
 857
 00:37:12,720 --> 00:37:14,960
 a political change, for example
-例如,进行政治变更
+诸如政治变革的变更
 
 858
 00:37:15,120 --> 00:37:16,640
 in a real world you can build it
-在现实世界中，您可以构建他
+那么您完全可以通过使用
 
 859
 00:37:16,840 --> 00:37:18,440
 through the same set of principles
-用相同的原则
+和我们建立Apache软件基金会
 
 860
 00:37:18,680 --> 00:37:20,240
-that we utilize to build a petra Software Foundation
-即我们用于建立petra软件基金会的同一套原则
+that we utilize to build Apache Software Foundation
+相同的一套原则来对其进行构建
 
 861
 00:37:20,440 --> 00:37:22,040
 it doesn't have to be software development
-它不一定是软件开发
+这套机制适用的场景不限于软件开发
 
 862
 00:37:22,240 --> 00:37:23,000
-it could be anything ,you could be building a house
-它可以是任何东西，您可以盖房子
+it could be anything, you could be building a house
+它可以适用任意（需要协作的）场景，比如盖房子
 
 863
 00:37:23,200 --> 00:37:25,200
 when people talk about Apache
-当人们谈论Apache时
+当人们谈论Apache
 
 864
 00:37:25,400 --> 00:37:27,400
-they and they've actually way
-他们实际上是这样
+and the Apache way
+或者Apache之道时
 
 865
 00:37:27,640 --> 00:37:29,000
-they think oh yeah software development
-他们认为是软件开发
+they think "oh yeah software development"
+他们认为“哦这是关于软件开发的”
 
 866
 00:37:29,120 --> 00:37:31,000
 but it's not
-但这不是
+但其实并不是
 
 867
 00:37:31,200 --> 00:37:33,680
 it's a social way of working, a social way
-一种社会协同的工作方式
+这是一种社会协同的工作方式
 
 868
 00:37:33,880 --> 00:37:35,640
@@ -4335,12 +4335,12 @@ a collaborative way of doing something together
 869
 00:37:35,840 --> 00:37:38,120
 in a way that you know
-您知道的，以一种方式
+以一种
 
 870
 00:37:38,320 --> 00:37:40,760
 you can learn from other people
-人们可以相互学习
+人们可以相互学习的方式
 
 871
 00:37:40,960 --> 00:37:44,320
@@ -4349,18 +4349,18 @@ and you get the best of all the ideas
 
 872
 00:37:44,480 --> 00:37:46,120
-that's  the beauty of it ,that's the beauty of the solution
-那就是它的美，就是 解决方案
+that's the beauty of it, that's the beauty of the solution
+那就是它的美妙之处，是这种解决方案的美妙之处
 
 873
 00:37:46,320 --> 00:37:48,280
-hundreds and hundreds of years,where
+hundreds and hundreds of years, where
 在数百年的历史中
 
 874
 00:37:48,480 --> 00:37:52,400
 knowledge was used to generate money
-知识是用来赚钱的
+知识都是用来赚钱的
 
 875
 00:37:52,640 --> 00:37:56,600
@@ -4375,7 +4375,7 @@ is how much money my company making
 877
 00:38:00,200 --> 00:38:03,720
 I think that the ASF
-我认为ASF
+但我认为ASF
 
 878
 00:38:03,920 --> 00:38:05,360
@@ -4385,12 +4385,12 @@ has proven that even without making money
 879
 00:38:05,600 --> 00:38:09,360
 we really did have a humongous impact
-我们做到了巨大影响
+我们也对这个世界运转的方式
 
 880
 00:38:09,600 --> 00:38:11,720
 in the way in which the world runs
-以某种方式冲击世界
+产生了巨大的影响
 
 881
 00:38:11,920 --> 00:38:13,760
@@ -4400,32 +4400,32 @@ it would be really cool
 882
 00:38:13,920 --> 00:38:16,320
 if people could share without feeling like they're gonna lose for sharing
-如果人们可以共享而不会觉得自己会因为共享而迷失方向
+如果人们可以共享而不会觉得自己会因为共享而输掉
 
 883
 00:38:16,560 --> 00:38:19,600
 I came from a bit of a sports background
-我来自一点运动背景
+我有一点儿运动员背景
 
 884
 00:38:19,800 --> 00:38:23,360
 where it was more win-lose type of an environment
-那是一种双赢的环境
+那偏向于一种非赢即输的环境
 
 885
 00:38:25,400 --> 00:38:27,320
 being able to be an environment
-能够成为一个环境
+在一个
 
 886
 00:38:27,560 --> 00:38:29,920
 where competing with people and collaborating with people
-与人竞争，与人合作的环境
+与人竞争但同时也与人合作的环境
 
 887
 00:38:30,080 --> 00:38:31,760
 actually creates win-win situations
-创造双赢局面
+可以创造双赢局面
 
 888
 00:38:31,960 --> 00:38:34,000
@@ -4434,7 +4434,7 @@ has been something
 889
 00:38:34,160 --> 00:38:35,880
 I've learned from participating in open source
-我从参加开源学到的
+是我从参与开源当中学到的
 
 890
 00:38:36,040 --> 00:38:38,000
@@ -4444,12 +4444,12 @@ and made me realize that
 891
 00:38:38,200 --> 00:38:41,840
 this is how most of companies and humanity should work
-这就是大多数公司和人类应该如何工作的方式
+这就是大多数公司和人类应该采取但工作方式
 
 892
 00:38:42,000 --> 00:38:43,320
 one of the things we're seeing nowadays
-当今我们看到的一件事是
+我们（从Apache中）看到的一件事是
 
 893
 00:38:43,560 --> 00:38:45,920
@@ -4459,7 +4459,7 @@ is that the lessons learned inside of IT
 894
 00:38:49,000 --> 00:38:51,000
 as far as how to create successful open-source projects
-涉及如何创建成功的开源项目
+以及如何创建成功的开源项目
 
 895
 00:38:51,000 --> 00:38:52,800
@@ -4469,17 +4469,17 @@ but most importantly
 896
 00:38:53,000 --> 00:38:55,440
 how to create successful open source communities
-如何创建成功的开源社区
+Apache之道不仅在如何创建成功的开源社区方面
 
 897
 00:38:55,680 --> 00:38:59,280
 of which the Apache Way is most probably the best example
-其中Apache Way最有可能是最好的例子
+是最好的例子
 
 898
 00:38:59,320 --> 00:39:02,320
-of that is starting to make inroads in other areas
-其中部分开始进军其他领域
+of that, is starting to make inroads in other areas
+而且这种方式也开始进军到其他领域
 
 899
 00:39:03,720 --> 00:39:07,320
@@ -4488,28 +4488,28 @@ the success of open source is going to expand beyond IT
 
 900
 00:39:07,360 --> 00:39:11,760
-is going to  beyond the software development in ecosystem
-将超越生态系统中的软件开发
+is going to beyond the software development in ecosystem
+超越生态系统中的软件开发
 
 901
 00:39:11,840 --> 00:39:17,520
 and so we're seeing a lot of the tenants of successful open source
-因此，我们看到了许多成功开源的客户
+我们看到了许多成功开源的客户
 
 902
 00:39:17,560 --> 00:39:22,760
 a lot of the means of Apache Way transcend the IT community
-Apache Way的许多方法超越了IT社区
+许多Apache之道的方法超越了IT社区本身
 
 903
 00:39:22,760 --> 00:39:25,440
 and I think that's an incredible heritage
-我认为这是不可思议的传承
+我认为这是对于我们创造的运动
 
 904
 00:39:25,440 --> 00:39:29,280
 for the movement we've created
-对于我们创造的运动
+不可思议的传承
 
 905
 00:39:29,400 --> 00:39:31,440
@@ -4529,7 +4529,6 @@ different sustainable development goals out there
 908
 00:39:36,000 --> 00:39:37,480
 right
-是的
 
 909
 00:39:37,680 --> 00:39:39,240
@@ -4549,7 +4548,7 @@ to be able to do that on a global scale
 912
 00:39:44,920 --> 00:39:47,160
 if we're going to eliminate child labour in mines
-如果我们要消除矿山的童工
+如果我们要消除矿山
 
 913
 00:39:47,400 --> 00:39:50,160
@@ -4559,12 +4558,12 @@ or on fishing boats or in other industries
 914
 00:39:50,400 --> 00:39:52,000
 it's going to be through technologies like this
-这将通过像这样的技术
+我们将通过像这样的技术来实现
 
 915
 00:39:54,400 --> 00:39:56,440
-axe is a project
-斧头是一个项目
+Fineract is a project
+Fineract是一个
 
 916
 00:39:56,680 --> 00:39:59,360
@@ -4574,7 +4573,7 @@ that supports microfinance institutionsand giving out loans
 917
 00:39:59,600 --> 00:40:02,200
 and tracking savings for the poorest of the poor
-并为最穷的穷人持续提供救助
+并为最穷的穷人持续提供救助的项目
 
 918
 00:40:02,400 --> 00:40:04,160
@@ -4593,22 +4592,22 @@ because if you don't have savings
 
 921
 00:40:10,400 --> 00:40:11,840
-if you don't have loans,if you don't have remittances
+if you don't have loans, if you don't have remittances
 没有贷款，没有汇款
 
 922
 00:40:12,000 --> 00:40:13,880
 that's money transfers
-就是汇款
+也就是转账
 
 923
 00:40:14,040 --> 00:40:15,880
 then you don't have contact to the global economy
-那你就没有接触全球经济
+那你就没有接触全球经济的途径
 
 924
 00:40:16,040 --> 00:40:18,560
-and you can't profit when your boat doesn't rise ,when everybody else's boat rises
+and you can't profit when your boat doesn't rise, when everybody else's boat rises
 当你的船不升起，而其他人的船升起时，你无法获利
 
 925
@@ -4618,8 +4617,8 @@ in the case of this project
 
 926
 00:40:21,760 --> 00:40:23,840
-you're connecting the empowerment  of the poorest of the poor
-您将最贫穷者的能力
+you're connecting the empowerment of the poorest of the poor
+您将（帮助）最贫穷者的能力
 
 927
 00:40:24,000 --> 00:40:26,240
@@ -4629,7 +4628,7 @@ with the empowerment of the software developers
 928
 00:40:26,440 --> 00:40:28,920
 and you're doing both of them in the context of a community
-而都在社区的背景下做这两个事情的
+并且在社区的背景下同时做这两件事情
 
 929
 00:40:29,080 --> 00:40:31,000
@@ -4639,22 +4638,22 @@ so
 930
 00:40:31,200 --> 00:40:34,200
 it's really wonderful parallels between open source software and microfinance
-开源软件和小额信贷之间的奇妙相似之处
+这是（实施）开源软件（开发）和小额信贷之间的完美并行
 
 931
 00:40:40,200 --> 00:40:43,720
-being part of that  it just gave me a great feeling
-作为其中的一部分，它给了我很好的感觉
+being part of that it just gave me a great feeling
+参与其中使我觉得
 
 932
 00:40:43,920 --> 00:40:45,400
 that we've been able to change the world for the better
-我们已经能够改善世界
+我们已经能够改善世界，这是一种非常美妙的感觉
 
 933
 00:40:45,640 --> 00:40:47,800
 a lot of our software helps developing countries
-我们很多软件帮助发展中国家
+我们开发的很多软件都帮助了发展中国家
 
 934
 00:40:48,000 --> 00:40:51,360
@@ -4679,7 +4678,7 @@ and providing better living conditions and better economic advancement for its p
 938
 00:41:06,240 --> 00:41:09,280
 that's a result of the free software movement
-由于自由软件运动
+这都是自由软件运动发展的结果
 
 939
 00:41:09,480 --> 00:41:12,080
@@ -4694,17 +4693,17 @@ I feel very strongly
 941
 00:41:17,200 --> 00:41:19,240
 the only thing that will save us as a species
-唯一会拯救我们作为一个物种的东西
+（Apache之道是）唯一能帮助我们这个物种
 
 942
 00:41:19,400 --> 00:41:22,640
 from our own internal greed and hatred
-摆脱我们自己内部的贪婪和仇恨
+摆脱内部的贪婪和仇恨
 
 943
 00:41:22,840 --> 00:41:24,320
 and the distance that we put between human hearts
-以及人心之间的距离
+以及人心之间距离的方式
 
 944
 00:41:24,480 --> 00:41:27,400
@@ -4719,27 +4718,27 @@ because I am very sensitive person and have thin skin
 946
 00:41:32,000 --> 00:41:35,320
 then they say you need thicker skin
-然后他们说我需要脸皮厚
+然后他们说我需要脸皮厚一些
 
 947
 00:41:35,560 --> 00:41:38,320
 thicker skin puts more distance between human hearts
-脸皮厚可以让人心更有距离
+脸皮厚会让人心更有距离
 
 948
 00:41:38,560 --> 00:41:41,320
-it allows more space for not like me
+it allows more space for "not like me"
 它为不喜欢我的人提供了更多空间
 
 949
 00:41:41,560 --> 00:41:45,080
-it allows more space for us versus them
-它为我们和他们提供了更多的空间
+it allows more space for "us versus them"
+它为人们互相对立提供了更多的空间
 
 950
 00:41:45,240 --> 00:41:46,960
-and that will be our undoing not just as technologists  but as a species
-这将不仅使我们成为技术专家，而且使我们成为一个物种
+and that will be our undoing not just as technologists but as a species
+这将导致我们，不仅是作为技术专家，而且是作为一个物种，的失败
 
 951
 00:41:50,000 --> 00:41:53,840
@@ -4759,7 +4758,7 @@ caring more about each other and less about profit
 954
 00:41:59,240 --> 00:42:02,480
 and the Apache way voices one part of that
-并且Apache way声明了部分
+Apache之道呼吁了部分关于这方面的内容
 
 955
 00:42:02,720 --> 00:42:05,200
@@ -4779,12 +4778,12 @@ that gives us the opportunity to have a place
 958
 00:42:15,680 --> 00:42:17,160
 where people can be passionate about solving other people's problems
-使人们乐于助人
+使人们有激情去解决其他人的问题
 
 959
 00:42:20,000 --> 00:42:23,640
 and that is one element of good empathy
-那是善解人意的要素之一
+这是让大家互相理解的一个关键要素
 
 960
 00:42:23,840 --> 00:42:25,320
@@ -4804,7 +4803,7 @@ is to leave the campground better than we found it
 963
 00:42:29,000 --> 00:42:31,760
 always create more value than you try to monetize
-这样创造出比营利更多的价值
+始终创造出比营利更多的价值
 
 964
 00:42:31,960 --> 00:42:34,600
@@ -4854,7 +4853,7 @@ throwing up grand visions of a brighter tomorrow
 973
 00:42:57,440 --> 00:42:58,920
 and behind the scenes
-并且在幕后
+但在幕后
 
 974
 00:42:59,080 --> 00:43:01,320
@@ -4869,17 +4868,17 @@ right you know and milking that for profit
 976
 00:43:03,720 --> 00:43:05,440
 I believe
-我相信
+但我相信
 
 977
 00:43:05,680 --> 00:43:07,800
 there's a lot of people though who really genuinely recognize what's wrong in the world
-尽管有很多人真正地真正认识到世界上的问题
+同时也有很多人真正地认识到世界上的问题
 
 978
 00:43:10,080 --> 00:43:11,680
 and our technologists want to use technology to fix that
-但我们的技术人员希望使用技术来解决这一问题。
+而我们的技术人员则希望使用技术来解决这一问题。
 
 979
 00:43:11,880 --> 00:43:13,800
@@ -4903,8 +4902,8 @@ so
 
 983
 00:43:20,480 --> 00:43:23,400
-rather than trying to guess where we'll go with the most different foundation
-与其猜测我们在不同的基础上将怎样发展
+rather than trying to guess where we'll go with the Apache Software Foundation
+与其猜测ASF将怎样发展
 
 984
 00:43:25,480 --> 00:43:27,200
@@ -4914,12 +4913,12 @@ we should instead kind of do the things that need doing right now
 985
 00:43:27,400 --> 00:43:28,920
 and see where that takes us
-看看我们将做成怎样
+来看我们能取得什么结果
 
 986
 00:43:29,080 --> 00:43:33,960
 I hope that as Greg Stein likes to say that
-我希望就像Greg Stein(Apache软件基金会主席)所说的那样
+我希望就像Greg Stein (Apache软件基金会主席) 所说的那样
 
 987
 00:43:34,120 --> 00:43:36,360
@@ -4954,32 +4953,32 @@ but what I mean is that
 993
 00:43:53,680 --> 00:43:55,720
 I can feel that I can step out of my position
-我的意思是我会离开我的职位
+我感觉到我可以放心的退休
 
 994
 00:43:55,920 --> 00:43:58,600
 and know that
-并且我知道
+并且相信
 
 995
 00:43:58,800 --> 00:44:01,400
 we'll still be going strong with a new generation of passionate people
-我们会与新一代充满激情的人一起变得更加强大
+新一代充满激情的人可以让Apache变得更加强大
 
 996
 00:44:01,640 --> 00:44:04,360
 being open to the new types of technology and the new projects that are evolving
-基金会一直在开放新技术和持续更新的项目
+我们一直对新技术和持续更新的项目保持开放
 
 997
 00:44:06,600 --> 00:44:08,680
 one of the things that's been really exciting about the foundation is that
-最令人兴奋的一件事就是
+关于基金会最令人兴奋的一件事就是
 
 998
 00:44:11,280 --> 00:44:14,840
 we seem to be a place where a lot of new technology comes from
-Apache贡献了许多新技术
+这里是许多新技术产生的地方
 
 999
 00:44:17,200 --> 00:44:19,080
@@ -4989,22 +4988,22 @@ we've been at the forefront of creating entire industry
 1000
 00:44:20,560 --> 00:44:22,080
 and that's really exciting for me
-我真的很兴奋
+这让我真的很兴奋
 
 1001
 00:44:22,320 --> 00:44:26,160
 as a technologist as a big geek myself
-我自己是一个技术专家
+我自己是一个技术专家和极客
 
 1002
 00:44:26,360 --> 00:44:28,120
-I love being able to be part of something  that is inventing entire new things
-我喜欢能够成为发明全新事物的一部分
+I love being able to be part of something that is inventing entire new things
+我喜欢能够参与到发明世界上从未出现过的
 
 1003
 00:44:31,160 --> 00:44:32,280
 that the world's never seen before
-这个世界从未出现过的
+全新事物的过程中
 
 1004
 00:44:32,480 --> 00:44:34,680
@@ -5053,13 +5052,13 @@ ASF之外的人员认识到
 
 1013
 00:44:58,040 --> 00:44:59,800
-they can become part of the foundation with actually having to code
-他们可以通过编写代码而成为ASF的成员
+they can become part of the foundation which don't rely on coding
+编写代码并不是成为ASF成员的唯一方式
 
 1014
 00:45:01,880 --> 00:45:03,920
 I don't code anymore
-我不再编码了
+我已经不再编程了
 
 1015
 00:45:04,040 --> 00:45:06,240
@@ -5099,7 +5098,7 @@ or it could be mentoring or just simple advice
 1022
 00:45:23,480 --> 00:45:26,840
 I build software on my own
-我自己动手构建软件
+我有独立开发的软件
 
 1023
 00:45:27,000 --> 00:45:31,760
@@ -5108,18 +5107,18 @@ that is trivial, it has no great value
 
 1024
 00:45:31,960 --> 00:45:34,360
-I do it alone because there is no reason for a community  there
+I do it alone because there is no reason for a community there
 我一个人做是因为没有理由在那里建立社区，
 
 1025
 00:45:34,600 --> 00:45:36,440
 but I also build software
-但是我还开发了软件
+但我也开发了一些
 
 1026
 00:45:36,680 --> 00:45:38,760
 which changes people's lives
-它们改变人们的生活
+可以改变人们的生活
 
 1027
 00:45:38,960 --> 00:45:41,880
@@ -5134,17 +5133,17 @@ which helps people build medicines
 1029
 00:45:45,000 --> 00:45:47,000
 helps people build cars, helps people build spacecraft
-帮助人们建造汽车和航天器
+帮助人们建造汽车和航天器的软件
 
 1030
 00:45:47,120 --> 00:45:52,720
 and that software really does deserve a longer life
-这些软件有更长的生命周期
+这些软件值得更长的生命周期
 
 1031
 00:45:52,920 --> 00:45:55,960
 and does deserve a community around it
-它们值得建立社区来维护
+也值得建立社区来维护
 
 1032
 00:45:56,120 --> 00:45:57,680
@@ -5159,37 +5158,37 @@ they don't go talk like go doom and gloom and fit and worried and oh
 1034
 00:46:04,040 --> 00:46:06,280
 it's not working and oh we can't do anything else
-比如：“没办法，我们别无选择”
+他们不会抱怨"哦这样不行"，"哦没办法了"
 
 1035
 00:46:06,480 --> 00:46:07,920
-is ask we have to rewrite things
-或者要求我们重做某事
+and oh Jesus Christ we have to rewrite things
+或者"哦天哪我们只能重写了"
 
 1036
 00:46:08,080 --> 00:46:09,680
-but they sort like tend to solve like just look like think
-但是他们倾向于解决问题，就像大家看到的那样
+but they solve like, tend to solve like, solve things like
+相反的，他们倾向于解决问题，更像是
 
 1037
 00:46:09,880 --> 00:46:11,760
-okay, how do we solve this
-好吧，我们如何解决这个问题
+okay, I will do whatever to solve this
+好吧，我会不惜一切代价来解决这个问题
 
 1038
 00:46:11,960 --> 00:46:13,400
 everybody is always up to interesting projects
-每个人都可以从事有趣的项目
+我们每个人都很愿意从事有趣的项目
 
 1039
 00:46:13,640 --> 00:46:15,760
-and as always you know
-一如你知道的那样
+and always
+并且
 
 1040
 00:46:15,960 --> 00:46:17,200
-fashioning things and learning laugh and kind of like
-每个人都很时尚，学习笑声和类似的东西
+in a fashion of learning, in kind of
+以一种学习的方式，就像
 
 1041
 00:46:17,400 --> 00:46:19,560
@@ -5214,12 +5213,12 @@ and letting them work together
 1045
 00:46:27,720 --> 00:46:29,400
 without companies getting in the way
-而不会妨碍公司的发展
+而不需要公司的介入
 
 1046
 00:46:29,640 --> 00:46:31,600
-you definitely don't need to be rigid hierarchical top-down toget cool things done
-您绝对不需要严格地自上而下地完成出色的工作
+you definitely don't need to be rigid hierarchical top-down to get cool things done
+我们不需要严格地自上而下地方式，也能完成非常酷的事情
 
 1047
 00:46:35,240 --> 00:46:38,320
@@ -5233,13 +5232,13 @@ everything about what I am now and what I've done professionally personally
 
 1049
 00:46:45,280 --> 00:46:47,960
-has been because of Apaches
-都源于Apaches
+has been because of Apache
+都与Apache有关
 
 1050
 00:46:48,120 --> 00:46:51,240
-I found myself Apache Software Foundation I see you wow this is my home
-ASF实现个人价值，ASF是我的家
+I found myself (in) Apache Software Foundation, I see wow this is my home
+我在ASF实现了个人价值，我把ASF看作是我的家
 
 1051
 00:46:52,920 --> 00:46:55,400
@@ -5249,7 +5248,7 @@ and I want to do not just trade my time for money
 1052
 00:46:55,640 --> 00:46:57,000
 I want to do something bigger than you know that
-你知道的，还想做更大的事情
+我还想做更大的事情
 
 1053
 00:46:57,200 --> 00:46:59,200
@@ -5283,8 +5282,8 @@ if I could travel back in time and tell me
 
 1059
 00:47:19,320 --> 00:47:21,240
-Allison is like try to get into this thing earlier
-Allison会尽早加入ASF
+Allison is like trying to get into this thing earlier
+Allison你会想尽早加入ASF
 
 1060
 00:47:21,440 --> 00:47:23,560
@@ -5294,7 +5293,7 @@ because it has many advantages
 1061
 00:47:23,760 --> 00:47:26,400
 if you want to be part just jump in I mean it's pretty easy
-如果你想参与其中，那很简单
+如果你想参与其中，那就来吧，我是说加入进来其实很简单
 
 1062
 00:47:26,640 --> 00:47:29,600
