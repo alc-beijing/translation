@@ -390,7 +390,7 @@ so we were left dependent upon
 79
 00:03:09,439 --> 00:03:12,270
 this open-source web server that
-这个开源网络服务器
+这个开源的网络服务器
 
 80
 00:03:12,469 --> 00:03:15,660
@@ -414,7 +414,7 @@ and in a rare kind of fit of foresight
 
 84
 00:03:23,060 --> 00:03:25,289
-we decided to lookat the copyright license on the code and
+we decided to look at the copyright license on the code and
 我们决定去查看代码的版权许可
 
 85
@@ -440,7 +440,7 @@ and you create a derivative work from it
 89
 00:03:33,110 --> 00:03:35,460
 and don't blame us when it breaks and
-但是它坏了不要责怪我们
+但是当它不工作时不要责怪我们
 
 90
 00:03:35,659 --> 00:03:36,090
@@ -450,12 +450,12 @@ this don't
 91
 00:03:36,289 --> 00:03:37,649
 blame when it breaks thing you know and you're
-责怪当它坏的时候，就是说你知道
+责怪当它弄坏其它东西的时候，就是说你知道
 
 92
 00:03:37,848 --> 00:03:39,118
 on your own but good luck but here's code
-你的代码，祝你好运，给你代码
+你要对这些代码负责，祝你好运，给你代码
 
 93
 00:03:39,318 --> 00:03:41,640
@@ -520,7 +520,7 @@ we decided to inherit that same thinking
 105
 00:04:12,289 --> 00:04:14,819
 that same mentality of well
-那就是
+同样的心态
 
 106
 00:04:15,019 --> 00:04:17,009
@@ -550,22 +550,22 @@ Apache 部分原因是，你知道
 111
 00:04:27,889 --> 00:04:29,699
 the most web technologies at the time
-那时候大多数的网络技术
+那时候大多数的由我们推出的
 
 112
 00:04:29,899 --> 00:04:31,649
 that we're launching were being called cyber this or spider
-由我们推出的，都叫网络或蜘蛛
+web技术都以网络或蜘蛛来命名
 
 113
 00:04:31,848 --> 00:04:35,278
 that or you know something on those themes
-或者，你知道，与这些主题相关的什么事
+或者，你知道，与这些主题相关的名称
 
 114
 00:04:36,860 --> 00:04:38,338
 and I was like I need something more interesting
-我喜欢，我需要的东西是更加有趣
+我想我需要的东西是更加有趣
 
 115
 00:04:38,538 --> 00:04:41,040
@@ -600,7 +600,7 @@ right who has to come to  the invasion
 121
 00:04:51,529 --> 00:04:53,879
 from from the West from from from the United States
-来自美国西部的入侵
+来自美国西部居民的入侵
 
 122
 00:04:54,079 --> 00:04:55,290
@@ -645,7 +645,7 @@ to do was come up with a browser and a
 130
 00:05:11,538 --> 00:05:13,680
 server and if they owned both links well
- 如果他们占据了两个链接
+ 如果他们占据了这一链接的两端
 
 131
 00:05:13,879 --> 00:05:14,699
@@ -665,12 +665,12 @@ leading a battle against the the FUD the
 134
 00:05:21,500 --> 00:05:23,730
 fear uncertainty in doubt of what
-恐惧、不确定
+这是一种对开源到底是什么的
 
 135
 00:05:23,930 --> 00:05:25,829
 open-source was about
-对开源到底是什么的怀疑
+恐惧、不确定和怀疑
 
 136
 00:05:26,029 --> 00:05:30,060
@@ -1050,7 +1050,7 @@ Cassandra  Big  Hive  Zookeeper  Cumulus  Sqoop
 211
 00:08:43,720 --> 00:08:46,129
 Flink that's a big data ecosystem
-是一个大数据生态
+Flink 是一个大数据生态
 
 212
 00:08:46,330 --> 00:08:49,789
@@ -1110,17 +1110,17 @@ like it's all like every everywhere and everything
 223
 00:09:20,889 --> 00:09:22,339
 right it's in every mobile phone how the
-对吧！它存在于每一台移动电话中
+对吧！它存在于每一台移动电话中，
 
 224
 00:09:22,539 --> 00:09:24,529
 banking systems get together I mean if
-银行系统是如何组合在一起的
+存在于银行系统中
 
 225
 00:09:24,730 --> 00:09:26,449
 you're a cap or if you order a meal
-点餐
+如果你是一个警察或者如果你去点餐
 
 226
 00:09:26,649 --> 00:09:28,549
@@ -1215,22 +1215,22 @@ as soon as are something intimately involved networks
 244
 00:10:09,669 --> 00:10:12,169
 mobile a web browser that will basically
-手机，一个网页浏览器基本上是
+手机，一个网页浏览器基本上是由
 
 245
 00:10:12,370 --> 00:10:15,120
 layers layers of apache software to process
-层层的Apache软件去处理
+一层层的Apache软件去处理文档
 
 246
 00:10:15,320 --> 00:10:17,289
 documents to process xml's who have
-将文档处理成xml 它有复杂的API
+处理成xml文档， 通过哪些
 
 247
 00:10:17,490 --> 00:10:19,750
 complex who have API I mean you just  name it
-你可以直接说出名字
+复杂的你能直接说出名字的API
 
 248
 00:10:19,950 --> 00:10:22,599
@@ -5339,4 +5339,3 @@ and will continue to serve trillions and trillions
 1071
 00:48:50,720 --> 00:48:55,720
 [Music]
-
