@@ -1,240 +1,301 @@
 ﻿1
 00:00:00,030 --> 00:00:04,530
 what we create runs everywhere it's
+我们创造的东西可以说
 
 2
 00:00:04,730 --> 00:00:06,849
 literally used everywhere in the world
+已经在世界各地无处不在使用
 
 3
 00:00:07,049 --> 00:00:08,919
 today without the passion the internet
+今天如果没有这样的激情，
 
 4
 00:00:09,119 --> 00:00:10,180
-that we know today would not have
+that we know today would not have happened。
+我们今天所知道的互联网就不会被创造出来。
 
 5
 00:00:10,380 --> 00:00:12,669
-happened the best database the best
+the best database the best
+最好的数据库和最好的流框架。
 
 6
 00:00:12,869 --> 00:00:14,349
-streaming framework we're creating
+streaming framework. We're creating
+我们创建了一个新的产业。
 
 7
 00:00:14,548 --> 00:00:17,220
-industry's programming for fat people
+industry's. Programming for fun. People.
+为乐趣而编程。人。
 
 8
 00:00:17,420 --> 00:00:20,409
-it's a great group of people it's
+it's a great group of people.
+这是一群很棒的人。
 
 9
 00:00:20,609 --> 00:00:22,419
-connecting people it's building bridges
+It's connecting people. it's building bridges
+它把人们联系在一起。 它架起了一座桥梁，
 
 10
 00:00:22,618 --> 00:00:25,030
-people from China people from Europe it
+people from China people from Europe.
+把中国人与欧洲人联系在一起。
 
 11
 00:00:25,230 --> 00:00:26,940
-doesn't matter what language you speak
+It doesn't matter what language you speak
+不管你说什么语言
 
 12
 00:00:27,140 --> 00:00:28,568
 where you come from
+来自何地
 
 13
 00:00:28,768 --> 00:00:31,120
 Apache is really good at bringing people
+Apache非常擅长将人们召集在一起
 
 14
 00:00:31,320 --> 00:00:33,159
 together and letting them work together
+让他们一起工作
 
 15
 00:00:33,359 --> 00:00:35,709
-without companies getting in the way try
+without companies getting in the way.
+不受公司的阻碍。
 
 16
 00:00:35,909 --> 00:00:37,779
-to learn something from everybody every
+Try to learn something from everybody every day.
+每天我们都试图从别人那学习到新东西。
 
 17
 00:00:37,979 --> 00:00:40,750
-day inspiring it makes me want to be
+Inspiring， it makes me want to be better.
+激励着我, 要成为更好的自己。
 
 18
 00:00:40,950 --> 00:00:43,329
-better when working with people there
+When working with people, there
+当和这些人一起工作时，
 
 19
 00:00:43,530 --> 00:00:45,128
 are so much better than yourself you
+这些比你优秀很多的人们一起工作时，
 
 20
 00:00:45,329 --> 00:00:49,570
-learn a lot community community in more
+learn a lot. Community community in more community.
+你可以学到很多东西。 社区，社区中的社区。
 
 21
 00:00:49,770 --> 00:00:51,489
-community people were so open and so
+People were so open and so
+大家是这样的开放，这样的友好
 
 22
 00:00:51,689 --> 00:00:55,059
-engaging and so excited to help don't be
+engaging and so excited to help.
+非常愿意帮助他人。
 
 23
 00:00:55,259 --> 00:00:57,669
-afraid to give to share you would get
+Don't be afraid to give, to share, you would get
+不要害怕给予，分享， 你能从中得到很多。
 
 24
 00:00:57,869 --> 00:00:59,799
-more out of it I've got more out of
+more out of it. I've got more out of
+我从Apache的收获了
 
 25
 00:01:00,000 --> 00:01:02,169
-Apache than I've ever given building
+Apache than I've ever given.
+比我之前给予得多得多的东西。
 
 26
 00:01:02,369 --> 00:01:05,980
-communities around people who are
+Building communities around people who are
+围绕这哪些对
 
 27
 00:01:06,180 --> 00:01:09,000
-passionate about solving problems create
+passionate about solving problems.
+解决问题感兴趣的人构建的共同体。
 
 28
 00:01:09,200 --> 00:01:12,969
-incredibly passionate communities who
+Create incredibly passionate communities who
+创建了一个激情四射的共同体，
 
 29
-00:01:13,170 --> 00:01:16,299
-are then empowered to create incredibly
+00:01:13,170 --> 00:01:17,299
+are then empowered to create incredibly powerful software.
+然后依托这样的社区，创建功能强大的软件
 
 30
-00:01:16,500 --> 00:01:19,058
-powerful software the software that
+00:01:17,500 --> 00:01:19,058
+The software that we've written
+我们所编写的软件
 
 31
 00:01:19,259 --> 00:01:21,069
-we've written how far it's gone and how
+how far it's gone and how
+已经发展得很完备的了， 这些软件
 
 32
 00:01:21,269 --> 00:01:24,340
 much it's used every day is staggering
+每天被大量地使用。
 
 33
 00:01:24,540 --> 00:01:26,849
 I'm proud to be a part of an
+我为成为改变世界的组织
 
 34
 00:01:27,049 --> 00:01:29,349
 organization that has changed the world
+的一员而感到自豪
 
 35
 00:01:29,549 --> 00:01:32,649
 and I don't think many people understand
+而且我认为没有多少人能确切了解
 
 36
 00:01:32,849 --> 00:01:35,659
-exactly how Apache has changed the world
+exactly how Apache has changed the world.
+Apache如何改变了世界。
 
 37
 00:01:35,859 --> 00:01:37,579
-it's impacted everyone when there's
+It's impacted everyone when there's
+它影响到每个人
 
 38
 00:01:37,780 --> 00:01:39,230
 something now you know people can touch
+每个人每天触摸到的东西
 
 39
 00:01:39,430 --> 00:01:41,480
 and you know act with their phones in
+当他们在与他们的手机
 
 40
 00:01:41,680 --> 00:01:43,429
-their car and you know you realize all
+their car. And you know you realize all
+他们的汽车进行交互的时候。当你意识到
 
 41
 00:01:43,629 --> 00:01:45,739
-of us open-source software and it's like
+of them are open-source software and it's like
+这些都是通过开源软件进行的， 你会感叹
+
 
 42
 00:01:45,939 --> 00:01:48,049
 wow okay this is something that's truly
+这就是通过开源软件在真的
+
 
 43
 00:01:48,250 --> 00:01:49,039
-changed the world
+changed the world.
+改变着世界。
 
 44
 00:01:49,239 --> 00:01:52,009
-you know it's more than just technology
+You know it's more than just technology
+这不仅仅是技术，
 
 45
 00:01:52,209 --> 00:01:54,679
-it's more than just coding it's bringing
+it's more than just coding. It's bringing
+不仅仅是编码。它还带来了新思想
 
 46
 00:01:54,879 --> 00:01:58,730
 new ideas new aspects there's so much
+带来了如此多的
 
 47
 00:01:58,930 --> 00:02:01,399
-more we can do with the technology we
+more we can do with the technology.
+我们可以应用技术的可能，
 
 48
 00:02:01,599 --> 00:02:03,439
-already have that is something that's
+We already have that is something that's
+我们已经拥有了那些
 
 49
 00:02:03,640 --> 00:02:04,399
 that's amazing
+那些令人惊叹的
 
 50
 00:02:04,599 --> 00:02:06,709
-with the foundation that is something
+with the foundation. That is something
+与基金会相关的,
 
 51
 00:02:06,909 --> 00:02:09,259
-it's so exciting and that is the thing
+it's so exciting, and that is the thing
+非常让人激动的成就,
 
 52
 00:02:09,459 --> 00:02:11,420
 that really sort of keeps me interested
+这也是(基金会)一直吸引着我，
 
 53
 00:02:11,620 --> 00:02:13,100
-in and I'm passionate about
+in and I'm passionate about.
+让我充满激情的地方。
 
 54
 00:02:13,300 --> 00:02:15,890
-there's still so much work to do so like
+There's still so much work to do, so like
+我有好多工作要做，例如
 
 55
 00:02:16,090 --> 00:02:19,340
 I'm gonna be busy for a while I think
+我会忙一阵子，
 
 56
 00:02:19,539 --> 00:02:21,580
 doing this kind of work and and I hope
+我想做这种工作， 我希望
 
 57
 00:02:21,780 --> 00:02:25,500
-many other people are too
+many other people are too.
+其他人也是这样。
 
 58
 00:02:26,310 --> 00:02:31,390
-the best software in the world I mean
+The best software in the world I mean
+世界上最好的软件，
 
 59
 00:02:31,590 --> 00:02:34,459
 that's the ASF
+我的意思是ASF
 
 60
 00:02:40,139 --> 00:02:45,139
 you
-
+就是你。
