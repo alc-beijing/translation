@@ -2650,72 +2650,72 @@ and I don't always get it perfectly right
 531
 00:23:04,288 --> 00:23:06,669
 but what I try and do is
-但是我尝试和做的是
+但是我仍不断地尝试着做下面的事情：
 
 532
 00:23:06,869 --> 00:23:09,490
 when I'm doing something that I think is going to be of
-当我在做一些事我认为它将会引起
+当我在做一些我认为将会引起
 
 533
 00:23:09,690 --> 00:23:11,740
 wider interest that people are going to
-广泛的关注，人们会希望
+广泛关注的事情，并且是人们会希望
 
 534
 00:23:11,940 --> 00:23:14,319
 want to look at in more detail
-看到更多的细节
+看到其中更多细节、
 
 535
 00:23:14,519 --> 00:23:16,719
 you'll want more time to think about
-你就会想花更多的时间去思考
+想花更多的时间去思考的事情
 
 536
 00:23:16,919 --> 00:23:18,009
 then I sort of try and give a heads up well
-然后我做些尝试并告诉大家
+我就会试着告诉大家
 
 537
 00:23:18,210 --> 00:23:19,389
 I'm thinking of doing something in this direction
-我正在考虑在某个方向上做点事
+我想在这个问题方向上做点什么，
 
 538
 00:23:19,589 --> 00:23:21,309
-what do you think？ you know
-你认为怎么样？你知道
+what do you think？ And
+你们觉得怎么样？
 
 539
 00:23:21,509 --> 00:23:23,259
 leave it a few days maybe a week
-将它留在那里几天或一周
+（我会）将它留在那里几天甚至一周
 
 540
 00:23:23,460 --> 00:23:26,139
 and then see what the responses are
-然后看看会有什么样的反馈
+然后看看会收到什么样的反馈
 
 541
 00:23:26,339 --> 00:23:29,529
-and then add my response give people the time to
-并给出回复，给人时间去
+and then add my response, give people the time to
+并给出我的回复, 再给别人时间去
 
 542
 00:23:29,730 --> 00:23:32,649
 respond to the point of being made
-回复观点
+回复他们的观点
 
 543
 00:23:32,849 --> 00:23:34,149
 let them have the space to make their contribution
-让他们有空间去做出贡献
+从而让他们有空间做出贡献
 
 544
 00:23:34,360 --> 00:23:36,400
 you know we ask a lot of
-您知道我们会问很多
+我们会问很多
 
 545
 00:23:36,640 --> 00:23:39,080
@@ -2749,12 +2749,12 @@ their employer to let them do this right
 551
 00:23:49,360 --> 00:23:52,840
 and that creates a challenge to
-我们需要挑战
+并且对一个项目来说，招募形成一个真正多元化的社区
 
 552
 00:23:53,000 --> 00:23:55,320
 recruiting a truly diverse community to the project
-招募真正多元化的社区
+是非常有挑战性的
 
 553
 00:23:55,560 --> 00:23:58,160
@@ -2769,22 +2769,22 @@ who are white dudes
 555
 00:24:00,160 --> 00:24:02,640
 one of the things that I'd like to see us improve on is
-我希望我们改善的事情之一
+我希望我们改善的事情之一就是
 
 556
 00:24:02,840 --> 00:24:05,760
 our diversity measures
-多元化措施
+多元化的措施
 
 557
 00:24:05,960 --> 00:24:09,200
 you can see I'm a woman
-您可以看到我一个女性
+您可以看到我是一个女性
 
 558
 00:24:09,200 --> 00:24:12,880
 we don't have very many women contributing to apache software
-在Apache软件中贡献的女性不多
+但并没有很多女性参与到Apache软件的贡献中来
 
 559
 00:24:13,280 --> 00:24:16,800
@@ -2794,22 +2794,22 @@ i'd like to see more women contributing to open source software
 560
 00:24:17,000 --> 00:24:18,000
 and i'd like to understand where we're failing
-我想了解我们在哪里失败
+我想了解哪里出现了问题，
 
 561
 00:24:18,160 --> 00:24:20,640
 there
-这里
+
 
 562
 00:24:20,840 --> 00:24:22,720
 why we're not attracting women
-为什么我们不吸引女性
+为什么没办法吸引女性参与进来
 
 563
 00:24:22,920 --> 00:24:25,480
 and what we can do to attract more women
-并且我们做什么来吸引更多女性
+此外，我们能做些什么来吸引更多女性参与
 
 564
 00:24:25,720 --> 00:24:27,880
@@ -2819,82 +2819,82 @@ I mean I'm used to being the only woman in the room
 565
 00:24:28,040 --> 00:24:30,440
 that that's been part of my life for a long time
-长期以来，我很多时间
+并且这个状态持续了很多年
 
 566
 00:24:30,680 --> 00:24:32,840
 being part of involved in
-都在里面做贡献
+参与Apache的工作
 
 567
 00:24:33,000 --> 00:24:34,760
 in Apache actually opened my eyes to the fact
-参与Apache的工作实际上使我大开眼界
+实际上使我大开眼界
 
 568
 00:24:34,960 --> 00:24:36,960
 that there was not so many women in tech
-事实并非许多女性在科技界工作
+（我发现）事实上没有太多女性在科技界工作
 
 569
 00:24:37,120 --> 00:24:40,680
 so and one of the things that we really really came to do
-我们真正要做的一件事情
+因此，我们真的真的非常应该做的一件事情
 
 570
 00:24:40,880 --> 00:24:43,000
 is to  try and help bridge that gap
-尝试并帮助弥合差距
+就是试着去帮助填补（女性比男生参与得少）这一差距
 
 571
 00:24:45,360 --> 00:24:48,000
 women in tech will leave the business much more frequently than men
-科技领域的女性比男性离开企业的频率要高得多
+在科技行业，女性离职率比男性更高
 
 572
 00:24:50,960 --> 00:24:52,480
 and that's true with in the apache communities as well I'm sure
-这在apache社区中也是正确的
+在apache社区中也是如此（指女性离开社区）
 
 573
 00:24:52,720 --> 00:24:57,360
 and how we examine that
-作为社区，我们如何检查
+作为社区，我们如何调查
 
 574
 00:24:57,600 --> 00:25:00,200
 and how we deal with that as a community
-并解决此女性问题
+并处理这个问题
 
 575
 00:25:00,400 --> 00:25:02,480
 I think we'll have a impact on future growth
-我们将对未来的增长产生影响
+会影响着未来的社区成长
 
 576
 00:25:02,760 --> 00:25:05,640
 I love that
-我深爱
+我很喜爱
 
 577
 00:25:05,840 --> 00:25:08,280
 we're increasing our active role in
-我们在努力拓展和扩大多样性方面
+我们正在为增加多样性和更多的接触
 
 578
 00:25:08,480 --> 00:25:09,360
 trying to reach out and increase diversity
-正在发挥积极作用
+来努力发挥积极作用
 
 579
 00:25:09,600 --> 00:25:13,840
 I'm proud to call myself a game in
-我很自豪地称自己
+我很自豪能称自己
 
 580
 00:25:14,000 --> 00:25:15,720
 and aparted Apache Software Foundation
-是参与Apache基金会的一员
+是Apache基金会的一员
 
 581
 00:25:15,920 --> 00:25:19,680
@@ -2924,7 +2924,7 @@ and being a part of this great community
 586
 00:25:30,560 --> 00:25:32,880
 it's really common right now
-现在真的很普遍
+用更严肃的眼光
 
 587
 00:25:33,040 --> 00:25:34,480
@@ -2934,12 +2934,12 @@ for projects to be looking at diversity and inclusion
 588
 00:25:34,720 --> 00:25:37,360
 with a more serious eye
-以更严肃的眼光
+现在真的很普遍
 
 589
 00:25:37,600 --> 00:25:38,840
 and I think it's great that there are people at Apache
-我很高兴Apache的人
+我很高兴人们在Apache
 
 590
 00:25:39,000 --> 00:25:40,200
@@ -2949,37 +2949,37 @@ that are taking up that question again
 591
 00:25:40,400 --> 00:25:43,280
 because it is a monoculture in some regards
-因为在某些方面这是一种单一文化
+因为这在某些方面是一种单一文化
 
 592
 00:25:43,480 --> 00:25:45,680
 and it'd be nice to see it
-很高兴看到
+并且我很希望能看到
 
 593
 00:25:45,880 --> 00:25:48,560
 you know blossom in a thousand more directions
-它向一千多个方向开花
+百花齐放的现象
 
 594
 00:25:48,760 --> 00:25:50,200
 which is what diversity has
-这就是多样性
+而这正是多样性
 
 595
 00:25:50,400 --> 00:25:53,120
 the promise of doing about it
-有望实现的目标
+有望实现的
 
 596
 00:25:53,320 --> 00:25:55,280
 we have to be careful
-有望实现的目标
+我们必须小心
 
 597
 00:25:55,480 --> 00:25:57,640
 not to lose the things that make Apache special so
-不要失去使Apache特别的东西
+不要失去Apache的特殊之处
 
 598
 00:25:57,840 --> 00:26:01,000
@@ -2989,32 +2989,32 @@ the word meritocracy for instance
 599
 00:26:01,160 --> 00:26:03,320
 has not always been popular among
-不受欢迎
+在在多样性和包容性活动人士群体中
 
 600
 00:26:03,560 --> 00:26:07,040
 diversity and inclusion activists
-在多样性和包容性激进主义者
+并不总是很流行
 
 601
 00:26:07,240 --> 00:26:09,400
 but Apache is very much something that runs on
-但是Apache可以说是非常成功
+但是Apache（在meritocracy方面）可以说是非常成功
 
 602
 00:26:09,640 --> 00:26:12,240
-shall we say a duoc recei
-如果我们说一个duoc recei
+shall we say a du cracy
+
 
 603
 00:26:12,440 --> 00:26:15,240
-you know you get more proud in the community by doing things
-你知道自己通过做事而在社区中感到更加自豪
+you know you get more clout in the community by doing things
+你知道你只要做事情就能在社区中获得更多的影响力
 
 604
 00:26:18,160 --> 00:26:20,000
-in the early days ,when there were just 30 of us 50 of us
-在早期阶段,那时我们的参与者只有30个，或者50个
+in the early days, when there were just 30 of us 50 of us
+在早期阶段,那时我们的参与者只有30个，50个
 
 605
 00:26:20,200 --> 00:26:22,240
@@ -3024,47 +3024,47 @@ a hundred of us
 606
 00:26:22,440 --> 00:26:25,040
 it was very easy to communicate the vision
-很容易就愿景达成共识
+交流想法并且对Apache是​​什么以及成功意味着什么
 
 607
 00:26:25,240 --> 00:26:27,960
 and have a shared vision of what Apache was and what success meant
-并且对Apache是​​什么以及成功意味着什么有共同的愿景
+达成共识是很容易的
 
 608
 00:26:28,120 --> 00:26:32,680
 as we grow
-随着我们的成长
+随着我们（社区）不断成长壮大
 
 609
 00:26:32,880 --> 00:26:34,880
 you know we now have 800 members
-您知道我们现在有800个成员
+我们现在有约800个成员
 
 610
 00:26:35,040 --> 00:26:38,120
 we have something like 8,000 contributors to our individual projects
-我们大约有8,000个贡献者为我们的各个项目
+我们的各个项目总共约有8,000个贡献者
 
 611
 00:26:38,320 --> 00:26:42,880
 and many of them no longer
-其中许多
+其中许多人
 
 612
 00:26:43,040 --> 00:26:45,000
 really have a vision of what Apache is supposed to be
-并不真正了解Apache参与软件项目的想法
+不再真正了解Apache应该是什么样子
 
 613
 00:26:45,160 --> 00:26:47,240
 they're participating in
-他们参与
+他们只是参与
 
 614
 00:26:47,480 --> 00:26:49,000
 a software project
-某一软件项目
+某个软件项目
 
 615
 00:26:49,160 --> 00:26:51,640
@@ -3074,37 +3074,37 @@ because it's part of their job
 616
 00:26:51,840 --> 00:26:54,480
 or because that particular project is their hobby
-或者因为该特定项目是他们的业余爱好
+或者因为那个项目是他们的业余爱好
 
 617
 00:26:54,720 --> 00:26:58,160
 but the larger vision of the foundation is at risk of getting diluted
-apache 基金更大的愿景有被稀释的风险
+但Apache基金会更大的愿景正面临被淡化的风险
 
 618
 00:26:58,360 --> 00:27:01,680
-ESF is now 20 years old in a best possible world
-ESF如今已拥有20歲的高龄
+ASF is now 20 years old in a best possible world
+Apache基金会如今已经20岁了
 
 619
 00:27:01,880 --> 00:27:05,640
 it'll become 40 years old
-它会变成40岁
+慢慢地，它会到40岁
 
 620
 00:27:05,840 --> 00:27:07,760
 and it'll become 60 years old
-它也会变成60岁
+会到60岁
 
 621
 00:27:08,000 --> 00:27:11,560
 somewhere in that timeframe
-在某个时间
+到某个时候
 
 622
 00:27:11,760 --> 00:27:14,280
 none of the people involved at the beginning
-最初贡献的人将不再会
+最初的那些贡献者们将不再会
 
 623
 00:27:14,480 --> 00:27:15,680
@@ -3114,17 +3114,17 @@ will be involved anymore
 624
 00:27:15,880 --> 00:27:20,200
 they'll be dead
-他们会离去
+他们总会老去
 
 625
 00:27:20,400 --> 00:27:22,160
 that'll be true for me too at some point sooner or later
-有一天我也将会离开
+迟早有一天我也将会老去
 
 626
 00:27:22,360 --> 00:27:24,920
 there will be other people doing this
-将会有其他人代理我们继续贡献
+将会有其他人继续贡献
 
 627
 00:27:25,080 --> 00:27:28,960
@@ -3134,12 +3134,12 @@ now
 628
 00:27:29,120 --> 00:27:29,400
 I wouldn't want to
-我不想
+我并不想
 
 629
 00:27:29,640 --> 00:27:32,240
 impose too much exactly what I think or what we think on them
-对项目强加我们的想法
+强加给他们太多我的想法或者我们的想法
 
 630
 00:27:32,440 --> 00:27:35,200
@@ -3149,32 +3149,32 @@ but I would hope that
 631
 00:27:35,400 --> 00:27:38,640
 we could communicate what really was good about us have
-我们可以交流真正对我们有益的东西
+从现在开始到到未来的20年，我们可以交流，
 
 632
 00:27:38,840 --> 00:27:41,880
 20 years ago, 10 years ago,now to them
-20年前，10年前，现在
+告诉他们我们在20年前、10年前、现在
 
 633
 00:27:42,040 --> 00:27:46,360
 20 years from now
-或者20年后
+所拥有的那些好东西
 
 634
 00:27:46,600 --> 00:27:49,560
 so that they can carry that forward interpreting it
-这样他们就可以继续解释它
+这样他们就可以在20年后的
 
 635
 00:27:49,760 --> 00:27:52,120
 as the world is 20 years from now
-20年后的世界
+可能与现在大不相同的世界里
 
 636
 00:27:52,320 --> 00:27:54,160
 which may be very different than it is now
-可能与现在大不相同
+继续拥有它、诠释它
 
 637
 00:27:54,360 --> 00:27:56,720
@@ -3184,17 +3184,17 @@ I talked about that meeting back in 1998
 638
 00:27:56,920 --> 00:27:59,320
 where we had all the developers for the Apache web server
-当时我们所有Apache web server的开发人员
+当时我们所有Apache web server这个项目的开发人员
 
 639
 00:27:59,560 --> 00:28:01,160
 in one place at one time
-同一时间，同一地点
+在同一时间出现在同一地点
 
 640
 00:28:01,360 --> 00:28:03,280
 and my concern at that point
-当时我担心的是
+当时我就担心
 
 641
 00:28:03,480 --> 00:28:05,280
@@ -3204,7 +3204,7 @@ was that we had all the developers
 642
 00:28:05,480 --> 00:28:07,560
 in one place at one time
-同一时间在同一地点
+同一时间在同一地点的话
 
 643
 00:28:07,760 --> 00:28:09,720
@@ -3214,27 +3214,27 @@ and if something it was to happen some natural disaster
 644
 00:28:09,920 --> 00:28:12,160
 or we all ate the wrong bad sushi that
-或者我们吃错了东西
+或者我们都吃了变质的食物
 
 645
 00:28:12,360 --> 00:28:14,360
 that community would then go away
-apache 就会消失
+那么Apache 就不复存在了
 
 646
 00:28:14,600 --> 00:28:15,680
 than the I wasn't worried about the code
-我并不担心代码
+我并不担心这个项目的代码（是否会消失）
 
 647
 00:28:15,880 --> 00:28:17,720
 because the code was already on tens of
-因为该代码已经在世界各地
+因为这些代码已经在世界各地的
 
 648
 00:28:17,920 --> 00:28:19,640
 thousands of servers around the world
-成千上万的服务器上
+成千上万的服务器上了
 
 649
 00:28:19,840 --> 00:28:21,080
@@ -3244,12 +3244,12 @@ I was really worried that we'd lose the people
 650
 00:28:21,280 --> 00:28:23,120
 who shared the same core values
-他们拥有共同的核心价值观
+失去那些拥有共同的核心价值观
 
 651
 00:28:23,320 --> 00:28:26,800
 that same mission
-相同的使命
+相同的使命的人
 
 652
 00:28:27,000 --> 00:28:29,320
@@ -3259,12 +3259,12 @@ and that's what would have defined success
 653
 00:28:29,560 --> 00:28:31,360
 the project success is based on on the people rather than the code
-项目的成功是基于人员而不是代码
+项目的成功是基于人的而不是基于代码的
 
 654
 00:28:31,600 --> 00:28:33,640
 and that's pretty much what comes about by
-而这都来源于
+而这就是
 
 655
 00:28:33,840 --> 00:28:36,280
@@ -3283,12 +3283,12 @@ a lot of people ask us what the Apache Way is all about
 658
 00:28:52,720 --> 00:28:54,440
 it's one of our core principles at Apache
-这是我们Apache的核心原则之一
+这是我们Apache的核心准则之一
 
 659
 00:28:54,680 --> 00:28:56,960
 much like this path that I'm on
-就像我走的那条路
+就像我刚才走的这条路
 
 660
 00:28:57,120 --> 00:28:59,280
@@ -3298,7 +3298,7 @@ it guides us in a specific direction
 661
 00:28:59,480 --> 00:29:02,000
 that we like to go
-朝着特定的方向前进
+朝着我们想要去的方向前进
 
 662
 00:29:02,160 --> 00:29:04,040
@@ -3308,17 +3308,17 @@ but a lot of people have different ideas of what the Apache Way is about
 663
 00:29:04,240 --> 00:29:06,000
 we'll get a chance to
-我们将会
+我们会找机会
 
 664
 00:29:06,200 --> 00:29:07,640
 talk to some those people to
-与这些人交谈
+与这些人聊聊
 
 665
 00:29:07,840 --> 00:29:13,600
 get their impressions
-了解他们对Apache way的解释
+听一听他们对Apache way的解读
 
 666
 00:29:13,800 --> 00:29:17,000
@@ -3327,7 +3327,7 @@ Apache Way有很多种说法
 
 667
 00:29:17,200 --> 00:29:18,720
-and people have different meaning  and interpretation to the Apache Way
+and people have different meaning and interpretation to the Apache Way
 人们对Apache Way的定义和解释不同
 
 668
@@ -3338,12 +3338,12 @@ Apache Way is a little bit like zem
 669
 00:29:22,800 --> 00:29:25,680
 you cannot really put it in just a few sentences
-您不能只用几句话就可以描述
+你无法只用几句话就可以描述清楚
 
 670
 00:29:25,880 --> 00:29:27,440
 you kind of have to feel it
-你需要真正感受到它
+你需要去感受它
 
 671
 00:29:27,680 --> 00:29:29,960
@@ -3363,7 +3363,7 @@ you'd probably get about 11 answers
 674
 00:29:36,120 --> 00:29:39,120
 the Apache Way is all about Community Over Code
-Apache Way就是Community Over Code
+Apache Way就是Community Over Code （社区胜于代码）
 
 675
 00:29:39,320 --> 00:29:41,680
@@ -3377,17 +3377,17 @@ Community Over Code, Community Over Code
 677
 00:29:45,000 --> 00:29:48,960
 code doesn't manage itself,yet
-代码无法自行管理
+代码无法自己管理自己，至少现在不行
 
 678
 00:29:49,120 --> 00:29:50,800
 it might in the future
-将来可能会
+将来可能会吧
 
 679
 00:29:51,000 --> 00:29:53,120
 for me it's all about communication and community
-对我来说，一切都与沟通和社区有关
+对我来说，（Apache Way）就是交流与社区的一切
 
 680
 00:29:53,320 --> 00:29:54,440
@@ -3402,17 +3402,17 @@ we say Community Over Code
 682
 00:29:57,120 --> 00:29:59,000
 but it's not a not something we just just make up
-但这不是我们刚刚组成的事情
+但这不是我们凭空捏造的说法
 
 683
 00:29:59,200 --> 00:30:00,800
 it really is the most important
-Apache Software Foundation
+因为Apache软件基金会
 
 684
 00:30:01,000 --> 00:30:02,200
 part of the Apache Software Foundation is the people
-最重要的部分是人
+最重要的部分就是社区的人
 
 685
 00:30:02,400 --> 00:30:06,560
@@ -3422,7 +3422,7 @@ I know that a lot of people
 686
 00:30:06,760 --> 00:30:08,000
 have said things like community over code
-诸如社区而非代码之类的话。
+诸如社区胜于代码之类的话
 
 687
 00:30:08,160 --> 00:30:09,880
@@ -3431,17 +3431,17 @@ and so on
 688
 00:30:10,040 --> 00:30:13,320
 but I think it's easier to express it in actual verbs and nouns together
-但我认为用实际的动词和名词一起表达更容易
+但我认为用一些具体的动词、名词一起表达更容易理解
 
 689
 00:30:13,560 --> 00:30:17,040
 so we as people come together
-所以我们聚在一起
+比如我们聚在一起
 
 690
 00:30:17,240 --> 00:30:19,600
 we have some communal interest
-我们有共同的兴趣
+我们有着共同的兴趣
 
 691
 00:30:19,800 --> 00:30:23,400
@@ -3451,27 +3451,27 @@ as such we we build a structure together
 692
 00:30:23,640 --> 00:30:26,440
 that allows us to work together
-它允许我们一起努力
+能够让我们能够一起努力工作、
 
 693
 00:30:26,680 --> 00:30:28,640
 that allows us to communicate
-允许我们能交流
+能够让我们一起互相交流
 
 694
 00:30:28,840 --> 00:30:31,360
 allows us to bring in new people and build software together
-允许我们能够吸引新朋友并一起构建软件
+能够让我们吸引新的朋友加入进来并一起开发软件
 
 695
 00:30:31,600 --> 00:30:34,320
 now this is definitely
-现在这很明显
+（通过上面的描述）现在就很明显了
 
 696
 00:30:34,560 --> 00:30:36,960
 not the fastest way to build software
-不是构建软件最快的方法
+这不是构建软件最快的方法
 
 697
 00:30:37,120 --> 00:30:39,920
@@ -3486,7 +3486,7 @@ if you have a great community
 699
 00:30:42,320 --> 00:30:45,680
 if you managed to build a vibrant, self-sustaining,self-governing community
-如果你设法建立一个充满活力，自我维持，自我管理的社区
+如果你设法建立一个充满活力、自我维持、自我管理的社区
 
 700
 00:30:45,880 --> 00:30:49,000
@@ -3496,7 +3496,7 @@ your code will come
 701
 00:30:49,200 --> 00:30:51,080
 even if your community started with maybe not
-即使您的社区开始时可能不是
+即使您的社区开始时可能没有
 
 702
 00:30:51,280 --> 00:30:52,920
@@ -3511,12 +3511,12 @@ but the community itself is great
 704
 00:30:55,800 --> 00:30:57,280
 you will go through a refactoring process of that code base
-您将经历该代码库的重构过程
+你们就会通过代码的不断重构，
 
 705
 00:30:57,480 --> 00:30:59,000
 and arrive at version 2
-并升级成2.0版本
+升级成2.0版本
 
 706
 00:30:59,160 --> 00:31:00,440
@@ -3526,7 +3526,7 @@ version 3
 707
 00:31:00,680 --> 00:31:02,280
 that would be much better than what you started with
-那会比开始时要好得多
+最终比开始时的代码要好得多
 
 708
 00:31:02,480 --> 00:31:04,680
@@ -3541,7 +3541,7 @@ absolutely not the case
 710
 00:31:07,080 --> 00:31:10,480
 we focus on everything being done on public mailing lists
-我们所有工作都放在公告邮件上
+我们所有工作都放在公开邮件列表上
 
 711
 00:31:10,720 --> 00:31:14,120
@@ -3566,27 +3566,27 @@ but I think that's healthy
 715
 00:31:20,320 --> 00:31:22,000
 we have this fascination with mailing lists which is very very old
-这种迷恋邮件列表的工作方式已经非常古老
+我们队这种非常古老的邮件列表的交流方式十分迷恋
 
 716
 00:31:22,160 --> 00:31:25,160
 and why can't you use
-但是为什么您不能
+但是为什么不能
 
 717
 00:31:25,360 --> 00:31:27,480
 you know something more immediate say slack
-即时的点评项目呢。
+即时的通讯软件（比如slack）来交流呢
 
 718
 00:31:27,720 --> 00:31:30,440
 for example, what's that
-例如，那是什么
+
 
 719
 00:31:30,680 --> 00:31:32,240
 because we are, you know, old timers stuck in the mud
-因为我们被困泥泞中
+那是因为我们都是老古董了
 
 720
 00:31:32,440 --> 00:31:35,080
@@ -3600,23 +3600,23 @@ it's because we want something which is asynchronous
 
 722
 00:31:37,680 --> 00:31:39,240
-the ASM also it's very good at building bridges
-ASM善于搭建桥梁
+the ASF also it's very good at building bridges
+ASF很善于搭建桥梁
 
 723
 00:31:39,440 --> 00:31:42,040
 across time zones
-跨越时区
+来跨越时区
 
 724
 00:31:42,240 --> 00:31:44,800
 sir is there use of asynchronous communication for important decisions
-他们适用异步通讯来表决重要的事情
+他们使用异步的通讯模式来对重要的事情进行决策
 
 725
 00:31:45,000 --> 00:31:47,440
 there's a 72-hour window
-有72小时的时间窗口
+比如对于决策都会有72小时的时间窗口
 
 726
 00:31:47,680 --> 00:31:49,880
@@ -3626,21 +3626,22 @@ where people have time to participate in a vote
 727
 00:31:50,040 --> 00:31:52,320
 for instance
-比如
+
 
 728
 00:31:52,560 --> 00:31:54,200
 but it's also good at building bridges
-过去的人也善于搭建时间桥梁
+此外这种交流模式也很自然地搭建了
 
 729
 00:31:54,400 --> 00:31:57,440
 across time into history like
+一个跨越时间历史的桥梁
 
 730
 00:31:57,680 --> 00:32:01,840
 if you're wondering today what happened
-如果您现在想知道
+比如说如果您现在想知道
 
 731
 00:32:02,000 --> 00:32:04,800
@@ -3655,42 +3656,42 @@ you can still find that out
 733
 00:32:07,200 --> 00:32:09,760
 because all of the communication is archived
-因为所有通信都已存档
+因为所有通信记录都已存档
 
 734
 00:32:10,000 --> 00:32:12,480
 is searchable and has stable links to it
-可以搜索并具有稳定的链接
+并且能够被搜索，还有稳定的链接可访问
 
 735
 00:32:12,720 --> 00:32:15,000
 you know, so looking at it ,that way,
-您知道，这样看，
+这么看起来的话，
 
 736
 00:32:15,160 --> 00:32:16,720
 it's not mailing lists, which are important
-它不是邮件列表，这很重要
+并不是说邮件列表这种方式是重要的
 
 737
 00:32:16,920 --> 00:32:18,240
 it's making sure that
-它确保
+真正重要的是
 
 738
 00:32:18,480 --> 00:32:20,760
 whatever communication mechanism medium that you use
-无论您使用哪种通讯机制媒介，
+无论使用哪种通讯手段，都要确保
 
 739
 00:32:20,960 --> 00:32:23,920
 doesn't disenfranchise anyone
-都不会剥夺任何人的权利
+不能剥夺任何人参与的权利
 
 740
 00:32:24,080 --> 00:32:26,360
 and enables anyone and everyone who has a
-并且使任何人和任何
+并且能使任何
 
 741
 00:32:26,600 --> 00:32:29,160
@@ -3700,22 +3701,22 @@ passing interest to be involved in the communication
 742
 00:32:29,400 --> 00:32:31,200
 and see what's going on to be able to do that
-并看到能够做到这一点的事情
+并能让大家看到其他人要做什么事情
 
 743
 00:32:31,400 --> 00:32:33,600
 in a way that
-某种程度上
+
 
 744
 00:32:33,800 --> 00:32:36,360
 makes them equal peers to everyone else
-使他们与其他人平等的方式
+让大家人人平等
 
 745
 00:32:36,600 --> 00:32:38,800
 everyone's considered equal
-每个人都是平等的
+每个人的想法都是同等重要的
 
 746
 00:32:39,000 --> 00:32:41,280
@@ -3725,17 +3726,17 @@ everyone can contribute
 747
 00:32:41,480 --> 00:32:44,600
 there's no one there who gets to decide because I'm the the boss of the project
-没有某个人做出决断，因为我就是项目的boss，
+没有哪个人能自己做出决断，因为没有人是项目的boss，
 
 748
 00:32:44,800 --> 00:32:47,560
 I decide which feature gets included of
-我决定保留哪个功能
+没有人能决定哪个功能要保留
 
 749
 00:32:47,760 --> 00:32:49,360
 which feature does not get included
-不保留哪个功能
+哪个功能不保留
 
 750
 00:32:49,600 --> 00:32:52,080
@@ -3745,47 +3746,47 @@ nobody really cares about who you are
 751
 00:32:52,280 --> 00:32:55,000
 sort of it's about what you do
-而在乎你对我做了什么
+而（他们）在乎的是你到底做了什么
 
 752
 00:32:55,160 --> 00:32:58,040
 to me ,meritocracy is about building that
-精英管理
+对我来说，精英管理就是要经受时间考验来
 
 753
 00:32:58,240 --> 00:33:00,760
 credibility over time
-随着时间的推移建立信誉
+建立信誉
 
 754
 00:33:01,000 --> 00:33:02,400
 and that the community recognizes you for those efforts
-并且社区会认可您，
+社区最终会因为你的努力而认可你，
 
 755
 00:33:02,640 --> 00:33:04,760
 the people who contribute a lot
-因为你为社区做出巨大贡献
+为社区做出了许多贡献的人
 
 756
 00:33:04,920 --> 00:33:08,920
 whether it's go door or other things
-无论是成为成员
+无论他是谁
 
 757
 00:33:09,160 --> 00:33:11,280
 receive some rewards
-或其他奖励
+都应该得到鼓励
 
 758
 00:33:11,480 --> 00:33:12,760
 but yet when it comes time to make a decision
-当时当需要做出决定时
+但当要做决策时
 
 759
 00:33:12,960 --> 00:33:14,320
 no one of them's
-没人
+没有人有更大的话语权
 
 760
 00:33:14,560 --> 00:33:18,000
@@ -3795,37 +3796,36 @@ regardless of their merit
 761
 00:33:18,200 --> 00:33:20,640
 has a much larger voice than any other
-有更大的话语权
 
 762
 00:33:20,840 --> 00:33:22,280
 the people who do the work should have a say
-从事该工作的人都有发言权
+为项目做贡献的人都应该有发言权
 
 763
 00:33:22,480 --> 00:33:26,000
 in how projects work, and that seems fair to me
-决定项目如何运作,这似乎公平
+来决定项目如何运作,我觉得这是公平的
 
 764
 00:33:26,240 --> 00:33:29,800
 that's also the connected idea
-对我来说，这也是一个相互联系的想法
+另外一个观点是贡献是不会过期的
 
 765
 00:33:30,000 --> 00:33:31,880
 that merit doesn't expire so if you did
-即贡献不会过期，因此，如果您
+所以说，如果您
 
 766
 00:33:32,040 --> 00:33:34,000
 something 20 years ago and earned some
-在20年前做了某件事，并为此赢得
+在20年前做了某件事，并因此赢得
 
 767
 00:33:34,200 --> 00:33:36,000
 right for it that that doesn't expire
-了一些权利，并不会过期
+了一些权利，那么这些权利就不会过期
 
 768
 00:33:36,160 --> 00:33:39,040
@@ -3835,32 +3835,32 @@ I'm not sure if that's almost a good thing
 769
 00:33:39,240 --> 00:33:41,720
 if a committer needs to take a
-如果提交者需要
+如果代码提交者需要
 
 770
 00:33:41,920 --> 00:33:43,160
 year off to go and do something
-花一年的时间去做某事
+花一年的时间去做其他的事
 
 771
 00:33:43,400 --> 00:33:44,840
 then they can come back and
-然后他们可以回来
+然后他们又回到社区
 
 772
 00:33:45,000 --> 00:33:47,320
 they still have exactly the same weight
-他们在社区中仍然拥有相同的权重
+他们在社区中仍然拥有和他们离开前一样
 
 773
 00:33:47,560 --> 00:33:48,840
 and right to speak in the communities
-和发言权
+的份量和发言权
 
 774
 00:33:49,000 --> 00:33:50,680
 they had before they left
-和他们离开前一样
+
 
 775
 00:33:50,880 --> 00:33:52,760
@@ -3880,32 +3880,32 @@ it doesn't why it's been so successful
 778
 00:33:56,800 --> 00:33:59,640
 consistently， the apache way make sure
-始终如一地，apache方式确保
+始终如一地，Apache方式确保了
 
 779
 00:33:59,840 --> 00:34:01,760
 that it does work out well
-它能很好地工作
+它能很好地运转
 
 780
 00:34:01,960 --> 00:34:05,480
 and that's why companies trust apache software
-这就是为什么公司信任apache软件
+这就是为什么公司信任Apache软件
 
 781
 00:34:05,720 --> 00:34:07,880
 the leadership you will find an apache
-领导会发现apache
+你会发现Apache
 
 782
 00:34:08,040 --> 00:34:12,040
 are the people that inspire others
-是在鼓舞他人
+是在鼓励其他人（参与进来）
 
 783
 00:34:12,240 --> 00:34:14,480
 that's the leadership at apache
-这就是apache领导
+这就是Apache的领导力
 
 784
 00:34:14,720 --> 00:34:16,560
@@ -3915,17 +3915,17 @@ we inspire each other， and we're all leaders at some point
 785
 00:34:16,760 --> 00:34:18,480
 and you know the seat just changes
-而您知道座位变了
+大家只是座位变了而已
 
 786
 00:34:18,720 --> 00:34:20,760
 I mean the core governance processes of Apache
-我的意思是说：Apache的核心治理
+我的意思是说：Apache的核心治理方法
 
 787
 00:34:20,960 --> 00:34:23,000
 are very well documented in the form of bylaws
-以章程的形式记录得很好
+都以章程的形式记录得很好
 
 788
 00:34:23,160 --> 00:34:24,680
@@ -3935,12 +3935,12 @@ and all that kind of stuff
 789
 00:34:24,880 --> 00:34:26,840
 figuring out
-弄清楚
+弄清楚如何向全世界的人教导
 
 790
 00:34:27,000 --> 00:34:28,720
 how to broadly educate the world about how to work this way
-如何对世界进行广泛的教育
+如何以这种方式进行工作
 
 791
 00:34:28,920 --> 00:34:31,720
@@ -3970,12 +3970,12 @@ but to continuously update it
 796
 00:34:39,280 --> 00:34:41,400
 update it for a world that again is much different this year
-今年会大聚更新
+就像今年与20年前相比
 
 797
 00:34:41,640 --> 00:34:43,680
 than it was 20 years ago
-与20年前相比
+大不相同一样
 
 798
 00:34:44,000 --> 00:34:45,920
