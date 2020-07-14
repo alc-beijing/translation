@@ -11,7 +11,7 @@ have you ever stopped to wonder
 3
 00:00:11,730 --> 00:00:13,210
 whether there's a large group of volunteers
-是否会有一大群自愿者
+是否会有一大群志愿者
 
 4
 00:00:13,410 --> 00:00:15,040
@@ -21,7 +21,7 @@ putting in their time and effort
 5
 00:00:15,240 --> 00:00:21,850
 to help make it all work
-去使整个互联网运转起来
+来帮助整个互联网运转起来
 
 6
 00:00:22,050 --> 00:00:24,280
@@ -36,12 +36,12 @@ this thing called the web in 1992
 8
 00:00:27,599 --> 00:00:30,190
 felt extremely disruptive
-给人们带来了极大的破坏性
+给人们带来了极大的颠覆性的体验
 
 9
 00:00:30,390 --> 00:00:31,870
 not only fresh not only interesting
-不仅新鲜有趣而
+不仅新鲜不仅有趣而
 
 10
 00:00:32,070 --> 00:00:33,429
