@@ -3,7 +3,7 @@
 * 原始链接，[Tetrate.io blog](https://tetrate.io/blog/whats-new-with-apache-skywalking-8-2-browser-monitoring-and-more/)
 * 2020年10月29日
 ![介绍图][overview_img]
-Apache SkyWalking，一个可观测性平台，亦是一个开源的应用性能监视器（APM）项目，今日宣布 8.2 发行版全面可用。该发行版拓展了基础功能以及浏览器端的监控边界。
+Apache SkyWalking，一个可观测性平台，亦是一个开源的应用性能监视器（APM）项目，今日宣布 8.2 发行版全面可用。该发行版拓展了核心功能，并将其监控边界拓展到浏览器端。
 
 ### 背景
 SkyWalking是一个观测平台与APM工具。它可以与（或不与）Service Mesh协同工作，为微服务、云原生（Cloud Native）和基于容器的应用提供自动的仪表盘。该项目是全球社区支持的Apache顶级项目，阿里巴巴、华为、腾讯、百度、字节跳动和其它许多公司都在使用它。
@@ -49,4 +49,3 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 [func_2]:https://skywalking.apache.org/assets/img/apache-skywalking-web-pages-monitoring.e6de5515.png
 [e1]:https://github.com/apache/skywalking/blob/v8.2.0/CHANGES.md
 [tw]:https://twitter.com/ASFSkyWalking
-
