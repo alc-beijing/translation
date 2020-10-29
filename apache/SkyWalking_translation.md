@@ -37,7 +37,7 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 1.现在Agent工具箱公开了某些API，供用户发送自定义指标。
 2.Agent`exclude_plgins`允许您排除某些插件（plugins）;`mount`使您能够加载一套新的插件。
 3.社区贡献了超过10个新Agent插件。
-4.报警系统原生支持发送消息到Slack，微信，钉钉。
+4.报警系统原生支持发送消息到Slack，企业微信，钉钉。
 
 ### 附加资源
 *阅读更多关于[SkyWalkng 8.2 发行版重点][e1]。  
