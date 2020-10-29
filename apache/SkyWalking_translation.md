@@ -1,5 +1,5 @@
 # SkyWalking 8.2中的新特性:浏览器端监控;使用标签查询;仪表分析语言
-* 作者:Zhenxu Ke， Sheng Wu， Hongtao Gao， and Tevah Platt. tetrate.io  
+* 作者：柯振旭、吴晟、高洪涛、Tevah Platt（Tetrate）
 * 原始链接，[Tetrate.io blog](https://tetrate.io/blog/whats-new-with-apache-skywalking-8-2-browser-monitoring-and-more/)
 * 2020年10月29日
 ![介绍图][overview_img]
