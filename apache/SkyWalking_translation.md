@@ -25,7 +25,7 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 
 ### 仪表分析语言
 在 8.2.0 中，仪表系统提供了一项名为MAL（Meter Analysis Language，仪表分析语言）的强大分析语言。该语言允许用户在OAP流系统中分析并聚合（aggregate）仪表数据。
-表达式的结果可以被代理（agent）分析器或OpenTelemetry/Prometheus分析器获取。  
+表达式的结果可以被Agent分析器或OpenTelemetry/Prometheus分析器获取。  
 
 ### 复合警报规则
 警报是及时发现系统失效的有效方式。一个常见的问题是，为了避免错过任何可能的问题，我们通常会配置过多的触发器（triggers）。没有人喜欢半夜被警报叫醒，结果只是因为触发系统太敏感。这种警报很嘈杂并毫无帮助。  
@@ -34,9 +34,9 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 
 一些常见的情况，如 `成功率  < 90%但只有 1~2个请求`现在可以被复合规则解决，如`traffic(calls per minute) > n && successful rate < m%`。  
 ### 其它值得注意的改进
-1.现在代理工具箱公开了某些API，供用户发送自定义指标。
-2.代理`exclude_plgins`允许您排除某些插件（plugins）;`mount`使您能够加载一套新的插件。
-3.超过10个新的插件已经被贡献给代理。
+1.现在Agent工具箱公开了某些API，供用户发送自定义指标。
+2.Agent`exclude_plgins`允许您排除某些插件（plugins）;`mount`使您能够加载一套新的插件。
+3.社区贡献了超过10个新Agent插件。
 4.报警系统原生支持发送消息到Slack，微信，钉钉。
 
 ### 附加资源
