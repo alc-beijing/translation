@@ -6,12 +6,12 @@
 Apache SkyWalking，一个可观测性平台，亦是一个开源的应用性能监视器（APM）项目，今日宣布 8.2 发行版全面可用。该发行版拓展了核心功能，并将其监控边界拓展到浏览器端。
 
 ### 背景
-SkyWalking是一个观测平台和APM工具。它可以选择性的与 Service Mesh 协同工作，为微服务、云原生和基于容器的应用提供自动的仪表盘。该项目是全球社区支持的Apache顶级项目，阿里巴巴、华为、腾讯、百度、字节跳动等许多公司都在使用。
+SkyWalking 是一个观测平台和 APM 工具。它可以选择性的与 Service Mesh 协同工作，为微服务、云原生和基于容器的应用提供自动的仪表盘。该项目是全球社区支持的 Apache 顶级项目，阿里巴巴、华为、腾讯、百度、字节跳动等许多公司都在使用。
 
 ### 浏览器端监控
-APM可以帮助SRE和工程团队诊断系统故障，亦能在系统异常缓慢之前优化它。但它是否足以让用户总是满意呢？  
+APM 可以帮助 SRE 和工程团队诊断系统故障，亦能在系统异常缓慢之前优化它。但它是否足以让用户总是满意呢？  
 
-在 8.2.0 版本中， SkyWalking将它的监控边界拓展到了浏览器端，比如Chrome，或者Chrome和后端服务之间的网络。这样，我们不仅可以像以前一样监控浏览器发送给后端服务的与请求，还能看到前端的渲染速度、错误日志等信息——这些信息是获取最终用户体验的最有效指标。（目前此功能尚未拓展到物联网设备中，但这项功能使得SkyWalking向着这个方向前进了一步）  
+在 8.2.0 版本中， SkyWalking 将它的监控边界拓展到了浏览器端，比如 Chrome ，或者 Chrome 和后端服务之间的网络。这样，我们不仅可以像以前一样监控浏览器发送给后端服务的与请求，还能看到前端的渲染速度、错误日志等信息——这些信息是获取最终用户体验的最有效指标。（目前此功能尚未拓展到物联网设备中，但这项功能使得 SkyWalking 向着这个方向前进了一步）  
 
 ![监控展示图1][func_1]  
 
@@ -34,15 +34,15 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 
 一些常见的情况，如 `成功率  < 90%但只有 1~2个请求`现在可以被复合规则解决，如`traffic(calls per minute) > n && successful rate < m%`。  
 ### 其它值得注意的改进
-1.agent-toolkit SDK 公开了某些 API，供用户发送自定义指标。
-2.Agent`exclude_plgins`允许您排除某些插件（plugins）;`mount`使您能够加载一套新的插件。
-3.社区贡献了超过10个新Agent插件。
-4.报警系统原生支持发送消息到Slack，企业微信，钉钉。
+1. agent-toolkit SDK 公开了某些 API，供用户发送自定义指标。
+2. Agent`exclude_plgins`允许您排除某些插件（plugins）;`mount`使您能够加载一套新的插件。
+3. 社区贡献了超过10个新Agent插件。
+4. 报警系统原生支持发送消息到Slack，企业微信，钉钉。
 
 ### 附加资源
-*阅读更多关于[SkyWalkng 8.2 发行版重点][e1]。  
+* 阅读更多关于[SkyWalkng 8.2 发行版重点][e1]。  
 
-*在[推特][tw]上获取更多关于SkyWalking的更新。
+* 在[推特][tw]上获取更多关于SkyWalking的更新。
 
 [overview_img]:https://skywalking.apache.org/assets/img/apache-skywalking.87a0b9b4.jpg
 [func_1]:https://skywalking.apache.org/assets/img/apache-skywalking-web-app-monitoring.b6364269.png
