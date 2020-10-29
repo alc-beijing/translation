@@ -44,8 +44,18 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 
 * 在[推特][tw]上获取更多关于SkyWalking的更新。
 
+### Apache SkyWalking DevCon报名信息
+
+Apache SkyWalking DevCon 2020开始报名了。
+11月14日，欢迎大家来线下[参加活动和交流][offline], 或者[报名][online]观看线上直播。
+
+
+
 [overview_img]:https://skywalking.apache.org/assets/img/apache-skywalking.87a0b9b4.jpg
 [func_1]:https://skywalking.apache.org/assets/img/apache-skywalking-web-app-monitoring.b6364269.png
 [func_2]:https://skywalking.apache.org/assets/img/apache-skywalking-web-pages-monitoring.e6de5515.png
 [e1]:https://github.com/apache/skywalking/blob/v8.2.0/CHANGES.md
 [tw]:https://twitter.com/ASFSkyWalking
+[offline]:https://www.huodongxing.com/event/3567284406200
+[online]:https://www.itdks.com/Home/Act/apply?id=5392&mUid=57437
+
