@@ -1,5 +1,5 @@
 # SkyWalking 8.2中的新特性:浏览器端监控;使用标签查询;仪表分析语言
-* 作者:Zhenxu Ke, Sheng Wu, Hongtao Gao, and Tevah Platt. tetrate.io
+* 作者:Zhenxu Ke, Sheng Wu, Hongtao Gao, and Tevah Platt. tetrate.io  
 * 原始链接,[Tetrate.io blog](https://tetrate.io/blog/whats-new-with-apache-skywalking-8-2-browser-monitoring-and-more/)
 * 2020年10月29日
 ![介绍图][overview_img]
@@ -41,7 +41,8 @@ OpenTelemetry/Prometheus分析器获取.
 4.报警系统原生支持发送消息到Slack,微信,钉钉.
 
 ### 附加资源
-*阅读更多关于[SkyWalkng 8.2发行版重点][e1]
+*阅读更多关于[SkyWalkng 8.2发行版重点][e1]  
+
 *在[推特][tw]上获取更多关于SkyWalking的更新.
 
 [overview_img]:https://skywalking.apache.org/assets/img/apache-skywalking.87a0b9b4.jpg
