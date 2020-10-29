@@ -23,7 +23,7 @@ PV（page views，页面浏览量）， UV（unique visitors，独立访客数�
 ### 按标签查询trace
 在SkyWalking的Span数据模型中，已经有了许多被索引并可供用户查询的重要字段。但出于性能考虑，使用Span标签查询的功能至今尚未被支持。在SkyWalking 8.2.0 中， 我们允许用户查询被特定标签标记的trace，这非常有用。例如，在生产环境中运行测试的SRE工程师可以标记仿真（synthetic）流量并稍后通过该标签查找它。
 
-### 仪表分析语言
+### 指标分析语言
 在 8.2.0 中，仪表系统提供了一项名为MAL（Meter Analysis Language，仪表分析语言）的强大分析语言。该语言允许用户在OAP流系统中分析并聚合（aggregate）仪表数据。
 表达式的结果可以被Agent分析器或OpenTelemetry/Prometheus分析器获取。  
 
