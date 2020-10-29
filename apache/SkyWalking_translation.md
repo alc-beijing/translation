@@ -1,6 +1,6 @@
 # SkyWalking 8.2中的新特性:浏览器端监控;使用标签查询;指标分析语言
 * 作者：柯振旭、吴晟、高洪涛、Tevah Platt（Tetrate）
-* 原始链接，[Tetrate.io blog](https://tetrate.io/blog/whats-new-with-apache-skywalking-8-2-browser-monitoring-and-more/)
+* 原文：[What's new with Apache SkyWalking 8.2? Browser monitoring and more](https://tetrate.io/blog/whats-new-with-apache-skywalking-8-2-browser-monitoring-and-more/)
 * 2020年10月29日
 ![介绍图][overview_img]
 Apache SkyWalking，一个可观测性平台，亦是一个开源的应用性能监视器（APM）项目，今日宣布 8.2 发行版全面可用。该发行版拓展了核心功能，并将其监控边界拓展到浏览器端。
