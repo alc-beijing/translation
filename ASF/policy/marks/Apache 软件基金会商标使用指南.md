@@ -1,27 +1,27 @@
-# Apache 软件基金会商标使用指南
-Apache® 商标被 200 多个 Apache 软件基金会（ASF）项目社区共享，它也是我们使命——为公众利益提供软件——的重要组成部分。本商标使用指南为引用 Apache® 软件项目和产品提供了示例。
+# Apache 软件基金会品牌使用指南
+Apache® 品牌被 200 多个 Apache 软件基金会（ASF）项目社区共享，它也是我们使命——为公众利益提供软件——的重要组成部分。本品牌使用指南为引用 Apache® 软件项目和产品提供了示例。
 
-**重要提示：** 如果您请求在域名、活动或服务中使用 Apache 商标，则**必须**遵循本指南。
+**重要提示：** 如果您请求在域名、活动或服务中使用 Apache 品牌，则**必须**遵循本指南。
 
 **术语：** *项目（ Projects）* 是 ASF 中开发并管理软件的组织委员会（PMC）。*产品（ Products）* 是提供给公众的软件代码和下载。在大多数情况下，Apache 项目的名称与 Apache 软件的名称相同，且遵循 “Apache Projectname” 命名格式。
 
 **目录**
 
 
-- [关于 Apache 商标](#关于-apache-商标)
+- [关于 Apache 品牌](#关于-apache-品牌)
 - [如何引用 Apache 项目和产品](#如何引用-apache-项目和产品)
   - [使用 Apache Hadoop 与 Hadoop](#使用-apache-hadoop-与-hadoop)
 - [如何使用 Apache 项目 logo](#如何使用-apache-项目-logo)
 - [如何使用Apache “Powerd By”项目 logo](#如何使用Apache-“Powerd-By”项目-logo)
 - [如何使用 Apache 羽毛 logo](#如何使用-apache-羽毛-logo)
-- [其他商标指南](#其他商标指南)
+- [其他品牌指南](#其他品牌指南)
 - [重要提示](#重要提示)
 
-另请参阅：[商标资源网站地图。](http://www.apache.org/foundation/marks/resources)
+另请参阅：[品牌资源网站地图。](http://www.apache.org/foundation/marks/resources)
 
-# 关于 Apache 商标
+# 关于 Apache 品牌
 
-Apache 商标和我们的 羽毛 logo 代表我们构建软件的 Apache Way 过程。Apache Way 的一些元素包括有一个协作的、共识驱动的志愿者社区，这些志愿者共同治理该项目。这也意味着要有一个厂商中立（vendor-neutral）且独立的治理方式，这种治理方式欢迎所有有益的贡献，而不考虑贡献者的雇主是谁。Apache 商标的项目托管在 ASF，并且必须被 [独立管理](http://community.apache.org/projectIndependence)。
+Apache 品牌和我们的 羽毛 logo 代表我们构建软件的 Apache Way 过程。Apache Way 的一些元素包括有一个协作的、共识驱动的志愿者社区，这些志愿者共同治理该项目。这也意味着要有一个厂商中立（vendor-neutral）且独立的治理方式，这种治理方式欢迎所有有益的贡献，而不考虑贡献者的雇主是谁。Apache 品牌的项目托管在 ASF，并且必须被 [独立管理](http://community.apache.org/projectIndependence)。
 
 作为一个非盈利的公共慈善机构，ASF 的董事会和成员是真正的 [独立管理机构](http://www.apache.org/foundation/governance/)，监督许多 Apache 项目社区的运作。有了这一层的监督，可以确保 Apache 项目以符合整个用户社区最佳利益的方式运作，并且可以通过提供一个可以让不同的供应商一同协作的，中立的合作空间来充当创新加速器。
 
@@ -33,13 +33,13 @@ Apache 项目总是以 “Apache Hadoop” 的形式命名。虽然我们在这�
 
 ## 使用 Apache Hadoop 与 Hadoop
 
-当以任何个人用途（如网页、讲义、幻灯片等）引用商标时，第一个引用和最突出的引用 **必须** 使用全称：“Apache Hadoop®”。您应该尽可能多（具体取决于上下文和您的写作风格）的使用名称的完整形式，以确保读者清楚地理解 Hadoop 项目、 Hadoop 软件产品和作为父组织的 ASF 之间的关联。
+当以任何个人用途（如网页、讲义、幻灯片等）引用品牌时，第一个引用和最突出的引用 **必须** 使用全称：“Apache Hadoop®”。您应该尽可能多（具体取决于上下文和您的写作风格）的使用名称的完整形式，以确保读者清楚地理解 Hadoop 项目、 Hadoop 软件产品和作为父组织的 ASF 之间的关联。
 
 在这之后的每个特定文档中，您可以使用名称的*裸形式*，即 Hadoop，因为它最适合您的写作风格。
 
 **更具体地说：**
 
-对于 **软件供应商或软件相关服务提供商** 的使用，或当组织（或者带有组织商标的页面）正在讨论与 Hadoop（或任何其他 Apache 商标）相关的，但却不是 Apache 提供的软件产品或服务时，需要格外小心，以维护 Apache 商标独立与厂商中立的声誉。
+对于 **软件供应商或软件相关服务提供商** 的使用，或当组织（或者带有组织品牌的页面）正在讨论与 Hadoop（或任何其他 Apache 品牌）相关的，但却不是 Apache 提供的软件产品或服务时，需要格外小心，以维护 Apache 品牌独立与厂商中立的声誉。
 
 *至少* 在以下情况下必须使用全称形式：
 
@@ -55,7 +55,7 @@ Apache 项目总是以 “Apache Hadoop” 的形式命名。虽然我们在这�
 
 - 对于视频内容，在标题、第一次使用、最后一次使用或在任何详细使用名单中，必须使用名字的完整形式。
 
-- [适当的商标属性](http://www.apache.org/foundation/marks/faq/#attribution) 也必须提供，要么在页脚，或在一个网站内明确标记的，说明条款，法律，商标，或其他一般性命名的次要网页。
+- [适当的品牌属性](http://www.apache.org/foundation/marks/faq/#attribution) 也必须提供，要么在页脚，或在一个网站内明确标记的，说明条款，法律，品牌，或其他一般性命名的次要网页。
 
 供 **其他类型的用户** 使用（即*不是* 与所讨论的 Apache 软件产品相关的软件产品或服务的主要提供者，包括组织或个人）：
 
@@ -65,7 +65,7 @@ Apache 项目总是以 “Apache Hadoop” 的形式命名。虽然我们在这�
 
 - 对于个人博客作者或个人：我们感激在标题中，移动文字或正文中第一个且最突出的地方引用全称形式。
 
-- Apache 商标在 [域名](http://www.apache.org/foundation/marks/domains) 或 [事件名与商标](http://www.apache.org/foundation/marks/events) 中的使用和商标包含在他们自己的政策中。
+- Apache 品牌在 [域名](http://www.apache.org/foundation/marks/domains) 或 [事件名与品牌](http://www.apache.org/foundation/marks/events) 中的使用和品牌包含在他们自己的政策中。
 
 # 如何使用 Apache 项目 logo
 
@@ -77,13 +77,13 @@ Apache 项目总是以 “Apache Hadoop” 的形式命名。虽然我们在这�
 
 # 如何使用 Apache 羽毛 logo
 
-Apache 羽毛 logo 对 ASF 和每个 Apache 项目都是一个重要的商标。作为一个厂商中立的公共慈善机构，“羽毛” 只应被用来指代作为一个独立的组织的 ASF ，绝不能用在似乎认可任何其他组织或与任何其他组织有关联的情况下。除非是在制作物理内容时为了有限的物理印刷技术做出妥协，否则羽毛标志不得修改。羽毛 logo 决不能与其他组织 logo 或图像直接结合使用。
+Apache 羽毛 logo 对 ASF 和每个 Apache 项目都是一个重要的品牌。作为一个厂商中立的公共慈善机构，“羽毛” 只应被用来指代作为一个独立的组织的 ASF ，绝不能用在似乎认可任何其他组织或与任何其他组织有关联的情况下。除非是在制作物理内容时为了有限的物理印刷技术做出妥协，否则羽毛标志不得修改。羽毛 logo 决不能与其他组织 logo 或图像直接结合使用。
 
 ASF 新闻团队维护着官方的 [Apache 羽毛标识](http://www.apache.org/foundation/press/kit/#policy)。
 
-# 其他商标指南
+# 其他品牌指南
 
-请参阅我们的 [正式商标政策](http://www.apache.org/foundation/marks/) 和我们的 [商标资源网站地图](http://www.apache.org/foundation/marks/resources)。
+请参阅我们的 [正式品牌政策](http://www.apache.org/foundation/marks/) 和我们的 [品牌资源网站地图](http://www.apache.org/foundation/marks/resources)。
 
 # 重要提示
 
