@@ -14,21 +14,21 @@ Apache 软件基金会（ASF）拥有所有与 Apache 相关的商标，服务�
 
 * [特定的 Apache 商标政策](#特定的-Apache-商标政策)
 
-* [软件产品政策](#软件产品政策)
+* [软件产品政策](#在软件产品品牌中使用Apache商标)
 
-* [出版书籍或文章的政策](#出版书籍和文章的政策)
+* [出版书籍或文章的政策](#在出版的书籍和文章中使用Apache商标)
 
-* [域名政策](#域名政策)
+* [域名政策](#在域名中使用Apache商标)
 
-* [活动政策](#活动政策)
+* [活动政策](#在会议和活动中使用Apache商标)
 
-* [Apache 的商标名单](#Apache-的商标名单)
+* [Apache 的商标名单](http://www.apache.org/foundation/marks/list/)
 
-* [常问问题](#常问问题)
+* [常问问题](http://www.apache.org/foundation/marks/faq/)
 
 * [关于我们](#关于我们)
 
-* [更多 Apache 商标资源](#更多-Apache-商标资源)
+* [更多 Apache 商标资源](http://www.apache.org/foundation/marks/resources)
 
   
 
@@ -56,4 +56,109 @@ ASF的商标是文字（例如，“*Apache*”和“*Apache ProjectName*”）�
 
 **什么是指示性使用？**
 
-只要对商标的使用是指示性的，则任何人都可以使用ASF商标。
+只要对商标的使用是指示性的，则任何人都可以使用ASF商标。对商标侵权的“指示性使用”（或“名义合理使用”）抗辩是一项法律原则，只要遵守以下三个条件，那么所有人（甚至商业公司）都可以使用他人的商标：
+
+1. 所涉及的产品或服务必须是一种不使用商标就无法轻易识别的产品或服务； （例如，不使用商标“ Hadoop”就很难识别出ApacheHadoop®软件）
+2. 只有当使用的数量有限，并且该数量对于识别产品和服务来说是必要的；
+3. 使用该商标的组织不得采取任何与该商标相关的，建议商标持有人赞助或背书的行为。
+
+商标提名合理使用抗辩旨在鼓励人们通过使用商标本身来引用商标商品和服务。这种商标抗辩与版权的合理使用无关，不应该与这些规则混淆。
+
+**什么是“混淆相似性”或“混淆可能性”测试？**
+
+有些对他人商标的使用是名义上的合理使用，但有些使用就只是侵权。事实上，如果商标用可能会使相关消费者对使用该商标销售或提供的产品和服务的来源产生混淆或者误解的方式来使用，那么就存在混淆的可能性，那么该商标就被侵权了。
+
+请注意，即使不存在混淆的可能性，如果您根据州和/或联邦稀释法对另一家公司的商标进行模糊或玷污，您仍可能对使用该公司的商标承担责任。
+
+为了避免侵犯ASF的商标，您应该确认您使用我们的商标是指示性的，并且您的使用不会使消费者产生您的软件与ASF的软件相同，或是您的软件受到了ASF认可的错觉。此策略已经在Apache许可证的第六节中概述，因此，这是您使用Apache软件的条件：
+
+> 本许可证不允许使用许可方的商标名称、商标、服务标志或产品名称，除非是在描述作品来源和复制通知文件内容时的合理的惯常使用。
+
+# 特定的 Apache 商标政策
+
+以下具体政策适用于“Apache”一词的商标和“Apache羽毛”图形商标，以及所有ASF项目生产的所有“*Apache ProjectName*”和“*ProjectName*”软件的商标和图形徽记。您可以参考我们的[Apache标记列表。](http://www.apache.org/foundation/marks/list/)
+
+被允许的指示性使用的示例：
+
+* “Apache许可证下的Apache *ProjectName*软件的免费副本以及Apache *ProjectName*的支持服务可在我公司的网站上获得。”
+* “Apache *ProjectName*软件的衍生产品和这些衍生产品的支持服务以我们的商标在我们的网站上提供。”请注意，根据商标法，您不得将与“*ProjectName*”或“Apache *ProjectName*”或*ProjectName*图形徽标商标可能发生混淆的相似的商标应用于*ProjectName*软件的衍生产品。
+* “*ProjectName*软件比Myco软件更快（或更慢）”。
+* ”对于您的业务我向您推荐（或不推荐）*ProjectName*软件“。
+* “这是Apache *ProjectName*软件的图形徽标。”
+* ASF希望您对我们所有的项目使用[Apache *ProjectName*的全称](http://www.apache.org/foundation/marks/guide)。
+
+# 在软件产品品牌中使用Apache商标
+
+一般来说，您[不能在任何软件产品品牌中使用Apache商标](http://www.apache.org/foundation/marks/faq/#products)。但是，在非常特定的情况下，您可能会对软件产品使用[Powered By 命名表单](http://www.apache.org/foundation/marks/faq/#poweredby)。
+
+# 在出版的书籍和文章中使用Apache商标
+
+您可以撰写有关Apache Foo软件的文章，并在书籍或文章标题中使用我们的商标。 您无需征求我们的许可就可以引用Foo（*ProjecName*），例如《 Foo for Dummies》，《 Expooning Foo 》，《 Foo Simplified 》，《 O'Reilly Foo指南 》甚至《 避开 Foo 》。
+
+我们希望您在标题中引用“ Apache Foo”而不是简单的“ Foo”，并且我们希望凡是您通常在书或文章中认为重要的地方都能够明确标识“ Apache”，“ Apache Foo”和“ Foo”都是Apache软件的商标。 
+
+有关更多详细信息，请参见我们发布中的[有关Apache商标的常见问题解答](http://www.apache.org/foundation/marks/faq/#booktitle)。
+
+**使用Apache羽毛徽标表示ASF并且链接到[www.apache.org](http://www.apache.org/):**
+
+Apache 羽毛徽标是Apache软件基金会成员的特殊商标，我们希望防止将其与其他公司的软件或相关服务结合使用。
+
+您无需向我们请求许可，就可以在您自己的网站上使用Apache羽毛徽标（用我们在这里发布的版本）作为 [www.apache.org](http://www.apache.org/) 或者是一个合适的Apache项目的超链接，又或是在其他的材料，比如演示和幻灯片中，仅仅是为了指代ASF本身。
+
+Apache羽毛徽标的所有其他用途必须得到VP，Apache品牌管理或品牌管理委员会成员的[书面批准](http://www.apache.org/foundation/marks/contact#other)。
+
+**使用Apache Foo或类似的项目图形徽标：**
+
+图形徽标由艺术家贡献给ASF，作为一种可以识别Apache项目软件的符号而被创造。徽标的示例包括Hadoop大象，SpamAssassin箭头，甚至是将“ Maven”一词拼写为橙色字母“ a”的图形方式。 这些图形徽标是Apache项目专用的，这些项目使用这些徽标来代表其软件和项目网站。
+
+您无需向我们请求许可，就可以在您自己的网站上使用Apache的图形徽标（使用发布在各个网站上的版本）作为 指向一个特定的项目或者[www.apache.org](http://www.apache.org/) 的超链接。所有其他使用Apache Foo（以及类似的）图形徽标的行为必须得到VP，Apache品牌管理或品牌管理委员会成员或者相关的Apache项目的VP的[书面批准](http://www.apache.org/foundation/marks/contact#other)。
+
+与ASF的文字商标（例如“ Apache”和“ Foo”）不同，我们的图形徽标也根据Apache许可向公众许可。 该许可证允许您与其他任何Apache受版权保护的作品一样创建这些徽标的衍生作品。 但是，如果相关消费者可能会因使用该衍生徽标而被误导，那么商标法不允许您将任何“易混淆的相似”衍生徽标应用于软件。
+
+如果您对任何ASF图形商标的使用或更改有任何疑问或疑虑，请[联系我们](http://www.apache.org/foundation/marks/contact)。
+
+**在商品上使用Apache商标：**
+
+您必须事先获得VP、Apache品牌管理或指定人员的[书面批准](http://www.apache.org/foundation/marks/contact#swag)，才能将“Apache”、“Apache Foo”或“Foo”商标或其图形徽标应用于任何与Apache Foo软件和Apache软件或任何在人们的普遍认识中与两者相关联的商品。
+
+对于推广Apache软件基金会、Apache Foo项目和Foo软件的商品，可以申请并获取ASF商标（包括图形徽标）的许可。
+
+对于贬低Apache软件或项目的商品，或有损Apache软件及其品牌价值的商品，通常会拒绝其申请ASF商标使用的许可。
+
+**ASF商标的以下使用可能是侵权的：**
+
+* 令人产生困惑的相似软件产品名称。
+* 除ASF官方发布的软件以外的任何其他软件服务。
+* 在用户心中可能与ASF或其商标项目软件相关联的公司名称。
+
+# 在域名中使用Apache商标
+
+如果未经VP、Apache品牌管理或指定人员的书面批准，您不得在您自己的域名中使用ASF商标，比如“Apache”或“ApacheFoo”或“Foo”或是其他可能会使相关消费者对您的网站提供的软件或是服务的来源产生困惑的表达。您应该使用上述“混淆可能性”测试，并请注意在您的域名中使用ASF商标通常不是“指示性使用”
+
+有关更多详细信息并请求批准，请参阅我们的[域名品牌政策](http://www.apache.org/foundation/marks/domains.html)。 特别是，不允许将Apache产品名称用作第二级域名（example.com）。
+
+# 在会议和活动中使用Apache商标
+
+某些ASF商标专用于Apache软件基金会的正式活动。 例如，“ ApacheCon”是我们在常规ASF会议上的专有商标，而Apache 羽毛旨在在我们所参加的活动中给ASF使用。
+
+单独的ASF项目（例如“ApacheFoo”）经常创建自己的会议和活动，或者与其他组织或公司联合举办联合会议或活动。与会议或活动相关的ASF商标（包括与我们的项目或产品相关的商标）的任何冲突使用，必须获得VP，Apache品牌管理或指定人员的书面批准。
+
+更多详情或请求批准，请参阅我们的[活动品牌政策](http://www.apache.org/foundation/marks/events.html)。 请提前申请批准，以避免遇到ApacheCon暂时停业的日期。
+
+# 关于我们
+
+[VP,Apache品牌管理](http://www.apache.org/foundation/)及相关品牌管理委员会是ASF中的正式组成部分，负责制定政策并回答有关徽标和商标使用的问题以及其他责任。委员会由已经在品牌和商标方面展现特长的ASF的当选成员组成。 现任Apache品牌管理副总裁是马克·托马斯（Mark Thomas），是由总裁任命担任该职位的。 查看[委员会成员名单以及联系我们](http://www.apache.org/foundation/marks/contact)。
+
+[关注 @ASFBrands](https://twitter.com/ASFBrands)
+
+# 重要说明
+
+**本ASF政策声明中的任何内容不得解释为允许任何第三方声称与Apache软件基金会或其任何项目有任何关联，或暗示ASF对任何第三方产品或服务的任何批准或支持。**
+
+# 政策版本
+
+这是2014年发布的Apache策略文档的1.1版。
+
+重大更改将使用新版本号。
+
+**v1.1**更新以获得VP、品牌**或**指定人员的许可
