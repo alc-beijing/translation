@@ -10,9 +10,9 @@ Apache® 品牌被 200 多个 Apache 软件基金会（ASF）项目社区共享�
 
 - [关于 Apache 品牌](#关于-apache-品牌)
 - [如何引用 Apache 项目和产品](#如何引用-apache-项目和产品)
-  - [使用 Apache Hadoop 与 Hadoop](#使用-apache-hadoop-与-hadoop)
+- [使用 Apache Hadoop 与 Hadoop](#使用-apache-hadoop-与-hadoop)
 - [如何使用 Apache 项目 logo](#如何使用-apache-项目-logo)
-- [如何使用Apache “Powerd By”项目 logo](#如何使用Apache-“Powerd-By”项目-logo)
+- [如何使用Apache “Powered By”项目 logo](#如何使用Apache-“Powered-By”项目-logo)
 - [如何使用 Apache 羽毛 logo](#如何使用-apache-羽毛-logo)
 - [其他品牌指南](#其他品牌指南)
 - [重要提示](#重要提示)
@@ -71,7 +71,7 @@ Apache 项目总是以 “Apache Hadoop” 的形式命名。虽然我们在这�
 
 最重要的一点是使用 Apache 项目本身未经修改的 logo，并确保 logo 不会与其他公司 logo 一起使用。查看 Apache 项目 logo 的人应该始终清楚地知道，该 logo 指的是实际的 Apache 项目（社区）或软件产品（实际下载），而不是某个第三方组织或产品。
 
-# 如何使用Apache “Powerd By”项目 logo
+# 如何使用Apache “Powered By”项目 logo
 
 为了使许多基于 Apache 软件构建解决方案的组织能够正确地展示它们之间的关系，ASF 为所有 Apache 项目提供了一行 [下载“Powered By” 图形logo](http://www.apache.org/foundation/press/kit/#poweredby)。Powered By logos 可以比官方项目 logo 更自由、更广泛地使用，包括用来直接表明 Apache 软件产品与各种第三方产品和服务之间的关系。
 
