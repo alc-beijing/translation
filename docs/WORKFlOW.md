@@ -14,7 +14,7 @@
 
 @TODO: image
 
-### 2. Frok 项目
+### 2. Fork 项目
 
 访问 [alc-beijing/translation](https://github.com/alc-beijing/translation) 项目页面，点 `Fork` 克隆项目。
 
