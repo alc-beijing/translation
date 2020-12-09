@@ -1,41 +1,43 @@
-# 标题：在 ASF 版本中使用密码学技术
+# 【WIP】标题：在 ASF 版本中使用密码学技术
 
-- [标题：在 ASF 版本中使用密码学技术](#标题在-asf-版本中使用密码学技术)
-  - [本页面更新通知&para;](#本页面更新通知)
+- [【WIP】标题：在 ASF 版本中使用密码学技术](#wip标题在-asf-版本中使用密码学技术)
+  - [本页更新通知&para;](#本页更新通知)
   - [总览&para;](#总览)
-    - [检查出口管控分类编号（ECCN）&para;](#检查出口管控分类编号eccn)
-    - [使用源码链接更新导出页&para;](#使用源码链接更新导出页)
+    - [检查美国政府出口管控分类编号（ECCN）&para;](#检查美国政府出口管控分类编号eccn)
+    - [更新出口商品页上的源码链接&para;](#更新出口商品页上的源码链接)
     - [将新的发行版代码知照美国政府&para;](#将新的发行版代码知照美国政府)
-    - [在 REMDME 文件里包含密码学技术提示以通知用户&para;](#在-remdme-文件里包含密码学技术提示以通知用户)
+    - [在发行包的 REMDME 文件里包含密码学技术相关声明以通知用户&para; '永久链接')](#在发行包的-remdme-文件里包含密码学技术相关声明以通知用户-永久链接)
   - [常见问题&para;](#常见问题)
+    - [“PRODUCT NAME/MODEL #”指的是什么？&para;](#product-namemodel-指的是什么)
+    - [厂商（MANUFACTURER）指的是什么？&para;](#厂商manufacturer指的是什么)
 
-该页面为 PMC 成员提供了必备信息，以确保使用了密码学技术的 ASF 产品分发满足美国出口管控相关法律的要求。这些分发可能是一开始就被设计使用密码学技术，也可能是后来被修改以使用密码学技术来实现数据保密。
+该页面为 PMC 成员提供了必备信息，以确保使用了密码学技术的 ASF 产品分发满足美国政府出口管控相关法律的要求。这些分发可能是一开始就被设计使用密码学技术，也可能是后来被修改以使用密码学技术来实现数据保密。
 
-**此页面不适用于 Apache 产品的用户**。用户应咨询[我们产品的出口管控现状](https://www.apache.org/licenses/exports/)。
+**此页面不适用于 Apache 产品的用户**。用户应咨询[我们产品的出口管控现状](https://www.apache.org/licenses/exports/)。**【TODO】**
 
-**注意**：由于美国加密软件相关的出口管控相关法律条款可能不定期更新，因而特此注明本页最后修改时间（即当前描述的法律适用时间）为：2019 年 5 月 24 日。
+**注意**：由于美国加密软件相关的出口管控相关法律条款可能不定期更新，特此注明本页的最后修改时间（即当前描述的法律适用时间）为：2019 年 5 月 24 日。
 
-该页面描述了那些在`ASF 法务副总裁（ASF VP Legal Affairs）`批准更新版本之前必须完成的步骤。
+该页面描述了那些在`ASF 法务副总裁（ASF VP Legal Affairs）`批准版本更新之前必须完成的步骤。
 
-## 本页面更新通知[&para;](#本页面更新通知 '永久链接')
+## 本页更新通知[&para;](#本页更新通知 '永久链接')
 
-本页面的更新通知显示在[法律讨论（legal-discuss）](https://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表上。
+您可以在[法律讨论（legal-discuss）](https://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表上找到本页更新通知。
 
 ## 总览[&para;](#总览 '永久链接')
 
 美国政府对某些类型的软件产品设置了[出口限制](https://www.bis.doc.gov/index.php/regulations/commerce-control-list-ccl)，
-其中包括采用了密码学技术的软件。幸运的是，出口管控条例（EAR）第 7​​42.15（b）条款适用于 ASF 所关注的大多数密码学技术。
+其中包括采用了密码学技术的软件。幸运的是，美国政府出口管控条例（EAR）第 7​​42.15（b）条款适用于 ASF 所关注的大多数密码学技术。
 
 考虑将密码学功能包含在其产品中或者设计其产品以使用具有密码功能的其他软件的 PMC，请在将此类代码放置在任何 ASF 服务器上（包括提交`subversion`或者`git`）**之前**采取以下步骤：
 
-- 检查出口管控分类编号（ECCN）
-- 使用源码链接更新导出页
-- 将新的发行版代码知照美国政府
-- 在 REMDME 文件里包含密码学技术提示以通知用户
+- 检查美国政府出口管控分类编号（ECCN）
+- 更新 ASF 出口商品页上的源码链接
+- 将新代码知照美国政府
+- 通知用户
 
-### 检查出口管控分类编号（ECCN）[&para;](#检查出口管控分类编号eccn '永久链接')
+### 检查美国政府出口管控分类编号（ECCN）[&para;](#检查美国政府出口管控分类编号eccn '永久链接')
 
-[出口管控条例（EAR）](https://www.trade.gov/us-export-regulations)第 742.15（b）条款授权：加密软件源码和目标代码在满足以下条件的情况下，可不经二次审查进行出口或者再出口：
+[美国政府出口管控条例（EAR）](https://www.trade.gov/us-export-regulations)第 742.15（b）豁免条款授权：加密软件源码和目标代码在满足以下条件的情况下，可不经二次审查进行出口或者再出口：
 
 - 加密软件源码已由 ECCN 5D002 管控。
 - 加密软件源码将公开可用（已发布并公开可用，同时不限制传播）。
@@ -47,19 +49,19 @@
 
 若软件的密码学功能仅限于上述定义之一，应将其分类为 ECCN 5D002，并应采取剩余两个步骤（如下所述）。如果该发行版可能包含上述功能之外的加密功能，请联系[ASF 法务副总裁（ASF Vice President for Legal Affairs）](/foundation/)。
 
-### 使用源码链接更新导出页[&para;](#使用源码链接更新导出页 '永久链接')
+### 更新出口商品页上的源码链接[&para;](#更新出口商品页上的源码链接 '永久链接')
 
-为了满足 BIS 的要求，使源代码可用于检查，同时最大程度地减少需要发送的[通知电子邮件](#将新的发行版代码知照美国政府)的数量，ASF 维护了 ASF 产品中的所有分类为 ECCN 5D002 的版本的源代码链接————[ASF 产品导出页](https://www.apache.org/licenses/exports/)。
+为了满足 BIS 的要求，使源代码可用于检查，同时最大程度地降低[知照电邮](#将新的发行版代码知照美国政府)的发送数量，ASF 维护了 ASF 产品中所有版本分类为 ECCN 5D002 的源码链接————[ASF 出口商品页](https://www.apache.org/licenses/exports/)。
 
-为了使得此 ASF 产品导出页的更新尽可能简单且一致，用来生成导出页的[源 XML 文件](https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/licenses/exports/index.page/eccnmatrix.xml)在`eccnmatrix`节点下包含了一棵 XML 树，并可以由具有`site-dev karma`相关权限的任何人（这其中包括所有 PMC 主席）进行编辑。
+为了使得 ASF 出口商品页的更新尽可能简单一致，我们将相关信息置于用于生成此页的[源 XML 文件](https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/licenses/exports/index.page/eccnmatrix.xml)的`eccnmatrix`节点下（XML 树状数据结构），并可由具有`site-dev karma`相关权限的任何人（这其中包括所有 PMC 主席）进行编辑。
 
-对导出页的所有修改均应使用网站构建过程（在提交任何改变前请查看`index.html`）和通过对添加/更改的产品运行`bisnotice.xsl`转换（请参见下文）进行测试。您可以通过遵循其他项目的示例并阅读页面来弄清楚 XML 字段应该包括什么内容。如果您对内容有任何其他疑问，或者不确定是否属于 BIS 知照要求范围，请先查看[常见问题列表](#常见问题)；若依然存疑，欢迎将问题带到`法律讨论（legal-discuss）`邮件列表中。请注意，仅当分类更改（例如，Apache HTTP Server 版本 1.3 与 2.0）或需要更改指向受控源代码的链接（例如，产品中包含的加密库用于以下用途）时，产品数据才应特定于版本来自不同制造商的不同版本。另外，可以在列表中同时包含受控产品和非受控产品（ECCN“ n / a”），但是 BIS 通知仅对于具有至少一个分类为 ECCN 5D002 的版本的产品是必需的。
+对出口商品页的所有修改均应进行测试，目前有两个步骤（二者缺一不可）：1）构建网页后，在提交任何变更前预览`index.html`；2）对变更运行`bisnotice.xsl`转换（请参见下文）进行测试。若您想明确相关 XML 字段内容的对应含义，您可以查看其他项目的示例，并阅读相关页；如果您依然存疑，或者不确定相关内容是否属于 BIS 知照要求范围，请先查看[常见问题列表](#常见问题)；若以上仍未解决您的疑虑，欢迎来`法律讨论（legal-discuss）`邮件列表进行询问。请注意，仅当会引起分类变更（例如，Apache HTTP Server 1.3 与 2.0）或指向受控源代码的链接需要更新（例如，不同发行版产品中包含的加密库来自于不同的厂商）时，产品数据才需要注明其版本号；另外，可以在列表中同时包含受控产品和非受控产品（ECCN “n/a”），但若其中不包含版本分类为 ECCN 5D002 的产品，是不需要进行 BIS 知照的。
 
 ### 将新的发行版代码知照美国政府[&para;](#将新的发行版代码知照美国政府 '永久链接')
 
-在确保发行版的密码学技术符合第 742.15（b）条的豁免规定，并确保将可使用的源码链接置于 ASF 产品导出页后，请于**公开发布或公开提交受控代码之前**，使用以下模板发送电子邮件。
+在确保发行版的密码学技术符合美国政府出口管控条例（EAR）第 742.15（b）条的豁免规定，并确保将可使用的源码链接已置于 ASF 出口商品页后，请于**公开发布或公开提交受控代码之前**，使用以下模板发送电邮。
 
-XSLT 转换器[bisnotice.xsl](https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/licenses/exports/bisnotice.xsl)可以基于 XML 数据为产品生成 BIS 知照内容。以下是脚本示例（脚本文件应位于 site/trunk 的顶级目录；若`Windows`系统可命名为`bisnotice.cmd`，若`(Un\*x)`系统则命名为`bisnotice.sh`）:
+XSLT 转换器[bisnotice.xsl](https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/licenses/exports/bisnotice.xsl)可基于 XML 数据为产品生成 BIS 知照内容。以下是脚本示例（脚本文件应位于 site/trunk 的顶级目录；若为`Windows`系统可命名为`bisnotice.cmd`，若为`(Un\*x)`系统则命名为`bisnotice.sh`）:
 
 ```shell
 $ cd {SVNROOT}/infrastructure/site/trunk/</li>
@@ -70,7 +72,7 @@ $ java -Xbootclasspath/p:../../../lib/xalan.jar org.apache.xalan.xslt.Process \
           -param product 'Apache HTTP Server'
 ```
 
-以上操作将输出一个电子邮件纯文本模版，内容是以 PMC 主席的身份发送到政府知照指定地址的电子邮件。下面是一个通用示例。请注意，其中`-param product`参数将通过匹配产品名字符串的子串来选择要打印的产品；仅当匹配结果唯一时，模板才能输出正确。
+执行以上脚本将输出一个电子邮件的纯文本模版，内容是以 PMC 主席的身份发送政府知照于指定地址。下面是执行后的通用示例。请注意，以上脚本将`-param product`传参字符串作为子串来匹配产品名；其中仅当匹配结果唯一时，模板才能正确输出。
 
 ```text
 TO: crypt AT bis.doc.gov,
@@ -98,11 +100,11 @@ PRODUCT NAME/MODEL #: {Apache product name(s) that include the source
 NOTIFICATION:         http://www.apache.org/licenses/exports/
 ```
 
-### 在 REMDME 文件里包含密码学技术提示以通知用户[&para;](#在REMDME文件里包含密码学技术提示以通知用户 '永久链接')
+### 在发行包的 REMDME 文件里包含密码学技术相关声明以通知用户[&para;](#在发行包的-remdme-文件里包含密码学技术相关声明以通知用户) '永久链接')
 
-Should the software qualify for the Section 742.15(b) exemption, place the following notice into each distribution's README file:
+如果该软件符合美国政府出口管控条例（EAR）第 742.15（b）节的豁免条件，请将以下声明放入每个发行版的 README 文件中：
 
-```
+```text
    This distribution includes cryptographic software.  The country in
    which you currently reside may have restrictions on the import,
    possession, use, and/or re-export to another country, of
@@ -122,15 +124,17 @@ The following provides more details on the included cryptographic
    software:
 ```
 
-Be sure to add some information at the bottom of the notice about the components of the release including cryptography.
+确保在声明的底部添加和该发行版中密码学组件有关的信息。
 
 ## 常见问题[&para;](#常见问题 '永久链接')
 
-<h4 id="faq-productname">What is the "PRODUCT NAME/MODEL #" for my product?<a class="headerlink" href="#faq-productname" title="Permanent link">&para;</a></h4>
+### “PRODUCT NAME/MODEL #”指的是什么？[&para;](#product-namemodel-指的是什么 '永久链接')
 
 The product name is the name of the ASF product (e.g. "Apache Foo"), even if the notification is being made about another manufacturer's cryptography included in the ASF product. Do not list the ASF product's version number.
 
-<h4 id="faq-manufacturer">What is the MANUFACTURER?<a class="headerlink" href="#faq-manufacturer" title="Permanent link">&para;</a></h4>The manufacture is the name of the individual/organization that built the crypto item included in the ASF product, whether that is the ASF itself or some other open source project or organization.
+### 厂商（MANUFACTURER）指的是什么？[&para;](#厂商manufacturer指的是什么 '永久链接')
+
+The manufacture is the name of the individual/organization that built the crypto item included in the ASF product, whether that is the ASF itself or some other open source project or organization.
 
 <h4 id="faq-notification">What is the NOTIFICATION?<a class="headerlink" href="#faq-notification" title="Permanent link">&para;</a></h4>
 
