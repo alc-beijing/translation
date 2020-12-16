@@ -7,7 +7,7 @@
 
 Apache 产品是通过多个源文件中的许多代码组成，这些代码由不同的作者授权给 ASF，他们对自己的贡献拥有所有权。当 PMC 通过选择、协调和安排所有这些不同的贡献到一个产品中的过程时，这个集体作品也受到版权法的保护，并由AS F拥有——即使每一段代码仍然由贡献者拥有。Apache 产品还可能包括其他未直接提交给 ASF 的组件，但[以这种方式获得许可](http://www.apache.org/legal/resolved.html)，符合 AS F的许可做法。
 
-考虑到所有这些因素，本文档介绍了如何：- [标注贡献源的源头](http://www.apache.org/legal/src-headers.html#headers)， - [处理第三方作品的版权和许可](http://www.apache.org/legal/src-headers.html#3party)，以及 - [使用NOTICE文件收集版权声明和所需的归属](http://www.apache.org/legal/src-headers.html#notice)。
+考虑到所有这些因素，本文档介绍了如何：- [标注贡献源的源头](http://www.apache.org/legal/src-headers.html#headers)， - [处理第三方作品的版权和许可](http://www.apache.org/legal/src-headers.html#3party)，以及 - [使用 NOTICE 文件收集版权声明和所需的归属](http://www.apache.org/legal/src-headers.html#notice)。
 
 本文件还包括： - [常见问题解答](http://www.apache.org/legal/src-headers.html#faq)。
 
