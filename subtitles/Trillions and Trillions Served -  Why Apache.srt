@@ -35,9 +35,7 @@ Programming for fun.
 
 8
 00:00:17,420 --> 00:00:20,409
-People
-
-It's a great group of people.
+People. It's a great group of people.
 这是一群很优秀的人。
 
 9
@@ -68,7 +66,7 @@ Apache 都能把人们召集在一起
 14
 00:00:31,320 --> 00:00:33,159
 and letting them work together
-工作
+协同工作
 
 15
 00:00:33,359 --> 00:00:35,709
@@ -203,12 +201,12 @@ their car. And you know you realize all
 41
 00:01:43,629 --> 00:01:45,739
 of them are open-source software and it's like
-这些都是开源的时， 你会感叹
+这些都是开源软件时， 你会感叹
 
 42
 00:01:45,939 --> 00:01:48,049
 wow okay this is something that's truly
-开源软件真的在
+开源真的在
 
 43
 00:01:48,250 --> 00:01:49,039
