@@ -11,7 +11,7 @@ Apache 产品是通过多个源文件中的许多代码组成，这些代码由�
 
 本文件还包括： - [常见问题解答](http://www.apache.org/legal/src-headers.html#faq)。
 
-当[法律讨论](http://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表中退出新的问题时，将对其进行更新。
+当[法律讨论](http://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表中提出新的问题时，将对其进行更新。
 
 ## 该页面更新通知
 
