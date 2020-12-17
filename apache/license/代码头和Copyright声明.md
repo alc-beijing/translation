@@ -11,13 +11,13 @@ Apache 产品是通过多个源文件中的许多代码组成，这些代码由�
 
 本文件还包括： - [常见问题解答](http://www.apache.org/legal/src-headers.html#faq)。
 
-当[法律讨论](http://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表中出现新的问题时，将对其进行更新。
+当[法律讨论](http://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表中退出新的问题时，将对其进行更新。
 
 ## 该页面更新通知
 
 该页面的更新将发送到[法律讨论](http://www.apache.org/foundation/mailinglists.html#foundation-legal)邮件列表。
 
-## ASF制定的守则源文件标题
+## ASF 下开发的代码所适用的源文件头
 
 0.本部分仅指版权所有者或所有者的代理人直接提交给ASF的作品。
 
@@ -84,7 +84,7 @@ The Apache Software Foundation (http://www.apache.org/).
 
 ## 常见问题解答
 
-### 在哪里可以找到每个 ASF 发布中必须包含的NOTICE 文件的示例？
+### 在哪里可以找到每个 ASF 发布中必须包含的 NOTICE 文件的示例？
 
 请参阅[ httpd 项目 NOTICE 示例](http://www.apache.org/licenses/example-NOTICE.txt)或[ Boilerplate NOTICE 文件](http://www.apache.org/licenses/NOTICE-2.0.txt)
 
@@ -94,7 +94,7 @@ The Apache Software Foundation (http://www.apache.org/).
 
 ### 此政策是否也适用于我们网站上显示的内容？
 
-不，我们的网站没有相关的 NOTICE 文件。相反，我们可能很快就会通过网页页脚的 "使用条款 "或 "法律信息 "链接来明确这些内容的条款。在这一点上，Apache 网站不需要采取任何措施。
+不，我们的网站没有相关的 NOTICE 文件。作为替代，我们可能很快就会通过网页页脚的 "使用条款 "或 "法律信息 "链接来明确这些内容的条款。在这一点上，Apache 网站不需要采取任何措施。
 
 ### 如果我的项目在产品发布中包含其网站，该怎么办？
 
@@ -102,19 +102,19 @@ The Apache Software Foundation (http://www.apache.org/).
 
 ### APACHE 发行版中哪些文件不需要许可证头信息？
 
-在文字元素或结构上没有任何程度的创造性的文件，不受版权法的保护；因此，这样的文件不需要许可证标头。如果对文件的创造性程度有疑问，请将许可证标题添加到文件中。
+在文字元素或结构上没有任何程度的创造性的文件，不受版权法的保护；因此，这样的文件不需要许可证头信息。如果对文件的创造性程度有疑问，请将许可证头信息添加到文件中。
 
-其他文件可能没有许可证标头也很有意义。 三个示例是：
+其他文件没有许可证头信息也可能是合理的。三个示例是：
 
 - 简短的信息文本文件，例如 README，INSTALL 文件。期望这些文件可以使它们明显了解与之相关的产品。
 - 增加源头会导致测试失败的测试数据。
 - 合并为较大文件的“片段”文件，其中较大文件将具有重复的许可标头。
 
-PMC 应该利用自己的判断，对于错误地使用代码头，如果不确定，请联系legal-discuss@。
+PMC 应该根据自己的判断，优先选择使用完整的代码头，如果不确定，请联系legal-discuss@。
 
 ### 代码头的简短形式是否可用？
 
-有时，文件的情况导致不建议使用 Apache 代码头。 示例包括图像，缩小的  JavaScript 或 PDF。 在那些情况下，可以使用以下较短的形式。
+有时，文件出现以下情况并不建议使用 Apache 代码头。 例如图像，缩小的 JavaScript 或 PDF 文件中。 在这些情况下，可以使用以下较短的形式。
 
 ```
 "Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements; and to You under the Apache License, Version 2.0. "
@@ -122,13 +122,13 @@ PMC 应该利用自己的判断，对于错误地使用代码头，如果不确�
 
 任何与文件相关的附加许可信息（即通常会在通知中出现的信息）应在使用简表时直接在文件中注明。
 
-PMC 应该利用自己的判断，对于错误地使用代码头，如果不确定，请联系legal-discuss@。
+PMC 应该根据自己的判断，优先选择使用完整的代码头，如果不确定，请联系legal-discuss@。
 
-### 此政策是否适用于ASF发行版中包含的第三方二进制/对象文件？
+### 此政策是否适用于 ASF 发行版中包含的第三方二进制/对象文件？
 
-是的。即使发行版中没有源文件，LICENSE 文件和 NOTICE 文件仍然是每个ASF发行版中所需要的 -- -- 无论发行单元是：jar、.msi、.tar.gz、.zip、.exe 安装程序，还是任何其他用于发行的文件格式。例如，Windows .exe 文件不得用作分发单位，除非它们是安装程序，并在安装中包含 LICENSE 和 NOTICE 文件。
+是的。即使发行版中没有源文件，LICENSE 文件和 NOTICE 文件仍然是每个 ASF 发行版中所需要的 -- -- 无论发行单元是：jar、.msi、.tar.gz、.zip、.exe 安装程序，还是任何其他用于发行的文件格式。例如，Windows .exe 文件不得用作分发单位，除非它们是安装程序，并在安装中包含 LICENSE 和 NOTICE 文件。
 
-### 本政策是否适用于ASF发行版中包含的第三方底层/对象文件？
+### 本政策是否适用于 ASF 发行版中包含的第三方底层/对象文件？
 
 是的。请参阅政策的“[第三方作品](http://www.apache.org/legal/src-headers.html#3party)”部分，尤其是确保每个第三方作品都具有许可证的 [要求](http://www.apache.org/legal/src-headers.html#3party-addlicense)。
 
@@ -136,9 +136,9 @@ PMC 应该利用自己的判断，对于错误地使用代码头，如果不确�
 
 如果媒体是直接为 ASF 项目贡献的，则贡献者可以选择将其版权声明插入 NOTICE 文件，如[源文件所述](http://www.apache.org/legal/src-headers.html#header-existingcopyright)。如果媒体来自第三方（未直接贡献给项目），则任何明显与媒体相关的版权声明都应复制到 NOTICE 文件中。
 
-### 为什么需要许可标头？
+### 为什么需要许可证头信息？
 
-许可证标头允许检查文件的人知道作品的条款，即使在没有分发其余内容的情况下进行分发也是如此。在没有许可通知的情况下，必须假定作者保留了所有权利，包括复制，修改和重新分发的权利。
+许可证头信息允许检查文件的人知道作品的条款，即使在没有分发其余内容的情况下进行分发也是如此。在没有许可通知的情况下，必须假定作者保留了所有权利，包括复制，修改和重新分发的权利。
 
 ### 此政策是否适用于 ASF 之外使用 APACHE 许可证的项目？
 
