@@ -5,9 +5,9 @@
 
 ## 概述
 
-Apache 产品是通过多个源文件中的许多代码组成，这些代码由不同的作者授权给 ASF，他们对自己的贡献拥有所有权。当 PMC 通过选择、协调和安排所有这些不同的贡献到一个产品中的过程时，这个集体作品也受到版权法的保护，并由AS F拥有——即使每一段代码仍然由贡献者拥有。Apache 产品还可能包括其他未直接提交给 ASF 的组件，但[以这种方式获得许可](http://www.apache.org/legal/resolved.html)，符合 ASF 的许可做法。
+Apache 产品是通过多个源文件中的许多代码组成，这些代码由不同的作者授权给 ASF，他们对自己的贡献拥有所有权。当 PMC 通过选择、协调和安排所有这些不同的贡献到一个产品中的过程时，这个集体作品也受到版权法的保护，并由 ASF 拥有——即使每一段代码仍然由贡献者拥有。Apache 产品还可能包括其他未直接提交给 ASF 的组件，但[以这种方式获得许可](http://www.apache.org/legal/resolved.html)，符合 ASF 的许可做法。
 
-考虑到所有这些因素，本文档介绍了如何：- [标注贡献源的源头](http://www.apache.org/legal/src-headers.html#headers)， - [处理第三方作品的版权和许可](http://www.apache.org/legal/src-headers.html#3party)，以及 - [使用 NOTICE 文件收集版权声明和所需的归属](http://www.apache.org/legal/src-headers.html#notice)。
+考虑到所有这些因素，本文档介绍了如何：- [标注贡献源的源码头](http://www.apache.org/legal/src-headers.html#headers)， - [处理第三方作品的版权和许可](http://www.apache.org/legal/src-headers.html#3party)，以及 - [使用 NOTICE 文件收集版权声明和所需的归属](http://www.apache.org/legal/src-headers.html#notice)。
 
 本文件还包括： - [常见问题解答](http://www.apache.org/legal/src-headers.html#faq)。
 
@@ -19,7 +19,7 @@ Apache 产品是通过多个源文件中的许多代码组成，这些代码由�
 
 ## ASF 下开发的代码所适用的源文件头
 
-0.本部分仅指版权所有者或所有者的代理人直接提交给ASF的作品。
+0.本部分仅指版权所有者或所有者的代理人直接提交给 ASF 的作品。
 
 1.如果提交的源文件中包含版权声明，则版权所有者（或所有者的代理人）必须：
 
@@ -107,7 +107,7 @@ The Apache Software Foundation (http://www.apache.org/).
 其他文件没有许可证头信息也可能是合理的。三个示例是：
 
 - 简短的信息文本文件，例如 README，INSTALL 文件。期望这些文件可以使它们明显了解与之相关的产品。
-- 增加源头会导致测试失败的测试数据。
+- 增加源码头会导致测试失败的测试数据。
 - 合并为较大文件的“片段”文件，其中较大文件将具有重复的许可标头。
 
 PMC 应该根据自己的判断，优先选择使用完整的代码头，如果不确定，请联系legal-discuss@。
