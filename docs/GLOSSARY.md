@@ -27,7 +27,7 @@
 * Apache SkyWalking
 * Apache ShardingSphere
 * NOTICE （出现形式为“NOTICE file”时，不翻译NOTICE）
-* LISENCE （出现形式为“NOTICE file”时，不翻译LISENCE）
+* LISENCE （出现形式为“LICENSE file”时，不翻译LISENCE）
 * PMC
 * @TODO:
 
