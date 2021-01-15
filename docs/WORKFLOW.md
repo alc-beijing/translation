@@ -1,6 +1,8 @@
 ## 准备工作
 
+<!--
 > 如果您没有技术背景，请移步 [工作流程（非技术背景）](WORKFlOW-NO-TECH.md)
+-->
 
 * Terminal
 * [Git](https://git-scm.com/)
