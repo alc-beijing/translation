@@ -2,14 +2,52 @@
 原文地址: https://incubator.apache.org/cookbook/
 ## 译文版
 # Apache孵化器指南
+## 目录
+[一、我们的项目适合Apache孵化器吗？](一、我们的项目适合Apache孵化器吗？)
+
+[二、成为ASF顶级项目的步骤是什么？](二、成为ASF顶级项目的步骤是什么？)
+
+[三、与孵化器沟通](三、与孵化器沟通)
+
+[四、寻找接口人和导师](四、寻找接口人和导师)
+
+[五、创建孵化提案](五、创建孵化提案)
+
+[六、讨论孵化提案](六、讨论孵化提案)
+
+[七、孵化提案投票](七、孵化提案投票)
+
+[八、配置基础设施](八、配置基础设施)
+
+[九、宣传和公告](九、宣传和公告)
+
+[十、导入初始代码](十、导入初始代码)
+
+[十一、社区构建](十一、社区构建)
+
+[十二、项目发布](十二、项目发布)
+
+[十三、关于项目版本发布的两轮投票](十三、关于项目版本发布的两轮投票)
+
+[十四、孵化项目与顶级项目的区别是什么？](十四、孵化项目与顶级项目的区别是什么？)
+
+[十五、毕业就绪评估](十五、毕业就绪评估)
+
+[十六、毕业讨论](十六、毕业讨论)
+
+[十七、将商标转让给ASF](十七、将商标转让给ASF)
+
+[十八、毕业投票](十八、毕业投票)
+
+[十九、ASF董事会决议](十九、ASF董事会决议)
+
+[二十、毕业后任务](二十、毕业后任务)
 
 该指南与[孵化器主页](http://incubator.apache.org/)为大家提供了在ASF孵化项目所需的必要信息。该指南汇集了所有孵化器的相关问题，给出了孵化器目标和过程的概述，并提供了更多详细信息的链接。
 
 该指南内容按照项目从被接收孵化到毕业成为顶级项目（Top-Level Project，TLP）的时间顺序进行组织。
 
-## 目录
-
-[TOC]
+欢迎大家通过[general@incubator.a.o](https://lists.apache.org/list.html?general@incubator.apache.org)邮件列表或[INCUBATOR-234](https://issues.apache.org/jira/browse/INCUBATOR-234)任务单对该指南提出反馈意见，也可以向该指南所在的[项目仓库](https://github.com/apache/incubator/tree/master/pages/cookbook)提交补丁。
 
 ## 一、我们的项目适合Apache孵化器吗？
 
@@ -31,12 +69,12 @@ ASF非常重视“社区重于代码”（Community Over Code）这一理念，A
 
 为此，孵化项目（incoming project，podling）需要执行以下步骤：
 
-- 寻找接口人（champion）和孵化导师（mentor），讨论并准备孵化方案；
+- 寻找接口人（champion）和孵化导师（mentor），讨论并准备孵化提案；
 - 决定在ASF孵化；
-- 与孵化器PMC讨论方案；
-- 如果需要，完善方案中的初始提交者和导师列表；
-- 如果需要，基于孵化器PMC的反馈，完善方案；
-- 孵化器PMC对方案进行投票；
+- 与孵化器PMC讨论提案；
+- 如果需要，完善提案中的初始提交者和导师列表；
+- 如果需要，基于孵化器PMC的反馈，完善提案；
+- 孵化器PMC对提案进行投票；
 - 配置项目的基础设施；
 - 围绕项目代码开始构建社区；
 - 邀请新的提交者和PPMC成员；
@@ -52,35 +90,35 @@ ASF非常重视“社区重于代码”（Community Over Code）这一理念，A
 
 孵化器PMC负责管理孵化器，帮助孵化项目完成孵化过程。
 
-可以通过公开链接：https://lists.apache.org/list.html?general@incubator.apache.org [general@incubator.a.o]访问邮件列表，与孵化器PMC进行沟通。
+可以通过公开链接：[general@incubator.a.o](https://lists.apache.org/list.html?general@incubator.apache.org)访问邮件列表，与孵化器PMC进行沟通。
 
 ## 四、寻找接口人和导师
 
 为了进入孵化器，您的项目需要一名接口人和至少2-3名导师。这些人需要是孵化器PMC中的成员，ASF成员只需提出即可加入孵化器PMC。
 
-接口人负责在创建方案过程中帮助孵化项目，他们在前面的步骤中（至少直到项目方案被接收）充当孵化项目与孵化器PMC之间的联络员，之后可能会继续担任导师。
+接口人负责在创建提案过程中帮助孵化项目，他们在前面的步骤中（至少直到项目提案被接收）充当孵化项目与孵化器PMC之间的联络员，之后可能会继续担任导师。
 
 导师则会在项目成长为顶级项目的道路上全程陪伴。
 
-起点通常是寻找接口人，您可以在general@incubator.a.o邮件列表中提交项目的简短介绍，附上相关链接，并说明您正在寻找接口人，努力引起大家的兴趣。如果您认识任何ASF成员或孵化导师，可以直接询问他们是否愿意提供帮助。
+起点通常是寻找接口人，您可以在[general@incubator.a.o](https://lists.apache.org/list.html?general@incubator.apache.org)邮件列表中提交项目的简短介绍，附上相关链接，并说明您正在寻找接口人，努力引起大家的兴趣。如果您认识任何ASF成员或孵化导师，可以直接询问他们是否愿意提供帮助。
 
-## 五、创建孵化方案
+## 五、创建孵化提案
 
-接口人会帮助项目准备孵化方案，方案会对新项目进行描述，以便后续与孵化器PMC进行初步讨论。
+接口人会帮助项目准备孵化提案，提案会对新项目进行描述，以便后续与孵化器PMC进行初步讨论。
 
-方案需要包含若干标准段落，详情请参考[podling proposal template](https://cwiki.apache.org/confluence/display/INCUBATOR/New+Podling+Proposal).
+提案需要包含若干标准段落，详情请参考[podling proposal template](https://cwiki.apache.org/confluence/display/INCUBATOR/New+Podling+Proposal).
 
-ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/confluence/display/INCUBATOR/Proposals)页面上，可以将它们作为示例进行参考，上一自然段中的链接给出的是方案的最新模板。
+ASF项目的孵化提案都保存在[Incubator wiki](https://cwiki.apache.org/confluence/display/INCUBATOR/Proposals)页面上，可以将它们作为示例进行参考，上一自然段中的链接给出的是方案的最新模板。
 
-## 六、讨论孵化方案
+## 六、讨论孵化提案
 
-方案准备好后，项目代表需将其发送至general@incubator.a.o进行讨论，主题行应如下，以引起孵化器PMC的注意。
+提案准备好后，项目代表需将其发送至[general@incubator.a.o](https://lists.apache.org/list.html?general@incubator.apache.org)进行讨论，主题行应如下，以引起孵化器PMC的注意。
 
 `[DISCUSS] Foo Proposal`
 
-该讨论通常会要求方案进行一些改动。
+该讨论通常会要求提案进行一些改动。
 
-该讨论阶段没有规定讨论时长，通常会持续几天，直到所有讨论要点被解决。
+该讨论阶段没有规定讨论时长，通常会持续几天，直到所有关注问题都被妥善讨论并形成解决方案。
 
 以下是最近的讨论，请参考：
 
@@ -90,9 +128,9 @@ ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/co
 - [TubeMQ proposal](https://lists.apache.org/thread.html/21c5453b40765cf1d5a06540fcf6d76c0d5b6b7df7ade5c29d31aa3e@) (accpeted)
 - [MetaObjects proposal](https://lists.apache.org/thread.html/dbdbc6bd8e238d9dbf16604d5fa13500523d6e812fcd863444f99842@) (on hold)
 
-## 七、孵化方案投票
+## 七、孵化提案投票
 
-讨论阶段一结束，接口人或项目代表就会在general@incubator.a.o邮件列表中创建[VOTE]进程。
+讨论阶段一结束，接口人或项目代表就会在[general@incubator.a.o](https://lists.apache.org/list.html?general@incubator.apache.org)邮件列表中创建[VOTE]帖子。
 
 投票过程依据[ASF投票规则](https://www.apache.org/foundation/voting)进行。简言之，投票发生在孵化器邮件列表中，持续至少72小时，由孵化器PMC成员进行投票，遵循多数投票法，也欢迎其他人进行投票。
 
@@ -126,7 +164,7 @@ ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/co
 
 ## 十二、项目发布
 
-在项目孵化过程中，我们期待项目可以发布多个软件版本，这些版本会朝着完全符合[ASF发布政策](http://www.apache.org/legal/release-policy.html)的方向逐渐发展。版本发布完全符合ASF发布政策是项目毕业的条件之一。
+在项目孵化过程中，我们期待项目可以**发布多个软件版本**，这些版本会朝着完全符合[ASF发布政策](http://www.apache.org/legal/release-policy.html)的方向逐渐发展。版本发布完全符合ASF发布政策是项目毕业的条件之一。
 
 按照[孵化器发布指南](https://incubator.apache.org/guides/releasemanagement.html#choice_of_disclaimers)要求，项目发布版本时，任何发布文件名中必须包含“incubating”一词，并且必须要包含DISCLAIMER或DISCLAIMER-WIP免责声明，以避免混淆项目状态。由于孵化项目还不是真正的ASF项目，设置适当的期望值很重要。
 
@@ -136,9 +174,9 @@ ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/co
 
 项目版本发布的投票分为两个阶段：
 
-首先，在开发人员邮件列表（dev list）上对版本发布进行投票，该轮投票主要是为了让项目社区练习和学习版本发布的投票过程。只要PPMC成员给出至少三张赞成票（+1），并且赞成票多于反对票，就算投票通过。
+- 首先，在开发人员邮件列表（dev list）上对版本发布进行投票，该轮投票主要是为了让项目社区练习和学习版本发布的投票过程。只要PPMC成员给出至少三张赞成票（+1），并且赞成票多于反对票（-1），就算投票通过。
 
-如果第一次投票通过，则孵化器PMC在孵化器常规邮件列表上进行第二轮投票，与所有ASF版本发布一样，这是使投票成为基金会行为的规定动作。
+- 如果第一次投票通过，则孵化器PMC在孵化器常规邮件列表上进行第二轮投票，与所有ASF版本发布一样，这是使投票成为基金会行为的规定动作。
 
 在孵化器PMC的[VOTE]消息中，需明确将第一轮开发人员邮件列表中的投票情况报告给孵化器PMC，包括投票结果，以及指向项目投票记录的[lists.apache.org](http://lists.apache.org/)链接。这样，导师和其他孵化器PMC成员的投票将与孵化器PMC投票绑定，而不用投两次票。
 
@@ -148,7 +186,7 @@ ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/co
 
 顶级项目是成熟的ASF项目，由自己的[PMC](http://www.apache.org/foundation/governance/pmcs)进行管理，并且向[ASF董事会](https://www.apache.org/foundation/board/)进行报告。
 
-孵化项目是正在训练中的顶级项目。他们所做的大部分工作与顶级项目相同，特别是顶级项目在孵化过程中的工作。
+孵化项目是正在训练中的顶级项目。它们所做的大部分工作与顶级项目相同，特别是它们在孵化过程中的工作。
 
 主要的区别如下：
 
@@ -159,7 +197,7 @@ ASF项目的孵化方案都保存在[Incubator wiki](https://cwiki.apache.org/co
 - 每个顶级项目都有一个[PMC主席](https://apache.org/dev/pmc.html)，PMC主席是顶级项目与董事会间的联络人。PMC主席不是项目的领导者，而是一个管理角色，即使他们在ASF组织架构中拥有VP（Vice President）的头衔。孵化项目中没有孵化导师的角色，导师是社区成员中的志愿者，在项目和孵化器PMC间充当联络员。
 - 孵化项目的版本发布需要两轮投票。
 
-ASF强烈鼓励项目有规律地成长和更新他们的名单，以促进项目可持续发展。孵化项目和顶级项目都应该留意社区中活跃的成员，积极选拔新的提交者和PMC成员。
+ASF强烈鼓励项目有规律地成长，并更新社区的名单（提交者、PMC、PPMC），以促进项目可持续发展。孵化项目和顶级项目都应该留意社区中活跃的成员，积极选拔新的提交者和PMC成员。
 
 ## 十五、毕业就绪评估
 
@@ -169,9 +207,9 @@ ASF社区发展PMC（Community Development PMC）维护的[成熟度模型](http
 
 ## 十六、毕业讨论
 
-基于就绪情况的自评估，当社区和导师认为项目已经准备好毕业了，导师或PPMC成员要在孵化器常规邮件列表中开始一个[DISCUSS]进程，提议毕业并请求孵化器PMC审查项目。
+基于就绪情况的自评估，当社区和导师认为项目已经准备好毕业了，导师或PPMC成员要在孵化器常规邮件列表中创建一个[DISCUSS]帖子，提议毕业并请求孵化器PMC审查项目。
 
-讨论中最好包含毕业方案，为接下来的投票做好准备。
+讨论中最好包含毕业提案，为接下来的投票做好准备。
 
 ## 十七、将商标转让给ASF
 
@@ -179,13 +217,13 @@ ASF社区发展PMC（Community Development PMC）维护的[成熟度模型](http
 
 ## 十八、毕业投票
 
-毕业方案讨论结束后，导师或PPMC成员在孵化器常规邮件列表中开始一个[VOTE]进程，孵化器PMC在该进程上对是否向董事会推荐项目进行投票。
+毕业提案讨论结束后，导师或PPMC成员在孵化器常规邮件列表中创建一个[VOTE]帖子，孵化器PMC在该进程上对是否向董事会推荐项目进行投票。
 
 该投票遵循标准的[ASF投票规则](https://www.apache.org/foundation/voting)，即多数投票法，持续至少72小时，如果重复投票，以最后一次投票为准。
 
 ## 十九、ASF董事会决议
 
-一旦孵化器PMC投票通过项目毕业，孵化器PMC（IPMC）将会创建并向ASF董事会发送董事会决议进程，以供董事会进行投票。
+一旦孵化器PMC投票通过项目毕业，孵化器PMC（IPMC）将会创建并向ASF董事会发送董事会决议的帖子，以供董事会进行投票。
 
 董事会会在每月的第三个周三召开会议，并在例行会议上对此类决议进行投票。
 
