@@ -51,6 +51,7 @@
 | Source Header                                           | 源码头                                     |
 | Contributor                                             | 贡献者                                     |
 | Committer                                               | 提交者                                     |
+| podling                                                 | 孵化项目（incubating project）             |
 
 ## 术语表
 
