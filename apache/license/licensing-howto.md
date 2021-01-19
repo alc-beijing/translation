@@ -24,5 +24,3 @@ LICENSE和NOTICE文件位于源代码树的顶层。ASF更喜欢文件使用裸�
 根据您的产品详细信息创建一个“NOTICE”文件，并遵守以下说明。示例NOTICE文件位于此页面的底部。
 添加特定于您产品IP的所有强制性法律通知。
 对于任何捆绑的依赖性，请考虑是否需要修改许可和/或通知。不要为非捆绑的依赖项修改LICENSE或NOTICE。
-
-Bundling permissively-licensed dependencies
