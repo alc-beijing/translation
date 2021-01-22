@@ -28,6 +28,7 @@
 | Export Administration Regulations (EAR)                 | 美国政府出口管控条例（EAR）                |
 | U.S. Government's Bureau of Industry and Security (BIS) | 美国政府工业安全局（BIS）                  |
 | ENC Encryption Request Coordinator                      | ENC 加密请求协调员                         |
+| champion                                                | （在孵化器中专指介绍项目进入ASF的）领路人
 | cryptography                                            | 密码学技术                                 |
 | encryption                                              | 加密                                       |
 | symmetric algorithm                                     | 对称加密算法                               |
@@ -51,6 +52,7 @@
 | Source Header                                           | 源码头                                     |
 | Contributor                                             | 贡献者                                     |
 | Committer                                               | 提交者                                     |
+| podling                                                 | 孵化项目（incubating project）             |
 
 ## 术语表
 
