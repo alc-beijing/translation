@@ -1,0 +1,4378 @@
+1
+00:00:00,870 --> 00:00:37,140
+[Music]
+[音乐]
+
+2
+00:00:41,320 --> 00:00:58,079
+[Music]
+ [音乐]
+
+3
+00:00:58,680 --> 00:01:01,630
+at its very simplest Tomcat is a web
+最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+
+4
+00:01:01,630 --> 00:01:05,710
+server to expand on that a little bit
+最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+
+5
+00:01:05,710 --> 00:01:08,920
+there are a series of Java
+有一系列Java规范定义了一种
+
+6
+00:01:08,920 --> 00:01:13,030
+specifications that define a way that
+有一系列Java规范定义了一种
+
+7
+00:01:13,030 --> 00:01:14,790
+web applications can be written and
+可以编写Web应用程序，而Tomcat实现这些规范
+
+8
+00:01:14,790 --> 00:01:17,590
+Tomcat implements those specifications
+可以编写Web应用程序，而Tomcat实现这些规范
+
+9
+00:01:17,590 --> 00:01:20,229
+and it's one of a number of servers that
+它是众多服务器的其中之一，因此Web应用程序开发人员可以
+
+10
+00:01:20,229 --> 00:01:23,020
+do so a web application developer can
+它是众多服务器的其中之一，因此Web应用程序开发人员可以
+
+11
+00:01:23,020 --> 00:01:25,360
+write their web application using the
+使用标准API编写其Web应用程序，然后就可以在
+
+12
+00:01:25,360 --> 00:01:28,090
+standard API and then it can run on
+使用标准API编写其Web应用程序，然后就可以在
+
+13
+00:01:28,090 --> 00:01:33,060
+Tomcat it can run on jetty it can run on
+Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+
+14
+00:01:33,060 --> 00:01:36,460
+WebSphere it can run on WebLogic and
+Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+
+15
+00:01:36,460 --> 00:01:38,890
+because it's the same interface the same
+因为在任何地方都可以移动相同的界面和相同的标准
+
+16
+00:01:38,890 --> 00:01:40,390
+standard everywhere you can move your
+因为在任何地方都可以移动相同的界面和相同的标准
+
+17
+00:01:40,390 --> 00:01:42,160
+application from one to the other and it
+从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+
+18
+00:01:42,160 --> 00:01:44,950
+will just work but at its simplest
+从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+
+19
+00:01:44,950 --> 00:01:47,140
+Tomcat is a way of running websites is
+Tomcat是一种运行网站的方法，与Apache Web完全分开
+
+20
+00:01:47,140 --> 00:01:48,850
+completely separate from the Apache web
+Tomcat是一种运行网站的方法，与Apache Web完全分开
+
+21
+00:01:48,850 --> 00:01:51,850
+server however if you wish you can get
+服务器，但是，如果您希望，您可以使两者进行某种合作
+
+22
+00:01:51,850 --> 00:01:53,979
+the two to sort of working cooperation
+服务器，但是，如果您希望，您可以使两者进行某种合作
+
+23
+00:01:53,979 --> 00:01:57,760
+so one of the things that Tomcat doesn't
+因此，Tomcat本身内部不做的一件事就是负载概念
+
+24
+00:01:57,760 --> 00:02:00,250
+do within itself is the idea of load
+因此，Tomcat本身内部不做的一件事就是负载概念
+
+25
+00:02:00,250 --> 00:02:03,159
+balancing so if you've got more load
+进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+
+26
+00:02:03,159 --> 00:02:05,290
+than one physical server can't handle
+进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+
+27
+00:02:05,290 --> 00:02:06,400
+and you need to spread it between
+您需要将其分散在多个对象之间
+
+28
+00:02:06,400 --> 00:02:07,930
+multiple ones you need something to
+您需要将其分散在多个对象之间
+
+29
+00:02:07,930 --> 00:02:09,489
+spread that load what we often see
+分散负载我们经常看到人们正在做的事情就是将Apache网站
+
+30
+00:02:09,489 --> 00:02:12,010
+people doing is putting Apache web
+分散负载我们经常看到人们正在做的事情就是将Apache网站
+
+31
+00:02:12,010 --> 00:02:13,959
+server in front of it because it can do
+服务器在它前面，因为它可以进行负载平衡，然后坐在
+
+32
+00:02:13,959 --> 00:02:15,940
+the load balancing and then it sits in
+服务器在它前面，因为它可以进行负载平衡，然后坐在
+
+33
+00:02:15,940 --> 00:02:17,530
+front of Tomcat and it spreads the load
+Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+
+34
+00:02:17,530 --> 00:02:19,209
+between the different Tomcat instances
+Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+
+35
+00:02:19,209 --> 00:02:20,470
+and then brings the responses back
+然后将响应汇总在一起，然后发送给用户
+
+36
+00:02:20,470 --> 00:02:22,720
+together and sends them off to the users
+然后将响应汇总在一起，然后发送给用户
+
+37
+00:02:22,720 --> 00:02:25,299
+and we have quite close cooperation
+而且我们在Tomcat项目的各个部分和
+
+38
+00:02:25,299 --> 00:02:27,519
+between bits of the Tomcat project and
+而且我们在Tomcat项目的各个部分和
+
+39
+00:02:27,519 --> 00:02:30,790
+bits of the Apache web server project
+Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+
+40
+00:02:30,790 --> 00:02:33,220
+because we have effectively our own
+Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+
+41
+00:02:33,220 --> 00:02:34,930
+protocol that we use to do some of that
+我们用来进行某些通信的协议，因此我们共同致力于新的
+
+42
+00:02:34,930 --> 00:02:39,850
+communication so we work together on new
+我们用来进行某些通信的协议，因此我们共同致力于新的
+
+43
+00:02:39,850 --> 00:02:41,890
+features developing that integration of
+开发整合功能的功能我专注于您的特定功能
+
+44
+00:02:41,890 --> 00:02:44,170
+that I am focused on your particular
+开发整合功能的功能我专注于您的特定功能
+
+45
+00:02:44,170 --> 00:02:46,959
+projects so I am currently a committer
+项目，因此我目前是PMC的提交者和比索的成员
+
+46
+00:02:46,959 --> 00:02:49,329
+PMC member and a member of the peso
+项目，因此我目前是PMC的提交者和比索的成员
+
+47
+00:02:49,329 --> 00:02:52,360
+software foundation I have been that for
+我从事软件工作很长一段时间，一直致力于
+
+48
+00:02:52,360 --> 00:02:54,340
+a long time I've been a committer for
+我从事软件工作很长一段时间，一直致力于
+
+49
+00:02:54,340 --> 00:02:56,470
+the camel product for yeah as I said
+我说过的骆驼产品大约是12年，我目前的角色是
+
+50
+00:02:56,470 --> 00:02:59,260
+about 12 years my current role is as a
+我说过的骆驼产品大约是12年，我目前的角色是
+
+51
+00:02:59,260 --> 00:03:01,120
+professional open source developer I'm
+我受雇于red的专业开源开发人员
+
+52
+00:03:01,120 --> 00:03:02,540
+employed by red
+我受雇于red的专业开源开发人员
+
+53
+00:03:02,540 --> 00:03:05,689
+and redhead uses camel in in the middle
+和红发在我们的产品中间使用骆驼，所以我目前
+
+54
+00:03:05,689 --> 00:03:08,120
+of our products so I am currently
+和红发在我们的产品中间使用骆驼，所以我目前
+
+55
+00:03:08,120 --> 00:03:10,489
+heavily involved with camel their camel
+大量参与骆驼活动的骆驼基本上是用于整合
+
+56
+00:03:10,489 --> 00:03:13,010
+is basically used for integration is to
+大量参与骆驼活动的骆驼基本上是用于整合
+
+57
+00:03:13,010 --> 00:03:14,840
+switch I mean I for integration
+开关我的意思是说，我参加了集成高科技大会吗？
+
+58
+00:03:14,840 --> 00:03:16,459
+hi-c algunas ation do they have so many
+开关我的意思是说，我参加了集成高科技大会吗？
+
+59
+00:03:16,459 --> 00:03:18,739
+different IT systems and they need to be
+不同的IT系统，它们需要集成在一起，您需要知道数据
+
+60
+00:03:18,739 --> 00:03:20,480
+integrated connected you know it data
+不同的IT系统，它们需要集成在一起，您需要知道数据
+
+61
+00:03:20,480 --> 00:03:22,129
+need to be transfer from different
+需要从不同的系统转移，其中有很多，所以有很多
+
+62
+00:03:22,129 --> 00:03:23,750
+system many of them so there are so many
+需要从不同的系统转移，其中有很多，所以有很多
+
+63
+00:03:23,750 --> 00:03:26,209
+different protocols languages and IT
+不同的协议语言，IT系统和操作系统以及
+
+64
+00:03:26,209 --> 00:03:28,400
+systems and operating systems and
+不同的协议语言，IT系统和操作系统以及
+
+65
+00:03:28,400 --> 00:03:30,739
+whatnot and data formats and camel is
+whatnot和数据格式以及骆驼有点像介于两者之间的胶水
+
+66
+00:03:30,739 --> 00:03:32,150
+sort of like the glue that sits between
+whatnot和数据格式以及骆驼有点像介于两者之间的胶水
+
+67
+00:03:32,150 --> 00:03:34,069
+and you can easily more easily integrate
+您可以更轻松地集成它们，我从更多系统开始
+
+68
+00:03:34,069 --> 00:03:36,290
+them I started with more system
+您可以更轻松地集成它们，我从更多系统开始
+
+69
+00:03:36,290 --> 00:03:39,250
+integration so more project related to
+集成，因此有更多与应用程序运行时相关的项目，因此可以运行一些
+
+70
+00:03:39,250 --> 00:03:43,010
+application runtimes so running some
+集成，因此有更多与应用程序运行时相关的项目，因此可以运行一些
+
+71
+00:03:43,010 --> 00:03:47,780
+stuff and application easily for you and
+东西和应用程序很容易为您提供许多功能，您可以
+
+72
+00:03:47,780 --> 00:03:49,430
+providing a lot of features you can
+东西和应用程序很容易为您提供许多功能，您可以
+
+73
+00:03:49,430 --> 00:03:53,659
+leverage so I started with this kind of
+杠杆，所以我从Apache这样的项目开始，现在我仍在从事
+
+74
+00:03:53,659 --> 00:03:56,689
+project Apache now I'm still working on
+杠杆，所以我从Apache这样的项目开始，现在我仍在从事
+
+75
+00:03:56,689 --> 00:03:59,510
+this project still very happy and and
+这个项目仍然很开心，是的，这仍然是我的项目，但是我
+
+76
+00:03:59,510 --> 00:04:02,989
+and yeah it's still my project but I
+这个项目仍然很开心，是的，这仍然是我的项目，但是我
+
+77
+00:04:02,989 --> 00:04:06,409
+like a lot I'm also working on big data
+像很多人一样，我也在开发与大数据相关的产品，像Apache这样的大数据
+
+78
+00:04:06,409 --> 00:04:11,180
+related products so big data like Apache
+像很多人一样，我也在开发与大数据相关的产品，像Apache这样的大数据
+
+79
+00:04:11,180 --> 00:04:15,039
+carbon data for instances is a database
+碳数据实例是为大数据设计的数据库，我真的很高兴
+
+80
+00:04:15,039 --> 00:04:18,560
+designed for big data I'm really happy
+碳数据实例是为大数据设计的数据库，我真的很高兴
+
+81
+00:04:18,560 --> 00:04:20,389
+about this product because it's one of
+关于这个产品，因为这是我做过的第一个项目
+
+82
+00:04:20,389 --> 00:04:21,949
+the first project that I did with
+关于这个产品，因为这是我做过的第一个项目
+
+83
+00:04:21,949 --> 00:04:25,060
+Chinese guys and it was really great
+中国人，我正在研究的大数据真的很棒
+
+84
+00:04:25,060 --> 00:04:28,039
+around big data I'm also working on
+中国人，我正在研究的大数据真的很棒
+
+85
+00:04:28,039 --> 00:04:32,650
+Apache beam which is a very key project
+Apache Beam是一个非常关键的项目，提供了针对以下语言的API
+
+86
+00:04:32,650 --> 00:04:35,300
+providing an API for a language that
+Apache Beam是一个非常关键的项目，提供了针对以下语言的API
+
+87
+00:04:35,300 --> 00:04:39,020
+allows you to design some big data
+允许您设计一些大数据管道或分布式处理
+
+88
+00:04:39,020 --> 00:04:42,530
+pipelines or distributed processing of
+允许您设计一些大数据管道或分布式处理
+
+89
+00:04:42,530 --> 00:04:46,820
+data so this project historically on
+数据，因此该项目历来在哪个项目上进行
+
+90
+00:04:46,820 --> 00:04:48,860
+which are working on another project
+数据，因此该项目历来在哪个项目上进行
+
+91
+00:04:48,860 --> 00:04:51,770
+which is nama Apache you know me is more
+那是纳玛·阿帕奇，你知道我更多关于用户配置文件，gdpr之类的东西
+
+92
+00:04:51,770 --> 00:04:55,370
+about user profiling and gdpr and stuff
+那是纳玛·阿帕奇，你知道我更多关于用户配置文件，gdpr之类的东西
+
+93
+00:04:55,370 --> 00:04:58,250
+like that and the thing that I really
+这样，我真正喜欢的东西之间存在某种联系
+
+94
+00:04:58,250 --> 00:05:00,139
+like is there some connection between
+这样，我真正喜欢的东西之间存在某种联系
+
+95
+00:05:00,139 --> 00:05:02,990
+all these products the connection is
+所有这些产品的连接是一些项目用户之间的联系
+
+96
+00:05:02,990 --> 00:05:05,780
+between some project user others for
+所有这些产品的连接是一些项目用户之间的联系
+
+97
+00:05:05,780 --> 00:05:07,550
+example you know me is based on Apache
+例如，您知道我基于Apache Cara，而Apache Cara是我所负责的项目之一
+
+98
+00:05:07,550 --> 00:05:10,130
+Cara which is one of project arm I'm
+例如，您知道我基于Apache Cara，而Apache Cara是我所负责的项目之一
+
+99
+00:05:10,130 --> 00:05:13,700
+working on for a long time beam using
+使用扫射和火花对光束进行长时间工作，因此有很多
+
+100
+00:05:13,700 --> 00:05:15,919
+fling and spark so there are a lot of
+使用扫射和火花对光束进行长时间工作，因此有很多
+
+101
+00:05:15,919 --> 00:05:17,930
+connection between the products it's
+产品之间的联系是我所喜欢的东西
+
+102
+00:05:17,930 --> 00:05:19,729
+what I like you I've been involved with
+产品之间的联系是我所喜欢的东西
+
+103
+00:05:19,729 --> 00:05:22,039
+a few projects but I think the ones I've
+一些项目，但我认为这些项目是我通过千斤顶Apache演变而来的
+
+104
+00:05:22,039 --> 00:05:24,110
+been evolved over a jackrabbit Apache
+一些项目，但我认为这些项目是我通过千斤顶Apache演变而来的
+
+105
+00:05:24,110 --> 00:05:26,979
+Jackrabbit and Apache you know me so
+Jackrabbit和Apache，您知道我，所以我知道Jackrabbit是很多基础
+
+106
+00:05:26,979 --> 00:05:30,560
+Jackrabbit I know is foundation of a lot
+Jackrabbit和Apache，您知道我，所以我知道Jackrabbit是很多基础
+
+107
+00:05:30,560 --> 00:05:34,069
+of different they say content management
+他们说内容管理系统不同，所以您拥有像我这样的公司
+
+108
+00:05:34,069 --> 00:05:38,449
+systems so you have companies like my
+他们说内容管理系统不同，所以您拥有像我这样的公司
+
+109
+00:05:38,449 --> 00:05:43,550
+own jaya adobe magnolia that are all
+自己的jaya adobe玉兰，都以此为基础
+
+110
+00:05:43,550 --> 00:05:46,370
+using this as the infrastructure for
+自己的jaya adobe玉兰，都以此为基础
+
+111
+00:05:46,370 --> 00:05:48,349
+building content management systems for
+为您了解我的Apache构建内容管理系统
+
+112
+00:05:48,349 --> 00:05:49,879
+apache you know me
+为您了解我的Apache构建内容管理系统
+
+113
+00:05:49,879 --> 00:05:52,490
+we started this really as a project for
+我们开始这个项目实际上是为了满足我们自己的需求，所以我们的需求很简单
+
+114
+00:05:52,490 --> 00:05:54,680
+our own needs so our needs were simple
+我们开始这个项目实际上是为了满足我们自己的需求，所以我们的需求很简单
+
+115
+00:05:54,680 --> 00:05:56,740
+at first it was just to be able to
+起初只是为了能够实时收集
+
+116
+00:05:56,740 --> 00:06:00,650
+collect in real time the the behavior of
+起初只是为了能够实时收集
+
+117
+00:06:00,650 --> 00:06:04,819
+people using our CMS and so that was
+人们使用我们的CMS，这就是最初的用例
+
+118
+00:06:04,819 --> 00:06:06,379
+sort of the initial use case what was
+人们使用我们的CMS，这就是最初的用例
+
+119
+00:06:06,379 --> 00:06:09,409
+really fascinating was to see that once
+真正令人着迷的是，一旦这个项目进入了Apache内部
+
+120
+00:06:09,409 --> 00:06:11,930
+this project was inside the Apache
+真正令人着迷的是，一旦这个项目进入了Apache内部
+
+121
+00:06:11,930 --> 00:06:14,629
+foundation people found new uses for it
+基金会的人们发现了它的新用途，其中最令人惊讶的是
+
+122
+00:06:14,629 --> 00:06:18,110
+and one of the most surprising one was a
+基金会的人们发现了它的新用途，其中最令人惊讶的是
+
+123
+00:06:18,110 --> 00:06:20,150
+project we just learned about a few
+我们几个月前才刚刚了解的项目，
+
+124
+00:06:20,150 --> 00:06:23,180
+months ago and it's somebody that built
+我们几个月前才刚刚了解的项目，
+
+125
+00:06:23,180 --> 00:06:27,319
+an integration with slack and SMS
+与Slack和SMS系统集成，它们将使用Apache
+
+126
+00:06:27,319 --> 00:06:30,020
+systems and they would use Apache you
+与Slack和SMS系统集成，它们将使用Apache
+
+127
+00:06:30,020 --> 00:06:33,740
+know me as sort of the orchestrating
+知道我是这两个外部系统之间的协调系统
+
+128
+00:06:33,740 --> 00:06:36,710
+system between those two external
+知道我是这两个外部系统之间的协调系统
+
+129
+00:06:36,710 --> 00:06:40,909
+systems and this was all done to manage
+系统，这基本上是为了管理医疗保健而试图遵循的
+
+130
+00:06:40,909 --> 00:06:44,180
+healthcare basically trying to follow
+系统，这基本上是为了管理医疗保健而试图遵循的
+
+131
+00:06:44,180 --> 00:06:45,800
+people that are suffering from
+上瘾的人，只是为了确保
+
+132
+00:06:45,800 --> 00:06:48,469
+addictions and just to make sure that
+上瘾的人，只是为了确保
+
+133
+00:06:48,469 --> 00:06:51,050
+you're actually using the system to make
+您实际上是在使用系统来确保他们不会迷路，我的意思是
+
+134
+00:06:51,050 --> 00:06:53,120
+sure that they don't get lost I mean
+您实际上是在使用系统来确保他们不会迷路，我的意思是
+
+135
+00:06:53,120 --> 00:06:54,889
+they don't they'll get forgotten in a
+他们不是，他们会以某种方式被遗忘，所以这确实是相当
+
+136
+00:06:54,889 --> 00:06:59,120
+way and so that's really something quite
+他们不是，他们会以某种方式被遗忘，所以这确实是相当
+
+137
+00:06:59,120 --> 00:07:00,889
+incredible because you design a system
+令人难以置信，因为您针对特定用例设计了系统，然后
+
+138
+00:07:00,889 --> 00:07:02,990
+for a specific use case and then
+令人难以置信，因为您针对特定用例设计了系统，然后
+
+139
+00:07:02,990 --> 00:07:04,669
+suddenly somebody surprises you with
+突然有人用一个完全不同的东西给你一个惊喜
+
+140
+00:07:04,669 --> 00:07:06,589
+with a completely different one and
+突然有人用一个完全不同的东西给你一个惊喜
+
+141
+00:07:06,589 --> 00:07:08,629
+that's that's what I love about Apache
+那就是我对Apache项目ofb的热爱，本质上就是这样开放
+
+142
+00:07:08,629 --> 00:07:11,719
+projects ofb is essentially this open
+那就是我对Apache项目ofb的热爱，本质上就是这样开放
+
+143
+00:07:11,719 --> 00:07:14,689
+source ERP application development
+源ERP应用程序开发框架，可能会有点
+
+144
+00:07:14,689 --> 00:07:17,569
+framework and it can be a little bit
+源ERP应用程序开发框架，可能会有点
+
+145
+00:07:17,569 --> 00:07:20,360
+intimidating it has a broad scope of
+恐吓它具有广泛的功能范围，并且是其中之一
+
+146
+00:07:20,360 --> 00:07:22,639
+functionality and and it's one of those
+恐吓它具有广泛的功能范围，并且是其中之一
+
+147
+00:07:22,639 --> 00:07:25,250
+cases where if you're not careful people
+如果您不小心的话，人们会问您哦，f是做什么的，您说
+
+148
+00:07:25,250 --> 00:07:27,469
+ask you what does oh f is do and you say
+如果您不小心的话，人们会问您哦，f是做什么的，您说
+
+149
+00:07:27,469 --> 00:07:29,500
+oh it does everything
+哦，它做了所有的事情，但这不是最好的答案
+
+150
+00:07:29,500 --> 00:07:31,620
+but that's not the best answer
+哦，它做了所有的事情，但这不是最好的答案
+
+151
+00:07:31,620 --> 00:07:35,080
+surprisingly what we do is take of' is
+令人惊讶的是，我们要做的是'，然后我们将其成形并形成满足
+
+152
+00:07:35,080 --> 00:07:38,500
+and then we shape it and form it to meet
+令人惊讶的是，我们要做的是'，然后我们将其成形并形成满足
+
+153
+00:07:38,500 --> 00:07:40,720
+the specific needs of our clients so
+客户的特定需求，因此最终我们从事的业务是
+
+154
+00:07:40,720 --> 00:07:43,450
+ultimately we are in the business of
+客户的特定需求，因此最终我们从事的业务是
+
+155
+00:07:43,450 --> 00:07:45,760
+executing strategies right
+执行策略吧，我们希望业务人员能够
+
+156
+00:07:45,760 --> 00:07:48,820
+we like the business person to be able
+执行策略吧，我们希望业务人员能够
+
+157
+00:07:48,820 --> 00:07:50,800
+to set the strategy and then we have a
+制定策略，然后获得技术策略支持，因此我们希望
+
+158
+00:07:50,800 --> 00:07:54,010
+technology strategy support so we want
+制定策略，然后获得技术策略支持，因此我们希望
+
+159
+00:07:54,010 --> 00:07:55,420
+to understand that business strategy
+要非常了解业务战略，我们希望相信
+
+160
+00:07:55,420 --> 00:07:58,480
+really well we want to believe in it if
+要非常了解业务战略，我们希望相信
+
+161
+00:07:58,480 --> 00:08:00,040
+we're going to commit to the project we
+我们将致力于该项目我们希望您成功，然后我们将
+
+162
+00:08:00,040 --> 00:08:02,290
+want you to be successful and then we'll
+我们将致力于该项目我们希望您成功，然后我们将
+
+163
+00:08:02,290 --> 00:08:04,570
+take off this and we'll shape it and
+脱掉它，我们将对其进行整形，自定义，扩展和配置
+
+164
+00:08:04,570 --> 00:08:07,300
+customize it and extend it and configure
+脱掉它，我们将对其进行整形，自定义，扩展和配置
+
+165
+00:08:07,300 --> 00:08:10,450
+it and adjust it to make this bespoke
+并对其进行调整以为我们的客户提供此定制解决方案
+
+166
+00:08:10,450 --> 00:08:12,700
+solution for our client that does
+并对其进行调整以为我们的客户提供此定制解决方案
+
+167
+00:08:12,700 --> 00:08:14,860
+exactly what this business strategy
+正是这个商业策略所决定的，我认为这是一件伟大的事情
+
+168
+00:08:14,860 --> 00:08:17,110
+dictates I think one of the great things
+正是这个商业策略所决定的，我认为这是一件伟大的事情
+
+169
+00:08:17,110 --> 00:08:19,840
+about RDF and even I did not realize
+关于RDF，甚至我在深入了解这一点之前都没有意识到
+
+170
+00:08:19,840 --> 00:08:22,180
+before getting too much into this is
+关于RDF，甚至我在深入了解这一点之前都没有意识到
+
+171
+00:08:22,180 --> 00:08:24,100
+that you can express anything in this
+您可以用这种格式表达任何内容，所以我认为这确实导致了
+
+172
+00:08:24,100 --> 00:08:27,400
+format so I think that really leads to a
+您可以用这种格式表达任何内容，所以我认为这确实导致了
+
+173
+00:08:27,400 --> 00:08:29,170
+lot of applications or possible
+大量应用程序或此数据的可能应用程序，因此您可以
+
+174
+00:08:29,170 --> 00:08:32,110
+applications for this data so you can
+大量应用程序或此数据的可能应用程序，因此您可以
+
+175
+00:08:32,110 --> 00:08:35,229
+say the sky is blue or you can say Edina
+说天空是蓝色，或者您可以说Edina是副教授，但您可以
+
+176
+00:08:35,229 --> 00:08:37,599
+is an associate professor but you can
+说天空是蓝色，或者您可以说Edina是副教授，但您可以
+
+177
+00:08:37,599 --> 00:08:41,380
+also say stored data that is financial
+还说存储数据是财务数据或只是文档，并说这
+
+178
+00:08:41,380 --> 00:08:44,560
+data or just documents and say this
+还说存储数据是财务数据或只是文档，并说这
+
+179
+00:08:44,560 --> 00:08:46,330
+document was modified at a particular
+文档在特定日期被修改，您可以在这些日期的基础上进行构建
+
+180
+00:08:46,330 --> 00:08:49,000
+date and you can build on top of these
+文档在特定日期被修改，您可以在这些日期的基础上进行构建
+
+181
+00:08:49,000 --> 00:08:51,430
+applications for example that keep track
+例如跟踪数据来源的应用程序之一
+
+182
+00:08:51,430 --> 00:08:53,230
+of data provenance one of the
+例如跟踪数据来源的应用程序之一
+
+183
+00:08:53,230 --> 00:08:57,600
+applications of RIA in the Navy is
+RIA在海军中的应用是具有人工智能的无人机
+
+184
+00:08:57,600 --> 00:09:02,800
+drones with intelligence artificial
+RIA在海军中的应用是具有人工智能的无人机
+
+185
+00:09:02,800 --> 00:09:05,470
+intelligence and image recognition so
+智能和图像识别，因此您可以让这些无人机飞翔
+
+186
+00:09:05,470 --> 00:09:07,930
+you can have these drones that fly
+智能和图像识别，因此您可以让这些无人机飞翔
+
+187
+00:09:07,930 --> 00:09:12,580
+around and they can try to do image
+他们可以尝试进行图像识别，例如，这是一个
+
+188
+00:09:12,580 --> 00:09:14,920
+recognition for example this was a
+他们可以尝试进行图像识别，例如，这是一个
+
+189
+00:09:14,920 --> 00:09:17,710
+reconnaissance and target acquirement so
+侦察和目标获取，所以他们试图在这个领域认识人
+
+190
+00:09:17,710 --> 00:09:19,930
+they tried to recognize people in this
+侦察和目标获取，所以他们试图在这个领域认识人
+
+191
+00:09:19,930 --> 00:09:22,780
+case of course they ran image
+他们当然使用了图像识别算法，并尝试
+
+192
+00:09:22,780 --> 00:09:26,050
+recognition algorithms and they try to
+他们当然使用了图像识别算法，并尝试
+
+193
+00:09:26,050 --> 00:09:28,800
+find a particular person or a particular
+找到一个特定的人或一个特定的建筑目标或其他
+
+194
+00:09:28,800 --> 00:09:32,320
+target for building or whatever the
+找到一个特定的人或一个特定的建筑目标或其他
+
+195
+00:09:32,320 --> 00:09:36,040
+target is and then you can communicate
+目标是，然后您可以与可以进行通信的无人机进行通信
+
+196
+00:09:36,040 --> 00:09:39,370
+with the drones that you can communicate
+目标是，然后您可以与可以进行通信的无人机进行通信
+
+197
+00:09:39,370 --> 00:09:41,740
+with other computers which are on ships
+与船上的其他计算机或
+
+198
+00:09:41,740 --> 00:09:42,190
+or
+与船上的其他计算机或
+
+199
+00:09:42,190 --> 00:09:44,920
+or down on the ground and they can
+或在地面上，他们可以协调整个行动，
+
+200
+00:09:44,920 --> 00:09:46,990
+coordinate an entire action and
+或在地面上，他们可以协调整个行动，
+
+201
+00:09:46,990 --> 00:09:49,510
+somewhere below all the artificial
+在所有人工智能和所有通信下面的某个地方
+
+202
+00:09:49,510 --> 00:09:51,370
+intelligence and all the communication a
+在所有人工智能和所有通信下面的某个地方
+
+203
+00:09:51,370 --> 00:09:53,350
+lot of data was actually stored in dia
+实际上，很多数据都存储在dia中，因此
+
+204
+00:09:53,350 --> 00:09:57,850
+so because of this flexibility of the
+实际上，很多数据都存储在dia中，因此
+
+205
+00:09:57,850 --> 00:10:00,010
+data format you really can store a lot
+数据格式，您真的可以存储很多数据，很多不同类型的数据
+
+206
+00:10:00,010 --> 00:10:01,780
+of data a lot of different types of data
+数据格式，您真的可以存储很多数据，很多不同类型的数据
+
+207
+00:10:01,780 --> 00:10:05,110
+india and what we are trying it's tree
+印度，而我们尝试使用的是可扩展的树，因此您可以存储
+
+208
+00:10:05,110 --> 00:10:06,850
+is very scalable so you can store
+印度，而我们尝试使用的是可扩展的树，因此您可以存储
+
+209
+00:10:06,850 --> 00:10:09,220
+billions of triples and you can ask
+数十亿的三元组，您可以在几毫秒内查询
+
+210
+00:10:09,220 --> 00:10:12,760
+queries in seconds milliseconds and that
+数十亿的三元组，您可以在几毫秒内查询
+
+211
+00:10:12,760 --> 00:10:14,470
+really helps in some of these
+在某些应用程序中确实有帮助，云堆栈是
+
+212
+00:10:14,470 --> 00:10:17,020
+applications cloud stack is an
+在某些应用程序中确实有帮助，云堆栈是
+
+213
+00:10:17,020 --> 00:10:19,120
+infrastructure as a service platform and
+基础架构即服务平台，真正的意思是它
+
+214
+00:10:19,120 --> 00:10:21,190
+what that really means is that it
+基础架构即服务平台，真正的意思是它
+
+215
+00:10:21,190 --> 00:10:22,510
+abstract away
+消除提供服务的所有复杂性
+
+216
+00:10:22,510 --> 00:10:26,370
+all of the complexities of offering a
+消除提供服务的所有复杂性
+
+217
+00:10:26,370 --> 00:10:29,530
+infrastructure platform and essentially
+基础架构平台，实际上，它是通过提供API和
+
+218
+00:10:29,530 --> 00:10:33,490
+it does that by by providing an API and
+基础架构平台，实际上，它是通过提供API和
+
+219
+00:10:33,490 --> 00:10:36,370
+a user interface for a number of very
+一个用于许多非常复杂动作的用户界面，
+
+220
+00:10:36,370 --> 00:10:38,920
+complex actions and makes that very
+一个用于许多非常复杂动作的用户界面，
+
+221
+00:10:38,920 --> 00:10:41,530
+simple to use and consume cloud stack is
+易于使用和使用的云堆栈本​​质上是一种软件，可让您
+
+222
+00:10:41,530 --> 00:10:43,860
+essentially software that allows you to
+易于使用和使用的云堆栈本​​质上是一种软件，可让您
+
+223
+00:10:43,860 --> 00:10:48,330
+have individuals in your organization
+让您组织中的个人根据一组资源
+
+224
+00:10:48,330 --> 00:10:51,700
+provision resources according to a set
+让您组织中的个人根据一组资源
+
+225
+00:10:51,700 --> 00:10:53,230
+of rules and those could be business
+规则，这些可以是业务规则或技术规则，并允许它们
+
+226
+00:10:53,230 --> 00:10:57,340
+rules or technical rules and allow them
+规则，这些可以是业务规则或技术规则，并允许它们
+
+227
+00:10:57,340 --> 00:11:00,360
+to get things done in a in a fast manner
+快速完成工作，因为他们从本质上说
+
+228
+00:11:00,360 --> 00:11:02,800
+because they've they've essentially been
+快速完成工作，因为他们从本质上说
+
+229
+00:11:02,800 --> 00:11:05,410
+delegated some technical and
+委派了一些技术和组织权限来进行操作
+
+230
+00:11:05,410 --> 00:11:07,180
+organizational authority to get things
+委派了一些技术和组织权限来进行操作
+
+231
+00:11:07,180 --> 00:11:09,100
+done now this provides essentially a
+现在完成的操作基本上提供了一个技术层，使人们能够
+
+232
+00:11:09,100 --> 00:11:11,770
+technical layer that allows people to
+现在完成的操作基本上提供了一个技术层，使人们能够
+
+233
+00:11:11,770 --> 00:11:13,990
+action things so you can have an
+采取行动，这样您就可以拥有需要测试的个人开发人员
+
+234
+00:11:13,990 --> 00:11:16,420
+individual developer who needs a test
+采取行动，这样您就可以拥有需要测试的个人开发人员
+
+235
+00:11:16,420 --> 00:11:19,390
+environment for testing software and
+测试软件的环境，而不是要求人们站起来
+
+236
+00:11:19,390 --> 00:11:22,360
+rather than asking people to stand up a
+测试软件的环境，而不是要求人们站起来
+
+237
+00:11:22,360 --> 00:11:24,670
+test environment for him he would make
+他的测试环境，他将进行API调用或登录用户
+
+238
+00:11:24,670 --> 00:11:27,040
+an API call or he would log into a user
+他的测试环境，他将进行API调用或登录用户
+
+239
+00:11:27,040 --> 00:11:29,890
+interface and stand up that test
+界面并自己站起来测试环境，因此云堆栈是
+
+240
+00:11:29,890 --> 00:11:32,980
+environment himself so cloud stack is
+界面并自己站起来测试环境，因此云堆栈是
+
+241
+00:11:32,980 --> 00:11:36,790
+really about providing access to a set
+真正涉及提供对一组组织资源的访问并让
+
+242
+00:11:36,790 --> 00:11:38,980
+of organizational resources and letting
+真正涉及提供对一组组织资源的访问并让
+
+243
+00:11:38,980 --> 00:11:41,440
+you actually get work accomplished but
+您实际上可以完成工作，却不必强迫所有复杂的工作
+
+244
+00:11:41,440 --> 00:11:43,720
+without forcing all of the complexity of
+您实际上可以完成工作，却不必强迫所有复杂的工作
+
+245
+00:11:43,720 --> 00:11:46,780
+having to know about how to provision so
+必须知道如何配置，从而消除了一些复杂性，
+
+246
+00:11:46,780 --> 00:11:48,580
+remove some of that complexity and
+必须知道如何配置，从而消除了一些复杂性，
+
+247
+00:11:48,580 --> 00:11:50,740
+allows you to focus on getting the
+让您专注于完成基础工作
+
+248
+00:11:50,740 --> 00:11:52,360
+underlying work accomplished that you
+让您专注于完成基础工作
+
+249
+00:11:52,360 --> 00:11:54,580
+need to do I got involved with Tomcat
+我需要做的事涉及Tomcat大约15
+
+250
+00:11:54,580 --> 00:11:55,550
+about 15
+我需要做的事涉及Tomcat大约15
+
+251
+00:11:55,550 --> 00:11:58,160
+years ago I was working as an IT
+多年前，我担任IT顾问，我们正在做一些工作
+
+252
+00:11:58,160 --> 00:12:01,550
+consultant and we were doing some work
+多年前，我担任IT顾问，我们正在做一些工作
+
+253
+00:12:01,550 --> 00:12:05,630
+with SSL authentication and the product
+使用SSL身份验证，我们使用的产品无法正常工作
+
+254
+00:12:05,630 --> 00:12:07,519
+we were using wasn't working properly so
+使用SSL身份验证，我们使用的产品无法正常工作
+
+255
+00:12:07,519 --> 00:12:09,649
+he switched to JBoss which at that time
+他改用了当时嵌入了tomcat的JBoss，我们得到了一个
+
+256
+00:12:09,649 --> 00:12:12,860
+had tomcat embedded in it and we got a
+他改用了当时嵌入了tomcat的JBoss，我们得到了一个
+
+257
+00:12:12,860 --> 00:12:14,329
+lot further with it there's one little
+更进一步的是，它没有做一件事，因为它是
+
+258
+00:12:14,329 --> 00:12:17,060
+thing it didn't do so because it was
+更进一步的是，它没有做一件事，因为它是
+
+259
+00:12:17,060 --> 00:12:18,350
+open-source I was able to look at the
+开源我能够查看源代码并找到注释
+
+260
+00:12:18,350 --> 00:12:20,930
+source code and find the comment that
+开源我能够查看源代码并找到注释
+
+261
+00:12:20,930 --> 00:12:22,790
+said to do must make this configurable
+据说要做的事必须使这种可配置的思想更加出色，我可以做到
+
+262
+00:12:22,790 --> 00:12:24,399
+thought brilliant I can do that
+据说要做的事必须使这种可配置的思想更加出色，我可以做到
+
+263
+00:12:24,399 --> 00:12:27,769
+submitted a patch had that patch pretty
+提交了一个补丁，该补丁几乎被撕裂了，非常好，但是它
+
+264
+00:12:27,769 --> 00:12:30,560
+much torn apart and very nicely but it
+提交了一个补丁，该补丁几乎被撕裂了，非常好，但是它
+
+265
+00:12:30,560 --> 00:12:32,779
+was torn apart showing all the ways I
+被撕裂了，显示了我应该做得更好的所有方式，所以我采取了
+
+266
+00:12:32,779 --> 00:12:34,700
+should have done it better so I took
+被撕裂了，显示了我应该做得更好的所有方式，所以我采取了
+
+267
+00:12:34,700 --> 00:12:37,010
+that advice improved the patch submitted
+该建议改进了修补程序，再次提交了该修补程序，使其成为Tomcat的一部分
+
+268
+00:12:37,010 --> 00:12:38,839
+it again and it became part of Tomcat
+该建议改进了修补程序，再次提交了该修补程序，使其成为Tomcat的一部分
+
+269
+00:12:38,839 --> 00:12:40,430
+and I found it something I really
+我发现它是我真正喜欢的东西，并且是对此进行研究的一部分
+
+270
+00:12:40,430 --> 00:12:44,029
+enjoyed and as part of researching that
+我发现它是我真正喜欢的东西，并且是对此进行研究的一部分
+
+271
+00:12:44,029 --> 00:12:45,829
+I'd realized that all there's all these
+我意识到所有其他数百个需要修复的错误
+
+272
+00:12:45,829 --> 00:12:47,660
+other hundreds of bugs that need fixing
+我意识到所有其他数百个需要修复的错误
+
+273
+00:12:47,660 --> 00:12:50,180
+as well perhaps I'll do some of those so
+也许我会做一些这样的事情，所以我以这种方式开始参与
+
+274
+00:12:50,180 --> 00:12:52,370
+I got involved that way started fixing
+也许我会做一些这样的事情，所以我以这种方式开始参与
+
+275
+00:12:52,370 --> 00:12:54,620
+bugs and it have essentially been doing
+自从我认为那件事以来，它就一直在这样做
+
+276
+00:12:54,620 --> 00:12:56,899
+that ever since I think that the thing
+自从我认为那件事以来，它就一直在这样做
+
+277
+00:12:56,899 --> 00:13:00,020
+that I get most satisfaction from is
+我最满意的是当我开始参与
+
+278
+00:13:00,020 --> 00:13:02,810
+when I started my involvement in the
+我最满意的是当我开始参与
+
+279
+00:13:02,810 --> 00:13:06,500
+Tomcat project we had something like 600
+在Tomcat项目中，这些天来，当我们执行
+
+280
+00:13:06,500 --> 00:13:11,540
+plus open bugs these days when we do a
+在Tomcat项目中，这些天来，当我们执行
+
+281
+00:13:11,540 --> 00:13:15,079
+release we have zero essentially we've
+发布，我们基本上是零，我们有一些开放的增强功能，但是
+
+282
+00:13:15,079 --> 00:13:16,579
+got a few open enhancement requests but
+发布，我们基本上是零，我们有一些开放的增强功能，但是
+
+283
+00:13:16,579 --> 00:13:18,589
+the actual bugs they're fixed so
+他们已修复的实际错误，因此可以通过该列表
+
+284
+00:13:18,589 --> 00:13:22,010
+actually working through that list of
+他们已修复的实际错误，因此可以通过该列表
+
+285
+00:13:22,010 --> 00:13:25,010
+open bugs and reviewing them and closing
+打开错误并进行检查并正确关闭它们
+
+286
+00:13:25,010 --> 00:13:26,600
+them properly not sort of there
+打开错误并进行检查并正确关闭它们
+
+287
+00:13:26,600 --> 00:13:28,579
+oh well it's been open for a year so
+哦，它已经开放了一年，所以我们将其关闭，因为没有人
+
+288
+00:13:28,579 --> 00:13:29,750
+we'll just close it because nobody's
+哦，它已经开放了一年，所以我们将其关闭，因为没有人
+
+289
+00:13:29,750 --> 00:13:30,709
+looking at it anymore
+看着它实际上正在审查它审查
+
+290
+00:13:30,709 --> 00:13:33,230
+actually reviewing it examining it
+看着它实际上正在审查它审查
+
+291
+00:13:33,230 --> 00:13:35,120
+working it with it's really a bug if it
+如果不能解决原因，则对其进行修复确实是一个错误。
+
+292
+00:13:35,120 --> 00:13:37,399
+is fixing it if it's not explaining why
+如果不能解决原因，则对其进行修复确实是一个错误。
+
+293
+00:13:37,399 --> 00:13:39,709
+and closing it legitimately I think
+并合法地关闭它，我认为将错误列表降为零
+
+294
+00:13:39,709 --> 00:13:41,449
+getting the bug list down to zero for
+并合法地关闭它，我认为将错误列表降为零
+
+295
+00:13:41,449 --> 00:13:42,709
+tomcat is something that I'm
+tomcat让我感到特别高兴的是
+
+296
+00:13:42,709 --> 00:13:44,870
+particularly pleased that I had a big
+tomcat让我感到特别高兴的是
+
+297
+00:13:44,870 --> 00:13:48,170
+part in what often surprises me is all
+经常让我感到惊讶的部分是Tomcats所使用的所有地方，而我从未
+
+298
+00:13:48,170 --> 00:13:51,079
+the places that Tomcats use that I never
+经常让我感到惊讶的部分是Tomcats所使用的所有地方，而我从未
+
+299
+00:13:51,079 --> 00:13:55,220
+knew about I was at a conference and
+知道我在开会，有人在谈论网络
+
+300
+00:13:55,220 --> 00:13:58,699
+somebody was giving a talk about web
+知道我在开会，有人在谈论网络
+
+301
+00:13:58,699 --> 00:14:00,350
+application performance and shooting so
+应用程序的性能和拍摄，因此可能很有趣的是
+
+302
+00:14:00,350 --> 00:14:01,820
+all that could be quite interesting is
+应用程序的性能和拍摄，因此可能很有趣的是
+
+303
+00:14:01,820 --> 00:14:04,910
+it's an area that technically I like to
+从技术上讲，这是我喜欢听的地方，所以我进入了
+
+304
+00:14:04,910 --> 00:14:07,100
+hear about and so I went onto the
+从技术上讲，这是我喜欢听的地方，所以我进入了
+
+305
+00:14:07,100 --> 00:14:09,250
+presentation and discovered that
+演示并发现NFL在美国的所有网站都是
+
+306
+00:14:09,250 --> 00:14:12,370
+NFL in the US all their websites were
+演示并发现NFL在美国的所有网站都是
+
+307
+00:14:12,370 --> 00:14:14,200
+based on Tomcat whether that still the
+基于Tomcat是否仍然不知道这种情况，但那时候是
+
+308
+00:14:14,200 --> 00:14:17,040
+case I don't know but back then it was
+基于Tomcat是否仍然不知道这种情况，但那时候是
+
+309
+00:14:17,040 --> 00:14:19,870
+eBay uses a lot of Tomcat and I didn't
+eBay使用了很多Tomcat，但直到eBay出现并说
+
+310
+00:14:19,870 --> 00:14:21,880
+know that until eBay turned up and said
+eBay使用了很多Tomcat，但直到eBay出现并说
+
+311
+00:14:21,880 --> 00:14:24,460
+but yeah we losing using a lot of Tomcat
+但是，是的，我们损失了很多Tomcat，并且获得了相当多的网页浏览量
+
+312
+00:14:24,460 --> 00:14:27,460
+and we get quite a few pageviews you
+但是，是的，我们损失了很多Tomcat，并且获得了相当多的网页浏览量
+
+313
+00:14:27,460 --> 00:14:30,310
+might have heard of us and these few
+可能听说过我们以及这几个地方
+
+314
+00:14:30,310 --> 00:14:31,960
+places where it's not quite as quick as
+可能听说过我们以及这几个地方
+
+315
+00:14:31,960 --> 00:14:33,910
+it could be here are some changes we've
+这可能是我们所做的一些更改，您是否可以帮助我们将其放入
+
+316
+00:14:33,910 --> 00:14:35,800
+made could you help us put them into the
+这可能是我们所做的一些更改，您是否可以帮助我们将其放入
+
+317
+00:14:35,800 --> 00:14:38,680
+codes yeah absolutely and we worked with
+是的，绝对可以，我们与他们合作来整合他们的补丁，因此
+
+318
+00:14:38,680 --> 00:14:41,850
+them to incorporate their patches so
+是的，绝对可以，我们与他们合作来整合他们的补丁，因此
+
+319
+00:14:41,850 --> 00:14:47,080
+what I find is that lots and lots of
+我发现的是，那里有很多公司在使用
+
+320
+00:14:47,080 --> 00:14:48,670
+companies that are there are using
+我发现的是，那里有很多公司在使用
+
+321
+00:14:48,670 --> 00:14:50,560
+Tomcat taking advantage of it and doing
+Tomcat可以利用它并做各种事情，无论它们是否
+
+322
+00:14:50,560 --> 00:14:52,360
+all sorts of things whether they be
+Tomcat可以利用它并做各种事情，无论它们是否
+
+323
+00:14:52,360 --> 00:14:56,370
+commercial entities whether they be
+商业实体，无论他们是否是教育机构，
+
+324
+00:14:56,370 --> 00:14:59,410
+educational institutes the fact that
+商业实体，无论他们是否是教育机构，
+
+325
+00:14:59,410 --> 00:15:01,900
+it's it's there it's available and
+它在那里，人们可以利用它，我认为是
+
+326
+00:15:01,900 --> 00:15:03,730
+people can make use of it I think is
+它在那里，人们可以利用它，我认为是
+
+327
+00:15:03,730 --> 00:15:04,240
+great
+我很棒，很高兴看到
+
+328
+00:15:04,240 --> 00:15:07,990
+I sort of was very happy to see sort of
+我很棒，很高兴看到
+
+329
+00:15:07,990 --> 00:15:10,000
+the public interest with all this
+所有行业4.0数字化和生产的公共利益
+
+330
+00:15:10,000 --> 00:15:13,150
+industry 4.0 digitization and production
+所有行业4.0数字化和生产的公共利益
+
+331
+00:15:13,150 --> 00:15:15,670
+industry sort of coming up because it
+行业之所以出现，是因为这全都与Apache的软件有关
+
+332
+00:15:15,670 --> 00:15:17,860
+was all about software Apache for
+行业之所以出现，是因为这全都与Apache的软件有关
+
+333
+00:15:17,860 --> 00:15:19,540
+example had to offer it was sort of like
+示例必须提供的有点像大数据机器学习云
+
+334
+00:15:19,540 --> 00:15:22,660
+Big Data machine learning cloud
+示例必须提供的有点像大数据机器学习云
+
+335
+00:15:22,660 --> 00:15:25,330
+technology and all the stuff we have so
+技术和我们拥有的所有东西，所以我真的很期待
+
+336
+00:15:25,330 --> 00:15:27,210
+I was really looking forward to doing
+技术和我们拥有的所有东西，所以我真的很期待
+
+337
+00:15:27,210 --> 00:15:29,710
+industrial IOT projects because I have
+工业物联网项目，因为我不得不承认我不是那种云计算专家
+
+338
+00:15:29,710 --> 00:15:32,650
+to admit I'm not that sort of cloud guy
+工业物联网项目，因为我不得不承认我不是那种云计算专家
+
+339
+00:15:32,650 --> 00:15:35,890
+I really like physical things so it's
+我真的很喜欢物理事物，所以对我来说，进行控制会更有趣
+
+340
+00:15:35,890 --> 00:15:39,130
+for me it's more fun to sort of control
+我真的很喜欢物理事物，所以对我来说，进行控制会更有趣
+
+341
+00:15:39,130 --> 00:15:42,700
+some huge engines and robots so I was
+一些巨大的引擎和机器人，所以我真的很期待，但是
+
+342
+00:15:42,700 --> 00:15:44,260
+really looking forward to that but it
+一些巨大的引擎和机器人，所以我真的很期待，但是
+
+343
+00:15:44,260 --> 00:15:47,470
+wasn't happening because so if I did a
+不会发生，因为如果我做了一点研究为什么会这样
+
+344
+00:15:47,470 --> 00:15:48,910
+little research why that was the case
+不会发生，因为如果我做了一点研究为什么会这样
+
+345
+00:15:48,910 --> 00:15:52,420
+and I finally found out it's the main
+我终于发现，主要的问题是我们无法交谈
+
+346
+00:15:52,420 --> 00:15:54,460
+problem was that we weren't able to talk
+我终于发现，主要的问题是我们无法交谈
+
+347
+00:15:54,460 --> 00:15:56,650
+to the industrial hardware because they
+到工业硬件，因为它们使用的是完全不同的
+
+348
+00:15:56,650 --> 00:15:58,089
+were using completely different
+到工业硬件，因为它们使用的是完全不同的
+
+349
+00:15:58,089 --> 00:16:00,100
+technologies completely different
+技术完全不同的协议，所以我目前的主要重点是
+
+350
+00:16:00,100 --> 00:16:04,690
+protocols so my current main focus is a
+技术完全不同的协议，所以我目前的主要重点是
+
+351
+00:16:04,690 --> 00:16:07,780
+project I was happy to initiate it's
+我很高兴启动一个名为Apache PLC 4x的项目，这就是我们
+
+352
+00:16:07,780 --> 00:16:10,990
+called Apache PLC 4x so this is our
+我很高兴启动一个名为Apache PLC 4x的项目，这就是我们
+
+353
+00:16:10,990 --> 00:16:13,150
+little mascot and what we're trying to
+小吉祥物，我们正在尝试做的是，我们正在尝试建立一种
+
+354
+00:16:13,150 --> 00:16:14,890
+do is we're trying to build sort of a
+小吉祥物，我们正在尝试做的是，我们正在尝试建立一种
+
+355
+00:16:14,890 --> 00:16:17,140
+universal library for communicating with
+通用库，用于与它们使用的工业硬件进行通信
+
+356
+00:16:17,140 --> 00:16:19,570
+industrial hardware they sort of use
+通用库，用于与它们使用的工业硬件进行通信
+
+357
+00:16:19,570 --> 00:16:22,100
+protocols to exchange information
+信息交换协议，这些协议通常非常
+
+358
+00:16:22,100 --> 00:16:24,140
+and these protocols are usually very
+信息交换协议，这些协议通常非常
+
+359
+00:16:24,140 --> 00:16:28,460
+highly proprietary and so a device from
+高度专有，因此制造商的设备通常可以与
+
+360
+00:16:28,460 --> 00:16:30,800
+manufacturer a can usually just talk to
+高度专有，因此制造商的设备通常可以与
+
+361
+00:16:30,800 --> 00:16:33,590
+the devices of manufacturer a so
+制造商的设备导致供应商锁定
+
+362
+00:16:33,590 --> 00:16:36,340
+resulting in sort of a vendor lock-in
+制造商的设备导致供应商锁定
+
+363
+00:16:36,340 --> 00:16:38,960
+and what we're doing is sort of where
+我们正在做的是有时在哪里实施这些协议的地方
+
+364
+00:16:38,960 --> 00:16:41,120
+sometimes implementing those protocols
+我们正在做的是有时在哪里实施这些协议的地方
+
+365
+00:16:41,120 --> 00:16:44,090
+by reading the spec or by implementing
+通过阅读规范或有时通过反向实施规范
+
+366
+00:16:44,090 --> 00:16:46,010
+the spec sometimes by reverse
+通过阅读规范或有时通过反向实施规范
+
+367
+00:16:46,010 --> 00:16:48,770
+engineering the protocols and hereby
+对协议进行工程​​设计，因此可以
+
+368
+00:16:48,770 --> 00:16:51,140
+were sort of yeah making it possible to
+对协议进行工程​​设计，因此可以
+
+369
+00:16:51,140 --> 00:16:54,110
+communicate the same way with any
+与我们通常使用的任何工业硬件进行相同的通信
+
+370
+00:16:54,110 --> 00:16:57,350
+industrial hardware we usually use the
+与我们通常使用的任何工业硬件进行相同的通信
+
+371
+00:16:57,350 --> 00:17:02,000
+term industrial IOT or a IOT as we do
+术语“工业物联网”或“物联网”，因为我们不像小工具或
+
+372
+00:17:02,000 --> 00:17:04,970
+not work with like small gadgets or our
+术语“工业物联网”或“物联网”，因为我们不像小工具或
+
+373
+00:17:04,970 --> 00:17:07,400
+smartwatches and mobile phones or
+智能手表和手机，或其他通常与我们合作的产品
+
+374
+00:17:07,400 --> 00:17:10,130
+whatever but we usually work with
+智能手表和手机，或其他通常与我们合作的产品
+
+375
+00:17:10,130 --> 00:17:14,959
+machines big machines as we I personally
+机器大机器，因为我个人来自德国南部
+
+376
+00:17:14,959 --> 00:17:16,490
+come from the south of Germany we have a
+机器大机器，因为我个人来自德国南部
+
+377
+00:17:16,490 --> 00:17:18,740
+lot of machine manufacturers there and
+那里有很多机器制造商，所有这些机器都有控制器
+
+378
+00:17:18,740 --> 00:17:20,720
+all of those machines have controllers
+那里有很多机器制造商，所有这些机器都有控制器
+
+379
+00:17:20,720 --> 00:17:23,030
+software's controllers are twenty or
+该软件的控制器已有20或30年的历史
+
+380
+00:17:23,030 --> 00:17:23,930
+thirty years old
+该软件的控制器已有20或30年的历史
+
+381
+00:17:23,930 --> 00:17:25,819
+because they're meant to be robust and
+因为它们本来就很健壮并且可以工作，而且它们是相当复杂的部分
+
+382
+00:17:25,819 --> 00:17:29,030
+work and they are rather complex pieces
+因为它们本来就很健壮并且可以工作，而且它们是相当复杂的部分
+
+383
+00:17:29,030 --> 00:17:31,540
+of hardware but not optimized for
+硬件，但未针对互操作性进行优化，而是要使其健壮
+
+384
+00:17:31,540 --> 00:17:34,700
+interoperability but rather to be robust
+硬件，但未针对互操作性进行优化，而是要使其健壮
+
+385
+00:17:34,700 --> 00:17:39,370
+and and provide real-time capabilities
+并提供实时功能安全功能来控制那些
+
+386
+00:17:39,370 --> 00:17:42,110
+safety functions to control those big
+并提供实时功能安全功能来控制那些
+
+387
+00:17:42,110 --> 00:17:43,730
+machines and those machines can really
+机器，这些机器真的可以重达五十吨甚至更多，并且
+
+388
+00:17:43,730 --> 00:17:45,860
+weight fifty tons or even more and be
+机器，这些机器真的可以重达五十吨甚至更多，并且
+
+389
+00:17:45,860 --> 00:17:48,640
+several meters long and high basically
+几米长高基本上永远之间
+
+390
+00:17:48,640 --> 00:17:51,730
+forever there has been the gap between
+几米长高基本上永远之间
+
+391
+00:17:51,730 --> 00:17:54,680
+the Machine infrastructure or the
+机器基础架构或与机器的网络进行通信
+
+392
+00:17:54,680 --> 00:17:56,330
+network with machines communicate with
+机器基础架构或与机器的网络进行通信
+
+393
+00:17:56,330 --> 00:17:59,780
+each other and the IT landscape so
+彼此之间以及IT领域，因此通常我们在
+
+394
+00:17:59,780 --> 00:18:01,910
+usually we have different networks in
+彼此之间以及IT领域，因此通常我们在
+
+395
+00:18:01,910 --> 00:18:04,070
+those factories now with all the
+这些工厂现在具备我们必须存储数据到的所有功能
+
+396
+00:18:04,070 --> 00:18:06,260
+capabilities we have to store data to
+这些工厂现在具备我们必须存储数据到的所有功能
+
+397
+00:18:06,260 --> 00:18:08,230
+analyze data to extract information
+分析数据以提取人们想要使用我们已知工具的信息
+
+398
+00:18:08,230 --> 00:18:11,150
+people want to use the tools we know
+分析数据以提取人们想要使用我们已知工具的信息
+
+399
+00:18:11,150 --> 00:18:14,530
+from the big data area from the aia
+来自aia研究的常规应用中的大数据领域
+
+400
+00:18:14,530 --> 00:18:18,620
+research from regular application
+来自aia研究的常规应用中的大数据领域
+
+401
+00:18:18,620 --> 00:18:21,530
+development and want to apply those
+开发并希望将这些技术应用于机器或数据
+
+402
+00:18:21,530 --> 00:18:23,720
+techniques to the machines or to data
+开发并希望将这些技术应用于机器或数据
+
+403
+00:18:23,720 --> 00:18:25,880
+gathered from those machines many of
+从这些机器中收集了许多您可以用来说话的协议
+
+404
+00:18:25,880 --> 00:18:28,610
+those protocols you you can use to speak
+从这些机器中收集了许多您可以用来说话的协议
+
+405
+00:18:28,610 --> 00:18:30,880
+to the machines are proprietary
+机器是专有的老式
+
+406
+00:18:30,880 --> 00:18:32,390
+old-fashioned
+机器是专有的老式
+
+407
+00:18:32,390 --> 00:18:36,380
+and what we tried to do if the POC Forex
+以及如果POC外汇项目基本上是在此之间架起了桥梁
+
+408
+00:18:36,380 --> 00:18:39,140
+project is basically bridge this
+以及如果POC外汇项目基本上是在此之间架起了桥梁
+
+409
+00:18:39,140 --> 00:18:41,480
+language barrier so we want to provide
+语言障碍，所以我们想为每个人提供驾驶机会
+
+410
+00:18:41,480 --> 00:18:45,020
+drivers possibilities for everybody in
+语言障碍，所以我们想为每个人提供驾驶机会
+
+411
+00:18:45,020 --> 00:18:47,690
+IT to speak to those machines and those
+IT与那些机器和那些控制器对话，以便我们基本上可以开放
+
+412
+00:18:47,690 --> 00:18:52,010
+controllers so that we basically open up
+IT与那些机器和那些控制器对话，以便我们基本上可以开放
+
+413
+00:18:52,010 --> 00:18:54,650
+the door to use the regular IT landscape
+使用常规IT环境与机器和计算机一起工作的大门
+
+414
+00:18:54,650 --> 00:18:57,050
+to work together with machines and
+使用常规IT环境与机器和计算机一起工作的大门
+
+415
+00:18:57,050 --> 00:19:00,190
+production sites for example we have
+例如生产现场，我们在铸造领域有客户，但有
+
+416
+00:19:00,190 --> 00:19:04,850
+customers in the foundry area but have
+例如生产现场，我们在铸造领域有客户，但有
+
+417
+00:19:04,850 --> 00:19:09,860
+big machines that that produce sand
+产生沙粒的大型机器
+
+418
+00:19:09,860 --> 00:19:10,370
+coarse
+产生沙粒的大型机器
+
+419
+00:19:10,370 --> 00:19:13,100
+so basically sand is compressed to build
+因此基本上将沙子压缩以构建核心，然后将其用于创建
+
+420
+00:19:13,100 --> 00:19:17,750
+the core which is then used to create a
+因此基本上将沙子压缩以构建核心，然后将其用于创建
+
+421
+00:19:17,750 --> 00:19:21,110
+hole in a casting and the process is
+铸件中的孔，过程非常复杂，有化学物质
+
+422
+00:19:21,110 --> 00:19:23,810
+quite complex there are chemical
+铸件中的孔，过程非常复杂，有化学物质
+
+423
+00:19:23,810 --> 00:19:25,700
+processes involved in physical processes
+涉及到物理过程的过程，直到现在
+
+424
+00:19:25,700 --> 00:19:29,120
+involved and up till now it's some kind
+涉及到物理过程的过程，直到现在
+
+425
+00:19:29,120 --> 00:19:32,630
+of modern alchemy because nobody knows
+炼金术的概念，因为没有人确切地知道在
+
+426
+00:19:32,630 --> 00:19:34,790
+exactly how everything works together at
+炼金术的概念，因为没有人确切地知道在
+
+427
+00:19:34,790 --> 00:19:39,080
+which parameter to adjust when and my
+何时和我使用POC Forex调整哪个参数能够提取所有
+
+428
+00:19:39,080 --> 00:19:41,180
+using POC Forex were able to extract all
+何时和我使用POC Forex调整哪个参数能够提取所有
+
+429
+00:19:41,180 --> 00:19:44,390
+those parameters related to the quality
+这些参数与最终产品的质量有关，并且非常接近
+
+430
+00:19:44,390 --> 00:19:47,840
+of the end product and and really close
+这些参数与最终产品的质量有关，并且非常接近
+
+431
+00:19:47,840 --> 00:19:49,550
+the feedback loop to get a better
+反馈循环以更好地了解哪个兄弟
+
+432
+00:19:49,550 --> 00:19:51,200
+understanding of which bros has
+反馈循环以更好地了解哪个兄弟
+
+433
+00:19:51,200 --> 00:19:54,230
+influenced the product one thing I
+我对产品产生了影响我注意到的一件事是，很多人
+
+434
+00:19:54,230 --> 00:19:58,130
+noticed was that a lot of people have
+我对产品产生了影响我注意到的一件事是，很多人
+
+435
+00:19:58,130 --> 00:19:59,540
+been building database management
+一直在建立数据库管理系统，我使用类似的类比
+
+436
+00:19:59,540 --> 00:20:02,690
+systems and I use the analogy it's kind
+一直在建立数据库管理系统，我使用类似的类比
+
+437
+00:20:02,690 --> 00:20:05,930
+of like climbing a mountain that if you
+就像爬山一样，如果您是登山者，
+
+438
+00:20:05,930 --> 00:20:10,310
+if you're a mountaineer the the first
+就像爬山一样，如果您是登山者，
+
+439
+00:20:10,310 --> 00:20:11,930
+part of the journey is always the same
+旅程的一部分总是一样的，这很无聊，因为你
+
+440
+00:20:11,930 --> 00:20:13,160
+and it's pretty boring because you're
+旅程的一部分总是一样的，这很无聊，因为你
+
+441
+00:20:13,160 --> 00:20:15,260
+just walking up through trees and so
+穿过树木等等，就必须走到10,000英尺
+
+442
+00:20:15,260 --> 00:20:18,140
+forth and you have to get to 10,000 feet
+穿过树木等等，就必须走到10,000英尺
+
+443
+00:20:18,140 --> 00:20:21,380
+before the snow starts and so building
+在大雪开始之前，所以建立数据库管理系统只是
+
+444
+00:20:21,380 --> 00:20:23,180
+database management system just kind of
+在大雪开始之前，所以建立数据库管理系统只是
+
+445
+00:20:23,180 --> 00:20:24,770
+like that you have to do a lot of basic
+这样，您每次构建一个建筑时都必须做很多基本的事情，
+
+446
+00:20:24,770 --> 00:20:26,630
+stuff every time you build one and
+这样，您每次构建一个建筑时都必须做很多基本的事情，
+
+447
+00:20:26,630 --> 00:20:28,820
+there's a lot of people in Silicon
+硅谷和世界各地都有很多人
+
+448
+00:20:28,820 --> 00:20:30,350
+Valley and around the world building
+硅谷和世界各地都有很多人
+
+449
+00:20:30,350 --> 00:20:31,820
+database management systems and all
+数据库管理系统和所有系统都做同样的事情，因此该项目
+
+450
+00:20:31,820 --> 00:20:35,270
+doing the same stuff so the project that
+数据库管理系统和所有系统都做同样的事情，因此该项目
+
+451
+00:20:35,270 --> 00:20:37,940
+I'm working on Apache calcite is an
+我正在研究Apache方解石是一种跳过无聊的尝试
+
+452
+00:20:37,940 --> 00:20:41,360
+attempt to kind of skip over the boring
+我正在研究Apache方解石是一种跳过无聊的尝试
+
+453
+00:20:41,360 --> 00:20:42,950
+bits of the mountain and get into the
+进入山峰，进入有趣的地方，我注意到
+
+454
+00:20:42,950 --> 00:20:44,870
+interesting area I noticed that when
+进入山峰，进入有趣的地方，我注意到
+
+455
+00:20:44,870 --> 00:20:45,600
+people build
+人们建立一个数据库，他们做很多相同的事情
+
+456
+00:20:45,600 --> 00:20:47,669
+a database they do a lot of the same
+人们建立一个数据库，他们做很多相同的事情
+
+457
+00:20:47,669 --> 00:20:50,760
+stuff and what I wanted to do is
+东西，我想做的是消除一些常见的苦恼
+
+458
+00:20:50,760 --> 00:20:54,720
+eliminate some of that common drudgery
+东西，我想做的是消除一些常见的苦恼
+
+459
+00:20:54,720 --> 00:20:57,720
+by building a toolkit a framework for
+通过构建工具箱和用于构建数据库管理系统的框架
+
+460
+00:20:57,720 --> 00:20:59,429
+building a database management system
+通过构建工具箱和用于构建数据库管理系统的框架
+
+461
+00:20:59,429 --> 00:21:03,030
+and so Apache calcite is that we took
+因此，Apache方解石是我们采用了关系数据库的核心部分
+
+462
+00:21:03,030 --> 00:21:05,940
+the core parts of a relational database
+因此，Apache方解石是我们采用了关系数据库的核心部分
+
+463
+00:21:05,940 --> 00:21:08,100
+such as the parser and the query
+例如解析器和查询优化器
+
+464
+00:21:08,100 --> 00:21:08,730
+optimizer
+例如解析器和查询优化器
+
+465
+00:21:08,730 --> 00:21:11,160
+and repackaged it in a way that people
+并以人们可以将其用作构建他们的工具包的方式重新包装它
+
+466
+00:21:11,160 --> 00:21:12,990
+could use it as a toolkit to build their
+并以人们可以将其用作构建他们的工具包的方式重新包装它
+
+467
+00:21:12,990 --> 00:21:15,090
+own database and the result of that has
+自己的数据库，其结果是，这是一次协作
+
+468
+00:21:15,090 --> 00:21:19,860
+been that it's been a a collaboration
+自己的数据库，其结果是，这是一次协作
+
+469
+00:21:19,860 --> 00:21:21,510
+across many companies and many
+许多公司和个人都在努力
+
+470
+00:21:21,510 --> 00:21:23,549
+individuals each of whom is trying to
+许多公司和个人都在努力
+
+471
+00:21:23,549 --> 00:21:25,530
+build a data management system or a
+建立数据管理系统或数据库管理系统，以便我们拥有
+
+472
+00:21:25,530 --> 00:21:28,020
+database management system so we have a
+建立数据管理系统或数据库管理系统，以便我们拥有
+
+473
+00:21:28,020 --> 00:21:29,610
+lot of collaborators from different
+来自不同公司的许多合作者，每个人都有相似之处
+
+474
+00:21:29,610 --> 00:21:31,470
+companies each of whom have similar
+来自不同公司的许多合作者，每个人都有相似之处
+
+475
+00:21:31,470 --> 00:21:33,090
+requirements that but not exactly the
+但并不完全相同的要求，所以当我使用Apache时
+
+476
+00:21:33,090 --> 00:21:36,600
+same and so when I'm working on Apache
+但并不完全相同的要求，所以当我使用Apache时
+
+477
+00:21:36,600 --> 00:21:39,570
+calcite I'm working with peers who have
+方解石我正在与与我有相同目标的同龄人一起工作
+
+478
+00:21:39,570 --> 00:21:42,360
+the same goals as I do they might be in
+方解石我正在与与我有相同目标的同龄人一起工作
+
+479
+00:21:42,360 --> 00:21:44,070
+companies that are competing with my
+与我的公司竞争的公司，但在这里我们可以
+
+480
+00:21:44,070 --> 00:21:47,130
+company but it's a place that we can
+与我的公司竞争的公司，但在这里我们可以
+
+481
+00:21:47,130 --> 00:21:50,490
+share work we can talk directly to each
+分享工作，我们可以直接彼此交谈，而不必经过您
+
+482
+00:21:50,490 --> 00:21:53,340
+other rather than having to go via you
+分享工作，我们可以直接彼此交谈，而不必经过您
+
+483
+00:21:53,340 --> 00:21:56,490
+know the companies go via managers or
+知道公司通过经理或违反公司法律部门
+
+484
+00:21:56,490 --> 00:21:59,400
+violate company's legal departments it's
+知道公司通过经理或违反公司法律部门
+
+485
+00:21:59,400 --> 00:22:01,049
+a direct communication with my peers and
+与我的同龄人进行直接交流，他们发现很容易对他们进行评分和
+
+486
+00:22:01,049 --> 00:22:03,299
+they find that very easily rating and
+与我的同龄人进行直接交流，他们发现很容易对他们进行评分和
+
+487
+00:22:03,299 --> 00:22:10,100
+very productive so calcite has
+高产，方解石滚雪球，因为它已经变成
+
+488
+00:22:10,100 --> 00:22:12,960
+snowballed you know as it has become
+高产，方解石滚雪球，因为它已经变成
+
+489
+00:22:12,960 --> 00:22:15,960
+more stable and more fully featured and
+更稳定，功能更全，其声誉不断提高，我们发现了更多
+
+490
+00:22:15,960 --> 00:22:19,559
+its reputation has grown we find more
+更稳定，功能更全，其声誉不断提高，我们发现了更多
+
+491
+00:22:19,559 --> 00:22:21,299
+and more companies and projects just
+和更多的公司和项目一样，几乎像默认选项一样使用它
+
+492
+00:22:21,299 --> 00:22:23,549
+using it almost like the default option
+和更多的公司和项目一样，几乎像默认选项一样使用它
+
+493
+00:22:23,549 --> 00:22:24,900
+if you're going to build a database
+如果要建立数据库，请使用Apache calcite启动
+
+494
+00:22:24,900 --> 00:22:27,210
+start up with Apache calcite you're
+如果要建立数据库，请使用Apache calcite启动
+
+495
+00:22:27,210 --> 00:22:29,159
+crazy to build a sequel parser why don't
+疯狂地制作续集解析器为什么不使用方解石稀疏
+
+496
+00:22:29,159 --> 00:22:31,559
+you use calcite sparsa that kind of
+疯狂地制作续集解析器为什么不使用方解石稀疏
+
+497
+00:22:31,559 --> 00:22:35,130
+stuff and we hear that more and more you
+的东西，我们听到越来越多的你知道这是花了很长时间
+
+498
+00:22:35,130 --> 00:22:37,559
+know it's it's taken a long time to
+的东西，我们听到越来越多的你知道这是花了很长时间
+
+499
+00:22:37,559 --> 00:22:39,330
+become an overnight success I mean it's
+成为一夜之间的成功我的意思是这花了七年时间，但我们只是听说
+
+500
+00:22:39,330 --> 00:22:45,090
+taken seven years but we just hear it's
+成为一夜之间的成功我的意思是这花了七年时间，但我们只是听说
+
+501
+00:22:45,090 --> 00:22:46,500
+actually really nice to hear of a
+真的很高兴听到数据库进入市场，然后
+
+502
+00:22:46,500 --> 00:22:48,510
+database hitting the market and then
+真的很高兴听到数据库进入市场，然后
+
+503
+00:22:48,510 --> 00:22:50,220
+finding out that it has calcite inside
+发现里面有方解石，我们甚至不知道那是
+
+504
+00:22:50,220 --> 00:22:52,919
+and we're not even aware of it that's
+发现里面有方解石，我们甚至不知道那是
+
+505
+00:22:52,919 --> 00:22:54,900
+one of the wonderful things and and
+关于开源的奇妙和令人沮丧的事情之一是
+
+506
+00:22:54,900 --> 00:22:56,820
+frustrating things about open source is
+关于开源的奇妙和令人沮丧的事情之一是
+
+507
+00:22:56,820 --> 00:22:59,130
+that people might be using your software
+人们可能正在使用您的软件，而您甚至不知道它，直到
+
+508
+00:22:59,130 --> 00:23:01,800
+and you don't even know about it until
+人们可能正在使用您的软件，而您甚至不知道它，直到
+
+509
+00:23:01,800 --> 00:23:04,650
+they hit a bug and then they have an
+他们遇到了一个bug，然后就有动力去参与
+
+510
+00:23:04,650 --> 00:23:05,910
+incentive to get involved in the
+他们遇到了一个bug，然后就有动力去参与
+
+511
+00:23:05,910 --> 00:23:07,920
+community and try and you know figure
+社区并尝试，您会知道解决该错误的方法，因此我们有两个
+
+512
+00:23:07,920 --> 00:23:10,200
+out how to solve that bug so we have two
+社区并尝试，您会知道解决该错误的方法，因此我们有两个
+
+513
+00:23:10,200 --> 00:23:12,510
+major projects in Apache foundation
+Apache Foundation中的主要项目现在都是顶级项目之一
+
+514
+00:23:12,510 --> 00:23:14,760
+right now both are top tier projects one
+Apache Foundation中的主要项目现在都是顶级项目之一
+
+515
+00:23:14,760 --> 00:23:16,740
+is called double which is an RPC
+被称为double，这是一个RPC框架，另一个称为
+
+516
+00:23:16,740 --> 00:23:19,620
+framework and the other one is called
+被称为double，这是一个RPC框架，另一个称为
+
+517
+00:23:19,620 --> 00:23:24,200
+rocky MQ is it's a enterprise level
+洛基MQ是企业级企业级消息q两者都非常
+
+518
+00:23:24,200 --> 00:23:29,130
+enterprise grade message q both are very
+洛基MQ是企业级企业级消息q两者都非常
+
+519
+00:23:29,130 --> 00:23:32,490
+successful in China before we donated
+在将它们捐赠给Apache基金会之前在中国取得了成功，但是
+
+520
+00:23:32,490 --> 00:23:38,190
+them to Apache foundation but the good
+在将它们捐赠给Apache基金会之前在中国取得了成功，但是
+
+521
+00:23:38,190 --> 00:23:41,220
+thing about putting them under a prodigy
+现在把他们放在神童的基础上
+
+522
+00:23:41,220 --> 00:23:43,830
+foundation is now we have collaboration
+现在把他们放在神童的基础上
+
+523
+00:23:43,830 --> 00:23:46,800
+from the community so now the bows have
+来自社区，所以现在的弓箭不仅已经成为事实
+
+524
+00:23:46,800 --> 00:23:49,260
+become not only de-facto
+来自社区，所以现在的弓箭不仅已经成为事实
+
+525
+00:23:49,260 --> 00:23:52,200
+when people are looking for our PC
+当人们在寻找我们的PC框架或消息队列时，
+
+526
+00:23:52,200 --> 00:23:54,420
+frameworks or message queues but also
+当人们在寻找我们的PC框架或消息队列时，
+
+527
+00:23:54,420 --> 00:23:57,800
+they are actually becoming the projects
+他们实际上正在成为社区中的项目，例如岩石MQ
+
+528
+00:23:57,800 --> 00:24:02,370
+from the community for example rocky MQ
+他们实际上正在成为社区中的项目，例如岩石MQ
+
+529
+00:24:02,370 --> 00:24:06,660
+we have we have PMC members from five
+我们有来自五家不同公司的PMC成员，其中12家中的12家
+
+530
+00:24:06,660 --> 00:24:09,570
+different companies and 12 of 12 of them
+我们有来自五家不同公司的PMC成员，其中12家中的12家
+
+531
+00:24:09,570 --> 00:24:12,720
+so Alibaba is no longer in country of
+因此，阿里巴巴不再在该项目的国家/地区，但我们很乐意
+
+532
+00:24:12,720 --> 00:24:15,060
+that project anymore but we'd love to
+因此，阿里巴巴不再在该项目的国家/地区，但我们很乐意
+
+533
+00:24:15,060 --> 00:24:17,880
+see it we see new features we never
+看到它，我们看到阿里巴巴内部从未想到的新功能
+
+534
+00:24:17,880 --> 00:24:20,700
+thought of inside of Alibaba that's
+看到它，我们看到阿里巴巴内部从未想到的新功能
+
+535
+00:24:20,700 --> 00:24:22,710
+being developed being proposed being
+正在开发中正在提议在社区中开发
+
+536
+00:24:22,710 --> 00:24:26,370
+developed in the community for example
+正在开发中正在提议在社区中开发
+
+537
+00:24:26,370 --> 00:24:28,590
+we were a heavy-duty
+我们是一家重型Java商店，我们从不想要任何SDK
+
+538
+00:24:28,590 --> 00:24:32,430
+Java shop we never wanted any SDKs in
+我们是一家重型Java商店，我们从不想要任何SDK
+
+539
+00:24:32,430 --> 00:24:35,250
+other languages but since we donated
+其他语言，但由于我们捐赠了该项目并从Apache毕业
+
+540
+00:24:35,250 --> 00:24:38,190
+this project and graduated from Apache
+其他语言，但由于我们捐赠了该项目并从Apache毕业
+
+541
+00:24:38,190 --> 00:24:43,560
+incubation now we have SDKs in c plus
+孵化现在我们在c plus中有SDK，在其他Golan Internet中也有
+
+542
+00:24:43,560 --> 00:24:47,100
+plus in Golan Internet in other
+孵化现在我们在c plus中有SDK，在其他Golan Internet中也有
+
+543
+00:24:47,100 --> 00:24:50,900
+languages as well so it has absolutely
+语言，因此它绝对活跃，因为社区拥有
+
+544
+00:24:50,900 --> 00:24:54,300
+being active because the community has
+语言，因此它绝对活跃，因为社区拥有
+
+545
+00:24:54,300 --> 00:24:57,450
+driven that way and the same thing was
+以这种方式开车，同一件事是双重的，所以以前有很多人
+
+546
+00:24:57,450 --> 00:25:01,130
+double so there are so many folks before
+以这种方式开车，同一件事是双重的，所以以前有很多人
+
+547
+00:25:01,130 --> 00:25:04,650
+that people were using it taking in
+人们正在使用它，深入了解他们将如何适应或使用
+
+548
+00:25:04,650 --> 00:25:06,900
+depth of how they will adapt or use
+人们正在使用它，深入了解他们将如何适应或使用
+
+549
+00:25:06,900 --> 00:25:09,660
+double inside of their own companies
+在自己的公司内部加倍，但现在我们已经
+
+550
+00:25:09,660 --> 00:25:12,249
+but now we've
+在自己的公司内部加倍，但现在我们已经
+
+551
+00:25:12,249 --> 00:25:16,029
+nice umbrella people actually come and
+好的伞人实际上是来把他们的想法带到社区的，
+
+552
+00:25:16,029 --> 00:25:18,820
+bring their ideas to the community and
+好的伞人实际上是来把他们的想法带到社区的，
+
+553
+00:25:18,820 --> 00:25:23,200
+making double more modern or clown
+在这个世界上使现代人或小丑本地人倍增，这就是
+
+554
+00:25:23,200 --> 00:25:26,830
+native in this world so that's that's
+在这个世界上使现代人或小丑本地人倍增，这就是
+
+555
+00:25:26,830 --> 00:25:29,139
+the value that Apache foundation has
+Apache基金会为佛罗里达番石榴带来的价值以及
+
+556
+00:25:29,139 --> 00:25:32,169
+added to us of Florida guava and for the
+Apache基金会为佛罗里达番石榴带来的价值以及
+
+557
+00:25:32,169 --> 00:25:33,700
+community as well
+社区以及整个中国，所以社区真的
+
+558
+00:25:33,700 --> 00:25:37,330
+overall in China so the community really
+社区以及整个中国，所以社区真的
+
+559
+00:25:37,330 --> 00:25:39,279
+flourished with in OpenOffice
+在OpenOffice中蓬勃发展，它是一种全球性的分布式
+
+560
+00:25:39,279 --> 00:25:43,629
+and it was a global kind of distributed
+在OpenOffice中蓬勃发展，它是一种全球性的分布式
+
+561
+00:25:43,629 --> 00:25:47,499
+community that we built over time for an
+我们随着时间的推移为社区办公套件而建立的社区
+
+562
+00:25:47,499 --> 00:25:49,350
+office productivity suite that was
+我们随着时间的推移为社区办公套件而建立的社区
+
+563
+00:25:49,350 --> 00:25:53,350
+pretty popular in its time you know
+您知道它在当时很受欢迎
+
+564
+00:25:53,350 --> 00:25:56,590
+available on multiple platforms of
+您知道它在当时很受欢迎
+
+565
+00:25:56,590 --> 00:25:58,929
+course now we have a patty OpenOffice so
+当然，现在我们有了一个小巧的OpenOffice，这就是apache的历史
+
+566
+00:25:58,929 --> 00:26:01,929
+that was some of the history of apache
+当然，现在我们有了一个小巧的OpenOffice，这就是apache的历史
+
+567
+00:26:01,929 --> 00:26:05,860
+openoffice is very steeped in the apache
+由于我们的指导，openoffice在apache方式中非常浸泡
+
+568
+00:26:05,860 --> 00:26:08,740
+way because of the mentorship that we
+由于我们的指导，openoffice在apache方式中非常浸泡
+
+569
+00:26:08,740 --> 00:26:12,940
+had from apache founders and the apache
+来自apache创始人和apache社区的下一个项目
+
+570
+00:26:12,940 --> 00:26:15,429
+community the next project that I was
+来自apache创始人和apache社区的下一个项目
+
+571
+00:26:15,429 --> 00:26:17,169
+involved in was NetBeans the Java IDE
+参与的是NetBeans Java IDE，我参与了构建
+
+572
+00:26:17,169 --> 00:26:21,429
+and I got involved in building
+参与的是NetBeans Java IDE，我参与了构建
+
+573
+00:26:21,429 --> 00:26:23,769
+governance model that really included
+真正包含社区以及NetBeans的治理模型
+
+574
+00:26:23,769 --> 00:26:27,639
+the community as well and there NetBeans
+真正包含社区以及NetBeans的治理模型
+
+575
+00:26:27,639 --> 00:26:29,320
+had been acquired by sun at that time
+当时是被太阳吸收的，并且在
+
+576
+00:26:29,320 --> 00:26:32,289
+and and there were some tensions in
+当时是被太阳吸收的，并且在
+
+577
+00:26:32,289 --> 00:26:35,080
+terms of you know how the you know
+您知道您对公司控制与社区控制的了解
+
+578
+00:26:35,080 --> 00:26:37,990
+company control versus the community's
+您知道您对公司控制与社区控制的了解
+
+579
+00:26:37,990 --> 00:26:40,389
+original way of working so we found a
+原始的工作方式，因此我们找到了一种适用于社区的模型，
+
+580
+00:26:40,389 --> 00:26:42,369
+model that worked for the community and
+原始的工作方式，因此我们找到了一种适用于社区的模型，
+
+581
+00:26:42,369 --> 00:26:45,789
+for son as well and you know it's really
+对于儿子来说，也很高兴看到NetBeans也是
+
+582
+00:26:45,789 --> 00:26:48,279
+great to see that NetBeans is also an
+对于儿子来说，也很高兴看到NetBeans也是
+
+583
+00:26:48,279 --> 00:26:51,850
+Apache project so we can see that you
+Apache项目，因此我们可以看到您了解我的早期经历
+
+584
+00:26:51,850 --> 00:26:53,169
+know my kind of early days of
+Apache项目，因此我们可以看到您了解我的早期经历
+
+585
+00:26:53,169 --> 00:26:55,869
+open-source work very connected to
+开源工作与Apache紧密相连，而不仅仅是社区
+
+586
+00:26:55,869 --> 00:26:59,289
+Apache and the not just the community
+开源工作与Apache紧密相连，而不仅仅是社区
+
+587
+00:26:59,289 --> 00:27:01,539
+but also it's great to see those
+但也很高兴看到这些项目现在可以在Apache
+
+588
+00:27:01,539 --> 00:27:04,840
+projects now and living on in Apache the
+但也很高兴看到这些项目现在可以在Apache
+
+589
+00:27:04,840 --> 00:27:07,990
+first patch that I submitted was early
+我提交的第一个补丁是2003年初的Apache ant项目
+
+590
+00:27:07,990 --> 00:27:11,139
+2003 that was to the Apache ant project
+我提交的第一个补丁是2003年初的Apache ant项目
+
+591
+00:27:11,139 --> 00:27:14,639
+we were had written some testing tools
+我们已经在
+
+592
+00:27:14,639 --> 00:27:18,369
+using building upon on top of the the
+我们已经在
+
+593
+00:27:18,369 --> 00:27:19,690
+ant framework and we needed some
+ant框架，我们需要进行一些增强以使ant成为
+
+594
+00:27:19,690 --> 00:27:22,149
+enhancements to actually make ant be
+ant框架，我们需要进行一些增强以使ant成为
+
+595
+00:27:22,149 --> 00:27:24,000
+able to read databases better
+能够更好地读取数据库，这就是我参与提交的方式
+
+596
+00:27:24,000 --> 00:27:26,460
+so that's how I got involved submitted
+能够更好地读取数据库，这就是我参与提交的方式
+
+597
+00:27:26,460 --> 00:27:28,710
+some patches got some feedback even
+即使我们使用的是带有XML的补丁，有些补丁也得到了一些反馈
+
+598
+00:27:28,710 --> 00:27:31,010
+though we're using an - which had an XML
+即使我们使用的是带有XML的补丁，有些补丁也得到了一些反馈
+
+599
+00:27:31,010 --> 00:27:35,190
+flavored syntax to it we for our testing
+为了我们的测试目的，我们需要更多的语法
+
+600
+00:27:35,190 --> 00:27:36,840
+purposes we needed a little bit more
+为了我们的测试目的，我们需要更多的语法
+
+601
+00:27:36,840 --> 00:27:39,630
+scripting capability and so I actually
+脚本功能，所以我实际上开始使用groovy语言
+
+602
+00:27:39,630 --> 00:27:41,760
+started using the groovy language to
+脚本功能，所以我实际上开始使用groovy语言
+
+603
+00:27:41,760 --> 00:27:45,540
+script the the ant steps that we were
+编写脚本，这些脚本是我们多年来用于测试的步骤
+
+604
+00:27:45,540 --> 00:27:48,210
+using for our testing and many years
+编写脚本，这些脚本是我们多年来用于测试的步骤
+
+605
+00:27:48,210 --> 00:27:51,270
+later it came full circle when we moved
+后来，当我们
+
+606
+00:27:51,270 --> 00:27:53,880
+Apache groovy into Apache when we were
+后来，当我们
+
+607
+00:27:53,880 --> 00:27:56,430
+previously hosted at code house and that
+以前托管在代码所，现在已关闭，我们将
+
+608
+00:27:56,430 --> 00:27:58,410
+was shutting down and we moved the
+以前托管在代码所，现在已关闭，我们将
+
+609
+00:27:58,410 --> 00:28:00,720
+groovy project to Apache I worked for a
+Apache的groovy项目我曾在很多公司工作，最近我已经
+
+610
+00:28:00,720 --> 00:28:01,830
+bunch of companies and lately I've
+Apache的groovy项目我曾在很多公司工作，最近我已经
+
+611
+00:28:01,830 --> 00:28:03,890
+worked at Google for five years and we
+在Google工作了五年，我们在Google Cloud数据流中工作
+
+612
+00:28:03,890 --> 00:28:06,600
+I've worked on Google Cloud dataflow
+在Google工作了五年，我们在Google Cloud数据流中工作
+
+613
+00:28:06,600 --> 00:28:09,360
+it's it's a big data processing system
+这是一个大数据处理系统，并且它的客户端始终是开放的
+
+614
+00:28:09,360 --> 00:28:11,670
+and the client for it was always an open
+这是一个大数据处理系统，并且它的客户端始终是开放的
+
+615
+00:28:11,670 --> 00:28:14,460
+source sdk and we some other people
+来源sdk，我们还有其他人将其拾起并为
+
+616
+00:28:14,460 --> 00:28:16,800
+picked it up and made translators for
+来源sdk，我们还有其他人将其拾起并为
+
+617
+00:28:16,800 --> 00:28:20,010
+apache flink and apache spark and at
+apache flink和apache spark，那时Google决定合作
+
+618
+00:28:20,010 --> 00:28:23,190
+that point Google decided to collaborate
+apache flink和apache spark，那时Google决定合作
+
+619
+00:28:23,190 --> 00:28:25,470
+with them and try to begin Apache beam
+和他们一起尝试开始Apache Beam，这就是这种可移植性
+
+620
+00:28:25,470 --> 00:28:28,590
+which would be this sort of portability
+和他们一起尝试开始Apache Beam，这就是这种可移植性
+
+621
+00:28:28,590 --> 00:28:32,760
+lay layer so you could author your big
+外层，以便您可以编写大数据处理并可以在
+
+622
+00:28:32,760 --> 00:28:34,200
+data processing and you could run it on
+外层，以便您可以编写大数据处理并可以在
+
+623
+00:28:34,200 --> 00:28:36,030
+a patchy spark or patchy flank or on
+斑点状的火花或斑点状的侧面或Google Cloud数据流上的斑点，因此
+
+624
+00:28:36,030 --> 00:28:38,580
+Google Cloud dataflow and so so that's
+斑点状的火花或斑点状的侧面或Google Cloud数据流上的斑点，因此
+
+625
+00:28:38,580 --> 00:28:40,260
+how I came I came to Apache really
+我是怎么来的我真的是通过这种自上而下的方式来到Apache的
+
+626
+00:28:40,260 --> 00:28:41,910
+through this really sort of top down
+我是怎么来的我真的是通过这种自上而下的方式来到Apache的
+
+627
+00:28:41,910 --> 00:28:45,480
+initiative to donate the code to the
+主动将代码捐赠给Apache并开始孵化
+
+628
+00:28:45,480 --> 00:28:48,510
+Apache and start incubating so at a
+主动将代码捐赠给Apache并开始孵化
+
+629
+00:28:48,510 --> 00:28:49,920
+jewelry television
+珠宝电视如此幽默，你知道这些
+
+630
+00:28:49,920 --> 00:28:53,130
+so humorously enough you know these
+珠宝电视如此幽默，你知道这些
+
+631
+00:28:53,130 --> 00:28:56,610
+types of you know analysis platforms or
+您知道分析平台或工具集的类型
+
+632
+00:28:56,610 --> 00:28:59,250
+you know tool sets they're almost
+您知道分析平台或工具集的类型
+
+633
+00:28:59,250 --> 00:29:01,470
+unheard of in the physics community so
+在物理学界是闻所未闻的，所以一旦我搬到电视，你就知道我们开始了
+
+634
+00:29:01,470 --> 00:29:04,770
+once I moved to jtv you know we started
+在物理学界是闻所未闻的，所以一旦我搬到电视，你就知道我们开始了
+
+635
+00:29:04,770 --> 00:29:06,900
+working on our Big Data Platform and big
+在我们的大数据平台和大数据堆栈上工作，然后您就知道了
+
+636
+00:29:06,900 --> 00:29:09,030
+data stacks and you know then I've
+在我们的大数据平台和大数据堆栈上工作，然后您就知道了
+
+637
+00:29:09,030 --> 00:29:11,190
+really started to learn more about you
+真正开始了解更多有关您的知识，您知道很多这类工具
+
+638
+00:29:11,190 --> 00:29:13,860
+know a lot of these types of tools you
+真正开始了解更多有关您的知识，您知道很多这类工具
+
+639
+00:29:13,860 --> 00:29:15,480
+know specifically spark and Kafka and
+特别了解spark和Kafka之类的东西，现在我就像哦
+
+640
+00:29:15,480 --> 00:29:17,310
+things like that and now I was like oh
+特别了解spark和Kafka之类的东西，现在我就像哦
+
+641
+00:29:17,310 --> 00:29:18,870
+man I really want to learn more about
+男人，我真的想了解更多关于这些的知识，因为你知道这些是工具
+
+642
+00:29:18,870 --> 00:29:21,090
+these because you know these are tools
+男人，我真的想了解更多关于这些的知识，因为你知道这些是工具
+
+643
+00:29:21,090 --> 00:29:22,590
+that can solve a lot of problems and I
+可以解决很多问题，我听说您知道，就像是，优步Uber
+
+644
+00:29:22,590 --> 00:29:24,240
+heard you know it's like oh yeah Uber's
+可以解决很多问题，我听说您知道，就像是，优步Uber
+
+645
+00:29:24,240 --> 00:29:26,700
+using you know spark and you know
+使用您知道的火花，并且您知道linkedin大量使用kafka
+
+646
+00:29:26,700 --> 00:29:28,770
+linkedin is using kafka for a lot of
+使用您知道的火花，并且您知道linkedin大量使用kafka
+
+647
+00:29:28,770 --> 00:29:29,850
+their messaging you know and then I
+他们知道的消息，然后我猜火箭MQ和所有这类
+
+648
+00:29:29,850 --> 00:29:31,830
+guess rocket MQ and all that kind of
+他们知道的消息，然后我猜火箭MQ和所有这类
+
+649
+00:29:31,830 --> 00:29:34,200
+stuff you know and I was like oh this
+你知道的东西，我就像哦，这听起来像很多你知道的工具
+
+650
+00:29:34,200 --> 00:29:35,880
+sounds like a lot of tools you know it's
+你知道的东西，我就像哦，这听起来像很多你知道的工具
+
+651
+00:29:35,880 --> 00:29:37,690
+like my date
+就像我的约会，你知道我们在做什么
+
+652
+00:29:37,690 --> 00:29:39,220
+you know for a lot of what we're doing
+就像我的约会，你知道我们在做什么
+
+653
+00:29:39,220 --> 00:29:40,929
+it's like mom will never approach those
+就像妈妈永远不会接近这样的尺寸
+
+654
+00:29:40,929 --> 00:29:43,840
+kind of this kind of sizes it's like
+就像妈妈永远不会接近这样的尺寸
+
+655
+00:29:43,840 --> 00:29:45,279
+yeah you're trying to manage all
+是的，您正在尝试管理所有您知道的推文或消息的Twitter
+
+656
+00:29:45,279 --> 00:29:47,259
+Twitter's you know tweets or messages
+是的，您正在尝试管理所有您知道的推文或消息的Twitter
+
+657
+00:29:47,259 --> 00:29:49,059
+and LinkedIn it's like oh yeah we use
+和LinkedIn就像哦，是的，我们用袖扣去做一些我觉得还可以的事情
+
+658
+00:29:49,059 --> 00:29:50,460
+cuff go to do some of that I'm like okay
+和LinkedIn就像哦，是的，我们用袖扣去做一些我觉得还可以的事情
+
+659
+00:29:50,460 --> 00:29:52,779
+cool then we can certainly handle our
+很酷，那么我们当然可以处理我们的数据，所以您知道能够
+
+660
+00:29:52,779 --> 00:29:56,500
+data it's so you know being able to you
+很酷，那么我们当然可以处理我们的数据，所以您知道能够
+
+661
+00:29:56,500 --> 00:29:57,820
+know kind of come to the community and
+知道进入社区并从社区中学习并与人们和您交谈
+
+662
+00:29:57,820 --> 00:29:59,649
+learn from it and talk to people and you
+知道进入社区并从社区中学习并与人们和您交谈
+
+663
+00:29:59,649 --> 00:30:00,940
+know kind of hear what other people are
+知道听到别人在做什么Hadoop是一个程序，可以让您
+
+664
+00:30:00,940 --> 00:30:04,809
+doing Hadoop is a program that lets you
+知道听到别人在做什么Hadoop是一个程序，可以让您
+
+665
+00:30:04,809 --> 00:30:07,269
+run your program on a lot of different
+一次在许多不同的机器上运行您的程序，而部分
+
+666
+00:30:07,269 --> 00:30:10,720
+machines at once and part of having to
+一次在许多不同的机器上运行您的程序，而部分
+
+667
+00:30:10,720 --> 00:30:12,940
+run on lots of machines at once is in
+实际上一次在许多机器上运行实际上是在处理故障，因为如果
+
+668
+00:30:12,940 --> 00:30:15,370
+fact dealing with failures because if
+实际上一次在许多机器上运行实际上是在处理故障，因为如果
+
+669
+00:30:15,370 --> 00:30:18,279
+your machine at home breaks every three
+您家里的机器每三年发生一次故障，这意味着如果您有一千台
+
+670
+00:30:18,279 --> 00:30:20,350
+years that means if you have a thousand
+您家里的机器每三年发生一次故障，这意味着如果您有一千台
+
+671
+00:30:20,350 --> 00:30:22,710
+machines running there's going to be
+每天运行三台机器，我们
+
+672
+00:30:22,710 --> 00:30:26,830
+three machines breaking each day and we
+每天运行三台机器，我们
+
+673
+00:30:26,830 --> 00:30:29,590
+in practice rolling on clusters of 5,000
+实际上是在5,000台计算机的群集上滚动，因此您会有很多
+
+674
+00:30:29,590 --> 00:30:31,419
+machines and so you'd have lots of
+实际上是在5,000台计算机的群集上滚动，因此您会有很多
+
+675
+00:30:31,419 --> 00:30:33,399
+machines breaking every day so you can't
+机器每天都在损坏，所以您不需要人类做任何事情
+
+676
+00:30:33,399 --> 00:30:35,889
+have the humans need to do anything
+机器每天都在损坏，所以您不需要人类做任何事情
+
+677
+00:30:35,889 --> 00:30:38,620
+everything has to be automatic one of my
+一切都必须自动完成我在LinkedIn上的一位朋友正在运行
+
+678
+00:30:38,620 --> 00:30:40,720
+friends at LinkedIn was running the
+一切都必须自动完成我在LinkedIn上的一位朋友正在运行
+
+679
+00:30:40,720 --> 00:30:42,549
+clusters there and he was trying to
+在那里聚集，他试图说服老板，他们没有
+
+680
+00:30:42,549 --> 00:30:45,730
+convince his bosses that they didn't
+在那里聚集，他试图说服老板，他们没有
+
+681
+00:30:45,730 --> 00:30:47,649
+need to keep buying expensive hardware
+需要继续购买昂贵的硬件，因此他列出了机器清单
+
+682
+00:30:47,649 --> 00:30:50,169
+and so he pulled up the list of machines
+需要继续购买昂贵的硬件，因此他列出了机器清单
+
+683
+00:30:50,169 --> 00:30:52,570
+in the meeting and said please pick one
+在会议上说，请选一个，他们是否立即将其关闭
+
+684
+00:30:52,570 --> 00:30:55,419
+and they did he shut it down immediately
+在会议上说，请选一个，他们是否立即将其关闭
+
+685
+00:30:55,419 --> 00:30:58,960
+with just a halt no warning no graceful
+只是停止而没有警告，没有正常关机只是停止而已
+
+686
+00:30:58,960 --> 00:31:01,509
+shutdown just a halt and that halt
+只是停止而没有警告，没有正常关机只是停止而已
+
+687
+00:31:01,509 --> 00:31:03,610
+didn't cause any pagers to go off
+不会导致任何传呼机退出，无需执行所有
+
+688
+00:31:03,610 --> 00:31:06,190
+nothing had to be done all the data that
+不会导致任何传呼机退出，无需执行所有
+
+689
+00:31:06,190 --> 00:31:09,669
+was there was immediately just put onto
+马上被从其他机器上放到其他机器上
+
+690
+00:31:09,669 --> 00:31:12,009
+other machines from the machines that
+马上被从其他机器上放到其他机器上
+
+691
+00:31:12,009 --> 00:31:13,840
+were still up the work load had already
+仍然在工作负荷上已经在其他机器上运行，所以这是
+
+692
+00:31:13,840 --> 00:31:17,070
+run onto other machines and so that was
+仍然在工作负荷上已经在其他机器上运行，所以这是
+
+693
+00:31:17,070 --> 00:31:19,210
+automatically handled the failure was
+自动处理故障是完全自动处理的，
+
+694
+00:31:19,210 --> 00:31:21,549
+handled completely automatically and
+自动处理故障是完全自动处理的，
+
+695
+00:31:21,549 --> 00:31:23,769
+nothing had to be done manually to keep
+无需手动进行任何操作即可使其继续运行
+
+696
+00:31:23,769 --> 00:31:25,049
+it going
+无需手动进行任何操作即可使其继续运行
+
+697
+00:31:25,049 --> 00:31:28,389
+so an example of that kind of program
+所以这类程序的一个例子
+
+698
+00:31:28,389 --> 00:31:31,480
+well the first example that of that kind
+所以这类程序的一个例子
+
+699
+00:31:31,480 --> 00:31:33,909
+of program was building an index of the
+的程序正在建立Web的索引，以便执行搜索引擎
+
+700
+00:31:33,909 --> 00:31:36,730
+web so in order to do a search engine
+的程序正在建立Web的索引，以便执行搜索引擎
+
+701
+00:31:36,730 --> 00:31:38,559
+you really need to have a complete
+您确实需要不仅对所有页面都有完整的了解
+
+702
+00:31:38,559 --> 00:31:41,289
+understanding of not only all the pages
+您确实需要不仅对所有页面都有完整的了解
+
+703
+00:31:41,289 --> 00:31:43,929
+on the web that text they contain but
+在网络上包含这些文本，但是它们如何链接在一起，因为
+
+704
+00:31:43,929 --> 00:31:46,240
+how they all linked together because the
+在网络上包含这些文本，但是它们如何链接在一起，因为
+
+705
+00:31:46,240 --> 00:31:49,899
+pages that are linked by more pages at
+在各个站点上由更多页面链接的页面
+
+706
+00:31:49,899 --> 00:31:51,730
+various sites
+在各个站点上由更多页面链接的页面
+
+707
+00:31:51,730 --> 00:31:54,760
+are a better page and the text that
+是一个更好的页面，而与他们链接的文本实际上是一个更好的页面
+
+708
+00:31:54,760 --> 00:31:57,070
+they're linked with actually is a better
+是一个更好的页面，而与他们链接的文本实际上是一个更好的页面
+
+709
+00:31:57,070 --> 00:31:59,230
+description of what's on the page than
+对页面内容的描述要比页面本身上的文字描述好
+
+710
+00:31:59,230 --> 00:32:02,170
+the text on the page itself so you
+对页面内容的描述要比页面本身上的文字描述好
+
+711
+00:32:02,170 --> 00:32:04,470
+actually need to analyze the whole web
+实际上需要分析整个网络，构建所有不同的地图
+
+712
+00:32:04,470 --> 00:32:07,480
+build this map of all the different
+实际上需要分析整个网络，构建所有不同的地图
+
+713
+00:32:07,480 --> 00:32:09,460
+links and so when we're at Yahoo we had
+链接，所以当我们在Yahoo时，我们有一万亿个页面和10万亿个链接
+
+714
+00:32:09,460 --> 00:32:13,450
+a trillion pages and 10 trillion links
+链接，所以当我们在Yahoo时，我们有一万亿个页面和10万亿个链接
+
+715
+00:32:13,450 --> 00:32:16,150
+and we'd build a map of that entire
+我们将构建整个图运行算法的地图以找出
+
+716
+00:32:16,150 --> 00:32:18,550
+graph run algorithms over to figure out
+我们将构建整个图运行算法的地图以找出
+
+717
+00:32:18,550 --> 00:32:20,470
+which are the best pages what search
+哪个页面最好？每个页面上应包含哪些搜索词
+
+718
+00:32:20,470 --> 00:32:23,470
+terms should be on each page and that
+哪个页面最好？每个页面上应包含哪些搜索词
+
+719
+00:32:23,470 --> 00:32:26,110
+was all done with Hadoop by the time we
+在完成工作时，所有工作都已由Hadoop完成，我们可以运行该流程
+
+720
+00:32:26,110 --> 00:32:27,970
+were done and we could run the process
+在完成工作时，所有工作都已由Hadoop完成，我们可以运行该流程
+
+721
+00:32:27,970 --> 00:32:30,160
+on I do much more quickly than we could
+我的工作速度比以前的系统快得多
+
+722
+00:32:30,160 --> 00:32:32,410
+do it on the previous system the
+我的工作速度比以前的系统快得多
+
+723
+00:32:32,410 --> 00:32:35,190
+previous system had taken a month to run
+以前的系统要花一个月的时间才能与Hadoop一起运行，所以我们将其减少到不到
+
+724
+00:32:35,190 --> 00:32:38,260
+with Hadoop we got it down to less than
+以前的系统要花一个月的时间才能与Hadoop一起运行，所以我们将其减少到不到
+
+725
+00:32:38,260 --> 00:32:41,110
+a week yes the idea of calcite did
+一个星期，方解石的想法确实发生在ASF之外
+
+726
+00:32:41,110 --> 00:32:44,590
+happen outside of the ASF it was
+一个星期，方解石的想法确实发生在ASF之外
+
+727
+00:32:44,590 --> 00:32:47,910
+originally a project called Optique I
+最初是一个名为Optique的项目，我有这个主意，实际上我创建了
+
+728
+00:32:47,910 --> 00:32:50,890
+had the idea and actually I created the
+最初是一个名为Optique的项目，我有这个主意，实际上我创建了
+
+729
+00:32:50,890 --> 00:32:54,070
+project by actually cutting down so a
+通过实际削减项目数量，使我之前拥有过一个开源项目，
+
+730
+00:32:54,070 --> 00:32:56,730
+previous open-source project I had and
+通过实际削减项目数量，使我之前拥有过一个开源项目，
+
+731
+00:32:56,730 --> 00:33:01,060
+around 2012 this was the peak of the big
+在2012年左右，这是大数据运动的顶峰。
+
+732
+00:33:01,060 --> 00:33:04,900
+data movement Apache Hadoop was very
+在2012年左右，这是大数据运动的顶峰。
+
+733
+00:33:04,900 --> 00:33:08,230
+successful and there was a lot of
+成功，创建大数据技术的活动很多
+
+734
+00:33:08,230 --> 00:33:12,870
+activity in creating big data technology
+成功，创建大数据技术的活动很多
+
+735
+00:33:12,870 --> 00:33:16,030
+notably a lot of this was doing similar
+值得注意的是，很多工作与数据库做了类似的工作，但是人们
+
+736
+00:33:16,030 --> 00:33:18,070
+work to databases but the people
+值得注意的是，很多工作与数据库做了类似的工作，但是人们
+
+737
+00:33:18,070 --> 00:33:20,650
+building it were at pains to say this
+很难说这不是数据库，所以
+
+738
+00:33:20,650 --> 00:33:22,690
+isn't a database this stuff is so
+很难说这不是数据库，所以
+
+739
+00:33:22,690 --> 00:33:26,530
+different we don't need sequel and I
+不一样，我们不需要续集，我有点不同意，我可以看到
+
+740
+00:33:26,530 --> 00:33:29,440
+kind of disagreed with that I could see
+不一样，我们不需要续集，我有点不同意，我可以看到
+
+741
+00:33:29,440 --> 00:33:33,310
+that you know Big Data and Hadoop it was
+您知道大数据和Hadoop是数据管理，人们将
+
+742
+00:33:33,310 --> 00:33:34,840
+data management and people were going to
+您知道大数据和Hadoop是数据管理，人们将
+
+743
+00:33:34,840 --> 00:33:37,630
+need sequel eventually so it made sense
+最终需要续集，所以我以前去过这个项目很有意义
+
+744
+00:33:37,630 --> 00:33:41,140
+to take this project that I was I'd been
+最终需要续集，所以我以前去过这个项目很有意义
+
+745
+00:33:41,140 --> 00:33:43,690
+working on as an individual and get how
+以个人的身份工作，并了解将其带入
+
+746
+00:33:43,690 --> 00:33:45,220
+it made sense to bring it into the
+以个人的身份工作，并了解将其带入
+
+747
+00:33:45,220 --> 00:33:48,040
+Apache Software Foundation so that it
+Apache Software Foundation，以便它可以开始发展社区并
+
+748
+00:33:48,040 --> 00:33:51,120
+could start to grow a community and
+Apache Software Foundation，以便它可以开始发展社区并
+
+749
+00:33:51,120 --> 00:33:53,920
+start to grow adoption within the other
+开始在其他项目和其他公司中被采用，
+
+750
+00:33:53,920 --> 00:33:57,070
+projects and by the other companies that
+开始在其他项目和其他公司中被采用，
+
+751
+00:33:57,070 --> 00:34:01,710
+were pushing the big data movement so I
+推动大数据运动，所以我实际上加入了Hortonworks
+
+752
+00:34:01,710 --> 00:34:04,570
+actually joined Hortonworks which was
+推动大数据运动，所以我实际上加入了Hortonworks
+
+753
+00:34:04,570 --> 00:34:05,140
+one of them
+其中一家支持Hadoop和
+
+754
+00:34:05,140 --> 00:34:08,460
+companies that was backing Hadoop and
+其中一家支持Hadoop和
+
+755
+00:34:08,460 --> 00:34:12,010
+they asked me to carry on working on
+他们要求我继续进行方解石的研究，这也有助于我提出疑问
+
+756
+00:34:12,010 --> 00:34:15,489
+calcite would also help I've put a query
+他们要求我继续进行方解石的研究，这也有助于我提出疑问
+
+757
+00:34:15,489 --> 00:34:18,909
+optimizer into hive using calcite and at
+与方解石同时使用方解石将优化器配置为蜂巢
+
+758
+00:34:18,909 --> 00:34:20,979
+the same time as that I was working with
+与方解石同时使用方解石将优化器配置为蜂巢
+
+759
+00:34:20,979 --> 00:34:20,980
+the same time as that I was working with
+
+760
+00:34:20,980 --> 00:34:24,340
+the Apache drill project which was
+由map编写的Apache演练项目是
+
+761
+00:34:24,340 --> 00:34:28,330
+written by map are a major competitor to
+由map编写的Apache演练项目是
+
+762
+00:34:28,330 --> 00:34:31,659
+Hortonworks so virtually from day one I
+Hortonworks几乎从我工作的第一天开始就被一家公司支付给
+
+763
+00:34:31,659 --> 00:34:35,739
+was working I was paid by one company to
+Hortonworks几乎从我工作的第一天开始就被一家公司支付给
+
+764
+00:34:35,739 --> 00:34:37,659
+work on technology which was being used
+研究该公司主要竞争对手使用的技术，以及
+
+765
+00:34:37,659 --> 00:34:41,009
+by that company's arch competitor and
+研究该公司主要竞争对手使用的技术，以及
+
+766
+00:34:41,009 --> 00:34:41,010
+by that company's arch competitor and
+
+767
+00:34:41,010 --> 00:34:43,239
+everyone was fine with that because
+每个人都很好，因为那基本上就是我们的工作方式
+
+768
+00:34:43,239 --> 00:34:47,380
+that's how it works basically we were
+每个人都很好，因为那基本上就是我们的工作方式
+
+769
+00:34:47,380 --> 00:34:49,719
+all creating value you know we were
+所有创造价值的过程，您都知道我们正在创造，我不会说我们正在创造
+
+770
+00:34:49,719 --> 00:34:52,210
+making I won't say we were making the
+所有创造价值的过程，您都知道我们正在创造，我不会说我们正在创造
+
+771
+00:34:52,210 --> 00:34:54,040
+world a better place but we were making
+世界是一个更好的地方，但我们正在打造一个非常有趣的功能强大的地方
+
+772
+00:34:54,040 --> 00:34:57,220
+building a very interesting powerful
+世界是一个更好的地方，但我们正在打造一个非常有趣的功能强大的地方
+
+773
+00:34:57,220 --> 00:35:01,300
+technology stack that made it possible
+技术栈使我们两家公司都可以发布
+
+774
+00:35:01,300 --> 00:35:04,150
+for both of our companies to release
+技术栈使我们两家公司都可以发布
+
+775
+00:35:04,150 --> 00:35:06,750
+really good products for our customers
+对于我们的客户而言，真正好的产品不是那种零和游戏
+
+776
+00:35:06,750 --> 00:35:10,510
+it's not a zero-sum game that's the kind
+对于我们的客户而言，真正好的产品不是那种零和游戏
+
+777
+00:35:10,510 --> 00:35:12,880
+of the message of open source if I do
+如果我做一些使我的产品更好的事情
+
+778
+00:35:12,880 --> 00:35:14,620
+something that makes my product better
+如果我做一些使我的产品更好的事情
+
+779
+00:35:14,620 --> 00:35:16,630
+and I happen to make your product better
+我碰巧使您的产品更好，那很棒的社区永远是
+
+780
+00:35:16,630 --> 00:35:18,880
+that's great community was always a
+我碰巧使您的产品更好，那很棒的社区永远是
+
+781
+00:35:18,880 --> 00:35:20,860
+really important thing for us and when
+对我们来说非常重要，当代码库关闭时，我们
+
+782
+00:35:20,860 --> 00:35:22,630
+code house was shutting down we were
+对我们来说非常重要，当代码库关闭时，我们
+
+783
+00:35:22,630 --> 00:35:25,540
+looking for a new home for groovy there
+在寻找新的时髦住宅，有很多人投资了
+
+784
+00:35:25,540 --> 00:35:27,640
+was lots of people who've invested in in
+在寻找新的时髦住宅，有很多人投资了
+
+785
+00:35:27,640 --> 00:35:29,590
+the groovy technology by building
+通过在其之上构建框架和库来开发常规技术
+
+786
+00:35:29,590 --> 00:35:31,540
+frameworks and libraries on top of it
+通过在其之上构建框架和库来开发常规技术
+
+787
+00:35:31,540 --> 00:35:34,090
+and what we really wanted was a place
+我们真正想要的是一个所有这些人都可以安全居住的地方
+
+788
+00:35:34,090 --> 00:35:36,670
+where all of those people could safely
+我们真正想要的是一个所有这些人都可以安全居住的地方
+
+789
+00:35:36,670 --> 00:35:38,770
+Park groovy and all be contributing and
+公园风格，所有人都在贡献力量，社区可以蓬勃发展，而不是没有
+
+790
+00:35:38,770 --> 00:35:42,190
+a community could thrive and not and no
+公园风格，所有人都在贡献力量，社区可以蓬勃发展，而不是没有
+
+791
+00:35:42,190 --> 00:35:43,840
+single vendor could come in and take
+单个供应商可以进入并接管该语言并将其定向到
+
+792
+00:35:43,840 --> 00:35:46,780
+over the language and direct it in a
+单个供应商可以进入并接管该语言并将其定向到
+
+793
+00:35:46,780 --> 00:35:48,670
+direction that might impact all the
+可能影响常规生态系统中所有其他参与者的方向，因此
+
+794
+00:35:48,670 --> 00:35:51,370
+other players in the groovy ecosystem so
+可能影响常规生态系统中所有其他参与者的方向，因此
+
+795
+00:35:51,370 --> 00:35:53,410
+the ASF was a great place to bring
+ASF是带来时髦的好地方，这是社区的精神
+
+796
+00:35:53,410 --> 00:35:56,110
+groovy and it's the the community ethos
+ASF是带来时髦的好地方，这是社区的精神
+
+797
+00:35:56,110 --> 00:35:58,960
+that was in apache mirrored very much
+在Apache中，这非常反映了groovy所拥有的社区
+
+798
+00:35:58,960 --> 00:36:00,700
+the kind of community that groovy had
+在Apache中，这非常反映了groovy所拥有的社区
+
+799
+00:36:00,700 --> 00:36:03,390
+been fostering outside ASF and that was
+一直在ASF之外培养，这对我们以及我们
+
+800
+00:36:03,390 --> 00:36:06,220
+the big attraction for us and what we
+一直在ASF之外培养，这对我们以及我们
+
+801
+00:36:06,220 --> 00:36:08,080
+found was a really important part for
+发现对于ASF来说确实很重要，因此我们产生了大量数据
+
+802
+00:36:08,080 --> 00:36:11,800
+the ASF so we produce tons of data
+发现对于ASF来说确实很重要，因此我们产生了大量数据
+
+803
+00:36:11,800 --> 00:36:13,810
+basically by by extracting all those
+基本上是从机器中提取所有这些参数，这是
+
+804
+00:36:13,810 --> 00:36:15,820
+parameters from the machines and this is
+基本上是从机器中提取所有这些参数，这是
+
+805
+00:36:15,820 --> 00:36:16,720
+exactly the problem
+正是物联网数据库解决的问题
+
+806
+00:36:16,720 --> 00:36:18,870
+IOT DB solves
+正是物联网数据库解决的问题
+
+807
+00:36:18,870 --> 00:36:22,540
+so this is one project we use to store
+所以这是我们现在用来存储这些状态以供以后分析的一个项目
+
+808
+00:36:22,540 --> 00:36:26,460
+those state now for later analysis to
+所以这是我们现在用来存储这些状态以供以后分析的一个项目
+
+809
+00:36:26,460 --> 00:36:30,220
+have it long term available if one sees
+如果有人发现几个月有问题，可以长期使用
+
+810
+00:36:30,220 --> 00:36:32,380
+that there's a problem several months
+如果有人发现几个月有问题，可以长期使用
+
+811
+00:36:32,380 --> 00:36:34,930
+later you can always go back and look at
+以后您可以随时返回查看数据，它们很容易访问
+
+812
+00:36:34,930 --> 00:36:39,300
+the data and they are easily accessible
+以后您可以随时返回查看数据，它们很容易访问
+
+813
+00:36:39,300 --> 00:36:42,310
+but at the same time do not consume much
+但是同时不消耗太多内存，所以这是一个难题
+
+814
+00:36:42,310 --> 00:36:45,430
+memory so this is one puzzle piece
+但是同时不消耗太多内存，所以这是一个难题
+
+815
+00:36:45,430 --> 00:36:47,500
+basically ended into the whole picture
+基本上结束了整个图景，另一个是数据分析，
+
+816
+00:36:47,500 --> 00:36:51,880
+and another one is data analysis where
+基本上结束了整个图景，另一个是数据分析，
+
+817
+00:36:51,880 --> 00:36:54,400
+we are several server projects and the
+我们是几个服务器项目，而ASF是一个古老的框架
+
+818
+00:36:54,400 --> 00:36:57,400
+ASF one is acient which is a framework
+我们是几个服务器项目，而ASF是一个古老的框架
+
+819
+00:36:57,400 --> 00:37:00,820
+to build exactly this kind of analytic
+来构建这种运行在边缘的分析应用程序，但是我们
+
+820
+00:37:00,820 --> 00:37:03,280
+applications running at the edge but we
+来构建这种运行在边缘的分析应用程序，但是我们
+
+821
+00:37:03,280 --> 00:37:05,500
+also use other projects like apache
+也使用其他项目，例如apache flink，这是众所周知的
+
+822
+00:37:05,500 --> 00:37:08,020
+flink which is very well known as a
+也使用其他项目，例如apache flink，这是众所周知的
+
+823
+00:37:08,020 --> 00:37:11,800
+streaming framework or Apache knife IO
+流框架或Apache刀IO缩小，这也是一种不错的方法
+
+824
+00:37:11,800 --> 00:37:14,730
+minify which also is a nice way to
+流框架或Apache刀IO缩小，这也是一种不错的方法
+
+825
+00:37:14,730 --> 00:37:17,860
+analyze data what we do then in detail
+分析数据，然后我们进行详细的分析，专门针对那些
+
+826
+00:37:17,860 --> 00:37:21,610
+is rather specifically to use cases that
+分析数据，然后我们进行详细的分析，专门针对那些
+
+827
+00:37:21,610 --> 00:37:24,010
+may be very simple questions like how
+可能是非常简单的问题，例如机器在
+
+828
+00:37:24,010 --> 00:37:26,170
+long did the machine operate in a
+可能是非常简单的问题，例如机器在
+
+829
+00:37:26,170 --> 00:37:29,200
+specific time range but can be more and
+特定时间范围，但可能会越来越复杂，例如识别特定时间范围
+
+830
+00:37:29,200 --> 00:37:31,390
+more complex like recognizing specific
+特定时间范围，但可能会越来越复杂，例如识别特定时间范围
+
+831
+00:37:31,390 --> 00:37:34,120
+shapes to see for example that the
+可以查看例如能耗异常或
+
+832
+00:37:34,120 --> 00:37:37,210
+energy consumption is abnormal or which
+可以查看例如能耗异常或
+
+833
+00:37:37,210 --> 00:37:39,240
+could be related to some kind of failure
+可能与某种故障或老化过程有关，
+
+834
+00:37:39,240 --> 00:37:45,000
+or aging process there's a wide range of
+可能与某种故障或老化过程有关，
+
+835
+00:37:45,000 --> 00:37:48,190
+application specific things and what we
+特定于应用程序的事情，我们正在尝试做的是帮助填充
+
+836
+00:37:48,190 --> 00:37:50,440
+are trying to do is to help to populate
+特定于应用程序的事情，我们正在尝试做的是帮助填充
+
+837
+00:37:50,440 --> 00:37:52,210
+the ecosystem in the Apache foundation
+Apache基础中的生态系统，以使其易于构建
+
+838
+00:37:52,210 --> 00:37:55,030
+to make it easy to to build together
+Apache基础中的生态系统，以使其易于构建
+
+839
+00:37:55,030 --> 00:37:57,430
+this kind of application from several
+来自几个构建基块的此类应用程序我是副总裁
+
+840
+00:37:57,430 --> 00:37:59,080
+building blocks I'm the vice-president
+来自几个构建基块的此类应用程序我是副总裁
+
+841
+00:37:59,080 --> 00:38:02,850
+of Apache labs which is an internal
+Apache实验室，这是一个内部创新领域，人们可以
+
+842
+00:38:02,850 --> 00:38:05,970
+innovation area where people can
+Apache实验室，这是一个内部创新领域，人们可以
+
+843
+00:38:05,970 --> 00:38:08,860
+existing members and committers can
+现有成员和提交者可以以非常低的成本创建自己的项目
+
+844
+00:38:08,860 --> 00:38:12,930
+create their own projects with very low
+现有成员和提交者可以以非常低的成本创建自己的项目
+
+845
+00:38:12,930 --> 00:38:18,520
+overhead and I was on the James project
+开销，我在詹姆斯项目中工作了很多年，有一个项目
+
+846
+00:38:18,520 --> 00:38:21,700
+for many years and there was project
+开销，我在詹姆斯项目中工作了很多年，有一个项目
+
+847
+00:38:21,700 --> 00:38:23,350
+management committee chair of James for
+詹姆斯（James）的管理委员会主席已有数年的历史了。
+
+848
+00:38:23,350 --> 00:38:26,680
+a number of years Labs is available to
+詹姆斯（James）的管理委员会主席已有数年的历史了。
+
+849
+00:38:26,680 --> 00:38:30,040
+any committer they can subscribe to the
+他们可以订阅实验室邮件列表的任何提交者，并且他们可以
+
+850
+00:38:30,040 --> 00:38:31,880
+labs mailing list and they can
+他们可以订阅实验室邮件列表的任何提交者，并且他们可以
+
+851
+00:38:31,880 --> 00:38:34,249
+tell us what their idea is and we'll
+告诉我们他们的想法是什么，我们将为他们启动一个迷你项目，
+
+852
+00:38:34,249 --> 00:38:37,279
+spin up a mini project for them that has
+告诉我们他们的想法是什么，我们将为他们启动一个迷你项目，
+
+853
+00:38:37,279 --> 00:38:41,119
+all of the infrastructure of Apache
+ Apache的所有基础架构，然后他们可以进行实验
+
+854
+00:38:41,119 --> 00:38:44,389
+behind it and then they can experiment
+ Apache的所有基础架构，然后他们可以进行实验
+
+855
+00:38:44,389 --> 00:38:46,249
+in there and attempt to get other people
+并尝试让其他人对他们的想法感兴趣，这可能是一个
+
+856
+00:38:46,249 --> 00:38:49,039
+interested in their idea it could be an
+并尝试让其他人对他们的想法感兴趣，这可能是一个
+
+857
+00:38:49,039 --> 00:38:51,979
+experiment that is is time boxed or that
+有时间限制的实验或达到特定目标的实验，然后
+
+858
+00:38:51,979 --> 00:38:54,049
+they achieve a particular goal and then
+有时间限制的实验或达到特定目标的实验，然后
+
+859
+00:38:54,049 --> 00:38:56,029
+it's over with or it can be something
+结束了，或者可能是他们想要合作的地方，
+
+860
+00:38:56,029 --> 00:38:58,729
+where they they want to collaborate and
+结束了，或者可能是他们想要合作的地方，
+
+861
+00:38:58,729 --> 00:39:00,289
+try things out and see if there's a
+尝试一下，看看背后是否有临界质量，然后他们
+
+862
+00:39:00,289 --> 00:39:02,809
+critical mass behind it and then they
+尝试一下，看看背后是否有临界质量，然后他们
+
+863
+00:39:02,809 --> 00:39:05,419
+can attempt to become a an Apache
+可以尝试用它成为一个Apache项目
+
+864
+00:39:05,419 --> 00:39:06,499
+project with it
+可以尝试用它成为一个Apache项目
+
+865
+00:39:06,499 --> 00:39:09,139
+it was created at a time before github
+它是在github成为问题之前创建的，我认为其中的大多数
+
+866
+00:39:09,139 --> 00:39:12,259
+was a thing and I think most of the of
+它是在github成为问题之前创建的，我认为其中的大多数
+
+867
+00:39:12,259 --> 00:39:15,919
+that activity is now supported on github
+该活动现已在github上得到支持，因此我们对实验室的兴趣减少了
+
+868
+00:39:15,919 --> 00:39:18,669
+so we're seeing less interest in labs
+该活动现已在github上得到支持，因此我们对实验室的兴趣减少了
+
+869
+00:39:18,669 --> 00:39:23,479
+but times change and the trend is maybe
+但是时代在变化，趋势可能是趋势会反过来摆动
+
+870
+00:39:23,479 --> 00:39:24,919
+the trend will swing back the other way
+但是时代在变化，趋势可能是趋势会反过来摆动
+
+871
+00:39:24,919 --> 00:39:27,739
+and perhaps if you people are watching
+也许如果您的人们正在观看此视频，他们认为这是一个很好的选择
+
+872
+00:39:27,739 --> 00:39:29,029
+this video and they think it's a good
+也许如果您的人们正在观看此视频，他们认为这是一个很好的选择
+
+873
+00:39:29,029 --> 00:39:31,609
+idea they can subscribe to the labs list
+他们可以订阅实验室列表并创建实验室
+
+874
+00:39:31,609 --> 00:39:33,600
+and come and create a lab
+他们可以订阅实验室列表并创建实验室
+
+875
+00:39:33,600 --> 00:39:42,230
+[Music]
+[音乐]
+
+876
+00:39:50,820 --> 00:40:03,780
+[Music]
+ [音乐]
+
