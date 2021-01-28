@@ -1,348 +1,433 @@
 1
 00:00:04,90 --> 00:00:09,89
-That somebody that they've used Apache software within the last hour.
+Bet somebody that they've used Apache software within the last hour.
+跟人打赌说他们在过去一个小时内用过Apache的软件
 
 2
 00:00:10,00 --> 00:00:15,00
-And they have they have because not only are particular projects
+And they have, they have. Because not only are particular projects
+结果是他们用过，因为不仅是一些特定的项目
 
 3
 00:00:15,07 --> 00:00:20,06
 particularly widespread, but the spread of projects is enormous.
+传播的特别广，而是所有项目都有着巨大的传播面。
 
 4
 00:00:20,10 --> 00:00:25,63
 And so for instance, if they've used a credit card,
+举例来说，如果他们用过信用卡，
 
 5
 00:00:25,94 --> 00:00:31,09
-if they've used television, if they've used a web browser, they use the laptop.
+if they've used television, if they've used a web browser, they've used a laptop.
+如果他们用过电视，如果他们用过网页浏览器，或者用过笔记本
 
 6
 00:00:31,17 --> 00:00:34,69
 It's almost certain that they've used some Apache software,
+那么他们几乎必定用过Apache的软件，
 
 7
 00:00:35,04 --> 00:00:39,69
 not knowing it, not necessarily seeing it.
+在不自知，也不一定了解的情况下。
 
 8
 00:00:39,82 --> 00:00:41,38
 But it's almost certainly there.
+但它们（Apache软件）一定是在那里的。
 
 9
 00:00:41,64 --> 00:00:45,06
 And it's unless you've been asleep for the last eight hours,
+除非你在过去的八个小时里一直在睡觉，
 
 10
 00:00:45,21 --> 00:00:48,86
 it's really, really hard to go in a modern technological sense,
+否则在现代科技的意义上，你真的很难做到
 
 11
 00:00:49,10 --> 00:00:54,09
 more than just a short period of time without using some Apache software.
+能在稍长的一段时间内没有使用过Apache的软件。
 
 12
 00:00:54,28 --> 00:00:57,26
-Why do we give it away? Because what we do.
+Why do we give it away? Because it is what we do.
+我们为什么将他们“拱手送人”？因为这就是我们要做的。
 
 13
 00:00:57,40 --> 00:01:02,39
 because the impact of open source is that openness.
+因为开源本身的影响力就在于开放。
 
 14
 00:01:03,36 --> 00:01:07,51
 the ability for anyone to come and use and consume and contribute.
+一种让任何人都可以来使用、消费并贡献的能力。
 
 15
 00:01:08,72 --> 00:01:14,91
 Hundreds and hundreds of years where knowledge was used to generate money.
+在好几百年的时间里，知识都是用来赚取金钱的。
 
 16
 00:01:15,27 --> 00:01:22,76
 And the only success factor in society is how much money is my company making.
+而社会中唯一认可的成功因素就是我的公司能挣多少钱。
 
 17
 00:01:23,12 --> 00:01:26,91
 I think the ASF has proven that even without making money,
+我认为Apache软件基金会证明了即使再不赚钱的情况下
 
 18
 00:01:27,22 --> 00:01:33,53
 we did have a humongous impact in the way which the world runs.
+我们同样可以对世界运行的方式产生巨大的影响。
 
 19
 00:01:33,82 --> 00:01:35,69
 What would have defined success?
+什么定义了（项目的）成功？
 
 20
 00:01:35,84 --> 00:01:39,44
 The project success is based on the people rather than the code.
+一个项目的成功是建立在人上，而非代码上。
 
 21
 00:01:39,77 --> 00:01:42,76
 And that's pretty much what comes about by the Apache way,
+而这一点便基本道出了Apache之道的内涵。
 
 22
 00:01:42,98 --> 00:01:46,28
 The community is far more important than the code.
+社区远比代码重要。
 
 23
 00:01:46,35 --> 00:01:49,03
 The code will survive whether or not the community does.
+无论社区能否存活，代码都可以留存下来。
 
 24
 00:01:49,04 --> 00:01:51,93
-But it won't get any better on being rich.
+But it won't get any better or be enriched.
+但它一定不会变得更好或更丰富。
 
 25
 00:01:52,27 --> 00:01:57,26
-They won't go on to succeed unless there's a community that is supported.
+They won't go on to succeed unless there's a community that support it.
+除非有一个社区在背后支持它（们），否则它们不会继续延续下去
 
 26
 00:01:57,37 --> 00:01:59,44
 One of the things we're seeing nowadays
+我们如今正目睹的一件事是
 
 27
 00:01:59,57 --> 00:02:06,86
-is that the lessons learned inside of IT as far as how to create successful open source projects.
+is that the lessons learned inside of IT，as far as how to create successful open source projects.
+在IT界所学到的的经验教训，像如何打造成功的开源项目
 
 28
 00:02:07,17 --> 00:02:11,21
 But most important, how to create successful open source communities,
+或更重要的，如何打造成功的开源社区，
 
 29
 00:02:11,25 --> 00:02:14,06
-of which the apache way is most probably the best example of
+of which the apache way is most probably the best example of that 
+在这点Apache之道或许是最成功的案例
 
 30
 00:02:14,12 --> 00:02:18,06
-that is starting to make inroads in other areas.
-
+is starting to make inroads in other areas.
+正开始在其他领域取得进展
+ 
 31
 00:02:18,34 --> 00:02:22,14
 This excessive open source is gonna expand beyond IT
+这种拓展性的开源将逐渐扩张至IT界之外
 
 32
 00:02:22,25 --> 00:02:27,74
 is gonna expand beyond other software development in ecosystem.
+将扩张并超越生态中其他软件的发展。
 
 33
 00:02:28,07 --> 00:02:36,28
 We're seeing open source cities now where the ideas of how to engage the populace,
+我们可以看到开源的城市，在那里关于如何使全体居民参与
 
 34
 00:02:36,57 --> 00:02:41,54
-how to engage the citizens are using some of the tenants
+how to engage the citizens are using some of the tenets
+如何使全体市民参与的想法正是借鉴了一些（开源的）信条
 
 35
 00:02:41,67 --> 00:02:43,71
 and some of the ideals of the apache way
+以及一些Apache之道的理念
 
 36
 00:02:43,84 --> 00:02:48,56
 making sure that there is transparency in all the decision making processes of government.
+确保政府的所有决策过程都可以做到透明。
 
 37
 00:02:48,82 --> 00:02:50,36
-I this is how you build software,
+I mean, this is how you build software,
+我是说，这不就是你建设软件的方法嘛
 
 38
 00:02:50,62 --> 00:02:53,68
-is by making sure that everyone involved both the people who are creating the software,
+is by making sure that everyone involve, both the people who are creating the software,
+通过确保每个人都能参与其中，无论是创造软件的人，
 
 39
 00:02:53,77 --> 00:02:57,43
 who are creating the software, creating the laws,
+创造软件的人，制定法律的人
 
 40
 00:02:57,52 --> 00:03:02,11
 as well as the end users of the software and the citizens who were going to be abiding by the law.
+还是终端的软件用户和那些遵从法律的市民们。
 
 41
 00:03:02,12 --> 00:03:07,89
-Is everything open? Everything is being done, an open, public, and transparent manner.
+Is everything open? Everything is being done, in an open, public, and transparent manner.
+是所有事情都是公开的吗？所有事情都是在一种公共的、开放的、透明的方式下完成的。
 
 42
 00:03:08,09 --> 00:03:11,83
-So we're seeing a lot of the tenants of successful open source.
+So we're seeing a lot of the tenets of successful open source,
+所以我们看到很多成功开源软件的信条。
 
 43
 00:03:12,15 --> 00:03:18,66
-A lot of the means of the Apache way transcend the IT community
+A lot of the means of the Apache way transcend the IT community,
+很多Apache之道的手段都超越了IT社区的边界，
 
 44
 00:03:18,97 --> 00:03:25,81
 and make inroads into government, corporate entities, a heavy industry, manufacturing, machining.
+并进军到政府、公司企业、重工业、工厂、机械领域中。
 
 45
 00:03:26,05 --> 00:03:33,01
 And I think that's an incredible heritage for the movement we've created.
+我认为这是一个我们引领的运动所留下的无与伦比的遗产。
 
 46
 00:03:33,32 --> 00:03:38,24
 At the use cases that get me excited are the ones that are about trying to address
+让我感到最激动实际案例，是哪些想要试图解决
 
 47
 00:03:38,40 --> 00:03:42,06
-any one of those two hundred and sixty different sustainable development goals out there right
+any one of those two hundred and sixty different sustainable development goals out there, right?
+二百六十种可持续发展目之中任意一个的软件，对吧？
 
 48
 00:03:42,07 --> 00:03:44,28
 if we're going to have a carbon trading market
+如果我们要建立一个碳交易市场的话
 
 49
 00:03:44,57 --> 00:03:48,18
 we're going to need a distributed ledger system to be able to do that on a global scale
+我们就将需要一个分布式账本系统来在全球范围内实现这一点。
 
 50
 00:03:48,52 --> 00:03:54,49
 if we're going to eliminate child labor in mines or on fishing boats or in other industries
+如果我们要消除矿上、渔船上或其他行业的童工现象
 
 51
 00:03:54,80 --> 00:03:57,01
 it's going to be through technologies like this.
-
+它也将通过向像这样的科技实现。
 
 52
 00:03:57,32 --> 00:04:02,53
 FIN act is a project that supports Micro finance institutions in giving out loans
+FIN act是一个支持小额金融机构为最贫穷的人提供贷款
 
 53
 00:04:02,94 --> 00:04:06,31
 and and tracking savings for the poorest of the poor.
+和跟踪储蓄的项目。
 
 54
 00:04:06,40 --> 00:04:11,41
 So it's very rewarding to be able to make these services available to the poor.
+所以，能够让穷人享受到这些服务，是非常有意义的。
 
 55
 00:04:11,59 --> 00:04:14,21
 Because if you don't have savings, if you don't have loans,
+因为如果你没有储蓄，如果你没有贷款，
 
 56
 00:04:14,34 --> 00:04:16,96
-if you don't have remittances, that's money transfers
+if you don't have remittances, that's money transfers,
+如果你没有汇款，也就是转账，
 
 57
 00:04:17,14 --> 00:04:20,93
 then you don't have contact the global economy and you can't profit
+那么你就无法接触到全球经济，你就无法获利。
 
 58
 00:04:21,14 --> 00:04:24,66
 when your boat doesn't rise when everybody else's boat rises.
+当你的船没有上升时，其他人的船都上升了。
 
 59
 00:04:24,85 --> 00:04:27,21
 In the case of this project, you're connecting the empowerment
+在这个项目中，你要把最贫困的人的赋能
 
 60
 00:04:27,42 --> 00:04:31,86
-are the poorest of the poor with the empowerment of other software developers.
+of the poorest of the poor with the empowerment of the software developers.
+和软件开发者的赋能联系起来。
 
 61
 00:04:32,13 --> 00:04:35,04
 And you're doing both of them in the context of a community.
+而你是在一个社区的环境下完成这两件事的。
 
 62
 00:04:35,55 --> 00:04:42,54
-So it's really wonderful parallels between open source software and micro finance.
+So there are really wonderful parallels between open source software and micro finance.
+所以，开源软件和小微金融之间真的有奇妙的相似之处。
 
 63
 00:04:43,07 --> 00:04:47,29
-Being part of that. It just gives me a great feeling
+Being part of that, it just gives me a great feeling
+作为其中的一部分。它就给我一种特别好的感觉
 
 64
 00:04:47,30 --> 00:04:50,24
 that we've been able to change the world for the better
+我们已经能够改变世界，让它变得更好
 
 65
 00:04:50,44 --> 00:04:53,46
 A lot of our software helps developing countries.
+我们的很多软件都在帮助发展中国家。
 
 66
 00:04:53,74 --> 00:05:00,51
 The great strides the world has made today in the last 20 years of globalization,
+在过去20年的全球化进程中，当今世界取得了巨大的进步，
 
 67
 00:05:00,87 --> 00:05:07,76
-with the developing countries growing and advancing on providing  better living conditions
+with the developing countries growing and advancing on providing better living conditions
+而发展中国家在提供更好的生活条件方面不断发展和进步
 
 68
 00:05:08,00 --> 00:05:12,63
 and better economic advancement for its populations
+并更好地促进了其人民的经济发展
 
 69
 00:05:12,72 --> 00:05:15,43
 That's a result of the Free software movements.
+这是自由软件运动的成果之一。
 
 70
 00:05:15,75 --> 00:05:19,09
 And Apache had a big hand in that.
+而Apache在其中也有很大的作用。
 
 71
 00:05:19,10 --> 00:05:20,01
 I feel very strongly.
+我的感觉非常强烈。
 
 72
 00:05:20,27 --> 00:05:24,09
 The only thing that will save us as a species from our own internal greed
-
+唯一能把我们这个物种从我们自身内在的贪婪
 73
 00:05:24,44 --> 00:05:29,18
 and hatred and the distance that we put between human hearts.
+和仇恨还有我们在人心之间划出的距离中解救出来。
 
 74
 00:05:29,42 --> 00:05:33,96
-And I occasionally I'm chided because I am very sensitive person  and have thin skin.
+And I occasionally I'm chided because I am very sensitive person and have thin skin.
+而我偶尔也会被责备，因为我是一个很敏感的人，脸皮很薄。
 
 75
 00:05:34,10 --> 00:05:37,09
 And they say, you need thicker skin.
+他们说，你需要更厚的脸皮。
 
 76
 00:05:37,35 --> 00:05:41,09
 Now thicker skin puts more distance between human hearts.
+现在，更厚的脸皮让人们的心与心之间的距离更远了。
 
 77
 00:05:41,35 --> 00:05:44,38
 It allows more space for not like me.
+这为“不喜欢我”提供了更多的空间。
 
 78
 00:05:44,62 --> 00:05:47,84
- It allows more space for us versus them.
+It allows more space for us versus them.
+这为“我们与他们”提供了更多空间
 
 79
 00:05:48,05 --> 00:05:54,01
 And that will be our undoing, not just as technologists but as a species.
+而这将是我们的败笔，不仅仅是作为技术专家，更是作为一个物种。
 
 80
 00:05:54,36 --> 00:05:59,86
 And we are at a crucial point in our evolution, I believe,
+而我们正处于进化的关键时刻，我相信，
 
 81
 00:06:00,02 --> 00:06:04,13
 where we need to start caring more about each other and less about profit.
+此时我们需要开始更多地关心彼此，而不是利益。
 
 82
 00:06:04,39 --> 00:06:08,23
 And the Apache way voices one part of that,
+而Apache之道表达了其中的一部分意思。
 
 83
 00:06:08,37 --> 00:06:10,36
 I think in a very powerful way.
+我认为以一种非常强大的方式。
 
 84
 00:06:10,52 --> 00:06:15,51
 When we put community above code,
+当我们把社区放在代码之上的时候，
 
 85
 00:06:15,60 --> 00:06:18,61
 that gives us the opportunity to have a place
+这就给了我们一个机会，
 
 86
 00:06:18,69 --> 00:06:23,41
 where people can be passionate about solving other people's problems.
+让人们在这里可以满怀激情地去解决其他人的问题。
 
 87
 00:06:23,57 --> 00:06:28,56
 That is one element of good empathy.
+而这是好的同理心的要素之一。
