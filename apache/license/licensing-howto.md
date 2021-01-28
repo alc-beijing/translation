@@ -67,3 +67,48 @@ NOTICE文件是为法律要求的通知的某些子集保留的，这些通知�
 保持NOTICE尽可能简短和简单是很重要的，因为每次添加都会给下游消费者带来负担。
 
 **不要**添加任何法律上没有要求的内容到NOTICE里。
+
+## 绑定依赖与非绑定依赖
+
+必须根据它们所在的特定发行版的内容来自定义LICENSE和NOTICE文件。不要把分发包中未包含的依赖项写进LICENSE和NOTICE里。 **只有绑定的才重要**。
+
+例如：如果Apache-FOO-1.0.tgz和Apache-FOO-1.1.tgz之间的唯一区别是一个捆绑SuperWidget而另一个强制用户单独下载SuperWidget，LICENSE和NOTICE就需要修改以匹配不同的绑定项。
+
+## 依赖关系的依赖关系
+
+为了撰写LICENSE和NOTICE，依赖关系的依赖关系（包括所谓的“传递性依赖关系”）与一阶依赖关系没有什么不同：**仅在它们部分被绑定在一起的情况下**，才需要修改LICENSE和NOTICE以符合它们。
+
+## 二进制发行版
+
+适用于规范的源代码分发的内容也适用于所有的再分配，包括二进制重新分配：
+
+**所有重新分发都必须遵守内容的许可要求。**
+
+撰写二进制发行版时，通常会引入并绑定未与源发行版绑定在一起的其他依赖项。必须在LICENSE和NOTICE中说明这些附加的依赖性。 因此，二进制发行版的LICENSE和NOTICE文件可能与构建它的源发行版中的不同。
+
+在任何情况下，原理都是一样的：LICENSE和NOTICE必须**准确**表示它们所撰写的分发内容。
+
+## NOTICE文件示例
+
+以下是[Apache Royale](https://royale.apache.org/)的NOTICE文件的内容：
+
+```aidl
+Apache Royale
+Copyright 2020 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+The Initial Developer of some parts of the framework, which are copied from, derived from, or
+inspired by Adobe Flex (via Apache Flex), is Adobe Systems Incorporated (http://www.adobe.com/).
+Copyright 2003 - 2012 Adobe Systems Incorporated. All Rights Reserved.
+
+The Initial Developer of the examples/mxroyale/tourdeflexmodules, 
+is Adobe Systems Incorporated (http://www.adobe.com/).
+Copyright 2009 - 2013 Adobe Systems Incorporated. All Rights Reserved.
+
+The ping sound effect (ping.mp3) in 
+examples/mxroyale/tourdeflexmodules/src/mx/effects/assets
+was created by CameronMusic. (http://www.freesound.org/people/cameronmusic/sounds/138420/)
+© 2020 GitHub, Inc.
+```
