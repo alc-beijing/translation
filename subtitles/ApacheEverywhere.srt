@@ -56,7 +56,7 @@ more than just a short period of time without using some Apache software.
 12
 00:00:54,28 --> 00:00:57,26
 Why do we give it away? Because it is what we do.
-我们为什么将他们“拱手送人”？因为这就是我们要做的。
+我们为什么将它们“拱手送人”？因为这就是我们要做的。
 
 13
 00:00:57,40 --> 00:01:02,39
@@ -81,7 +81,7 @@ And the only success factor in society is how much money is my company making.
 17
 00:01:23,12 --> 00:01:26,91
 I think the ASF has proven that even without making money,
-我认为Apache软件基金会证明了即使再不赚钱的情况下
+我认为Apache软件基金会证明了即使在不赚钱的情况下
 
 18
 00:01:27,22 --> 00:01:33,53
@@ -121,7 +121,7 @@ But it won't get any better or be enriched.
 25
 00:01:52,27 --> 00:01:57,26
 They won't go on to succeed unless there's a community that support it.
-除非有一个社区在背后支持它（们），否则它们不会继续延续下去
+除非有一个社区在背后支持它（们），否则它们不会持续发展下去
 
 26
 00:01:57,37 --> 00:01:59,44
@@ -256,12 +256,12 @@ it's going to be through technologies like this.
 52
 00:03:57,32 --> 00:04:02,53
 FIN act is a project that supports Micro finance institutions in giving out loans
-FIN act是一个支持小额金融机构为最贫穷的人提供贷款
+FIN act是一个支持小额金融机构为最贫穷的人
 
 53
 00:04:02,94 --> 00:04:06,31
 and and tracking savings for the poorest of the poor.
-和跟踪储蓄的项目。
+提供贷款和跟踪储蓄的项目。
 
 54
 00:04:06,40 --> 00:04:11,41
@@ -286,7 +286,7 @@ then you don't have contact the global economy and you can't profit
 58
 00:04:21,14 --> 00:04:24,66
 when your boat doesn't rise when everybody else's boat rises.
-当你的船没有上升时，其他人的船都上升了。
+当大家都获利的时候，你却停滞不前。
 
 59
 00:04:24,85 --> 00:04:27,21
@@ -395,12 +395,12 @@ And that will be our undoing, not just as technologists but as a species.
 80
 00:05:54,36 --> 00:05:59,86
 And we are at a crucial point in our evolution, I believe,
-而我们正处于进化的关键时刻，我相信，
+而我相信，我们正处于进化的关键时刻，
 
 81
 00:06:00,02 --> 00:06:04,13
 where we need to start caring more about each other and less about profit.
-此时我们需要开始更多地关心彼此，而不是利益。
+此时我们需要开始更多地关心彼此，而不只是利益。
 
 82
 00:06:04,39 --> 00:06:08,23
