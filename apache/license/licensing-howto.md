@@ -72,7 +72,7 @@ NOTICE文件是为法律要求的通知的某些子集保留的，这些通知�
 
 必须根据它们所在的特定发行版的内容来自定义LICENSE和NOTICE文件。不要把分发包中未包含的依赖项写进LICENSE和NOTICE里。 **只有绑定的才重要**。
 
-例如：如果Apache-FOO-1.0.tgz和Apache-FOO-1.1.tgz之间的唯一区别是一个捆绑SuperWidget而另一个强制用户单独下载SuperWidget，LICENSE和NOTICE就需要修改以匹配不同的绑定项。
+例如：如果Apache-FOO-1.0.tgz和Apache-FOO-1.1.tgz之间的唯一区别是一个绑定了SuperWidget而另一个强制用户单独下载SuperWidget，LICENSE和NOTICE就需要修改以匹配不同的绑定项。
 
 ## 依赖关系的依赖关系
 
@@ -84,7 +84,7 @@ NOTICE文件是为法律要求的通知的某些子集保留的，这些通知�
 
 **所有重新分发都必须遵守内容的许可要求。**
 
-撰写二进制发行版时，通常会引入并绑定未与源代码发行版绑定在一起的其他依赖项。必须在LICENSE和NOTICE中说明这些附加的依赖性。 因此，二进制发行版的LICENSE和NOTICE文件可能与构建它的源发行版中的不同。
+撰写二进制发行版时，通常会引入并绑定未与源代码发行版绑定在一起的其他依赖项。必须在LICENSE和NOTICE中说明这些附加的依赖性。 因此，二进制发行版的LICENSE和NOTICE文件可能与构建它的源代码发行版中的不同。
 
 在任何情况下，原理都是一样的：LICENSE和NOTICE必须**准确**表示它们所包含的分发内容。
 
