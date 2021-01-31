@@ -84,9 +84,9 @@ NOTICE文件是为法律要求的通知的某些子集保留的，这些通知�
 
 **所有重新分发都必须遵守内容的许可要求。**
 
-撰写二进制发行版时，通常会引入并绑定未与源发行版绑定在一起的其他依赖项。必须在LICENSE和NOTICE中说明这些附加的依赖性。 因此，二进制发行版的LICENSE和NOTICE文件可能与构建它的源发行版中的不同。
+撰写二进制发行版时，通常会引入并绑定未与源代码发行版绑定在一起的其他依赖项。必须在LICENSE和NOTICE中说明这些附加的依赖性。 因此，二进制发行版的LICENSE和NOTICE文件可能与构建它的源发行版中的不同。
 
-在任何情况下，原理都是一样的：LICENSE和NOTICE必须**准确**表示它们所撰写的分发内容。
+在任何情况下，原理都是一样的：LICENSE和NOTICE必须**准确**表示它们所包含的分发内容。
 
 ## NOTICE文件示例
 
@@ -110,5 +110,4 @@ Copyright 2009 - 2013 Adobe Systems Incorporated. All Rights Reserved.
 The ping sound effect (ping.mp3) in 
 examples/mxroyale/tourdeflexmodules/src/mx/effects/assets
 was created by CameronMusic. (http://www.freesound.org/people/cameronmusic/sounds/138420/)
-© 2020 GitHub, Inc.
 ```
