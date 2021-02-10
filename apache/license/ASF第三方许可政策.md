@@ -283,15 +283,115 @@ Cobertura报告可能包含在ASF分发包中。
 
 #### 处理禁止修改的许可证
 
+有些许可证赋予了重新分发未修改副本的广泛权利。这些许可证不是开源的，但它们确实满足上述第二和第三条指导原则。
+
+Apache项目不得在版本控制或已发布的源代码包中包含此类许可证下的材料。但是，构建过程可以自动下载字体和标准化数据等非软件材料，并将它们包含在生成的二进制文件中。这种用法清楚地表明，这些依赖项不是项目开放源代码的一部分。
+
+可如上所述使用以下许可证下的材料：
+
+   - [PDF CJK字体的CMAP](#https://www.adobe.com/devnet/font.html#pcfi)
+   
+   - JCR API jar（[日规范许可证](#http://www.day.com/maven/jsr170/licenses/day-spec-license.htm)+[附加许可证](#http://www.day.com/maven/jsr170/jars/LICENSE.txt)）
+   
+   - [WSDL（2004）模式文件许可证](#https://issues.apache.org/jira/browse/LEGAL-385)
+
 #### 在ASF产品中包含构建工具
+
+许多语言已经开发了一个相关工具的生态系统，帮助构建分发的工件。虽然这些工具可能并不总是在其他兼容的许可证下可用，但特定的工具在用于特定目的时可以包含在Apache发行版中。
+
+请注意，该工具不得影响项目源代码的许可。我们使用该工具来构建源代码也是它的典型用途。
+
+迄今为止，以下工具已获准用于此类用途：
+
+   - Autotools系列产品，特别是：
+        - [自动配置](#http://www.gnu.org/software/autoconf/)
+        - [自动制造](#http://www.gnu.org/software/automake/)
+        - [Libtool](#http://www.gnu.org/software/libtool/)
+        - [mkinstalldirs.sh](#http://www.gnu.org/software/hello/manual/gettext/mkinstalldirs.html)
+   - [OCamlMakefile](#http://hg.ocaml.info/release/ocaml-make/)
+        - [setup.rb](#https://i.loveruby.net/en/projects/setup/)
 
 #### 创建动态加载的XS模块时包含Perl许可的头文件
 
+开发链接已编译的C代码以创建动态加载的XS模块的Perl绑定，需要包括获得Perl许可（http://dev.perl.org/licenses/ - GPL-any/Artistic1, with exceptions 除外）许可的头文件。
+
+您可以包括这些头文件-XSUB.h，perl.h和EXTERN.h（请参阅：[LEGAL-79](#https://issues.apache.org/jira/browse/LEGAL-79)）。
+
 #### 包括Doxygen生成的配置文件
+
+只要从Doxygen生成的文件中删除生成的注释，就可以使用这些文件。
 
 #### Apache项目可以对Ruby许可的作品具有外部依赖性吗？
 
+以Ruby为主要语言编写的项目可以依赖Matz的Ruby解释器（MRI），也可以依赖于Ruby许可下许可的任何Gem。
+
+当然，根据其他许可证（如MIT）编写的Gems也可以，这取决于许可证。
+
+另外请注意，对于二进制用法，Ruby许可证列在上面的“B类”较低的公共版权列表中（例如JRuby）。
+
 ## X类：我们不能把什么写在ASF项目中？
+
+以下许可证可能不包含在Apache产品中：
+
+   - 不符合OSD：
+   
+        - 二进制代码许可证（BCL）
+        
+        - 英特尔简化软件许可证
+        
+        - [JSR-275许可证](#https://software.intel.com/content/www/us/en/develop/articles/end-user-license-agreement.html#inpage-nav-3)
+        
+        - 使用领域限制：
+        
+            - [Microsoft有限公共许可证](#https://www.openhub.net/licenses/mslpl)
+            
+            - [亚马逊软件许可证（ASL）](#https://aws.amazon.com/cn/asl/)
+            
+            - [Satori RTM许可证的Java SDK](#https://aws.amazon.com/cn/asl/)
+            
+            - [Redis源可用许可证（RSAL）](#https://redislabs.com/legal/licenses/)
+            
+            - [博思艾伦公共许可证](#http://boozallen.github.io/licenses/bapl)
+
+        - 非商业许可证：
+        
+            - [知识共享非商业](#https://en.wikipedia.org/wiki/Creative_Commons_license#Non-commercial_licenses)变体
+
+            - [Sun社区源代码许可证3.0](#http://jcp.org/aboutJava/communityprocess/SCSL3.0.rtf)
+            
+   - 对大型工程进行限制：
+
+        - [GNU GPL 1、2、3](#http://www.opensource.org/licenses/gpl-license.php)
+
+            - GNU GPL的特殊例外（如GNU类路径），除非本页其他地方另有允许。
+
+        - [GNU阿费罗GPL 3](#http://www.opensource.org/licenses/agpl-v3.html)
+
+        - [GNU LGPL 2、2.1、3](#http://www.opensource.org/licenses/lgpl-license.php)
+
+        - [QPL](#https://opensource.org/licenses/QPL-1.0)
+
+        - [Sleepycat许可证](#http://www.opensource.org/licenses/sleepycat.php)
+
+        - [服务器端公共许可证（SSPL）版本1](#https://www.mongodb.com/licensing/server-side-public-license)
+
+        - [代码项目开放许可证（CPOL）](#http://www.codeproject.com/info/cpol10.aspx)
+        
+   - 其他问题：
+   
+        - [BSD-4条款](#https://spdx.org/licenses/BSD-4-Clause.html) / [BSD-4条款（加州大学专用）](#https://spdx.org/licenses/BSD-4-Clause-UC.html)
+   
+        - [Facebook BSD+专利许可证](#https://code.facebook.com/pages/850928938376556)
+   
+        - [NPL1.0](#https://spdx.org/licenses/NPL-1.0.html) / [NPL1.1](#https://spdx.org/licenses/NPL-1.1.html)
+   
+        - 无厘头许可证：
+   
+            - Solipsistic Eclipse公共许可证
+   
+            - [“不要做个鸟人”公共许可证](#https://dbad-license.org/)
+   
+            - [JSON许可证](#http://www.json.org/license.html)
 
 #### 可能没有被分发的东西
 
