@@ -79,11 +79,11 @@
 
 在较高级别上，此策略将许可证分为三类。
 
-**A类**：A类许可证可能包含在Apache软件基础产品中。据说他们是“Apache式的”。
+   - **A类**：A类许可证可能包含在Apache软件基础产品中。据说他们是“Apache式的”。
 
-**B类**：在某些条件下，B类中的许可证可能包含在Apache软件基础产品中。它们“可能”包含在内。
+   - **B类**：在某些条件下，B类中的许可证可能包含在Apache软件基础产品中。它们“可能”包含在内。
 
-**X类**：X类中的许可证可能不包含在Apache软件基础产品中。
+   - **X类**：X类中的许可证可能**不**包含在Apache软件基础产品中。
 
 ## A类：我们可以把什么写进ASF项目中？
 
@@ -117,65 +117,65 @@
        
        - [杯形语法分析器产生程序](#http://www2.cs.tum.edu/projects/cup/licence.php)
        
-       - [ICU](#http://source.icu-project.org/repos/icu/icu/trunk/LICENSE)
+   - [ICU](#http://source.icu-project.org/repos/icu/icu/trunk/LICENSE)
        
-       - [伊利诺伊大学/NCSA](#https://opensource.org/licenses/UoI-NCSA.php)
+   - [伊利诺伊大学/NCSA](#https://opensource.org/licenses/UoI-NCSA.php)
        
-       - [W3C软件许可](#https://opensource.org/licenses/W3C.php)
+   - [W3C软件许可](#https://opensource.org/licenses/W3C.php)
        
-       - [W3C社区贡献者许可协议](#https://www.w3.org/community/about/agreements/cla/)-如果发布,至少45天之后
+   - [W3C社区贡献者许可协议](#https://www.w3.org/community/about/agreements/cla/)-如果发布,至少45天之后
        
-       - [X.Net](#https://opensource.org/licenses/xnet.php)
+   - [X.Net](#https://opensource.org/licenses/xnet.php)
        
-       - [zlib/libpng](#https://opensource.org/licenses/zlib-license.php)
+   - [zlib/libpng](#https://opensource.org/licenses/zlib-license.php)
        
-       - FSF Autoconf许可证
+   - FSF Autoconf许可证
        
-       - [DejaVu字体（Bitstream Vera / Arev许可）](#https://dejavu-fonts.org/)
+   - [DejaVu字体（Bitstream Vera / Arev许可）](#https://dejavu-fonts.org/)
        
-       - [学术免费许可证3.0](#https://opensource.org/licenses/afl-3.0.php)
+   - [学术免费许可证3.0](#https://opensource.org/licenses/afl-3.0.php)
        
-       - [服务+组件+建筑+规格](#http://web.archive.org/web/20080704184203/http://www.osoa.org/xmlns/sca/1.0/license.txt)
+   - [服务+组件+建筑+规格](#http://web.archive.org/web/20080704184203/http://www.osoa.org/xmlns/sca/1.0/license.txt)
        
-       - OOXML XSD ECMA许可证
+   - OOXML XSD ECMA许可证
        
-       - [Microsoft公共许可证（MsPL）](#https://opensource.org/licenses/ms-pl.html)
+   - [Microsoft公共许可证（MsPL）](#https://opensource.org/licenses/ms-pl.html)
        
-       - [知识共享组织仅限于版权贡献](#https://creativecommons.org/licenses/publicdomain/deed.zh)
+   - [知识共享组织仅限于版权贡献](#https://creativecommons.org/licenses/publicdomain/deed.zh)
        
-       - [Python软件基金会许可证](#http://www.opensource.org/licenses/PythonSoftFoundation.php)
+   - [Python软件基金会许可证](#http://www.opensource.org/licenses/PythonSoftFoundation.php)
        
-       - [Python Imaging Library软件许可](#https://github.com/python-pillow/Pillow/blob/master/LICENSE)
+   - [Python Imaging Library软件许可](#https://github.com/python-pillow/Pillow/blob/master/LICENSE)
        
-       - [Adobe Postcript（R）AFM文件](#https://spdx.org/licenses/APAFML.html)
+   - [Adobe Postcript（R）AFM文件](#https://spdx.org/licenses/APAFML.html)
        
-       - [Boost软件许可版本1.0](#https://opensource.org/licenses/BSL-1.0)
+   - [Boost软件许可版本1.0](#https://opensource.org/licenses/BSL-1.0)
        
-       - [COLT中CERN软件包的许可](#https://dst.lbl.gov/ACSSoftware/colt/license.html)，但请注意，这**仅**适用于COLT中的CERN软件包，**不**适用于其他
+   - [COLT中CERN软件包的许可](#https://dst.lbl.gov/ACSSoftware/colt/license.html)，但请注意，这**仅**适用于COLT中的CERN软件包，**不**适用于其他
        
-       - [英国开放政府许可证](#https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)。该许可允许许可方提供自定义归属通知。如有，请在NOTICE中注明。如果没有提供，那么在NOTICE上注明“包含根据开放政府许可证v3.0许可的公共部门信息”。
+   - [英国开放政府许可证](#https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)。该许可允许许可方提供自定义归属通知。如有，请在NOTICE中注明。如果没有提供，那么在NOTICE上注明“包含根据开放政府许可证v3.0许可的公共部门信息”。
        
-       - [WTF公共许可证](#http://www.wtfpl.net/)
+   - [WTF公共许可证](#http://www.wtfpl.net/)
        
-       - [浪漫WTF公共许可证](#https://github.com/pygy/gosub/blob/master/LICENSE)
+   - [浪漫WTF公共许可证](#https://github.com/pygy/gosub/blob/master/LICENSE)
        
-       - [UNICODE公司。许可协议-数据文件和软件](#http://www.unicode.org/copyright.html#Exhibit1)
+   - [UNICODE公司。许可协议-数据文件和软件](#http://www.unicode.org/copyright.html#Exhibit1)
        
-       - [Zope公共许可证2.0](#https://opensource.org/licenses/ZPL-2.0)
+   - [Zope公共许可证2.0](#https://opensource.org/licenses/ZPL-2.0)
        
-       - [ACE许可证](#http://www.cs.wustl.edu/~schmidt/ACE-copying.html)
+   - [ACE许可证](#http://www.cs.wustl.edu/~schmidt/ACE-copying.html)
        
-       - [Oracle通用许可许可证（UPL）1.0版](#https://oss.oracle.com/licenses/upl/)
+   - [Oracle通用许可许可证（UPL）1.0版](#https://oss.oracle.com/licenses/upl/)
        
-       - [开放网格论坛许可证](#https://www.ogf.org/ogf/doku.php/about/copyright)
+   - [开放网格论坛许可证](#https://www.ogf.org/ogf/doku.php/about/copyright)
        
-       - [谷歌“附加知识产权授权(专利)”](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
+   - [谷歌“附加知识产权授权(专利)”](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
        
-       - [非授权许可证](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
+   - [非授权许可证](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
        
-       - [历史许可声明和免责声明](#https://opensource.org/licenses/HPND)
+   - [历史许可声明和免责声明](#https://opensource.org/licenses/HPND)
        
-       - [木兰宽松许可证, 第2版](#https://license.coscl.org.cn/MulanPSL2/)
+   - [木兰宽松许可证, 第2版](#https://license.coscl.org.cn/MulanPSL2/)
        
 其中许多许可证都有特定的归属条款需要去遵守，通常是将其[包含到NOTICE文件中](#https://www.apache.org/dev/licensing-howto.html)。当完成这些作品时，请确保您正在执行此操作。     
    
@@ -199,15 +199,15 @@ Apache产品中可能包含公共领域的作品（或受到类似处理的许�
    
 应被视为类似于公共领域的许可证：
 
-  - 知识共享CC0“不保留任何权利”
+  - 知识共享[CC0“不保留任何权利”](#https://creativecommons.org/about/cc0)
   
-  - 知识共享公共领域认证
+  - 知识共享[公共领域认证](#https://creativecommons.org/licenses/publicdomain/)
   
-要注意的是判断作品是否属于公共领域可能是一件困难的事情。确定一部作品的版权是否已经过期似乎是非常重要的，而且在不同的司法管辖区可能会有所不同。如果你对某件作品是否属于公共领域有疑问，可以通过“法律讨论”或“JIRA问题”提出这个话题。
+**要注意的是**判断作品是否属于公共领域可能是一件[困难](#http://fairuse.stanford.edu/Copyright_and_Fair_Use_Overview/chapter8/)的事情。确定一部作品的版权是否已经过期似乎是非常重要的，而且在不同的司法管辖区可能会有所不同。如果你对某件作品是否属于公共领域有疑问，可以通过“法律讨论”或“JIRA问题”提出这个话题。
 
 ## B类：我们可能把什么写进ASF项目中？
 
-为了包含在Apache软件基础产品中，如果满足指定条件，则可以涵盖本节中描述的许可和/或项目。
+为了包含在Apache软件基础产品中，**如果**满足指定条件，则可以涵盖本节中描述的许可和/或项目。
 
 #### 适当标记的条件
 
@@ -271,7 +271,7 @@ Apache产品中可能包含[知识共享署名相同方式共享2.5](#https://cr
 
 #### Doug Lea的并发库
 
-Doug Lea的并发库是公共领域的，但是包含一些非公共领域的Sun文件。这可能包含在ASF产品中，就像上面的“较低的公共版权”列表一样。“如果适当地标记了包含内容，则它可以二进制形式包含在Apache产品中”。如果使用了源代码，请删除Sun授权给Doug的文件并将其视为A类（或从Harmony获取文件）。
+Doug Lea的并发库是公共领域的，但是包含一些非公共领域的Sun文件。这可能包含在ASF产品中，就像上面的“较低的公共版权”列表一样。“如果适当地标记了包含内容，则它可以二进制形式包含在Apache产品中”。如果使用了源代码，请删除Sun授权给Doug的文件并将其视为A类（或从[Harmony](#http://svn.apache.org/repos/asf/harmony/standard/classlib/trunk/modules/concurrent/src/main/java/java/util/concurrent/)获取文件）。
 
 #### 将OSGi元数据添加到较低的公共版权二进制文件中
 
@@ -283,7 +283,7 @@ Cobertura报告可能包含在ASF分发包中。
 
 #### 处理禁止修改的许可证
 
-有些许可证赋予了重新分发未修改副本的广泛权利。这些许可证不是开源的，但它们确实满足上述第二和第三条指导原则。
+有些许可证赋予了重新分发**未修改**副本的广泛权利。这些许可证不是开源的，但它们确实满足上述第二和第三条指导原则。
 
 Apache项目不得在版本控制或已发布的源代码包中包含此类许可证下的材料。但是，构建过程可以自动下载字体和标准化数据等非软件材料，并将它们包含在生成的二进制文件中。这种用法清楚地表明，这些依赖项不是项目开放源代码的一部分。
 
@@ -313,7 +313,7 @@ Apache项目不得在版本控制或已发布的源代码包中包含此类许�
 
 #### 创建动态加载的XS模块时包含Perl许可的头文件
 
-开发链接已编译的C代码以创建动态加载的XS模块的Perl绑定，需要包括获得Perl许可（http://dev.perl.org/licenses/ - GPL-any/Artistic1, with exceptions 除外）许可的头文件。
+开发链接已编译的C代码以创建动态加载的XS模块的Perl绑定，需要包括获得Perl许可（http://dev.perl.org/licenses/ -GPL-any/Artistic1, with exceptions 除外）许可的头文件。
 
 您可以包括这些头文件-XSUB.h，perl.h和EXTERN.h（请参阅：[LEGAL-79](#https://issues.apache.org/jira/browse/LEGAL-79)）。
 
@@ -323,7 +323,7 @@ Apache项目不得在版本控制或已发布的源代码包中包含此类许�
 
 #### Apache项目可以对Ruby许可的作品具有外部依赖性吗？
 
-以Ruby为主要语言编写的项目可以依赖Matz的Ruby解释器（MRI），也可以依赖于Ruby许可下许可的任何Gem。
+以Ruby为主要语言编写的项目可以依赖Matz的Ruby解释器（MRI），也可以依赖于[Ruby许可](#http://www.ruby-lang.org/en/LICENSE.txt)下许可的任何Gem。
 
 当然，根据其他许可证（如MIT）编写的Gems也可以，这取决于许可证。
 
@@ -392,17 +392,57 @@ Apache项目不得在版本控制或已发布的源代码包中包含此类许�
             - [“不要做个鸟人”公共许可证](#https://dbad-license.org/)
    
             - [JSON许可证](#http://www.json.org/license.html)
+            
+“其他问题”的详细信息：
+
+**Facebook BSD +专利许可证**
+
+Facebook BSD+专利许可证包含一个专利文件规范，该规范将风险传递给我们软件的下游消费者，这种不平衡有利于许可方，而不是被许可方，从而违反了作为[通用捐赠者](#http://www.apache.org/legal/ramblings.html#head-62def7ee9e2cb64eb757533133a99da472b1e88a)的Apache法律政策。Facebook BSD+专利许可证的条款不是ALv2中的条款的子集，它们不能作为ALv2的再许可。
+
+**NPL**
+
+Netscape公共许可证是Mozilla的原始许可证，包含特定于Netscape的修改。这些修正案允许“网景”（现在是美国在线的一部分）避免所有其他许可证持有人必须遵守的互惠要求。这将取消许可证满足开源定义#5（“不歧视个人或团体”）的资格。
+
+**无厘头许可证**
+
+这些许可证虽然对它们的创造者来说很有趣，但在法律上是有问题的。它们通常包括主观的使用领域限制，例如“不要作恶”，没有定义主观限制的仲裁者。在某些情况下，他们甚至可能没有授予足够的权限来符合OSI开源定义。由于我们不想让下游消费者感到惊讶，我们禁止使用此类许可证。
+
+JSON许可证
+
+从2016年11月3日起，JSON许可证被移至“X类”许可证列表。在此之前，允许使用[Json Java库](#https://github.com/stleary/JSON-java)。请参阅Debian的页面以获取[备选方案列表](#https://wiki.debian.org/qa.debian.org/jsonevil)。
 
 #### 可能没有被分发的东西
 
+Apache项目可能不以源代码或二进制形式分发X类许可的组件。 并包含在ASF源代码或便捷二进制文件中。 与前面关于平台的问题一样，如果组件的许可条款不影响Apache产品的许可，那么可以依赖组件。例如，在构建过程中使用GPL版本的工具是可以的，但是不能包含GPL版本的源代码。
+
 #### 当支持一个可选的特性时，可能会被依赖的东西
 
-## 常见问题：
+如果组件仅用于可选功能，Apache项目可以依赖被禁止的许可证下的组件。在这样做时，项目应向用户提供如何获取和安装未包含作品的说明。可选是指该组件不是产品标准使用或产品达到理想质量水平所必需的。在这种情况下要问自己的问题是:
+
+   - “大多数用户会在不添加可选组件的情况下使用我的产品吗?” 
+
+## 常见问题与解答：
 
 #### 创建Apache产品用于什么平台有关系吗？
 
+没关系，除非该平台的条款影响Apache产品的许可。例如，创建一个运行在Windows或Java上的产品，使用Google Services或Yahoo Search等web服务，或者是JBoss或JIRA等产品的插件都可以，而创建Linux内核模块则不行，因为 Apache产品本身必须获得Apache许可2.0版以外的许可。
+
+请注意，这并不意味着平台代码本身可以重新分发。当然，这将取决于上述代码的许可。此外，如果您对平台的许可是否会影响Apache代码有任何疑问，我们建议您检查legal discuse@归档文件，看看它以前是否出现过，如果没有，请通过电子邮件legal discuse@来了解。
+
 #### 是否需要对库依赖进行IP清除？
+
+不用。
+
+IP许可用于从Apache外部导入代码库，以便将来在这里进行开发。
 
 #### 如果可以选择许可，我应该如何处理作品？
 
+当包含该作品的许可证时，请说明正在使用的许可证，并且只包含您选择的许可证。与B类和x类相比，A类更可取。例如，如果作品在源标题中提到了各种许可选项，则不需要修改作品本身。
+
 #### 需要哪些第三方通知？
+
+当发行版包含第三方作品时，涵盖这些作品的许可证可能会要求以某些特定方式通知消费者。这些第三方通知因许可证的不同而不同。Apache发行版应包含每个许可证的副本，通常包含在LICENSE文档中。对于许多许可证来说，这些通知足够了。对于某些许可证，需要一些额外通知。在许多情况下，这将包含在依赖工件中。
+
+必要的第三方通知是指上述情况不包括的任何第三方通知。
+
+当一个版本包含了另一个Apache产品时，请参阅[**绑定其他ASF产品**](#https://infra.apache.org/licensing-howto.html#bundle-asf-product)，了解需要注意的事项。
