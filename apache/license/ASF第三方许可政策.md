@@ -69,7 +69,7 @@
 
 以下标准作为本页类别的指南。
 
-- 1、许可证必须符合[开源定义](#https://opensource.org/osd-annotated)₁。
+- 1、许可证必须符合[开源定义](https://opensource.org/osd-annotated)₁。
 
 - 2、在实践中应用的许可证不得施加超出 Apache 许可证2.0所施加限制的重要限制。
 
@@ -89,95 +89,95 @@
 
 如果要成为 Apache 软件基础产品的一部分，下列许可证都是相似的，特别是 Apache 许可证2.0：
 
-   - [Apache 许可证2.0](#http://apache.org/licenses/LICENSE-2.0)
+   - [Apache 许可证2.0](http://apache.org/licenses/LICENSE-2.0)
     
-   - [Apache 许可证1.1](#http://apache.org/licenses/LICENSE-1.1)，包括变体：
+   - [Apache 许可证1.1](http://apache.org/licenses/LICENSE-1.1)，包括变体：
    
-       - [PHP 许可证3.01](#http://www.php.net/license/3_01.txt)
+       - [PHP 许可证3.01](http://www.php.net/license/3_01.txt)
        
-       - [MX4J 许可证](#http://mx4j.sourceforge.net/docs/ch01s06.html)
+       - [MX4J 许可证](http://mx4j.sourceforge.net/docs/ch01s06.html)
        
    - BSD（无广告条款）。包括变体：
    
-       - [BSD 2-条款](#http://opensource.org/licenses/bsd-license.php)
+       - [BSD 2-条款](http://opensource.org/licenses/bsd-license.php)
        
-       - [BSD 3-条款](#https://opensource.org/licenses/BSD-3-Clause)
+       - [BSD 3-条款](https://opensource.org/licenses/BSD-3-Clause)
        
-       - [DOM4J 许可证](#http://dom4j.sourceforge.net/dom4j-1.6.1/license.html)
+       - [DOM4J 许可证](http://dom4j.sourceforge.net/dom4j-1.6.1/license.html)
        
-       - [PostgreSQL 许可证](#https://opensource.org/licenses/postgresql)
+       - [PostgreSQL 许可证](https://opensource.org/licenses/postgresql)
        
-       - [Eclipse 发行许可证1.0](#http://www.eclipse.org/org/documents/edl-v10.php)
+       - [Eclipse 发行许可证1.0](http://www.eclipse.org/org/documents/edl-v10.php)
    
-   - [MIT / X11](#https://opensource.org/licenses/mit-license.php)
+   - [MIT / X11](https://opensource.org/licenses/mit-license.php)
    
-       - [ISC](#https://opensource.org/licenses/ISC)
+       - [ISC](https://opensource.org/licenses/ISC)
        
-       - [新泽西州标准 ML](#https://www.smlnj.org/license.html)
+       - [新泽西州标准 ML](https://www.smlnj.org/license.html)
        
-       - [杯形语法分析器产生程序](#http://www2.cs.tum.edu/projects/cup/licence.php)
+       - [杯形语法分析器产生程序](http://www2.cs.tum.edu/projects/cup/licence.php)
        
-   - [ICU](#http://source.icu-project.org/repos/icu/icu/trunk/LICENSE)
+   - [ICU](http://source.icu-project.org/repos/icu/icu/trunk/LICENSE)
        
-   - [伊利诺伊大学/ NCSA](#https://opensource.org/licenses/UoI-NCSA.php)
+   - [伊利诺伊大学/ NCSA](https://opensource.org/licenses/UoI-NCSA.php)
        
-   - [W3C 软件许可](#https://opensource.org/licenses/W3C.php)
+   - [W3C 软件许可](https://opensource.org/licenses/W3C.php)
        
-   - [W3C 社区贡献者许可协议](#https://www.w3.org/community/about/agreements/cla/)-如果发布,至少45天之后
+   - [W3C 社区贡献者许可协议](https://www.w3.org/community/about/agreements/cla/)-如果发布,至少45天之后
        
-   - [X.Net](#https://opensource.org/licenses/xnet.php)
+   - [X.Net](https://opensource.org/licenses/xnet.php)
        
-   - [zlib/libpng](#https://opensource.org/licenses/zlib-license.php)
+   - [zlib/libpng](https://opensource.org/licenses/zlib-license.php)
        
    - FSF Autoconf 许可证
        
-   - [DejaVu 字体（Bitstream Vera / Arev 许可）](#https://dejavu-fonts.org/)
+   - [DejaVu 字体（Bitstream Vera / Arev 许可）](https://dejavu-fonts.org/)
        
-   - [学术免费许可证3.0](#https://opensource.org/licenses/afl-3.0.php)
+   - [学术免费许可证3.0](https://opensource.org/licenses/afl-3.0.php)
        
-   - [服务+组件+建筑+规格](#http://web.archive.org/web/20080704184203/http://www.osoa.org/xmlns/sca/1.0/license.txt)
+   - [服务+组件+建筑+规格](http://web.archive.org/web/20080704184203/http://www.osoa.org/xmlns/sca/1.0/license.txt)
        
    - OOXML XSD ECMA 许可证
        
-   - [Microsoft 公共许可证（MsPL）](#https://opensource.org/licenses/ms-pl.html)
+   - [Microsoft 公共许可证（MsPL）](https://opensource.org/licenses/ms-pl.html)
        
-   - [知识共享组织仅限于版权贡献](#https://creativecommons.org/licenses/publicdomain/deed.zh)
+   - [知识共享组织仅限于版权贡献](https://creativecommons.org/licenses/publicdomain/deed.zh)
        
-   - [Python 软件基金会许可证](#http://www.opensource.org/licenses/PythonSoftFoundation.php)
+   - [Python 软件基金会许可证](http://www.opensource.org/licenses/PythonSoftFoundation.php)
        
-   - [Python Imaging Library 软件许可](#https://github.com/python-pillow/Pillow/blob/master/LICENSE)
+   - [Python Imaging Library 软件许可](https://github.com/python-pillow/Pillow/blob/master/LICENSE)
        
-   - [Adobe Postcript（R）AFM 文件](#https://spdx.org/licenses/APAFML.html)
+   - [Adobe Postcript（R）AFM 文件](https://spdx.org/licenses/APAFML.html)
        
-   - [Boost 软件许可版本1.0](#https://opensource.org/licenses/BSL-1.0)
+   - [Boost 软件许可版本1.0](https://opensource.org/licenses/BSL-1.0)
        
-   - [COLT 中 CERN 软件包的许可](#https://dst.lbl.gov/ACSSoftware/colt/license.html)，但请注意，这**仅**适用于COLT中的CERN软件包，**不**适用于其他
+   - [COLT 中 CERN 软件包的许可](https://dst.lbl.gov/ACSSoftware/colt/license.html)，但请注意，这**仅**适用于COLT中的CERN软件包，**不**适用于其他
        
-   - [英国开放政府许可证](#https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)。该许可允许许可方提供自定义归属通知。如有，请在NOTICE中注明。如果没有提供，那么在NOTICE上注明“包含根据开放政府许可证v3.0许可的公共部门信息”。
+   - [英国开放政府许可证](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)。该许可允许许可方提供自定义归属通知。如有，请在NOTICE中注明。如果没有提供，那么在NOTICE上注明“包含根据开放政府许可证v3.0许可的公共部门信息”。
        
-   - [WTF 公共许可证](#http://www.wtfpl.net/)
+   - [WTF 公共许可证](http://www.wtfpl.net/)
        
-   - [浪漫WTF 公共许可证](#https://github.com/pygy/gosub/blob/master/LICENSE)
+   - [浪漫WTF 公共许可证](https://github.com/pygy/gosub/blob/master/LICENSE)
        
-   - [UNICODE 公司。许可协议-数据文件和软件](#http://www.unicode.org/copyright.html#Exhibit1)
+   - [UNICODE 公司。许可协议-数据文件和软件](http://www.unicode.org/copyright.html#Exhibit1)
        
-   - [Zope 公共许可证2.0](#https://opensource.org/licenses/ZPL-2.0)
+   - [Zope 公共许可证2.0](https://opensource.org/licenses/ZPL-2.0)
        
-   - [ACE 许可证](#http://www.cs.wustl.edu/~schmidt/ACE-copying.html)
+   - [ACE 许可证](http://www.cs.wustl.edu/~schmidt/ACE-copying.html)
        
-   - [Oracle 通用许可许可证（UPL）1.0版](#https://oss.oracle.com/licenses/upl/)
+   - [Oracle 通用许可许可证（UPL）1.0版](https://oss.oracle.com/licenses/upl/)
        
-   - [开放网格论坛许可证](#https://www.ogf.org/ogf/doku.php/about/copyright)
+   - [开放网格论坛许可证](https://www.ogf.org/ogf/doku.php/about/copyright)
        
-   - [谷歌“附加知识产权授权(专利)”](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
+   - [谷歌“附加知识产权授权(专利)”](https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
        
-   - [非授权许可证](#https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
+   - [非授权许可证](https://chromium.googlesource.com/external/webrtc/+/master/PATENTS)
        
-   - [历史许可声明和免责声明](#https://opensource.org/licenses/HPND)
+   - [历史许可声明和免责声明](https://opensource.org/licenses/HPND)
        
-   - [木兰宽松许可证, 第2版](#https://license.coscl.org.cn/MulanPSL2/)
+   - [木兰宽松许可证, 第2版](https://license.coscl.org.cn/MulanPSL2/)
        
-其中许多许可证都有特定的归属条款需要去遵守，通常是将其[包含到 NOTICE 文件中](#https://www.apache.org/dev/licensing-howto.html)。当完成这些作品时，请确保您正在执行此操作。     
+其中许多许可证都有特定的归属条款需要去遵守，通常是将其[包含到 NOTICE 文件中](https://www.apache.org/dev/licensing-howto.html)。当完成这些作品时，请确保您正在执行此操作。     
    
 #### 处理公共领域“授权”的作品
 
@@ -187,7 +187,7 @@ Apache 产品中可能包含公共领域的作品（或受到类似处理的许�
 
   - 作品涵盖
   
-    - 知识共享[公共领域标识](#https://creativecommons.org/publicdomain/mark/1.0/deed.zh)，或
+    - 知识共享[公共领域标识](https://creativecommons.org/publicdomain/mark/1.0/deed.zh)，或
     
     - 作者(对公共领域)的适当奉献;或
     
@@ -199,11 +199,11 @@ Apache 产品中可能包含公共领域的作品（或受到类似处理的许�
    
 应被视为类似于公共领域的许可证：
 
-  - 知识共享[CC0 “不保留任何权利”](#https://creativecommons.org/about/cc0)
+  - 知识共享 [CC0 “不保留任何权利”](https://creativecommons.org/about/cc0)
   
-  - 知识共享[公共领域认证](#https://creativecommons.org/licenses/publicdomain/)
+  - 知识共享[公共领域认证](https://creativecommons.org/licenses/publicdomain/)
   
-**要注意的是**判断作品是否属于公共领域可能是一件[困难](#http://fairuse.stanford.edu/Copyright_and_Fair_Use_Overview/chapter8/)的事情。确定一部作品的版权是否已经过期似乎是非常重要的，而且在不同的司法管辖区可能会有所不同。如果你对某件作品是否属于公共领域有疑问，可以通过“法律讨论”或“JIRA 问题”提出这个话题。
+**要注意的是**判断作品是否属于公共领域可能是一件[困难](http://fairuse.stanford.edu/Copyright_and_Fair_Use_Overview/chapter8/)的事情。确定一部作品的版权是否已经过期似乎是非常重要的，而且在不同的司法管辖区可能会有所不同。如果你对某件作品是否属于公共领域有疑问，可以通过“法律讨论”或“JIRA 问题”提出这个话题。
 
 ## B 类：我们可能把什么写进 ASF 项目中？
 
@@ -223,45 +223,45 @@ Apache 产品中可能包含公共领域的作品（或受到类似处理的许�
 
 如果包含的软件有适当的标签，则以下许可协议中的软件可以以二进制形式包含在 Apache 产品中（见上文）：
 
-  - 通用开发和发行许可证：[CDDL 1.0](#https://opensource.org/licenses/CDDL-1.0)和[CDDL 1.1](#https://spdx.org/licenses/CDDL-1.1.html)
+  - 通用开发和发行许可证：[CDDL 1.0](https://opensource.org/licenses/CDDL-1.0)和[CDDL 1.1](https://spdx.org/licenses/CDDL-1.1.html)
   
-  - 通用公共许可证：[CPL 1.0](#https://opensource.org/licenses/cpl1.0.php)
+  - 通用公共许可证：[CPL 1.0](https://opensource.org/licenses/cpl1.0.php)
   
-  - Eclipse 公共许可证：[EPL 1.0](#http://www.eclipse.org/legal/epl-v10.html)
+  - Eclipse 公共许可证：[EPL 1.0](http://www.eclipse.org/legal/epl-v10.html)
   
-  - IBM 公共许可证：[IPL 1.0](#http://www.opensource.org/licenses/ibmpl.php)
+  - IBM 公共许可证：[IPL 1.0](http://www.opensource.org/licenses/ibmpl.php)
   
-  - Mozilla 公共许可证：[MPL 1.0](#https://website-archive.mozilla.org/www.mozilla.org/mpl/mpl/1.0/)，[MPL 1.1](#https://www.mozilla.org/en-US/MPL/1.1/)和[MPL 2.0](#https://www.mozilla.org/en-US/MPL/2.0/)
+  - Mozilla 公共许可证：[MPL 1.0](https://website-archive.mozilla.org/www.mozilla.org/mpl/mpl/1.0/)，[MPL 1.1](https://www.mozilla.org/en-US/MPL/1.1/)和[MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
   
-  - Sun 公共许可证：[SPL 1.0](#https://opensource.org/licenses/SPL-1.0)
+  - Sun 公共许可证：[SPL 1.0](https://opensource.org/licenses/SPL-1.0)
   
-  - [开放软件许可3.0](#https://opensource.org/licenses/OSL-3.0)
+  - [开放软件许可3.0](https://opensource.org/licenses/OSL-3.0)
   
-  - [Erlang 公共许可证](#https://www.erlang.org/EPLICENSE)
+  - [Erlang 公共许可证](https://www.erlang.org/EPLICENSE)
   
-  - [UnRAR 许可证](#https://github.com/jukka/java-unrar/blob/master/license.txt)（仅用于取消存档）
+  - [UnRAR 许可证](https://github.com/jukka/java-unrar/blob/master/license.txt)（仅用于取消存档）
   
-  - [SIL 开放字体许可](#https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+  - [SIL 开放字体许可](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
   
-  - [Ubuntu 字体许可版本1.0](#https://ubuntu.com/legal/font-licence)
+  - [Ubuntu 字体许可版本1.0](https://ubuntu.com/legal/font-licence)
   
-  - [IPA 字体许可协议v1.0](#https://fedoraproject.org/wiki/Licensing/IPAFontLicense)
+  - [IPA 字体许可协议v1.0](https://fedoraproject.org/wiki/Licensing/IPAFontLicense)
   
-  - [Ruby 许可证](#https://www.ruby-lang.org/en/about/license.txt)（包括 GPLv2 是列出的替代[Ruby 1.9.2许可证](#https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_9_2_320/COPYING?view=markup)时的旧版本）
+  - [Ruby 许可证](https://www.ruby-lang.org/en/about/license.txt)（包括 GPLv2 是列出的替代[Ruby 1.9.2许可证](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_9_2_320/COPYING?view=markup)时的旧版本）
   
-  - Eclipse 公共许可证2.0：[EPL 2.0](#https://www.eclipse.org/legal/epl-2.0/)
+  - Eclipse 公共许可证2.0：[EPL 2.0](https://www.eclipse.org/legal/epl-2.0/)
   
 通过仅包括对象/二进制形式，第三方作品的暴露表面积较少，因此可以衍生作品；这涉及本政策的第二个指导原则。
 
-对于 ASF 产品在运行时以源代码形式直接消耗的少量源代码，并且该源代码未经修改且无论如何都不可能更改（例如，通过标准指定），也允许包含适当标记的源代码。这方面的一个例子是 web-facesconfig_1_0.dtd，jsr127:JavaServer Faces 规范要求其包含在内。
+对于 ASF 产品在运行时以源代码形式直接消耗的少量源代码，并且该源代码未经修改且无论如何都不可能更改（例如，通过标准指定），也允许包含适当标记的源代码。这方面的一个例子是 web-facesconfig_1_0.dtd，jsr127：JavaServer Faces 规范要求其包含在内。
 
 #### 包括知识共享署名内容
 
-[知识共享署名（CC-BY）](#https://creativecommons.org/licenses/by/4.0/deed.zh)许可证（2.5、3.0和4.0）下的作品包含与“有效技术措施”相关的术语，这可能会让用户感到意外。因此，其包含物应适当标记，且仅以二进制形式。
+[知识共享署名（CC-BY）](https://creativecommons.org/licenses/by/4.0/deed.zh)许可证（2.5、3.0和4.0）下的作品包含与“有效技术措施”相关的术语，这可能会让用户感到意外。因此，其包含物应适当标记，且仅以二进制形式。
 
 #### 知识共享署名-相同方式共享许可未经修改的媒体
 
-Apache 产品中可能包含[知识共享署名相同方式共享2.5](#https://creativecommons.org/licenses/by-sa/2.5/deed.zh)、[知识共享署名相同方式共享3.0](#https://creativecommons.org/licenses/by-sa/3.0/deed.zh)[和知识共享署名相同方式共享4.0](#https://creativecommons.org/licenses/by-sa/4.0/deed.zh)的不可修改媒体，但可能需要修改 LICENSE/NOTICE/README。对于任何其他类型的 CC-SA 许可作品，请联系合法的 PMC。
+Apache 产品中可能包含[知识共享署名相同方式共享2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.zh)、[知识共享署名相同方式共享3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh)[和知识共享署名相同方式共享4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)的不可修改媒体，但可能需要修改 LICENSE/NOTICE/README。对于任何其他类型的 CC-SA 许可作品，请联系合法的 PMC。
 
 注意，media 指的是我们文档中使用的二进制视觉/视频/音频元素。这并不意味着会包含在我们的源代码中。
 
@@ -271,7 +271,7 @@ Apache 产品中可能包含[知识共享署名相同方式共享2.5](#https://c
 
 #### Doug Lea 的并发库
 
-Doug Lea 的并发库是公共领域的，但是包含一些非公共领域的 Sun 文件。这可能包含在 ASF 产品中，就像上面的“较低的公共版权”列表一样。“如果适当地标记了包含内容，则它可以二进制形式包含在 Apache 产品中”。如果使用了源代码，请删除 Sun 授权给 Doug 的文件并将其视为 A 类（或从 [Harmony](#http://svn.apache.org/repos/asf/harmony/standard/classlib/trunk/modules/concurrent/src/main/java/java/util/concurrent/) 获取文件）。
+Doug Lea 的并发库是公共领域的，但是包含一些非公共领域的 Sun 文件。这可能包含在 ASF 产品中，就像上面的“较低的公共版权”列表一样。“如果适当地标记了包含内容，则它可以二进制形式包含在 Apache 产品中”。如果使用了源代码，请删除 Sun 授权给 Doug 的文件并将其视为 A 类（或从 [Harmony](http://svn.apache.org/repos/asf/harmony/standard/classlib/trunk/modules/concurrent/src/main/java/java/util/concurrent/) 获取文件）。
 
 #### 将 OSGi 元数据添加到较低的公共版权二进制文件中
 
@@ -289,11 +289,11 @@ Apache 项目不得在版本控制或已发布的源代码包中包含此类许�
 
 可如上所述使用以下许可证下的材料：
 
-   - [PDF CJK 字体的 CMAP](#https://www.adobe.com/devnet/font.html#pcfi)
+   - [PDF CJK 字体的 CMAP](https://www.adobe.com/devnet/font.html#pcfi)
    
-   - JCR API jar（[日规范许可证](#http://www.day.com/maven/jsr170/licenses/day-spec-license.htm)+[附加许可证](#http://www.day.com/maven/jsr170/jars/LICENSE.txt)）
+   - JCR API jar（[日规范许可证](http://www.day.com/maven/jsr170/licenses/day-spec-license.htm)+[附加许可证](http://www.day.com/maven/jsr170/jars/LICENSE.txt)）
    
-   - [WSDL（2004）模式文件许可证](#https://issues.apache.org/jira/browse/LEGAL-385)
+   - [WSDL（2004）模式文件许可证](https://issues.apache.org/jira/browse/LEGAL-385)
 
 #### 在 ASF 产品中包含构建工具
 
@@ -304,18 +304,18 @@ Apache 项目不得在版本控制或已发布的源代码包中包含此类许�
 迄今为止，以下工具已获准用于此类用途：
 
    - Autotools 系列产品，特别是：
-        - [自动配置](#http://www.gnu.org/software/autoconf/)
-        - [自动制造](#http://www.gnu.org/software/automake/)
-        - [Libtool](#http://www.gnu.org/software/libtool/)
-        - [mkinstalldirs.sh](#http://www.gnu.org/software/hello/manual/gettext/mkinstalldirs.html)
-   - [OCamlMakefile](#http://hg.ocaml.info/release/ocaml-make/)
-        - [setup.rb](#https://i.loveruby.net/en/projects/setup/)
+        - [自动配置](http://www.gnu.org/software/autoconf/)
+        - [自动制造](http://www.gnu.org/software/automake/)
+        - [Libtool](http://www.gnu.org/software/libtool/)
+        - [mkinstalldirs.sh](http://www.gnu.org/software/hello/manual/gettext/mkinstalldirs.html)
+   - [OCamlMakefile](http://hg.ocaml.info/release/ocaml-make/)
+        - [setup.rb](https://i.loveruby.net/en/projects/setup/)
 
 #### 创建动态加载的 XS 模块时包含 Perl 许可的头文件
 
 开发链接已编译的 C 代码以创建动态加载的 XS 模块的 Perl 绑定，需要包括获得 Perl 许可（http://dev.perl.org/licenses/ -GPL-any/Artistic1, with exceptions 除外）许可的头文件。
 
-您可以包括这些头文件 - XSUB.h，perl.h 和 EXTERN.h（请参阅：[LEGAL-79](#https://issues.apache.org/jira/browse/LEGAL-79)）。
+您可以包括这些头文件 - XSUB.h，perl.h 和 EXTERN.h（请参阅：[LEGAL-79](https://issues.apache.org/jira/browse/LEGAL-79)）。
 
 #### 包括 Doxygen 生成的配置文件
 
@@ -323,7 +323,7 @@ Apache 项目不得在版本控制或已发布的源代码包中包含此类许�
 
 #### Apache 项目可以对 Ruby 许可的作品具有外部依赖性吗？
 
-以 Ruby 为主要语言编写的项目可以依赖 Matz 的 Ruby 解释器（MRI），也可以依赖于 [Ruby 许可](#http://www.ruby-lang.org/en/LICENSE.txt)下许可的任何 Gem。
+以 Ruby 为主要语言编写的项目可以依赖 Matz 的 Ruby 解释器（MRI），也可以依赖于 [Ruby 许可](http://www.ruby-lang.org/en/LICENSE.txt)下许可的任何 Gem。
 
 当然，根据其他许可证（如 MIT）编写的 Gems 也可以，这取决于许可证。
 
@@ -339,65 +339,65 @@ Apache 项目不得在版本控制或已发布的源代码包中包含此类许�
         
         - 英特尔简化软件许可证
         
-        - [JSR-275 许可证](#https://software.intel.com/content/www/us/en/develop/articles/end-user-license-agreement.html#inpage-nav-3)
+        - [JSR-275 许可证](https://software.intel.com/content/www/us/en/develop/articles/end-user-license-agreement.html#inpage-nav-3)
         
         - 使用领域限制：
         
-            - [Microsoft 有限公共许可证](#https://www.openhub.net/licenses/mslpl)
+            - [Microsoft 有限公共许可证](https://www.openhub.net/licenses/mslpl)
             
-            - [亚马逊软件许可证（ASL）](#https://aws.amazon.com/cn/asl/)
+            - [亚马逊软件许可证（ASL）](https://aws.amazon.com/cn/asl/)
             
-            - [Satori RTM 许可证的 Java SDK](#https://aws.amazon.com/cn/asl/)
+            - [Satori RTM 许可证的 Java SDK](https://aws.amazon.com/cn/asl/)
             
-            - [Redis 源可用许可证（RSAL）](#https://redislabs.com/legal/licenses/)
+            - [Redis 源可用许可证（RSAL）](https://redislabs.com/legal/licenses/)
             
-            - [博思艾伦公共许可证](#http://boozallen.github.io/licenses/bapl)
+            - [博思艾伦公共许可证](http://boozallen.github.io/licenses/bapl)
 
         - 非商业许可证：
         
-            - [知识共享非商业](#https://en.wikipedia.org/wiki/Creative_Commons_license#Non-commercial_licenses)变体
+            - [知识共享非商业](https://en.wikipedia.org/wiki/Creative_Commons_license#Non-commercial_licenses)变体
 
-            - [Sun 社区源代码许可证3.0](#http://jcp.org/aboutJava/communityprocess/SCSL3.0.rtf)
+            - [Sun 社区源代码许可证3.0](http://jcp.org/aboutJava/communityprocess/SCSL3.0.rtf)
             
    - 对大型工程进行限制：
 
-        - [GNU GPL 1、2、3](#http://www.opensource.org/licenses/gpl-license.php)
+        - [GNU GPL 1、2、3](http://www.opensource.org/licenses/gpl-license.php)
 
             - GNU GPL 的特殊例外（如 GNU 类路径），除非本页其他地方另有允许。
 
-        - [GNU 阿费罗 GPL 3](#http://www.opensource.org/licenses/agpl-v3.html)
+        - [GNU 阿费罗 GPL 3](http://www.opensource.org/licenses/agpl-v3.html)
 
-        - [GNU LGPL 2、2.1、3](#http://www.opensource.org/licenses/lgpl-license.php)
+        - [GNU LGPL 2、2.1、3](http://www.opensource.org/licenses/lgpl-license.php)
 
-        - [QPL](#https://opensource.org/licenses/QPL-1.0)
+        - [QPL](https://opensource.org/licenses/QPL-1.0)
 
-        - [Sleepycat 许可证](#http://www.opensource.org/licenses/sleepycat.php)
+        - [Sleepycat 许可证](http://www.opensource.org/licenses/sleepycat.php)
 
-        - [服务器端公共许可证（SSPL）版本1](#https://www.mongodb.com/licensing/server-side-public-license)
+        - [服务器端公共许可证（SSPL）版本1](https://www.mongodb.com/licensing/server-side-public-license)
 
-        - [代码项目开放许可证（CPOL）](#http://www.codeproject.com/info/cpol10.aspx)
+        - [代码项目开放许可证（CPOL）](http://www.codeproject.com/info/cpol10.aspx)
         
    - 其他问题：
    
-        - [BSD-4条款](#https://spdx.org/licenses/BSD-4-Clause.html) / [BSD-4条款（加州大学专用）](#https://spdx.org/licenses/BSD-4-Clause-UC.html)
+        - [BSD-4条款](https://spdx.org/licenses/BSD-4-Clause.html) / [BSD-4条款（加州大学专用）](https://spdx.org/licenses/BSD-4-Clause-UC.html)
    
-        - [Facebook BSD+ 专利许可证](#https://code.facebook.com/pages/850928938376556)
+        - [Facebook BSD+ 专利许可证](https://code.facebook.com/pages/850928938376556)
    
-        - [NPL1.0](#https://spdx.org/licenses/NPL-1.0.html) / [NPL1.1](#https://spdx.org/licenses/NPL-1.1.html)
+        - [NPL1.0](https://spdx.org/licenses/NPL-1.0.html) / [NPL1.1](https://spdx.org/licenses/NPL-1.1.html)
    
         - 无厘头许可证：
    
             - Solipsistic Eclipse 公共许可证
    
-            - [“不要做个鸟人”公共许可证](#https://dbad-license.org/)
+            - [“不要做个鸟人”公共许可证](https://dbad-license.org/)
    
-            - [JSON 许可证](#http://www.json.org/license.html)
+            - [JSON 许可证](http://www.json.org/license.html)
             
 “其他问题”的详细信息：
 
 **Facebook BSD + 专利许可证**
 
-Facebook BSD+ 专利许可证包含一个专利文件规范，该规范将风险传递给我们软件的下游消费者，这种不平衡有利于许可方，而不是被许可方，从而违反了作为[通用捐赠者](#http://www.apache.org/legal/ramblings.html#head-62def7ee9e2cb64eb757533133a99da472b1e88a)的 Apache 法律政策。Facebook BSD+ 专利许可证的条款不是 ALv2 中的条款的子集，它们不能作为 ALv2 的再许可。
+Facebook BSD+ 专利许可证包含一个专利文件规范，该规范将风险传递给我们软件的下游消费者，这种不平衡有利于许可方，而不是被许可方，从而违反了作为[通用捐赠者](http://www.apache.org/legal/ramblings.html#head-62def7ee9e2cb64eb757533133a99da472b1e88a)的 Apache 法律政策。Facebook BSD+ 专利许可证的条款不是 ALv2 中的条款的子集，它们不能作为 ALv2 的再许可。
 
 **NPL**
 
@@ -409,7 +409,7 @@ Netscape 公共许可证是 Mozilla 的原始许可证，包含特定于 Netscap
 
 JSON 许可证
 
-从2016年11月3日起，JSON 许可证被移至“X 类”许可证列表。在此之前，允许使用[Json Java 库](#https://github.com/stleary/JSON-java)。请参阅 Debian 的页面以获取[备选方案列表](#https://wiki.debian.org/qa.debian.org/jsonevil)。
+从2016年11月3日起，JSON 许可证被移至“X 类”许可证列表。在此之前，允许使用[Json Java 库](https://github.com/stleary/JSON-java)。请参阅 Debian 的页面以获取[备选方案列表](https://wiki.debian.org/qa.debian.org/jsonevil)。
 
 #### 可能没有被分发的东西
 
@@ -445,4 +445,4 @@ IP 许可用于从 Apache 外部导入代码库，以便将来在这里进行开
 
 必要的第三方通知是指上述情况不包括的任何第三方通知。
 
-当一个版本包含了另一个 Apache 产品时，请参阅[**绑定其他 ASF 产品**](#https://infra.apache.org/licensing-howto.html#bundle-asf-product)，了解需要注意的事项。
+当一个版本包含了另一个 Apache 产品时，请参阅[**绑定其他 ASF 产品**](https://infra.apache.org/licensing-howto.html#bundle-asf-product)，了解需要注意的事项。
