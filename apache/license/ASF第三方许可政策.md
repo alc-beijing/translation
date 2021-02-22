@@ -157,9 +157,9 @@
        
    - [WTF 公共许可证](http://www.wtfpl.net/)
        
-   - [浪漫WTF 公共许可证](https://github.com/pygy/gosub/blob/master/LICENSE)
+   - [浪漫 WTF 公共许可证](https://github.com/pygy/gosub/blob/master/LICENSE)
        
-   - [UNICODE 公司。许可协议-数据文件和软件](http://www.unicode.org/copyright.html#Exhibit1)
+   - [UNICODE 公司许可协议-数据文件和软件](http://www.unicode.org/copyright.html#Exhibit1)
        
    - [Zope 公共许可证2.0](https://opensource.org/licenses/ZPL-2.0)
        
