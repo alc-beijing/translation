@@ -1,434 +1,446 @@
 1
-00:00:04,90 --> 00:00:09,89
+00:00:00,000 --> 00:00:04,000
+ALC Beijing 翻译组荣誉出品
+
+2
+00:00:04,900 --> 00:00:09,890
 Bet somebody that they've used Apache software within the last hour.
 我敢打赌，刚才肯定有人在使用 Apache 软件
 
-2
-00:00:10,00 --> 00:00:15,00
+3
+00:00:10,000 --> 00:00:15,000
 And they have, they have. Because not only are particular projects
 结果也确实如此，不仅仅是因为特定的项目
 
-3
-00:00:15,07 --> 00:00:20,06
+4
+00:00:15,270 --> 00:00:22,060
 particularly widespread, but the spread of projects is enormous.
 特别受欢迎，还因为 Apache 项目影响深远
 
-4
-00:00:20,10 --> 00:00:25,63
+5
+00:00:22,100 --> 00:00:25,630
 And so for instance, if they've used a credit card,
 举例来说，如果使用信用卡，
 
-5
-00:00:25,94 --> 00:00:31,09
+6
+00:00:25,940 --> 00:00:31,090
 if they've used television, if they've used a web browser, they've used a laptop.
 看电视，浏览网页，用电脑
 
-6
-00:00:31,17 --> 00:00:34,69
+7
+00:00:31,170 --> 00:00:34,690
 It's almost certain that they've used some Apache software,
 这些都会和 Apache 软件有关
 
-7
-00:00:35,04 --> 00:00:39,69
+8
+00:00:35,040 --> 00:00:39,690
 not knowing it, not necessarily seeing it.
 只是你没意识到而已。
 
-8
-00:00:39,82 --> 00:00:41,38
+9
+00:00:39,820 --> 00:00:41,380
 But it's almost certainly there.
 但它们（Apache软件）一定是在那里的。
 
-9
-00:00:41,64 --> 00:00:45,06
+10
+00:00:41,640 --> 00:00:45,060
 And it's unless you've been asleep for the last eight hours,
 除非过去的几个小时，你一直在睡觉
 
-10
-00:00:45,21 --> 00:00:48,86
+11
+00:00:45,210 --> 00:00:48,860
 it's really, really hard to go in a modern technological sense,
 只要你和现代科技打交道
 
-11
-00:00:49,10 --> 00:00:54,09
+12
+00:00:49,100 --> 00:00:54,090
 more than just a short period of time without using some Apache software.
 哪怕只是很短的时间，你都会用到 Apache 软件。
 
-12
-00:00:54,28 --> 00:00:57,26
+13
+00:00:54,280 --> 00:00:57,260
 Why do we give it away? Because it is what we do.
 我们为什么将它们“拱手送人”？因为这就是我们要做的。
 
-13
-00:00:57,40 --> 00:01:02,39
+14
+00:00:57,400 --> 00:01:02,390
 because the impact of open source is that openness.
 因为开源本身的影响力就在于开放。
 
-14
-00:01:03,36 --> 00:01:07,51
+15
+00:01:03,360 --> 00:01:07,510
 the ability for anyone to come and use and consume and contribute.
 Apache 就是要让大家都来使用、消费并贡献
 
-15
-00:01:08,72 --> 00:01:14,91
+16
+00:01:08,720 --> 00:01:14,910
 Hundreds and hundreds of years where knowledge was used to generate money.
 过去几千年，知识一直用来赚钱
 
-16
-00:01:15,27 --> 00:01:22,76
+17
+00:01:15,270 --> 00:01:22,760
 And the only success factor in society is how much money is my company making.
 社会衡量成功的唯一标准就是你的公司赚了多少钱
 
-17
-00:01:23,12 --> 00:01:26,91
+18
+00:01:23,120 --> 00:01:26,910
 I think the ASF has proven that even without making money,
 而 Apache 软件基金会向人们证明，即使不赚钱
 
-18
-00:01:27,22 --> 00:01:33,53
+19
+00:01:27,220 --> 00:01:33,530
 we did have a humongous impact in the way which the world runs.
 我们也会给社会带来巨大的影响
 
-19
-00:01:33,82 --> 00:01:35,69
+20
+00:01:33,820 --> 00:01:35,690
 What would have defined success?
 什么是成功？
 
-20
-00:01:35,84 --> 00:01:39,44
+21
+00:01:35,840 --> 00:01:39,440
 The project success is based on the people rather than the code.
 项目的成功在于人，而不是代码
 
-21
-00:01:39,77 --> 00:01:42,76
+22
+00:01:39,770 --> 00:01:42,760
 And that's pretty much what comes about by the Apache way,
 这就是 Apache 之道
 
-22
-00:01:42,98 --> 00:01:46,28
+23
+00:01:42,980 --> 00:01:46,280
 The community is far more important than the code.
 社区远比代码重要。
 
-23
-00:01:46,35 --> 00:01:49,03
+24
+00:01:46,350 --> 00:01:49,030
 The code will survive whether or not the community does.
 无论社区能否存活，代码都可以留存下来。
 
-24
-00:01:49,04 --> 00:01:51,93
+25
+00:01:49,040 --> 00:01:51,930
 But it won't get any better or be enriched.
 但它一定不会变得更好或更丰富。
 
-25
-00:01:52,27 --> 00:01:57,26
+26
+00:01:52,270 --> 00:01:57,260
 They won't go on to succeed unless there's a community that support it.
 除非有一个社区在背后支持它（们），否则它们不会持续发展下去
 
-26
-00:01:57,37 --> 00:01:59,44
+27
+00:01:57,370 --> 00:01:59,440
 One of the things we're seeing nowadays
 如今，
 
-27
-00:01:59,57 --> 00:02:06,86
+28
+00:01:59,570 --> 00:02:06,860
 is that the lessons learned inside of IT，as far as how to create successful open source projects.
 IT 界成功创造了一个又一个的开源项目，
 
-28
-00:02:07,17 --> 00:02:11,21
+29
+00:02:07,170 --> 00:02:11,210
 But most important, how to create successful open source communities,
 更重要的是，打造了一个又一个的开源社区，这些大家有目共睹
 
-29
-00:02:11,25 --> 00:02:14,06
-of which the apache way is most probably the best example of that 
+30
+00:02:11,250 --> 00:02:14,060
+of which the apache way is most probably the best example of that
 在这点Apache之道或许是最成功的案例
 
-30
-00:02:14,12 --> 00:02:18,06
+31
+00:02:14,120 --> 00:02:18,060
 is starting to make inroads in other areas.
 正开始在其他领域取得进展
- 
+
 31
 00:02:18,34 --> 00:02:22,14
 This excessive open source is gonna expand beyond IT
 这种拓展性的开源将逐渐扩张至IT界之外
 
 32
-00:02:22,25 --> 00:02:27,74
+00:02:22,250 --> 00:02:27,740
 is gonna expand beyond other software development in ecosystem.
 将扩张并超越生态中其他软件的发展。
 
 33
-00:02:28,07 --> 00:02:36,28
+00:02:28,070 --> 00:02:36,280
 We're seeing open source cities now where the ideas of how to engage the populace,
 我们可以看到开源的城市，在那里关于如何使全体居民参与
 
 34
-00:02:36,57 --> 00:02:41,54
+00:02:36,570 --> 00:02:41,540
 how to engage the citizens are using some of the tenets
 如何使全体市民参与的想法正是借鉴了一些（开源的）信条
 
 35
-00:02:41,67 --> 00:02:43,71
+00:02:41,670 --> 00:02:43,710
 and some of the ideals of the apache way
 以及一些Apache之道的理念
 
 36
-00:02:43,84 --> 00:02:48,56
+00:02:43,840 --> 00:02:48,560
 making sure that there is transparency in all the decision making processes of government.
 确保政府的所有决策过程都可以做到透明。
 
 37
-00:02:48,82 --> 00:02:50,36
+00:02:48,820 --> 00:02:50,360
 I mean, this is how you build software,
 这就是软件的开发模式
 
 38
-00:02:50,62 --> 00:02:53,68
+00:02:50,620 --> 00:02:53,680
 is by making sure that everyone involve, both the people who are creating the software,
 让大家都参与其中，无论是软件工程师、
 
 39
-00:02:53,77 --> 00:02:57,43
+00:02:53,770 --> 00:02:57,430
 who are creating the software, creating the laws,
 软件工程师、立法者
 
 40
-00:02:57,52 --> 00:03:02,11
+00:02:57,520 --> 00:03:02,110
 as well as the end users of the software and the citizens who were going to be abiding by the law.
 还是终端的软件用户和那些遵从法律的市民们。
 
 41
-00:03:02,12 --> 00:03:07,89
+00:03:02,120 --> 00:03:07,890
 Is everything open? Everything is being done, in an open, public, and transparent manner.
 是所有事情都是公开的吗？所有事情都是在一种公共的、开放的、透明的方式下完成的。
 
 42
-00:03:08,09 --> 00:03:11,83
+00:03:08,090 --> 00:03:11,830
 So we're seeing a lot of the tenets of successful open source,
 所以我们看到很多成功开源软件的信条。
 
 43
-00:03:12,15 --> 00:03:18,66
+00:03:12,150 --> 00:03:18,660
 A lot of the means of the Apache way transcend the IT community,
 Apache 之道的很多方法已经超越了 IT 社区，
 
 44
-00:03:18,97 --> 00:03:25,81
+00:03:18,970 --> 00:03:25,810
 and make inroads into government, corporate entities, a heavy industry, manufacturing, machining.
 并运用在政府、公司企业、重工业、工厂、机械领域中。
 
 45
-00:03:26,05 --> 00:03:33,01
+00:03:26,050 --> 00:03:33,010
 And I think that's an incredible heritage for the movement we've created.
 这笔遗产价值连城
 
 46
-00:03:33,32 --> 00:03:38,24
+00:03:33,320 --> 00:03:38,240
 At the use cases that get me excited are the ones that are about trying to address
 让我感到最激动实际案例，是哪些想要试图解决
 
 47
-00:03:38,40 --> 00:03:42,06
+00:03:38,400 --> 00:03:42,060
 any one of those two hundred and sixty different sustainable development goals out there, right?
 二百六十种可持续发展目之中任意一个的软件，对吧？
 
 48
-00:03:42,07 --> 00:03:44,28
+00:03:42,070 --> 00:03:44,280
 if we're going to have a carbon trading market
 如果我们要建立一个碳交易市场的话
 
 49
-00:03:44,57 --> 00:03:48,18
+00:03:44,570 --> 00:03:48,180
 we're going to need a distributed ledger system to be able to do that on a global scale
 我们就将需要一个分布式账本系统来在全球范围内实现这一点。
 
 50
-00:03:48,52 --> 00:03:54,49
+00:03:48,520 --> 00:03:54,490
 if we're going to eliminate child labor in mines or on fishing boats or in other industries
 如果我们要消除矿上、渔船上或其他行业的童工现象
 
 51
-00:03:54,80 --> 00:03:57,01
+00:03:54,800 --> 00:03:57,010
 it's going to be through technologies like this.
 它也将通过向像这样的科技实现。
 
 52
-00:03:57,32 --> 00:04:02,53
+00:03:57,320 --> 00:04:02,530
 FIN act is a project that supports Micro finance institutions in giving out loans
 FIN act是一个支持小额金融机构为最贫穷的人
 
 53
-00:04:02,94 --> 00:04:06,31
+00:04:02,940 --> 00:04:06,310
 and and tracking savings for the poorest of the poor.
 提供贷款和跟踪储蓄的项目。
 
 54
-00:04:06,40 --> 00:04:11,41
+00:04:06,400 --> 00:04:11,410
 So it's very rewarding to be able to make these services available to the poor.
 所以，能够让穷人享受到这些服务，是非常有意义的。
 
 55
-00:04:11,59 --> 00:04:14,21
+00:04:11,590 --> 00:04:14,210
 Because if you don't have savings, if you don't have loans,
 因为如果你没有储蓄，没有贷款，
 
 56
-00:04:14,34 --> 00:04:16,96
+00:04:14,340 --> 00:04:16,960
 if you don't have remittances, that's money transfers,
 没有汇款，也就是转账，
 
 57
-00:04:17,14 --> 00:04:20,93
+00:04:17,140 --> 00:04:20,930
 then you don't have contact the global economy and you can't profit
 那你就和全球经济脱节了
 
 58
-00:04:21,14 --> 00:04:24,66
+00:04:21,140 --> 00:04:24,660
 when your boat doesn't rise when everybody else's boat rises.
 在大家都向前一步时，你原地踏步，因而你就无法获利
 
 59
-00:04:24,85 --> 00:04:27,21
+00:04:24,850 --> 00:04:27,210
 In the case of this project, you're connecting the empowerment
 在这个项目中，你要把最贫困的人的赋能
 
 60
-00:04:27,42 --> 00:04:31,86
+00:04:27,420 --> 00:04:31,860
 of the poorest of the poor with the empowerment of the software developers.
 和软件开发者的赋能联系起来。
 
 61
-00:04:32,13 --> 00:04:35,04
+00:04:32,130 --> 00:04:35,040
 And you're doing both of them in the context of a community.
 而你是在一个社区的环境下完成这两件事的。
 
 62
-00:04:35,55 --> 00:04:42,54
+00:04:35,550 --> 00:04:42,540
 So there are really wonderful parallels between open source software and micro finance.
 所以，开源软件和小微金融之间真的有奇妙的相似之处。
 
 63
-00:04:43,07 --> 00:04:47,29
+00:04:43,070 --> 00:04:47,290
 Being part of that, it just gives me a great feeling
 作为其中一员，
 
 64
-00:04:47,30 --> 00:04:50,24
+00:04:47,300 --> 00:04:50,240
 that we've been able to change the world for the better
 我们让世界变得更好，这种感觉很棒
 
 65
-00:04:50,44 --> 00:04:53,46
+00:04:50,440 --> 00:04:53,460
 A lot of our software helps developing countries.
 我们的很多软件都在帮助发展中国家。
 
 66
-00:04:53,74 --> 00:05:00,51
+00:04:53,740 --> 00:05:00,510
 The great strides the world has made today in the last 20 years of globalization,
 在过去20年的全球化进程中，当今世界取得了巨大的进步，
 
 67
-00:05:00,87 --> 00:05:07,76
+00:05:00,870 --> 00:05:07,760
 with the developing countries growing and advancing on providing better living conditions
 发展中国家在不断发展、进步，人民生活水平逐步提高
 
 68
-00:05:08,00 --> 00:05:12,63
+00:05:08,000 --> 00:05:12,630
 and better economic advancement for its populations
 经济发展欣欣向荣
 
 69
-00:05:12,72 --> 00:05:15,43
+00:05:12,720 --> 00:05:15,430
 That's a result of the Free software movements.
 这是自由软件运动的成果之一。
 
 70
-00:05:15,75 --> 00:05:19,09
+00:05:15,750 --> 00:05:19,090
 And Apache had a big hand in that.
 Apache 在其中发挥了巨大的作用
 
 71
-00:05:19,10 --> 00:05:20,01
+00:05:19,100 --> 00:05:20,010
 I feel very strongly.
 我的感觉非常强烈。
 
 72
-00:05:20,27 --> 00:05:24,09
+00:05:20,270 --> 00:05:24,090
 The only thing that will save us as a species from our own internal greed
 这是把我们从内心贪婪
 
 73
-00:05:24,44 --> 00:05:29,18
+00:05:24,440 --> 00:05:29,180
 and hatred and the distance that we put between human hearts.
 和仇恨中救赎出来，并消除人与人之间冷漠的唯一办法
 
 74
-00:05:29,42 --> 00:05:33,96
+00:05:29,420 --> 00:05:33,960
 And I occasionally I'm chided because I am very sensitive person and have thin skin.
 有时大家责备我敏感、脸皮薄
 
 75
-00:05:34,10 --> 00:05:37,09
+00:05:34,100 --> 00:05:37,090
 And they say, you need thicker skin.
 他们说，你脸皮应该再厚点。
 
 76
-00:05:37,35 --> 00:05:41,09
+00:05:37,350 --> 00:05:41,090
 Now thicker skin puts more distance between human hearts.
 现在 ，厚脸皮让大家更生疏了
 
 77
-00:05:41,35 --> 00:05:44,38
+00:05:41,350 --> 00:05:44,380
 It allows more space for “not like me”.
 让大家更讨厌“我”
 
 78
-00:05:44,62 --> 00:05:47,84
+00:05:44,620 --> 00:05:47,840
 It allows more space for “us versus them”.
 在“我们“与“他们”之间筑就了一面墙
 
 79
-00:05:48,05 --> 00:05:54,01
+00:05:48,050 --> 00:05:54,010
 And that will be our undoing, not just as technologists but as a species.
 而这将是我们的败笔，不仅仅是作为技术专家，更是作为一个物种。
 
 80
-00:05:54,36 --> 00:05:59,86
+00:05:54,360 --> 00:05:59,860
 And we are at a crucial point in our evolution, I believe,
 而我相信，我们正处于进化的关键时刻，
 
 81
-00:06:00,02 --> 00:06:04,13
+00:06:00,020 --> 00:06:04,130
 where we need to start caring more about each other and less about profit.
 此时我们需要开始更多地关心彼此，而不只是利益。
 
 82
-00:06:04,39 --> 00:06:08,23
+00:06:04,390 --> 00:06:08,230
 And the Apache way voices one part of that,
 而Apache之道表达了其中的一部分意思。
 
 83
-00:06:08,37 --> 00:06:10,36
+00:06:08,370 --> 00:06:10,360
 I think in a very powerful way.
 我认为以一种非常强大的方式。
 
 84
-00:06:10,52 --> 00:06:15,51
+00:06:10,520 --> 00:06:15,510
 When we put community above code,
 当我们更重视社区，而不是代码时，
 
 85
-00:06:15,60 --> 00:06:18,61
+00:06:15,600 --> 00:06:18,610
 that gives us the opportunity to have a place
 这就给了我们一个机会，
 
 86
-00:06:18,69 --> 00:06:23,41
+00:06:18,690 --> 00:06:23,410
 where people can be passionate about solving other people's problems.
 让人们在这里可以满怀激情地去解决其他人的问题。
 
 87
-00:06:23,57 --> 00:06:28,56
+00:06:23,570 --> 00:06:28,560
 That is one element of good empathy.
 而这是好的同理心的要素之一。
+
+88
+00:06:29,570 --> 00:06:35,560
+欢迎关注公众号 “ALC Beijing”
+
+89
+00:06:35,570 --> 00:06:41,010
+获取更多有关Apache软件基金会信息
