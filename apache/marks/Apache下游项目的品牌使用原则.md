@@ -1,6 +1,8 @@
 # Apache下游项目的品牌使用原则
 
+翻译: 王福政
 
+原文地址: http://www.apache.org/foundation/marks/downstream.html
 
 # 初稿 ~ 初稿 ~ 初稿
 

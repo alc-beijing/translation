@@ -1,5 +1,9 @@
 # Apache 商标使用管理原则
 
+翻译: 聂帅
+
+原文出处:http://www.apache.org/foundation/marks/
+
 本文档概述了**允许使用 Apache® 商标的其他方的政策。**
 
 Apache 软件基金会（ASF）拥有所有与 Apache 相关的商标，服务标志，代表我们 Apache 社区的标志，**所有 Apache 项目的名称都是 Apache 的商标。**
@@ -30,7 +34,7 @@ Apache 软件基金会（ASF）拥有所有与 Apache 相关的商标，服务�
 
 * [更多 Apache 商标资源](http://www.apache.org/foundation/marks/resources)
 
-  
+
 
 # 基本原则
 
@@ -95,7 +99,7 @@ Apache 软件基金会和我们的许多软件产品必须与其他任何和 ASF
 
 您可以撰写有关 Apache Foo 软件的文章，并在书籍或文章标题中使用我们的商标。 您无需征求我们的许可就可以引用 Foo（ *ProjecName* ），例如《 Foo for Dummies 》，《 Expooning Foo 》，《  Foo Simplified 》，《 O'Reilly Foo指南 》甚至《 避开 Foo 》。
 
-我们希望您在标题中引用“ Apache Foo ”而不是简单的“ Foo ”，并且我们希望凡是您通常在书或文章中认为重要的地方都能够明确标识“ Apache ”，“ Apache Foo ”和“ Foo ”都是 Apache 软件的商标。 
+我们希望您在标题中引用“ Apache Foo ”而不是简单的“ Foo ”，并且我们希望凡是您通常在书或文章中认为重要的地方都能够明确标识“ Apache ”，“ Apache Foo ”和“ Foo ”都是 Apache 软件的商标。
 
 有关更多详细信息，请参见我们发布中的[有关 Apache 商标的常见问题解答](http://www.apache.org/foundation/marks/faq/#booktitle)。
 
