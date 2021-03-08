@@ -11,3 +11,5 @@
 ## 注意事项
 
 1、翻译之前一定要事先参考[术语表](https://github.com/alc-beijing/translation/blob/master/docs/GLOSSARY.md)，以避免不必要的错误。
+
+2、英文与中文之间应各开一个空格，例如“ASF 政策”
