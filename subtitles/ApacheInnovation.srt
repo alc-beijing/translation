@@ -10,13 +10,13 @@
 
 3
 00:00:58,680 --> 00:01:01,630
-at its very simplest Tomcat is a web
-最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+at its very simplest, Tomcat is a web
+最简单的说，Tomcat是一种Web服务器，
 
 4
 00:01:01,630 --> 00:01:05,710
-server to expand on that a little bit
-最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+server, to expand on that a little bit,
+稍微扩展一下，
 
 5
 00:01:05,710 --> 00:01:08,920
@@ -26,177 +26,177 @@ there are a series of Java
 6
 00:01:08,920 --> 00:01:13,030
 specifications that define a way that
-有一系列Java规范定义了一种
+定义了一种
 
 7
 00:01:13,030 --> 00:01:14,790
 web applications can be written and
-可以编写Web应用程序，而Tomcat实现这些规范
+Web应用程序的编写方式，
 
 8
 00:01:14,790 --> 00:01:17,590
 Tomcat implements those specifications
-可以编写Web应用程序，而Tomcat实现这些规范
+Tomcat实现了这些规范。
 
 9
 00:01:17,590 --> 00:01:20,229
 and it's one of a number of servers that
-它是众多服务器的其中之一，因此Web应用程序开发人员可以
+它是众多服务器中的一个，
 
 10
 00:01:20,229 --> 00:01:23,020
 do so a web application developer can
-它是众多服务器的其中之一，因此Web应用程序开发人员可以
+因此Web应用程序开发人员可以
 
 11
 00:01:23,020 --> 00:01:25,360
 write their web application using the
-使用标准API编写其Web应用程序，然后就可以在
+使用标准API编写其Web应用程序，
 
 12
 00:01:25,360 --> 00:01:28,090
 standard API and then it can run on
-使用标准API编写其Web应用程序，然后就可以在
+然后就可以在
 
 13
 00:01:28,090 --> 00:01:33,060
 Tomcat it can run on jetty it can run on
-Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+Tomcat上运行，可以在Jetty上运行，
 
 14
 00:01:33,060 --> 00:01:36,460
 WebSphere it can run on WebLogic and
-Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+可以在WebSphere上运行，可以在WebLogic上运行，
 
 15
 00:01:36,460 --> 00:01:38,890
 because it's the same interface the same
-因为在任何地方都可以移动相同的界面和相同的标准
+因为在任何地方都是相同的接口，相同的标准
 
 16
 00:01:38,890 --> 00:01:40,390
 standard everywhere you can move your
-因为在任何地方都可以移动相同的界面和相同的标准
+因为在任何地方都是相同的接口，相同的标准
 
 17
 00:01:40,390 --> 00:01:42,160
 application from one to the other and it
-从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+你可以把你的应用程序程序从这里移植到那里，
 
 18
 00:01:42,160 --> 00:01:44,950
 will just work but at its simplest
-从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+它都可以以最简单的方式运行起来。
 
 19
 00:01:44,950 --> 00:01:47,140
 Tomcat is a way of running websites is
-Tomcat是一种运行网站的方法，与Apache Web完全分开
+Tomcat 是一种运行网站的方法，
 
 20
 00:01:47,140 --> 00:01:48,850
 completely separate from the Apache web
-Tomcat是一种运行网站的方法，与Apache Web完全分开
+与 Apache Web 服务器完全分开，
 
 21
 00:01:48,850 --> 00:01:51,850
 server however if you wish you can get
-服务器，但是，如果您希望，您可以使两者进行某种合作
+但是，如果您希望，
 
 22
 00:01:51,850 --> 00:01:53,979
 the two to sort of working cooperation
-服务器，但是，如果您希望，您可以使两者进行某种合作
+您可以让两者进行某种合作，
 
 23
 00:01:53,979 --> 00:01:57,760
 so one of the things that Tomcat doesn't
-因此，Tomcat本身内部不做的一件事就是负载概念
+Tomcat 本身内部没做的一件事
 
 24
 00:01:57,760 --> 00:02:00,250
 do within itself is the idea of load
-因此，Tomcat本身内部不做的一件事就是负载概念
+就是负载平衡这一概念，
 
 25
 00:02:00,250 --> 00:02:03,159
 balancing so if you've got more load
-进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+因此如果您的负载超过一台
 
 26
 00:02:03,159 --> 00:02:05,290
 than one physical server can't handle
-进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+物理服务器无法处理的负载
 
 27
 00:02:05,290 --> 00:02:06,400
 and you need to spread it between
-您需要将其分散在多个对象之间
+您需要将其分散到多台服务器上面
 
 28
 00:02:06,400 --> 00:02:07,930
 multiple ones you need something to
-您需要将其分散在多个对象之间
+去分散负载。
 
 29
 00:02:07,930 --> 00:02:09,489
-spread that load what we often see
-分散负载我们经常看到人们正在做的事情就是将Apache网站
+spread that load. what we often see
+我们经常看到人们是将Apache Web
 
 30
 00:02:09,489 --> 00:02:12,010
 people doing is putting Apache web
-分散负载我们经常看到人们正在做的事情就是将Apache网站
+服务器放在它前面，
 
 31
 00:02:12,010 --> 00:02:13,959
 server in front of it because it can do
-服务器在它前面，因为它可以进行负载平衡，然后坐在
+因为它可以进行负载平衡，
 
 32
 00:02:13,959 --> 00:02:15,940
 the load balancing and then it sits in
-服务器在它前面，因为它可以进行负载平衡，然后坐在
+它挡在 Tomcat的前面，
 
 33
 00:02:15,940 --> 00:02:17,530
 front of Tomcat and it spreads the load
-Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+将负载分散到
 
 34
 00:02:17,530 --> 00:02:19,209
 between the different Tomcat instances
-Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+不同的Tomcat实例上面，
 
 35
 00:02:19,209 --> 00:02:20,470
 and then brings the responses back
-然后将响应汇总在一起，然后发送给用户
+将响应汇总在一起，
 
 36
 00:02:20,470 --> 00:02:22,720
 together and sends them off to the users
-然后将响应汇总在一起，然后发送给用户
+然后发送给用户。
 
 37
 00:02:22,720 --> 00:02:25,299
 and we have quite close cooperation
-而且我们在Tomcat项目的各个部分和
+我们的Tomcat项目
 
 38
 00:02:25,299 --> 00:02:27,519
 between bits of the Tomcat project and
-而且我们在Tomcat项目的各个部分和
+和 Apache Web 服务器项目
 
 39
 00:02:27,519 --> 00:02:30,790
 bits of the Apache web server project
-Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+之间有相当密切的合作。
 
 40
 00:02:30,790 --> 00:02:33,220
 because we have effectively our own
-Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+因为我们有效地拥有了自己的
 
 41
 00:02:33,220 --> 00:02:34,930
