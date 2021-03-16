@@ -16,12 +16,12 @@ at its very simplest, Tomcat is a web
 4
 00:01:01,630 --> 00:01:05,710
 server, to expand on that a little bit,
-稍微扩展一下，
+在此基础上稍加补充一下，
 
 5
 00:01:05,710 --> 00:01:08,920
 there are a series of Java
-有一系列Java规范定义了一种
+有一系列Java规范
 
 6
 00:01:08,920 --> 00:01:13,030
@@ -60,32 +60,32 @@ standard API and then it can run on
 
 13
 00:01:28,090 --> 00:01:33,060
-Tomcat it can run on jetty it can run on
+Tomcat, it can run on jetty, it can run on
 Tomcat上运行，可以在Jetty上运行，
 
 14
 00:01:33,060 --> 00:01:36,460
-WebSphere it can run on WebLogic and
+WebSphere, it can run on WebLogic and
 可以在WebSphere上运行，可以在WebLogic上运行，
 
 15
 00:01:36,460 --> 00:01:38,890
 because it's the same interface the same
-因为在任何地方都是相同的接口，相同的标准
+因为在任何地方都是相同的接口，相同
 
 16
 00:01:38,890 --> 00:01:40,390
-standard everywhere you can move your
-因为在任何地方都是相同的接口，相同的标准
+standard everywhere, you can move your
+的标准,你可以把你的
 
 17
 00:01:40,390 --> 00:01:42,160
 application from one to the other and it
-你可以把你的应用程序程序从这里移植到那里，
+应用程序程序从这里移植到那里，
 
 18
 00:01:42,160 --> 00:01:44,950
-will just work but at its simplest
+will just work but at its simplest.
 它都可以以最简单的方式运行起来。
 
 19
@@ -96,16 +96,16 @@ Tomcat 是一种运行网站的方法，
 20
 00:01:47,140 --> 00:01:48,850
 completely separate from the Apache web
-与 Apache Web 服务器完全分开，
+与 Apache Web 服务器完全分开。
 
 21
 00:01:48,850 --> 00:01:51,850
-server however if you wish you can get
+server.However if you wish you can get
 但是，如果您希望，
 
 22
 00:01:51,850 --> 00:01:53,979
-the two to sort of working cooperation
+the two to sort of working cooperation,
 您可以让两者进行某种合作，
 
 23
@@ -120,7 +120,7 @@ do within itself is the idea of load
 
 25
 00:02:00,250 --> 00:02:03,159
-balancing so if you've got more load
+balancing, so if you've got more load
 因此如果您的负载超过一台
 
 26
@@ -131,7 +131,7 @@ than one physical server can't handle
 27
 00:02:05,290 --> 00:02:06,400
 and you need to spread it between
-您需要将其分散到多台服务器上面
+您需要将其引到多台服务器上面
 
 28
 00:02:06,400 --> 00:02:07,930
@@ -150,13 +150,13 @@ people doing is putting Apache web
 
 31
 00:02:12,010 --> 00:02:13,959
-server in front of it because it can do
+server in front of it, because it can do
 因为它可以进行负载平衡，
 
 32
 00:02:13,959 --> 00:02:15,940
 the load balancing and then it sits in
-它挡在 Tomcat的前面，
+它挡在 Tomcat 的前面，
 
 33
 00:02:15,940 --> 00:02:17,530
@@ -166,7 +166,7 @@ front of Tomcat and it spreads the load
 34
 00:02:17,530 --> 00:02:19,209
 between the different Tomcat instances
-不同的Tomcat实例上面，
+不同的 Tomcat 实例上面，
 
 35
 00:02:19,209 --> 00:02:20,470
@@ -181,7 +181,7 @@ together and sends them off to the users
 37
 00:02:22,720 --> 00:02:25,299
 and we have quite close cooperation
-我们的Tomcat项目
+我们的 Tomcat 项目
 
 38
 00:02:25,299 --> 00:02:27,519
@@ -190,83 +190,83 @@ between bits of the Tomcat project and
 
 39
 00:02:27,519 --> 00:02:30,790
-bits of the Apache web server project
+bits of the Apache web server project.
 之间有相当密切的合作。
 
 40
 00:02:30,790 --> 00:02:33,220
 because we have effectively our own
-因为我们有效地拥有了自己的
+因为实际上我们已经有了自己的
 
 41
 00:02:33,220 --> 00:02:34,930
 protocol that we use to do some of that
-我们用来进行某些通信的协议，因此我们共同致力于新的
+协议，我们用它来进行一些交流，
 
 42
 00:02:34,930 --> 00:02:39,850
-communication so we work together on new
-我们用来进行某些通信的协议，因此我们共同致力于新的
+communication, so we work together on new
+因此我们共同致力于新特性，
 
 43
 00:02:39,850 --> 00:02:41,890
-features developing that integration of
-开发整合功能的功能我专注于您的特定功能
+features, developing that integration of
+开发整合那些特性。
 
 44
 00:02:41,890 --> 00:02:44,170
-that I am focused on your particular
-开发整合功能的功能我专注于您的特定功能
+that. I am focused on the particular
+我专注于一些特定的
 
 45
 00:02:44,170 --> 00:02:46,959
-projects so I am currently a committer
-项目，因此我目前是PMC的提交者和比索的成员
+projects, so I am currently a committer,
+项目，因此我目前是一位提交者，
 
 46
 00:02:46,959 --> 00:02:49,329
-PMC member and a member of the peso
-项目，因此我目前是PMC的提交者和比索的成员
+PMC member and a member of the specific
+PMC成员以及某些特定
 
 47
 00:02:49,329 --> 00:02:52,360
-software foundation I have been that for
-我从事软件工作很长一段时间，一直致力于
+software foundation. I have been that for
+软件基金会的一名成员。我从事软件工作
 
 48
 00:02:52,360 --> 00:02:54,340
-a long time I've been a committer for
-我从事软件工作很长一段时间，一直致力于
+a long time. I've been a committer for
+很长一段时间。我从事 camel 项目开发，
 
 49
 00:02:54,340 --> 00:02:56,470
-the camel product for yeah as I said
-我说过的骆驼产品大约是12年，我目前的角色是
+the camel product for, yeah, as I said,
+正如我说过的，
 
 50
 00:02:56,470 --> 00:02:59,260
-about 12 years my current role is as a
-我说过的骆驼产品大约是12年，我目前的角色是
+about 12 years. My current role is as a
+大约有12年了。我目前的角色是作为一位
 
 51
 00:02:59,260 --> 00:03:01,120
-professional open source developer I'm
-我受雇于red的专业开源开发人员
+professional open source developer. I'm
+专业开源开发人员，
 
 52
 00:03:01,120 --> 00:03:02,540
 employed by red
-我受雇于red的专业开源开发人员
+受雇于 Red。
 
 53
 00:03:02,540 --> 00:03:05,689
 and redhead uses camel in in the middle
-和红发在我们的产品中间使用骆驼，所以我目前
+红帽在我们项目的中间件中使用 camel ，
 
 54
 00:03:05,689 --> 00:03:08,120
-of our products so I am currently
-和红发在我们的产品中间使用骆驼，所以我目前
+of our products, so I am currently
+所以我目前
 
 55
 00:03:08,120 --> 00:03:10,489
