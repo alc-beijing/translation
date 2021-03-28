@@ -1,8 +1,12 @@
 ## 庆祝Apache®软件基金会22年以来基于“Apache之道”的开源创新
+
+资料来源：Apache软件基金会 https://blogs.apache.org/foundation/entry/the-apache-software-foundation-celebrates4   
+
+翻译：单致豪
+
 它是世界上最大的开源基金会，提供超过220亿美元社区主导软件，并且100％公益免费
 
 美国东部时间2021年3月24日09:00                    
-资料来源：Apache软件基金会 https://blogs.apache.org/foundation/entry/the-apache-software-foundation-celebrates4   
                                                                           
 2021年3月24日，美国特拉华州威尔明顿市（全球新闻）Apache软件基金会（ASF）所有的志愿开发人员、管理人员、孵化人员带领350多个开源项目和计划，今天宣布基金会成立22周年。
 
