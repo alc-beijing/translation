@@ -8,8 +8,8 @@
 ASF最初由21个成员的Apache Group成立，负责监督当时已有3年历史的Apache HTTP Server。如今，ASF是世界上最大的，与供应商无关的开放源代码基金会，由800多个个人成员，8,100多个提交者，在每个大洲都有40,000多个代码贡献者。保守地估计价值超过220亿美元以上，Apache的350多个项目和37个孵化项目都是免费向广大公众开放的，100％免费提供，并且没有许可费用。
 Apache软件基金会董事会主席Sander Striker说：“在过去的22年中，ASF不断发展，可以满足更大社区的不断增长的需求。” “ ASF使来自世界各地的人们能够合作、开发和管理那些正在帮助个人、维持业务和转变产业的项目和社区。”
 ASF的项目推进了为公共利益提供软件的使命，几乎是现代计算各个方面不可或缺的一部分，使全球数十亿人受益。社区主导的并且协作发展而成的“ Apache Way”引领了人工智能和深度学习、大数据、构建管理、云计算、内容交付和管理、边缘计算和物联网、金融科技、身份管理、集成、库、消息中间件、移动终端、搜索引擎、安全、服务器、Web框架以及其他类别的突破性创新。在Apache孵化器中进行开发的项目涉及AI、大数据、区块链、云计算、加密、深度学习、电子邮件、IoT、机器学习、微服务、移动终端、操作系统、测试、可视化等等。
-将近50万人参加了ASF的项目和计划，包括ASF的官方全球会议系列ApacheCon。社区发展方面，负责监督贡献者的入职和指导，如谷歌代码之夏之类；以及“多样性与包容性”，其计划促进整个Apache社区的多样性，公平性和包容性。
-ASF的影响无处不在，Apache项目为数十个行业中无处不在的关键任务应用程序提供了支持。Apache License 2.0是2020年排名第一的开源许可证（来源：WhiteSource）；Apache Way是开放式开发和内部开源环境的基础。并且新用户、开发人员和爱好者每天都加入更大的Apache社区（自该计划启动以来，过去16年来，ASF一直是Google Summer of Code的指导组织）。ASF是排名最高的开源非营利组织，在GitHub上拥有最多的Star数（来源：GitHub）。
+将近50万人参加了ASF的项目和计划，包括ASF的官方全球会议系列ApacheCon。社区发展方面，负责监督贡献者的入职和指导，如谷歌编程之夏之类；以及“多样性与包容性”，其计划促进整个Apache社区的多样性，公平性和包容性。
+ASF的影响无处不在，Apache项目为数十个行业中无处不在的关键任务应用程序提供了支持。Apache License 2.0是2020年排名第一的开源许可证（来源：WhiteSource）；Apache Way是开放式开发和内部开源环境的基础。并且新用户、开发人员和爱好者每天都加入更大的Apache社区（自该计划启动以来，过去16年来，ASF一直是谷歌编程之夏的指导组织）。ASF是排名最高的开源非营利组织，在GitHub上拥有最多的Star数（来源：GitHub）。
 FOSSlife [1]刚刚发布的专题指出：“ Apache项目无可否认地改变了世界……Apache仍然是至关重要的Web服务器，在该领域最受欢迎。对于建立开源社区，通过学习创建项目获得的经验，在整个开源世界引起共鸣。建议每个项目都尊重Apache的“社区高于代码”的价值观。”
 ASF运营通过基础架构支持、带宽、连接、服务器、硬件、开发环境、法律顾问、会计服务、商标保护、营销和宣传、教育活动以及相关的管理帮助Apache项目及其社区。作为美国的一家 private 501(c)(3) 非营利性慈善组织，ASF的日常运营费用可通过可扣税的赞助、公司捐款和个人捐款来抵消。当前的ASF赞助商有：
 
@@ -22,6 +22,7 @@ ASF运营通过基础架构支持、带宽、连接、服务器、硬件、开�
 目标金牌：Atlassian，Datadog，Docker，PhoenixNAP和Quenda。
 目标银牌：HotWax Systems, Manning Publications, and Rackspace.
 目标铜牌：Bintray, Education Networks of America, Friend of Apache Cordova, Google, Hopsie, No-IP, PagerDuty, Peregrine Computer Consultants Corporation, Sonic.net, SURFnet, and Virtru.
+「译注：这类目标赞助商不直接提供资金赞助，而是通过向ASF提供云服务或者软件授权的方式提供赞助。JetBrains就为Apache的Committer提供了免费的IDE全家桶软件授权。」
 
 “百度一直与Apache软件基金会保持着密切的合作。过去，我们捐赠了Apache ECharts，Apache Doris，Apache brpc和Apache Teaclave。我们非常感谢Apache促进这些项目的增长并使百度能够实现以下目标的方式：与ASF一起为开源世界做出更大的贡献。” 
 -侯振宇，百度集团公司副总裁
@@ -40,7 +41,7 @@ ASF运营通过基础架构支持、带宽、连接、服务器、硬件、开�
 
 [1] FOSSlife“ Apache项目如何促进自由和开源软件运动” https://www.fosslife.org/how-apache-project-boosted-free-and-open-source-software-movements
 其他ASF资源
--ASF上的“投放了万亿次”的纪录片https://s.apache.org/Trillions-Feature
+-无所不在的Apache纪录片https://s.apache.org/Trillions-Feature
 -关于Apache之路http://apache.org/theapacheway/
 -可持续开源成功的Apache之路https://s.apache.org/GhnI
 -2020财年年度报告https://s.apache.org/FY2020AnnualReport
