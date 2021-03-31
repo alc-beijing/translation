@@ -700,63 +700,63 @@ with a completely different one and
 
 141
 00:07:06,589 --> 00:07:08,629
-that's that's what I love about Apache
-那就是我对Apache项目ofb的热爱，本质上就是这样开放
+that's that's what I love about Apache projects
+那就是我热爱Apache项目的原因
 
 142
 00:07:08,629 --> 00:07:11,719
-projects ofb is essentially this open
-那就是我对Apache项目ofb的热爱，本质上就是这样开放
+OFBiz is essentially this open
+OFBiz本质上是开源ERP应用程序开发框架
 
 143
 00:07:11,719 --> 00:07:14,689
 source ERP application development
-源ERP应用程序开发框架，可能会有点
+OFBiz本质上是开源ERP应用程序开发框架
 
 144
 00:07:14,689 --> 00:07:17,569
 framework and it can be a little bit
-源ERP应用程序开发框架，可能会有点
+它可能会有点
 
 145
 00:07:17,569 --> 00:07:20,360
 intimidating it has a broad scope of
-恐吓它具有广泛的功能范围，并且是其中之一
+夸大它具有广泛的功能范围，并且是其中之一
 
 146
 00:07:20,360 --> 00:07:22,639
 functionality and and it's one of those
-恐吓它具有广泛的功能范围，并且是其中之一
+夸大它具有广泛的功能范围，并且是其中之一
 
 147
 00:07:22,639 --> 00:07:25,250
 cases where if you're not careful people
-如果您不小心的话，人们会问您哦，f是做什么的，您说
+如果您不小心的话，人们会问您OFBiz是做什么的，您说
 
 148
 00:07:25,250 --> 00:07:27,469
-ask you what does oh f is do and you say
-如果您不小心的话，人们会问您哦，f是做什么的，您说
+ask you what does OFBiz is do and you say
+如果您不小心的话，人们会问您OFBiz是做什么的，您说
 
 149
 00:07:27,469 --> 00:07:29,500
-oh it does everything
-哦，它做了所有的事情，但这不是最好的答案
+OFBiz it does everything
+OFBiz它做了所有的事情，但这不是最好的答案
 
 150
 00:07:29,500 --> 00:07:31,620
 but that's not the best answer
-哦，它做了所有的事情，但这不是最好的答案
+OFBiz它做了所有的事情，但这不是最好的答案
 
 151
 00:07:31,620 --> 00:07:35,080
-surprisingly what we do is take of' is
-令人惊讶的是，我们要做的是'，然后我们将其成形并形成满足
+surprisingly what we do is take OFBiz is
+令人惊讶的是，我们要做的把OFBiz塑造并且形成满足
 
 152
 00:07:35,080 --> 00:07:38,500
 and then we shape it and form it to meet
-令人惊讶的是，我们要做的是'，然后我们将其成形并形成满足
+令人惊讶的是，我们要做的把OFBiz塑造并且形成满足
 
 153
 00:07:38,500 --> 00:07:40,720
@@ -811,12 +811,12 @@ want you to be successful and then we'll
 163
 00:08:02,290 --> 00:08:04,570
 take off this and we'll shape it and
-脱掉它，我们将对其进行整形，自定义，扩展和配置
+打散它，我们将对其进行塑造，定制，扩展和配置
 
 164
 00:08:04,570 --> 00:08:07,300
 customize it and extend it and configure
-脱掉它，我们将对其进行整形，自定义，扩展和配置
+打散它，我们将对其进行塑造，定制，扩展和配置
 
 165
 00:08:07,300 --> 00:08:10,450
