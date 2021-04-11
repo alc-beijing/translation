@@ -276,22 +276,22 @@ heavily involved with Camel their.
 56
 00:03:10,489 --> 00:03:13,010
 Camel is basically used for integration
-Camel 基本上是用于整合
+Camel 基本上用于系统集成，
 
 57
 00:03:13,010 --> 00:03:14,840
 is to switch I mean that for integration
-Camel 是开关，我意思对于整合来说。
+是用来做集成的开关。
 
 58
 00:03:14,840 --> 00:03:16,459
-HI-C algunas ation do they have so many
-HI-C algunas ation 他们有这么多
+IT organization do they have so many
+IT 组织确实有许多
 
 59
 00:03:16,459 --> 00:03:18,739
 different IT systems and they need to be
-不同的IT系统，他们需要
+不同的 IT 系统，他们需要
 
 60
 00:03:18,739 --> 00:03:20,480
@@ -311,17 +311,17 @@ system many of them so there are so many
 63
 00:03:23,750 --> 00:03:26,209
 different protocols languages and IT
-不同的协议语言，IT 系统的，
+不同的协议语言，IT 系统，
 
 64
 00:03:26,209 --> 00:03:28,400
 systems and operating systems and
-操作系统
+以及操作系统，
 
 65
 00:03:28,400 --> 00:03:30,739
 whatnot the data formats and Camel is
-等的数据格式。
+以及不同的数据格式。
 
 66
 00:03:30,739 --> 00:03:32,150
@@ -446,7 +446,7 @@ data, so this project historically on
 90
 00:04:46,820 --> 00:04:48,860
 which are working on another project
-在另外一个命名为 Apache 的项目上
+在另外一个命名为 Apache Unomi 的项目上
 
 91
 00:04:48,860 --> 00:04:51,770
