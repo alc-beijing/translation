@@ -4009,12 +4009,12 @@ the ASF so we produce tons of data
 803
 00:36:11,800 --> 00:36:13,810
 basically by by extracting all those
-基本上是从机器中提取的所有这些参数的数据，
+基本上所有这些参数的数据
 
 804
 00:36:13,810 --> 00:36:15,820
 parameters from the machines and this is
-
+是从机器中提取的，
 
 805
 00:36:15,820 --> 00:36:16,720
@@ -4089,12 +4089,12 @@ Edgent 是一个框架，
 819
 00:36:57,400 --> 00:37:00,820
 to build exactly this kind of analytic
-用来构建这种运行在边缘的分析应用程序，
+用来构建这种运行在边缘的分析
 
 820
 00:37:00,820 --> 00:37:03,280
 applications running at the edge but we
-但是我们
+应用程序，但是我们
 
 821
 00:37:03,280 --> 00:37:05,500
@@ -4124,12 +4124,12 @@ analyze data what we do then in detail
 826
 00:37:17,860 --> 00:37:21,610
 is rather specifically to use cases that
-而不是针对一些非常简单的问题案例，
+而不是针对一些
 
 827
 00:37:21,610 --> 00:37:24,010
 may be very simple questions like how
-例如机器
+非常简单的问题案例，例如机器
 
 828
 00:37:24,010 --> 00:37:26,170
@@ -4149,12 +4149,12 @@ more complex like recognizing specific
 831
 00:37:31,390 --> 00:37:34,120
 shapes to see for example that the
-来查看问题，例如能耗异常或
+来查看问题，
 
 832
 00:37:34,120 --> 00:37:37,210
 energy consumption is abnormal or which
-
+例如能耗异常或
 
 833
 00:37:37,210 --> 00:37:39,240
@@ -4189,42 +4189,42 @@ to make it easy to to build together
 839
 00:37:55,030 --> 00:37:57,430
 this kind of application from several
-通过现有的几个基本项目进行来构建。
+通过现有的几个基本项目
 
 840
 00:37:57,430 --> 00:37:59,080
 building blocks I'm the vice-president
-我是 Apache 实验室副总裁，
+进行来构建。我是副总裁，
 
 841
 00:37:59,080 --> 00:38:02,850
 of Apache labs which is an internal
-
+Apache 实验室的副总裁，这是一个
 
 842
 00:38:02,850 --> 00:38:05,970
 innovation area where people can
-这是一个内部创新领域，人们可以与
+内部创新领域，人们可以与
 
 843
 00:38:05,970 --> 00:38:08,860
 existing members and committers can
-现有成员和提交者可以以非常低的成本开销创建自己的项目，
+现有成员和
 
 844
 00:38:08,860 --> 00:38:12,930
 create their own projects with very low
-
+提交者可以以非常低的成本开销创建自己的项目，
 
 845
 00:38:12,930 --> 00:38:18,520
 overhead and I was on the James project
-我在 James 项目中工作了很多年，
+我在 James 项目中
 
 846
 00:38:18,520 --> 00:38:21,700
 for many years and there was project
-我是
+工作了很多年，我是
 
 847
 00:38:21,700 --> 00:38:23,350
@@ -4279,42 +4279,42 @@ interested in their idea it could be an
 857
 00:38:49,039 --> 00:38:51,979
 experiment that is is time boxed or that
-有时间限制的实验或达到特定目标的实验，
+有时间限制的实验或
 
 858
 00:38:51,979 --> 00:38:54,049
 they achieve a particular goal and then
-然后
+达到特定目标的实验，然后
 
 859
 00:38:54,049 --> 00:38:56,029
 it's over with or it can be something
-等结束了，或者可能是他们想要合作的地方，
+等结束了，或者可能是
 
 860
 00:38:56,029 --> 00:38:58,729
 where they they want to collaborate and
-
+他们想要合作的地方，
 
 861
 00:38:58,729 --> 00:39:00,289
 try things out and see if there's a
-尝试一下外面的事情，看看背后是否有聚群效益，
+尝试一下外面的事情，看看背后是否有
 
 862
 00:39:00,289 --> 00:39:02,809
 critical mass behind it and then they
-然后他们
+聚群效益，然后他们
 
 863
 00:39:02,809 --> 00:39:05,419
 can attempt to become a an Apache
-可以尝试用它成为一个Apache项目，
+可以尝试用它成为一个Apache
 
 864
 00:39:05,419 --> 00:39:06,499
 project with it
-
+项目，
 
 865
 00:39:06,499 --> 00:39:09,139
