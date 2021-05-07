@@ -1001,7 +1001,7 @@ coordinate an entire action and
 201
 00:09:46,990 --> 00:09:49,510
 somewhere below all the artificial
-在所有人工智能和所有通信下面的某个地方
+在所有人工
 
 202
 00:09:49,510 --> 00:09:51,370
