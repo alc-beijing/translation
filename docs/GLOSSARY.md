@@ -43,7 +43,7 @@
 | object code                                             | 目标码                                     |
 | Permanent link                                          | 固定链接                                   |
 | XSLT transformer                                        | XSLT 转换器                                |
-| substring                                               | 字串                                       |
+| substring                                               | 子串                                       |
 | script file                                             | 脚本文件                                   |
 | top-level directory                                     | 根目录                                     |
 | distribution's README file                              | 发行包中的 README 文件                     |
