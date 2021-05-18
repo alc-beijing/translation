@@ -1,3 +1,7 @@
+* **原文标题：** Guide :: Guide to Successful Graduation
+* **原文链接：** http://incubator.apache.org/guides/graduation.html
+* **提交路径：** translation/apache/incubator/Apache项目毕业指南.md
+
 # Apache 项目毕业指南
 
 ## 目录
