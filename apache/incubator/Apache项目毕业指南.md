@@ -158,7 +158,7 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 
 下面是一个毕业过程的大概时间表。它应该能帮助你了解你应该什么时候开始加强你的社区，以获得及时的毕业，并使这个过程顺利进行。
 
-
+[![](http://incubator.apache.org/images/graduation-timeline.png)](http://incubator.apache.org/images/graduation-timeline.png)
 
 对于每个事件，我们都安排了一到两周的时间。即使投票通常被限制在72小时内，你也应该为讨论和修改提案重新投票做准备。
 
@@ -196,7 +196,7 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 - 拟议的VP的名字 
 - 投票历史邮件的链接 
 - 投票结果的摘要 
-- [决议](http://incubator.apache.org/guides/graduation.html#tlp-resolution)文本
+- [决议文本](http://incubator.apache.org/guides/graduation.html#tlp-resolution)
 
 例如：
 
