@@ -4,44 +4,44 @@
 
 [一、什么是毕业](一、什么是毕业)
 
-[二、毕业为子项目还是顶级项目](二、毕业为子项目还是顶级项目)
+[二、毕业成为子项目还是顶级项目](二、毕业成为子项目还是顶级项目)
 
 [三、毕业之前](三、毕业之前)
 
-- [毕业检查表](毕业检查表)
+- [毕业检查清单](毕业检查清单)
 - [检查状态文件](检查状态文件)
 
 [四、确保合适的项目名称和产品名称](四、确保合适的项目名称和产品名称)
 
-[五、创建一个Apache发行版](五、创建一个Apache发行版)
+[五、创建Apache发行版](五、创建Apache发行版)
 
-[六、创建一个开放多样性的社区](六、创建一个开放多样性的社区)
+[六、创建一个开放和多样化的社区](六、创建一个开放和多样化的社区)
 
 - [其他事宜](其他事宜)
 
-[七、毕业过程](七、毕业过程)
+[七、毕业流程](七、毕业流程)
 
-- [毕业为顶级项目](毕业为顶级项目)
-- [社区毕业投票](社区毕业投票)
+- [毕业成为顶级项目](毕业成为顶级项目)
+- [社区的毕业投票](社区的毕业投票)
 - [准备章程](准备章程)
 - [推荐投票](推荐投票)
 - [向董事会提交决议](向董事会提交决议)
 - [新顶级项目的新闻稿](新顶级项目的新闻稿)
 
-[八、毕业为子项目](八、毕业为子项目)
+[八、毕业成为子项目](八、毕业成为子项目)
 
-- [社区毕业投票](社区毕业投票)
+- [社区的毕业投票](社区的毕业投票)
 - [子项目验收投票](子项目验收投票)
 - [毕业批准投票](毕业批准投票)
 - [最后步骤](最后步骤)
 
 本文档的目的是帮助孵化项目了解毕业过程，并提供一些关于如何实现毕业的观点。它还与孵化器[退出政策](http://incubator.apache.org/incubation/Incubation_Policy.html#Graduating_from_the_Incubator)有关。这不是一个僵化的标准，但代表了孵化器general邮件列表上先前讨论中凝结的共识。它还描述了毕业后应该如何迈出第一步。
 
-本文只是一个指南。[政策](http://incubator.apache.org/policy/incubation.html)在此说明。
+本文只是一个指南。具体政策[在此](http://incubator.apache.org/policy/incubation.html)说明。
 
-通过在JIRA的孵化器部分发布本文件的补丁或在孵化器的[general](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)邮件列表中发表评论来帮助改进该系统。
+通过在JIRA的孵化器部分发布本文件的补丁或在孵化器的[general](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)邮件列表中发表评论来帮助改进本文。
 
-## 什么是毕业
+## 一、什么是毕业
 
 毕业是指一个正在孵化的项目成为已经存在的Apache项目下的一个子项目，或者成为一个顶级的Apache项目的行为。毕业是一个民主的过程：最终要通过[投票](http://www.apache.org/foundation/voting.html)来决定。请注意，在你呆在孵化器期间，你已经在忙于毕业的过程了：采用Apache的步骤，培养你的社区使之成长，就代码风格（制表符和空格）进行（有礼貌的）争论，创建发行版等等。所有这些行为都会对你的项目的毕业产生影响。
 
@@ -49,15 +49,15 @@
 
 本文件仅用于指导和教育。实际政策记录在[孵化政策指南](http://incubator.apache.org/incubation/Incubation_Policy.html)中[这个](http://incubator.apache.org/incubation/Incubation_Policy.html#Graduating_from_the_Incubator)章节。关于毕业的任何问题，请在[孵化器general邮件列表](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)中发布。
 
-## 毕业为子项目还是顶级项目
+## 二、毕业成为子项目还是顶级项目
 
 每个提案都有一个[发起人](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Sponsor)。发起人的身份表明了项目的目的地。对于由[董事会](http://incubator.apache.org/guides/roles_and_responsibilities.html#the_board)或[孵化器项目管理委员会（IPMC）](http://incubator.apache.org/guides/roles_and_responsibilities.html#incubator_project_management_committee_ipmc)赞助的提案，这是一个顶级项目。对于其他提案，则作为发起项目的一个子项目。然而，目的地只在毕业时固定下来，而不是刚孵化的时候。项目在毕业过程中不断成长和发展。随着毕业的临近，应该根据项目现在的情况来重新审视最初的目标。
 
 只有当子项目仍然属于某项目的范围并需要该项目[PMC](http://www.apache.org/foundation/how-it-works.html#structure)的同意时，才有可能作为子项目毕业。而作为一个顶级项目毕业，则需要[董事会](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#board)组建新的项目。
 
-[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)也将发表民主意见。对于那些寻求毕业为子项目的人来说，这些[投票](http://www.apache.org/foundation/voting.html)是为了批准项目迁移。对于那些寻求毕业为顶级项目的人来说，这些意见将是对[董事会](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#board)的建议。我们期待IPMC成员提出关于项目的问题，包括目的地的选择。这也是正常程序的一部分。
+[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)也将发表民主意见。对于那些寻求毕业为子项目的人来说，这些[投票](http://www.apache.org/foundation/voting.html)是为了批准项目迁移。对于那些寻求毕业成为顶级项目的人来说，这些意见将是对[董事会](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#board)的建议。我们期待IPMC成员提出关于项目的问题，包括目的地的选择。这也是正常程序的一部分。
 
-## 在毕业之前
+## 三、毕业之前
 
 在开始考虑毕业之前，你需要确保已经准备好了，并且符合Apache项目提出的要求。本节将为正在孵化的项目提供一个简短清单，以确定他们是否符合要求毕业的标准。
 
@@ -77,7 +77,7 @@
 
 - 准备一份[决议](http://incubator.apache.org/guides/graduation.html#tlp-resolution)（只限于候选的顶级项目）
 
-- 目的地项目的[接受投票](http://incubator.apache.org/guides/graduation.html#subproject-acceptance)（只限于候选的子项目）
+- 目的地项目的[验收投票](http://incubator.apache.org/guides/graduation.html#subproject-acceptance)（只限于候选的子项目）
 
 - 孵化器项目管理委员会（IPMC）：
 
@@ -96,11 +96,11 @@
 
 JUDDI项目的状态文件就是一个[例子](http://incubator.apache.org/projects/juddi.html)。
 
-## 确保合适的项目名称和产品名称
+## 四、确保合适的项目名称和产品名称
 
 请阅读这个[细节文档](http://www.apache.org/foundation/marks/naming.html)。"确保合适的项目和产品名称的过程 "是每个想毕业的正在孵化的项目的必修课。
 
-## 创建Apache发行版
+## 五、创建Apache发行版
 
 > 早发布，多发布
 
@@ -112,7 +112,7 @@ JUDDI项目的状态文件就是一个[例子](http://incubator.apache.org/proje
 
 当你要创建Apache发行版时，那么请阅[读孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
 
-## 创建一个开放和多样化的社区
+## 六、创建一个开放和多样化的社区
 
 毕业的一个主要标准是发展一个开放和多样化的[由精英管理的](http://www.apache.org/foundation/glossary.html#Meritocracy)社区。时间已经证明，这类社区比封闭的社区更加强大和富有成效。
 
@@ -127,7 +127,7 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 
 可以在[社区指南](http://incubator.apache.org/guides/community.html)中阅读如何为你的孵化项目建立一个开放和多样化的社区。
 
-随着项目的发展，它需要通过接受新的提交者来提高活力。一个项目需要学习如何招募新的开发者和提交者进入社区。接受新的提交者通常会增加项目的多样性。所以，这个过程是非常有益的。[社区建设](http://incubator.apache.org/guides/community.html)需要耗费精力，这些精力本可以用在代码开发上，但这一成本对项目的未来来说是一项重要的投资。
+随着项目的发展，它需要通过接受新的提交者来提高活力。一个项目需要学习如何招募新的开发者和提交者进入社区。接受新的提交者通常会增强项目的多样化。所以，这个过程是非常有益的。[社区建设](http://incubator.apache.org/guides/community.html)需要耗费精力，这些精力本可以用在代码开发上，但这一成本对项目的未来来说是一项重要的投资。
 
 社区的开放性不仅仅是由贡献者的数量来衡量的。在邮件列表上的开放和互相尊重的讨论是至关重要的。必须学会在不破坏人际关系的情况下解决技术冲突。学习如何有效地使用邮件列表是非常重要的。如果能做到这一点，那么你们已经展示出一个活泼、活跃和成功的社区。未来将会很光明。
 
@@ -135,19 +135,19 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 
 培养一个开放的、多样化的、精英管理的社区不可能一蹴而就，我们需要努力。请阅读[建设社区指南](http://incubator.apache.org/guides/community.html)，了解实现这一目标的指南、提示和技巧。
 
-### 其他问题
+### 其他事宜
 
 孵化器更多的是依靠人而不是规则：并不试图创造规则来涵盖所有情况，而是根据需要制定和编写规则。在优化流程和政策的时候，人是可信的。本指南只能记录最常见的问题，有可能还有其他需要解决的问题没有被包括在内。
 
 不确定是否准备好毕业的孵化项目可以参考[Apache项目成熟度模型](http://community.apache.org/apache-way/apache-project-maturity-model.html)。当你评估社区的各种细节时，你可能会发现这是个有用的指南。
 
-## 毕业流程
+## 七、毕业流程
 
-### 毕业为顶级项目
+### 毕业成为顶级项目
 
-顶级项目是由董事会创建的。因此，孵化器项目管理委员会（IPMC）只能向董事会建议该项目已经准备好毕业为顶级项目。
+顶级项目是由董事会创建的。因此，孵化器项目管理委员会（IPMC）只能向董事会建议该项目已经准备好毕业成为顶级项目。
 
-毕业为顶级项目需要：
+毕业成为顶级项目需要：
 
 - 项目的章程
 - 一个正向的毕业[投票](http://www.apache.org/foundation/voting.html)
@@ -162,13 +162,13 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 
 对于每个事件，我们都安排了一到两周的时间。即使投票通常被限制在72小时内，你也应该为讨论和修改提案重新投票做准备。
 
-### 毕业投票
+### 社区的毕业投票
 
 成为一个顶级项目之前，社区需要有自我管理的意愿。证明这一点的一个好方法是，由社区对毕业提案自由投票。
 
 这个投票并不是一个要求，而是建议。除非[导师](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Mentor)和社区积极地表达他们对毕业的准备，否则IPMC成员不太可能投票批准毕业。明智的做法是通知[孵化器general邮件列表](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)，社区内部投票正在开始。请不要将投票抄送至孵化器general邮件列表，因为这样会造成混乱。相反，你可以： 转发投票邮件到孵化器general邮件列表，或者向孵化器general邮件列表发送一份不同的副本，表明毕业社区投票正在进行中。
 
-### 准备一份章程
+### 准备章程
 
 因此，在这种情况下，应该由社区在导师的建议下起草一份合适的董事会决议。提交者可以在[提交者svn仓库](https://svn.apache.org/repos/private/committers/board/templates/podling-tlp-resolution.txt)中访问孵化项目决议模板。你的[花名册](https://whimsy.apache.org/roster/ppmc/)也包括起草决议的功能。此外，决议还包括在董事会会议记录中，这些会议记录在[这里](http://www.apache.org/foundation/board/calendar.html)公开发布，这里包含了许多例子。
 
@@ -180,7 +180,7 @@ Apache项目是自我维持和自我管理的社区。长期的成功和良性�
 
 ### 推荐投票
 
-在开始投票之前，应在[孵化器general邮件列表上](general@incubator.apache.org)提出决议，以允许反馈。一旦达成共识，就应该由PPMC的一名成员在孵化器general邮件列表中开始投票，提议IPMC向董事会推荐该决议。
+在开始投票之前，应在[孵化器general邮件列表上](mailto:general@incubator.apache.org)提出决议，以允许反馈。一旦达成共识，就应该由PPMC的一名成员在孵化器general邮件列表中开始投票，提议IPMC向董事会推荐该决议。
 
 ### 向董事会提交决议
 
@@ -233,19 +233,19 @@ indent with 4 spaces>>
 
 请尽量保持董事会邮件列表低流量。不要在列表中提醒或询问是否已经收到信息。[Apache成员](http://www.apache.org/foundation/members.html)可以访问董事会档案，并可以查看董事会会议。如果想了解某个决议的进展情况，请询问友好的导师、Apache成员或[董事](http://www.apache.org/foundation/board/)。
 
-### 新顶级项目的新闻发布
+### 新顶级项目的新闻稿
 
 一旦有了明确的共识，推荐就会水到渠成，PPMC的成员应该联系ASF市场和宣传部，如果你对宣布项目毕业的正式新闻稿感兴趣，请联系press(at)apache(dot)org。在董事会决议发布的同时，你就可以着手进行了。
 
-## 毕业为子项目
+## 八、毕业成为子项目
 
 子项目是由项目管理委员会接受的。IPMC将会批准孵化项目毕业为一个子项目。
 
-### 社区毕业投票
+### 社区的毕业投票
 
 成为子项目是一个自愿的过程，社区应该接受该项目成为一个子项目。孵化项目的PPMC和提交者应该清楚新的子项目的结构，例如，谁将成为PMC，谁将成为提交者。由于这种性质，重要的是，孵化项目要投票成为一个子项目。这个投票应该发生在公共开发者邮件列表中。
 
-### 子项目接受投票
+### 子项目验收投票
 
 为了接受孵化项目为子项目是一个先决条件是，由项目[PMC](http://www.apache.org/foundation/how-it-works.html#structure)发起正式投票。有时，项目可能会觉得孵化项目的规模太大，作为一个顶级项目会更好。遇到这种情况，请联系项目的主席。
 
