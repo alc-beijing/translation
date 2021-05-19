@@ -6,38 +6,38 @@
 
 ## 目录
 
-[一、什么是毕业](一、什么是毕业)
+- [什么是毕业](#什么是毕业)
 
-[二、毕业成为子项目还是顶级项目](二、毕业成为子项目还是顶级项目)
+- [毕业成为子项目还是顶级项目](#毕业成为子项目还是顶级项目)
 
-[三、毕业之前](三、毕业之前)
+- [毕业之前](#毕业之前)
 
-- [毕业检查清单](毕业检查清单)
-- [检查状态文件](检查状态文件)
+  - [毕业检查清单](#毕业检查清单)
+  - [检查状态文件](#检查状态文件)
 
-[四、确保合适的项目名称和产品名称](四、确保合适的项目名称和产品名称)
+- [确保合适的项目名称和产品名称](#确保合适的项目名称和产品名称)
 
-[五、创建 Apache 发行版](五、创建 Apache 发行版)
+- [创建 Apache 发行版](#创建 Apache 发行版)
 
-[六、创建一个开放和多样化的社区](六、创建一个开放和多样化的社区)
+- [创建一个开放和多样化的社区](#创建一个开放和多样化的社区)
 
-- [其他事宜](其他事宜)
+  - [其他事宜](#其他事宜)
 
-[七、毕业流程](七、毕业流程)
+- [毕业流程](#毕业流程)
 
-- [毕业成为顶级项目](毕业成为顶级项目)
-- [社区的毕业投票](社区的毕业投票)
-- [准备章程](准备章程)
-- [推荐投票](推荐投票)
-- [向董事会提交决议](向董事会提交决议)
-- [新顶级项目的新闻稿](新顶级项目的新闻稿)
+  - [毕业成为顶级项目](#毕业成为顶级项目)
+  - [社区的毕业投票](#社区的毕业投票)
+  - [准备章程](#准备章程)
+  - [推荐投票](#推荐投票)
+  - [向董事会提交决议](#向董事会提交决议)
+  - [新顶级项目的新闻稿](#新顶级项目的新闻稿)
 
-[八、毕业成为子项目](八、毕业成为子项目)
+- [毕业成为子项目](#毕业成为子项目)
 
-- [社区的毕业投票](社区的毕业投票)
-- [子项目验收投票](子项目验收投票)
-- [毕业批准投票](毕业批准投票)
-- [最后步骤](最后步骤)
+  - [社区的毕业投票](#社区的毕业投票)
+  - [子项目验收投票](#子项目验收投票)
+  - [毕业批准投票](#毕业批准投票)
+  - [最后步骤](#最后步骤)
 
 本文档的目的是帮助正在孵化的项目了解毕业流程，并提供一些关于如何实现毕业的看法。它还与孵化器[退出政策](http://incubator.apache.org/incubation/Incubation_Policy.html#Graduating_from_the_Incubator)有关。这不是一个僵化的标准，但代表了孵化器 general 邮件列表上以往讨论中凝结的共识。它还描述了毕业后应该如何迈出第一步。
 
@@ -45,7 +45,7 @@
 
 通过在 JIRA 的 Incubator 部分发布本文件的补丁或在孵化器的[general](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)邮件列表中发表评论来帮助改进本文。
 
-## 一、什么是毕业
+## 什么是毕业
 
 毕业是指一个正在孵化的项目成为已经存在的 Apache 项目下的一个子项目，或者成为一个顶级 Apache 项目的行为。毕业是一个民主的过程：最终要通过[投票](http://www.apache.org/foundation/voting.html)来决定。请注意，在你加入孵化器期间，你已经在忙于毕业的过程了：采用 Apache 的步骤、培养你的社区使之成长、就代码风格（制表符和空格）进行（有礼貌的）争论和创建发行版等等。所有这些行为都会对项目的毕业产生影响。
 
@@ -53,7 +53,7 @@
 
 本文件仅用于指导和教育。实际政策记录在[孵化政策指南](http://incubator.apache.org/incubation/Incubation_Policy.html)中[这个](http://incubator.apache.org/incubation/Incubation_Policy.html#Graduating_from_the_Incubator)章节。关于毕业的任何问题，请在[孵化器 general 邮件列表](http://incubator.apache.org/guides/lists.html#general_at_incubator.apache.org)中发布。
 
-## 二、毕业成为子项目还是顶级项目
+## 毕业成为子项目还是顶级项目
 
 每个提案都有一个[发起人](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Sponsor)。发起人的身份表明了项目的目的地。对于由[董事会](http://incubator.apache.org/guides/roles_and_responsibilities.html#the_board)或[孵化器项目管理委员会（IPMC）](http://incubator.apache.org/guides/roles_and_responsibilities.html#incubator_project_management_committee_ipmc)发起的提案，这是一个顶级项目。对于其他提案，则作为发起项目的一个子项目。然而，目的地只在毕业时固定下来，而不是刚孵化的时候。项目在毕业过程中不断成长和发展。随着毕业的临近，应该根据项目当前的情况来重新审视最初的目标。
 
@@ -61,7 +61,7 @@
 
 [IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)也将发表民主意见。对于那些寻求毕业为子项目的人来说，这些意见是为了批准项目迁移。对于那些寻求毕业成为顶级项目的人来说，这些意见将是对[董事会](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#board)的建议。我们期待 IPMC 成员提出关于项目的问题，包括目的地的选择。这也是正常程序的一部分。
 
-## 三、毕业之前
+## 毕业之前
 
 在开始考虑毕业之前，你需要确保已经准备好了，并且符合 Apache 对项目提出的要求。本节将为正在孵化的项目提供一个简短清单，以确定他们是否符合毕业标准。
 
@@ -100,11 +100,11 @@
 
 JUDDI 项目的状态文件就是一个[例子](http://incubator.apache.org/projects/juddi.html)。
 
-## 四、确保合适的项目名称和产品名称
+## 确保合适的项目名称和产品名称
 
 请阅读这个[文档](http://www.apache.org/foundation/marks/naming.html)。"确保合适的项目和产品名称的过程 "是每个想毕业的正在孵化的项目的必修课。
 
-## 五、创建Apache发行版
+## 创建 Apache 发行版
 
 > 早发布，多发布
 
@@ -116,7 +116,7 @@ JUDDI 项目的状态文件就是一个[例子](http://incubator.apache.org/proj
 
 当你要创建 Apache 发行版时，那么请阅[读孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
 
-## 六、创建一个开放和多样化的社区
+## 创建一个开放和多样化的社区
 
 毕业的一个主要标准是发展一个开放和多样化的[由精英管理的](http://www.apache.org/foundation/glossary.html#Meritocracy)社区。时间已经证明，这类社区比封闭的社区更加强大和富有成效。
 
@@ -145,7 +145,7 @@ Apache 项目是自我维持和自我管理的社区。长期的成功和良性�
 
 不确定是否准备好毕业的孵化项目可以参考[Apache 项目成熟度模型](http://community.apache.org/apache-way/apache-project-maturity-model.html)。当你评估社区的各种细节时，你可能会发现这是个有用的指南。
 
-## 七、毕业流程
+## 毕业流程
 
 ### 毕业成为顶级项目
 
@@ -241,7 +241,7 @@ indent with 4 spaces>>
 
 一旦有了明确的共识，推荐就会水到渠成，PPMC 的成员应该联系 ASF 市场和宣传部，如果你对宣布项目毕业的正式新闻稿感兴趣，请联系 press(at)apache(dot)org。在董事会决议发布的同时，你就可以着手进行了。
 
-## 八、毕业成为子项目
+## 毕业成为子项目
 
 子项目是由项目管理委员会接受的。IPMC 将会批准孵化项目毕业为一个子项目。
 
