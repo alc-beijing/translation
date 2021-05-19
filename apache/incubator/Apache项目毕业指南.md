@@ -162,7 +162,7 @@ Apache 项目是自我维持和自我管理的社区。长期的成功和良性�
 
 下面是一个毕业过程的大概时间表。它应该能帮助你了解你应该什么时候开始加强你的社区，以获得及时的毕业，并使这个过程顺利进行。
 
-[![](http://incubator.apache.org/images/graduation-timeline.png)](http://incubator.apache.org/images/graduation-timeline.png)
+![graduation-timeline-cn](https://user-images.githubusercontent.com/24643893/118795792-8be85e00-b8cd-11eb-9b23-8aae4f9438b4.png)
 
 对于每个事件，我们都安排了一到两周的时间。即使投票通常被限制在 72 小时内，你也应该为讨论和修改提案后的重新投票做准备。
 
