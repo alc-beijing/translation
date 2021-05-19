@@ -17,7 +17,7 @@
 
 - [确保合适的项目名称和产品名称](#确保合适的项目名称和产品名称)
 
-- [创建 Apache 发行版](#创建 Apache 发行版)
+- [创建 Apache 发行版](#创建-Apache-发行版)
 
 - [创建一个开放和多样化的社区](#创建一个开放和多样化的社区)
 
@@ -83,7 +83,7 @@
 
 - 目的地项目的[验收投票](http://incubator.apache.org/guides/graduation.html#subproject-acceptance)（只限于候选的子项目）
 
-- 孵化器项目管理委员会（IPMC）：
+- 孵化器项目管理委员会（IPMC）
 
   - 对于候选的顶级项目，这是一个[建议投票](http://incubator.apache.org/guides/graduation.html#ipmc-top-level-recommendation)
   - 对于候选的子项目，这是一个[毕业批准投票](http://incubator.apache.org/guides/graduation.html#subproject-graduation)
