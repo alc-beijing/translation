@@ -112,9 +112,20 @@ JUDDI 项目的状态文件就是一个[例子](http://incubator.apache.org/proj
 
 > http://catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html
 
-项目需要创建发行版。Apache 项目需要了解如何进行版本发布。因此，在孵化器中展示发版能力是一个重要步骤。
+发布工作有两个不同的部分:
 
-当你要创建 Apache 发行版时，那么请阅[读孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
+- **准备发布** 是由发布经理来完成的。有些文档将此称为 "切割 "发布（cutting a release）。**准备发布**是指按照项目的发布文档来创建发布产物，并把它们放在暂存仓库里，以便作为投票和后续发布使用。
+
+- **发布版本** 需要在孵化项目 PPMC 和 IPMC 使用正式的[VOTE]程序，批准已经准备好的版本后才能进行。如果投票失败，发布经理可以重新准备一个改进的版本。发布意味着发布产物被转移到官方发布仓库，并被镜像系统接收。
+
+在孵化器中，展示发版能力是一个重要步骤。这意味着即将毕业的孵化项目：
+
+- 明白包含进项目的源码的许可证要求
+- 明白在哪里暂存发布的源代码
+- 明白如何对发版进行投票
+- 明白如何对旧版本进行存档
+
+请请阅[读孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
 
 ## 创建一个开放和多样化的社区
 
