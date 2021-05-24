@@ -123,9 +123,9 @@ JUDDI 项目的状态文件就是一个[例子](http://incubator.apache.org/proj
 - 明白包含进项目的源码的许可证要求
 - 明白在哪里暂存发布的源代码
 - 明白如何对发版进行投票
-- 明白如何对旧版本进行存档
+- 明白如何对旧版本进行归档
 
-请阅[读孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
+请阅读[孵化器发布管理指南](http://incubator.apache.org/guides/releasemanagement.html)，以了解发布一个能获得[IPMC](http://incubator.apache.org/incubation/Roles_and_Responsibilities.html#Incubator_Project_Management_Committee_IPMC)批准的版本的提示、技巧和指南。
 
 ## 创建一个开放和多样化的社区
 
