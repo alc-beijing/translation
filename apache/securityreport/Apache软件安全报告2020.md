@@ -48,19 +48,20 @@ Apache 软件基金会（ASF）的安全委员会负责监督和协调所有 340
 
 - 2 月：Tomcat  ([CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938))中的一个问题引起了媒体的兴趣，因为它被赋予了品牌和名称（"Ghostcat"），并在 Tomcat 发布公告之前由第三方协调中心披露（尽管在 Tomcat 的新版本中修复了该问题）。虽然如果被利用会很严重，但它只会影响 Tomcat 安装，它将未受保护的 AJP 连接器暴露给不受信任的网络（即使没有此问题，这也不是一件好事）。这限制了受影响的安装数量。针对此问题，各种概念验证漏洞都是公开的，包括 Metasploit 漏洞。
 
-- 5 月：网络安全和基础设施安全局（CISA）发布了[十大经常被利用的漏洞列表](https://www.cisa.gov/uscert/ncas/alerts/aa20-133a)，包括([CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638))，这是 Apache Struts 2中的远程命令执行（RCE）漏洞，于2017年披露并修复。已知此问题在野外被利用，但是第一个利用是在发布通报和修复程序后发现的。
+- 5 月：网络安全和基础设施安全局（CISA）发布了[十大经常被利用的漏洞列表](https://www.cisa.gov/uscert/ncas/alerts/aa20-133a)，包括([CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638))，这是 Apache Struts 2中的远程命令执行（RCE）漏洞，于2017年披露并修复。已知此问题[在没有被人为的控制的情况被利用](https://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)，但是第一次利用是在发布公告和修复程序后发现的。
 
-- 7 月：Apache Guacamole 1.1.0 及更早版本的版本容易受到 RDP、CVE-2020-9497 和 CVE-2020-9498 中的问题的影响。如果用户连接到恶意或受损的 RDP 服务器，则可能导致内存泄露和可能的远程代码执行。
+- 7 月：Apache Guacamole 1.1.0 及更早版本的版本容易受到 RDP、[CVE-2020-9497](https://lists.apache.org/thread/syfbkgg9ct1bkhm35lgr7ry6cswlvnwy) 和 [CVE-2020-9498](https://lists.apache.org/thread/zn57pp47fft5hjdm09trdny64mryf7bf) 中的问题的影响。如果用户连接到恶意或受损的 RDP 服务器，则可能导致内存泄露和可能的远程代码执行。
 
-- 8 月：Apache Struts 中存在一个漏洞 （CVE-2019-0230），可能导致任意代码执行。为了利用此漏洞，攻击者需要将恶意对象图导航语言 （OGNL） 表达式注入到 OGNL 表达式中使用的属性中。尽管 Struts 具有解决潜在注入表达式的缓解措施，但 2.5.22 之前的版本保留了一个打开的攻击媒介，该攻击媒介已在此问题的更新中修复。存在一个针对此问题的 metasploit 漏洞利用。
+- 8 月：Apache Struts 中存在一个漏洞 （[CVE-2019-0230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0230)），可能导致任意代码执行。为了利用此漏洞，攻击者需要将恶意对象图导航语言 （OGNL） 表达式注入到 OGNL 表达式中使用的属性中。尽管 Struts 具有解决潜在注入表达式的缓解措施，但 2.5.22 之前的版本保留了一个打开的攻击媒介，该攻击媒介已在此问题的[更新中修复](https://cwiki.apache.org/confluence/display/WW/S2-059)。存在一个针对此问题的 metasploit 漏洞利用。
 
-- 11 月：以前，每个ASF项目都负责编写自己的CVE条目并将其提交给Mitre。这导致 CVE 数据库中的许多延迟更新为 Apache 问题，因为条目经常被拒绝，因为旧格式会导致问题。我们发布了一个内部工具，为处理安全问题的项目提供了一种编辑、验证和提交其条目到Mitre的方法。我们的目标是在问题发布后的一天内更新 CVE 数据库。
+- 11 月：以前，每个ASF项目都负责编写自己的CVE条目并将其提交给Mitre。这导致 CVE 数据库中的许多延迟更新为 Apache 问题，因为条目经常被拒绝，因为旧格式会导致问题。我们发布了一个内部工具，为处理安全问题的项目提供了一种编辑、验证和提交其条目到 Mitre 的方法。我们的目标是在问题发布后的一天内更新 CVE 数据库。
 
-- 12 月：CVE 项目发布了新的自动化 API，ASF 成为第一个使用它获取实时 CVE 名称的组织。现在，安全团队不再持有预先请求的名称池，而是按需分配它们，服务负责处理发送给PMC的电子邮件以及该过程的其他以前手动部分。我们预计在2021年将有更多的自动化可用，使我们能够进一步简化项目的CVE流程。
+- 12 月：CVE 项目发布了新的自动化 API，ASF 成为第一个使用它获取实时 CVE 名称的组织。现在，我们按需分配它们，而不是让安全团队持有预先请求的名称池，而该服务负责处理发送给 PMC 的电子邮件和自动化处理之前需要手动完成的功能。我们预计在 2021 年将实现更多自动化，使我们能够进一步简化项目的 CVE 流程。
 
-针对 Apache OFBiz （CSRF， CVE-2019-0235）、Apache OpenMeetings （DoS， CVE-2020-13951）、Apache Flink （任意读/写 RCE CVE-2020-17518、 CVE-2020-17519） 中的概念证明或 Metasploit 漏洞利用也已发布。)
+Metasploit 漏洞利用还针对 Apache OFBiz（CSRF，[CVE-2019-0235](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0235)）、Apache OpenMeetings（DoS、[CVE-2020-13951](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13951)）、Apache Flink（任意读/写 RCE [CVE-2020-17518](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-17518) ）中的 2020 年问题发布, [CVE-2020-17519](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-17519) )
 
 ## 时间表
+
 我们的安全团队和项目管理团队都是志愿者，因此我们不会在处理问题时提供任何正式的SLA。但是，我们可以分解流程每个部分的目的和目标：
 
 分类：我们的目标是在三个工作日内处理发送到 security@apache.org 别名的传入邮件。我们不会对此进行衡量或报告，因为我们会评估每个传入问题的严重性，并适当地应用我们拥有的有限资源。别名由来自不同项目PMC的极少数志愿者组成。在安全团队将报告转发给 PMC 后，他们将回复报告者。因此，如果您向我们报告了问题，并且在一周后未收到任何回复，请向我们发送后续电子邮件。有时，记者会发送报告，附上大型PDF文件，甚至是剥削电影，而这些文件甚至电影都没有提交给我们，因此请确保任何后续行动都是简单的纯文本电子邮件。
