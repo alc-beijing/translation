@@ -69,7 +69,7 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 Apache Solr 在过去一年中出现了许多缺陷，这些缺陷可能允许远程代码执行。一些问题以及 Metasploit 模块都存在公开漏洞。
 
-欧盟委员会EU-FOSSA 2项目赞助了漏洞赏金计划，供用户在 Apache Kafka 和 Apache Tomcat 中发现安全问题。Apache Kafka 中没有修复任何问题。Apache Tomcat 中修复了两个问题：[CVE-2019-0232](https://tomcat.apache.org/security-9.html#CVE-2019-0232)（重要的严重性，影响Windows平台，包括Metasploit模块在内的公开攻击是可用的）和 [CVE-2019-0221](https://tomcat.apache.org/security-9.html#CVE-2019-0221)（严重性低）。除了运行漏洞赏金外，EU-FOSSA 2还在 2019 年 6 月[赞助了一次成功的黑客马拉松](https://joinup.ec.europa.eu/collection/eu-fossa-2/news/eu-fossa-2-apache-hackathon)。
+欧盟委员会EU-FOSSA 2项目赞助了漏洞赏金计划，供用户在 Apache Kafka 和 Apache Tomcat 中发现安全问题。Apache Kafka 中没有修复任何问题。Apache Tomcat 中修复了两个问题：[CVE-2019-0232](https://tomcat.apache.org/security-9.html#CVE-2019-0232)（严重性高，影响Windows平台，包括Metasploit模块在内的公开攻击是可用的）和 [CVE-2019-0221](https://tomcat.apache.org/security-9.html#CVE-2019-0221)（严重性低）。除了运行漏洞赏金外，EU-FOSSA 2还在 2019 年 6 月[赞助了一次成功的黑客马拉松](https://joinup.ec.europa.eu/collection/eu-fossa-2/news/eu-fossa-2-apache-hackathon)。
 
 # 结论
 
