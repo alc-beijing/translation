@@ -49,7 +49,7 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 2019 年 4 月：旧版 Apache Axis 中的一个漏洞，该漏洞解析了[从过期域中不安全检索到的文件](https://rhinosecuritylabs.com/application-security/cve-2019-0227-expired-domain-rce-apache-axis/)，从而允许远程执行代码（CVE-2019-0227）。
 
-2019 年 6 月：Jonathan Leitschuh 在发现许多 Java [构建依赖项通过不安全的路径](https://twitter.com/JLLeitschuh/status/1138116614623244288)（即 HTTP 而不是 HTTPS）下载后与我们联系。我们本身没有将这些漏洞归类为安全漏洞，因为利用它们需要在构建时进行MITM攻击。我们与ASF项目合作，包括报告者确定的项目，以确保我们使用安全的URL。现在，在2020年，许多存储库需要安全URL。
+2019 年 6 月：Jonathan Leitschuh 在发现许多 Java [构建依赖项通过不安全的路径](https://twitter.com/JLLeitschuh/status/1138116614623244288)（即 HTTP 而不是 HTTPS）下载后与我们联系。我们本身没有将这些漏洞归类为安全漏洞，因为利用它们需要在构建时进行 MITM 攻击。我们与 ASF 项目合作，包括报告者确定的项目，以确保我们使用安全的URL。现在，在 2020 年，许多存储库需要安全URL。
 
 2019 年 8 月：Black Duck Synopsys 团队审查了较旧的 Struts 版本和公告，发现报告的受影响版本中存在一些差异。Struts团队仔细研究了他们的发现，并在需要时[发布了更正](https://cwiki.apache.org/confluence/display/WW/S2-058)。如果用户运行的是旧版本，而他们认为这些版本不受基于公告的问题的影响，但实际上确实如此，则这可能很重要。但是，这些相同的用户可能容易受到已修复的其他问题的影响，因此我们始终建议用户升级到最新版本的 Struts，以确保他们拥有的版本包含所有已发布的安全问题的修补程序。
 
