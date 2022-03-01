@@ -49,31 +49,32 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 2019 年 4 月：旧版 Apache Axis 中的一个漏洞，该漏洞解析了[从过期域中不安全检索到的文件](https://rhinosecuritylabs.com/application-security/cve-2019-0227-expired-domain-rce-apache-axis/)，从而允许远程执行代码（CVE-2019-0227）。
 
-2019 年 6 月：Jonathan Leitschuh 在发现许多 Java 构建依赖项通过不安全的路径（即 HTTP 而不是 HTTPS）下载后与我们联系。我们本身没有将这些漏洞归类为安全漏洞，因为利用它们需要在构建时进行MITM攻击。我们与ASF项目合作，包括报告者确定的项目，以确保我们使用安全的URL。现在，在2020年，许多存储库需要安全URL。
+2019 年 6 月：Jonathan Leitschuh 在发现许多 Java [构建依赖项通过不安全的路径](https://twitter.com/JLLeitschuh/status/1138116614623244288)（即 HTTP 而不是 HTTPS）下载后与我们联系。我们本身没有将这些漏洞归类为安全漏洞，因为利用它们需要在构建时进行MITM攻击。我们与ASF项目合作，包括报告者确定的项目，以确保我们使用安全的URL。现在，在2020年，许多存储库需要安全URL。
 
-2019 年 8 月：Black Duck Synopsys 团队审查了较旧的 Struts 版本和公告，发现报告的受影响版本中存在一些差异。Struts团队仔细研究了他们的发现，并在需要时发布了更正。如果用户运行的是旧版本，而他们认为这些版本不受基于公告的问题的影响，但实际上确实如此，则这可能很重要。但是，这些相同的用户可能容易受到已修复的其他问题的影响，因此我们始终建议用户升级到最新版本的 Struts，以确保他们拥有的版本包含所有已发布的安全问题的修补程序。
+2019 年 8 月：Black Duck Synopsys 团队审查了较旧的 Struts 版本和公告，发现报告的受影响版本中存在一些差异。Struts团队仔细研究了他们的发现，并在需要时[发布了更正](https://cwiki.apache.org/confluence/display/WW/S2-058)。如果用户运行的是旧版本，而他们认为这些版本不受基于公告的问题的影响，但实际上确实如此，则这可能很重要。但是，这些相同的用户可能容易受到已修复的其他问题的影响，因此我们始终建议用户升级到最新版本的 Struts，以确保他们拥有的版本包含所有已发布的安全问题的修补程序。
 
-2019 年 8 月：Netflix 发现了许多影响各种 HTTP/2 实现的拒绝服务漏洞。对包含 HTTP/2 实现的 ASF 项目进行了调查，并分析了报告的问题。Apache HTTP Server和Apache TrafficServer都发布了更新，以解决影响它们的拒绝服务问题。Apache Tomcat还对HTTP / 2处理进行了性能改进，但这些问题未被归类为拒绝服务。
+2019 年 8 月：Netflix 发现了许多影响各种 HTTP/2 实现的拒绝服务漏洞。对包含 HTTP/2 实现的 ASF 项目进行了调查，并分析了报告的问题。Apache HTTP Server和Apache TrafficServer都[发布了](https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2019-9517)[更新](https://lists.apache.org/thread/sv7wjbqsfcb7c2jm4ndxxls6j7lk63fr)，以解决影响它们的拒绝服务问题。Apache Tomcat还对HTTP / 2处理进行了性能改进，但这些问题[未被归类为拒绝服务](https://lists.apache.org/thread/shfnf6c86z82z2k5lgn934hy88rdp46o)。
 
-2019 年 9 月：RiskSense 报告重点介绍了勒索软件已知使用的漏洞，其中包括 ASF 项目中的四个漏洞。这四个漏洞在前几年都已修复，并且在任何勒索软件利用它们之前都有更新和缓解措施。用户应始终确保他们关注他们使用的任何 ASF 项目中的安全更新，并优先更新任何远程或关键漏洞。这四个漏洞是：
+2019 年 9 月：[RiskSense 报告](https://www.ivanti.com/lp/security/assets/s2/enterprise-ransomware-through-the-lens-of-threat-and-vulnerability-management?rsredirect=)强调了已知被勒索软件使用的漏洞，其中包括 ASF 项目中的四个漏洞。这四个漏洞在前几年都已修复，并且在任何勒索软件利用它们之前都有可用的更新和缓解措施。用户应始终确保他们关注他们使用的任何 ASF 项目中的安全更新，并优先针对任何远程或关键漏洞进行更新。这四个漏洞是：
 
-- Apache ActiveMQ中的CVE-2016-3088。作为 XBash 的目标，这个问题很容易被利用。它在 Active MQ 5.14.0 中已修复，并且还提供了缓解措施。
+- Apache ActiveMQ中的CVE-2016-3088。以 [XBash](http://blog.nsfocusglobal.com/threats/vulnerability-analysis/xbash-malware-security-advisory/) 的目标，这个问题很容易被利用。它在 Active MQ 5.14.0 中已修复，并且还提供了缓解措施。
 
-- CVE-2017-12615在Apache Tomcat中。在列表中看到此问题令人惊讶，因为它会影响非默认且不太可能的缺陷。但是，这是Lucky（"撒旦"的变体）探测到的问题，因此，如果以这种方式配置了服务器，它将暴露出来。此问题仅影响非默认配置上的 Windows 平台，在 Tomcat 7.0.81 中已修复，并且还提供了缓解措施。请注意，Lucky 还会针对可访问的 Tomcat Web 管理控制台上的弱密码进行暴力攻击。
+- Apache Tomcat 中的 CVE-2017-12615。在列表中看到此问题令人惊讶，因为它会影响非默认且不太可能出现的缺陷。但是，这是 Lucky（“Satan”的变体）探讨的一个问题，因此如果有一个以这种方式配置的服务器，它将被暴露。此问题仅影响非默认配置的 Windows 平台，已在 Tomcat 7.0.81 中修复，并且还提供了缓解措施。请注意，Lucky 还将针对可访问的 Tomcat Web 管理控制台上的弱密码进行暴力攻击。
 
-- CVE-2017-5638在Apache Struts中。已知此问题在野外被利用，但是第一个利用是在发布通报和修复程序后发现的。由Lucky（撒旦的变种）使用。它在 Struts 2.3.32 和 2.5.10.1 中已修复，并且还提供了缓解措施。
+- CVE-2017-5638在Apache Struts中。已知此问题[在没有被人为的控制的情况被利用](https://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)，但是在发布咨询和修复后发现了第一个利用。由[ Lucky（“Satan”的变体）使用](https://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)。它在 Struts 2.3.32 和 2.5.10.1 中已修复，并且还提供了缓解措施。
 
 - CVE-2018-11776在Apache Struts中。Lucky 也使用过这个问题。它在Struts 2.3.35，2.5.17中已修复，可以使用可能的缓解措施，但建议进行升级。
 
-2019 年 12 月：Apache Olingo 中存在一个允许 XML 外部实体 （XXE） 攻击的漏洞 （CVE-2019-17554）。例如，此问题可用于从服务器检索任意文件。此问题存在一个公开利用示例。
+2019 年 12 月：Apache Olingo 中存在一个允许 XML 外部实体 （XXE） 攻击的漏洞 （[CVE-2019-17554](https://lists.apache.org/thread/lkpr8f4bgydjxx4dy5m8cxwshyxgylc5)）。例如，此问题可用于从服务器检索任意文件。此问题存在一个公共漏洞利用示例。
 
-Apache Solr在这一年中存在许多缺陷，这些缺陷可能允许远程代码执行。对于某些问题以及Metasploit模块，存在公共漏洞。
+Apache Solr在这一年中存在许多缺陷，这些缺陷可能允许远程代码执行以及 Metasploit 模块存在公共漏洞。
 
-欧盟委员会EU-FOSSA 2项目赞助了漏洞赏金计划，供用户在Apache Kafka和Apache Tomcat中发现安全问题。Apache Kafka中没有修复任何问题。Apache Tomcat 中修复了两个问题：CVE-2019-0232（严重性严重性高，影响 Windows 平台，公开漏洞（包括 Metasploit 模块可用）和 CVE-2019-0221（严重性低）。除了运行漏洞赏金外，EU-FOSSA 2还在2019年6月赞助了一次成功的黑客马拉松。
+欧盟委员会EU-FOSSA 2项目赞助了漏洞赏金计划，供用户在 Apache Kafka 和 Apache Tomcat 中发现安全问题。Apache Kafka 中没有修复任何问题。Apache Tomcat 中修复了两个问题：[CVE-2019-0232](https://tomcat.apache.org/security-9.html#CVE-2019-0232)（严重性高，影响 Windows 平台，公开漏洞（包括 Metasploit 模块可用）和 [CVE-2019-0221](https://tomcat.apache.org/security-9.html#CVE-2019-0221)（严重性低）。除了运行漏洞赏金外，EU-FOSSA 2还在 2019 年 6 月[赞助了一次成功的黑客马拉松](https://joinup.ec.europa.eu/collection/eu-fossa-2/news/eu-fossa-2-apache-hackathon)。
+
 # 结论
 
 Apache软件基金会的项目是高度多样化和独立的。它们具有不同的语言、社区、管理和安全模型。但是，每个项目的共同点之一是如何处理报告的安全问题的一致过程。
 
-ASF 安全委员会与项目团队、社区和报告者密切合作，确保问题得到快速、正确的处理。这种负责任的监督是Apache方式的原则，有助于确保Apache软件稳定且可信赖。
+ASF 安全委员会与项目团队、社区和报告者密切合作，确保问题得到快速、正确的处理。这种负责任的监督是 The Apache Way 的一项原则，有助于确保Apache软件的稳定性和可信赖性。
 
-该报告提供了 2019 年的指标，显示了我们从收到的18，000封电子邮件中分类了300多个漏洞报告，从而修复了100多个（CVE）问题。如果您有想要分享的漏洞信息或对此报告的评论，[请与我们联系](http://apache.org/security/#reporting-a-vulnerability)。
+该报告提供了 2019 年的指标，显示了我们从收到的 18，000 封电子邮件中分类了 300 多个漏洞报告，从而修复了 100 多个（CVE）问题。如果您有想要分享的漏洞信息或对此报告的评论，[请与我们联系](http://apache.org/security/#reporting-a-vulnerability)。
