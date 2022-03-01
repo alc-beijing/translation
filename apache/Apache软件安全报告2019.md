@@ -67,7 +67,7 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 2019 年 12 月：Apache Olingo 中存在一个允许 XML 外部实体 （XXE） 攻击的漏洞 （[CVE-2019-17554](https://lists.apache.org/thread/lkpr8f4bgydjxx4dy5m8cxwshyxgylc5)）。例如，此问题可用于从服务器检索任意文件。此问题存在一个公共漏洞利用示例。
 
-Apache Solr在这一年中存在许多缺陷，这些缺陷可能允许远程代码执行以及 Metasploit 模块存在公共漏洞。
+Apache Solr 在过去一年中出现了许多缺陷，这些缺陷可能允许远程代码执行。一些问题以及 Metasploit 模块都存在公开漏洞。
 
 欧盟委员会EU-FOSSA 2项目赞助了漏洞赏金计划，供用户在 Apache Kafka 和 Apache Tomcat 中发现安全问题。Apache Kafka 中没有修复任何问题。Apache Tomcat 中修复了两个问题：[CVE-2019-0232](https://tomcat.apache.org/security-9.html#CVE-2019-0232)（严重性高，影响 Windows 平台，公开漏洞（包括 Metasploit 模块可用）和 [CVE-2019-0221](https://tomcat.apache.org/security-9.html#CVE-2019-0221)（严重性低）。除了运行漏洞赏金外，EU-FOSSA 2还在 2019 年 6 月[赞助了一次成功的黑客马拉松](https://joinup.ec.europa.eu/collection/eu-fossa-2/news/eu-fossa-2-apache-hackathon)。
 
