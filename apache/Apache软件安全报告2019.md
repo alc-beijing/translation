@@ -57,7 +57,7 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 2019 年 9 月：[RiskSense 报告](https://www.ivanti.com/lp/security/assets/s2/enterprise-ransomware-through-the-lens-of-threat-and-vulnerability-management?rsredirect=)强调了已知被勒索软件使用的漏洞，其中包括 ASF 项目中的四个漏洞。这四个漏洞在前几年都已修复，并且在任何勒索软件利用它们之前都有可用的更新和缓解措施。用户应始终确保他们关注他们使用的任何 ASF 项目中的安全更新，并优先针对任何远程或关键漏洞进行更新。这四个漏洞是：
 
-- Apache ActiveMQ中的CVE-2016-3088。以 [XBash](http://blog.nsfocusglobal.com/threats/vulnerability-analysis/xbash-malware-security-advisory/) 的目标，这个问题很容易被利用。它在 Active MQ 5.14.0 中已修复，并且还提供了缓解措施。
+- Apache ActiveMQ中的CVE-2016-3088。以 [XBash](http://blog.nsfocusglobal.com/threats/vulnerability-analysis/xbash-malware-security-advisory/) 为目标，这个问题很容易被利用。它在 Active MQ 5.14.0 中已修复，并且还提供了缓解措施。
 
 - Apache Tomcat 中的 CVE-2017-12615。在列表中看到此问题令人惊讶，因为它会影响非默认且不太可能出现的缺陷。但是，这是 Lucky（“Satan”的变体）探讨的一个问题，因此如果有一个以这种方式配置的服务器，它将被暴露。此问题仅影响非默认配置的 Windows 平台，已在 Tomcat 7.0.81 中修复，并且还提供了缓解措施。请注意，Lucky 还将针对可访问的 Tomcat Web 管理控制台上的弱密码进行暴力攻击。
 
