@@ -43,11 +43,11 @@ Apache软件基金会（ASF）的安全委员会负责监督和协调所有 300 
 
 在2019年期间，有一些事件值得讨论;要么是因为它们是严重和高风险的，要么因为它们有现成的漏洞，要么是由于媒体的关注。其中包括：
 
-2019 年 1 月：Securonix 发布了一份报告，概述了尚未配置身份验证的 Apache Hadoop 实例的攻击增加。公共漏洞和Metasploit模块的存在是为了在未受保护的Hadoop YARN系统上执行远程代码执行。
+2019 年 1 月：Securonix [发布了一份报告](https://www.securonix.com/resources/securonix-threat-research-detecting-persistent-cloud-infrastructure-hadoop-yarn-attacks-using-security-analytics-moanacroner-xbash/)，概述了尚未配置身份验证的 Apache Hadoop 实例的攻击增加。公共漏洞和Metasploit模块的存在是为了在未受保护的Hadoop YARN系统上执行远程代码执行。
 
-2019 年 4 月：Apache HTTP Server 2.4 中的一个漏洞 （CVE-2019-0211）。有权在 Web 服务器上编写脚本的用户可以将这些权限提升为 root。此问题有一个公共漏洞利用。
+2019 年 4 月：Apache HTTP Server 2.4 中的一个漏洞 （[CVE-2019-0211](https://httpd.apache.org/security/vulnerabilities_24.html#CVE-2019-0211)）。有权在 Web 服务器上编写脚本的用户可以将这些权限提升为 root。此问题有一个公共漏洞利用。
 
-2019 年 4 月：旧版 Apache Axis 中的一个漏洞，该漏洞解析了从过期域中不安全检索到的文件，从而允许远程执行代码（CVE-2019-0227）。
+2019 年 4 月：旧版 Apache Axis 中的一个漏洞，该漏洞解析了[从过期域中不安全检索到的文件](https://rhinosecuritylabs.com/application-security/cve-2019-0227-expired-domain-rce-apache-axis/)，从而允许远程执行代码（CVE-2019-0227）。
 
 2019 年 6 月：Jonathan Leitschuh 在发现许多 Java 构建依赖项通过不安全的路径（即 HTTP 而不是 HTTPS）下载后与我们联系。我们本身没有将这些漏洞归类为安全漏洞，因为利用它们需要在构建时进行MITM攻击。我们与ASF项目合作，包括报告者确定的项目，以确保我们使用安全的URL。现在，在2020年，许多存储库需要安全URL。
 
