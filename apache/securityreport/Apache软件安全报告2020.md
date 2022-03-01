@@ -13,13 +13,13 @@ Apache 软件基础安全报告：2020 年
 
 ## 背景
 
-Apache 软件基金会（ASF）的安全委员会负责监督和协调所有 340 多个Apache项目中漏洞的处理。我们成立于 2002 年，由所有志愿者组成，我们对如何处理问题有一个[标准流程](https://s.apache.org/cveprocess)，这个过程包括我们的项目必须如何披露安全问题。
+Apache 软件基金会（ASF）的安全委员会负责监管和协调所有 340 多个Apache项目中漏洞的处理。我们成立于 2002 年，由所有志愿者组成，我们对如何处理问题有一个[标准流程](https://s.apache.org/cveprocess)，这个过程包括我们的项目必须如何披露安全问题。
 
  在 Apache 项目中发现安全问题的人都可以将其报告给 security@apache.org，在那里它们会被记录下来并传递给相关的[专门安全团队](https://apache.org/security/projects.html)或项目管理委员会（PMC）来处理。安全委员会监控所有项目报告的所有问题，并在整个漏洞生命周期中跟踪问题。
 
 安全委员会负责确保问题得到妥善处理，并积极提醒项目突出的问题和责任。作为董事会委员会，我们有能力采取行动，包括阻止其未来的发布，或者在最坏的情况下，如果项目对处理其安全问题没有响应，则将项目归档。这与 Apache 软件许可证一起，是 ASF 围绕官方发布的通用治理的关键组成部分，使 ASF 能够保护个人开发人员，并让用户有信心部署和依赖 ASF 软件。
 
-对所有安全报告的监督以及我们开发的工具使我们能够轻松创建有关问题的指标。我们的上一份报告[涵盖了2019年的指标](https://blogs.apache.org/foundation/entry/apache-software-foundation-security-report)。
+对所有安全报告的监管以及我们开发的工具使我们能够轻松创建有关问题的指标。我们的上一份报告[涵盖了2019年的指标](https://blogs.apache.org/foundation/entry/apache-software-foundation-security-report)。
 
 ## 2020年统计数据
 
