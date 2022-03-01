@@ -48,7 +48,7 @@ Apache 软件基金会（ASF）的安全委员会负责监管和协调所有 340
 
 - 2 月：Tomcat  ([CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938))中的一个问题引起了媒体的兴趣，因为它被赋予了品牌和名称（"Ghostcat"），并在 Tomcat 发布公告之前由第三方协调中心披露（尽管在 Tomcat 的新版本中修复了该问题）。虽然这个漏洞如果被利用会很后果严重，但它只会影响 Tomcat 安装，它将未受保护的 AJP 连接器暴露给不受信任的网络（即使没有此问题，这也不是一件好事）。这限制了受影响的安装数量。针对此问题，各种概念验证漏洞都是公开的，包括 Metasploit 漏洞。
 
-- 5 月：网络安全和基础设施安全局（CISA）发布了[十大经常被利用的漏洞列表](https://www.cisa.gov/uscert/ncas/alerts/aa20-133a)，包括([CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638))，这是 Apache Struts 2中的远程命令执行（RCE）漏洞，于2017年披露并修复。已知此问题[在没有被人为的控制的情况被利用](https://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)，但是第一次利用是在发布公告和修复程序后发现的。
+- 5 月：网络安全和基础设施安全局（CISA）发布了[十大经常被利用的漏洞列表](https://www.cisa.gov/uscert/ncas/alerts/aa20-133a)，包括([CVE-2017-5638](https://nvd.nist.gov/vuln/detail/CVE-2017-5638))，这是 Apache Struts 2中的远程命令执行（RCE）漏洞，于2017年披露并修复。已知此问题[在外部被利用](https://blog.talosintelligence.com/2017/03/apache-0-day-exploited.html)，但是第一次利用是在发布公告和修复程序后发现的。
 
 - 7 月：Apache Guacamole 1.1.0 及更早版本的版本容易受到 RDP、[CVE-2020-9497](https://lists.apache.org/thread/syfbkgg9ct1bkhm35lgr7ry6cswlvnwy) 和 [CVE-2020-9498](https://lists.apache.org/thread/zn57pp47fft5hjdm09trdny64mryf7bf) 中的问题的影响。如果用户连接到恶意或受损的 RDP 服务器，则可能导致内存泄露和可能的远程代码执行。
 
