@@ -52,7 +52,7 @@ Apache 软件基金会（ASF）的安全委员会负责监管和协调所有 340
 
 - 7 月：Apache Guacamole 1.1.0 及更早版本的版本容易受到 RDP、[CVE-2020-9497](https://lists.apache.org/thread/syfbkgg9ct1bkhm35lgr7ry6cswlvnwy) 和 [CVE-2020-9498](https://lists.apache.org/thread/zn57pp47fft5hjdm09trdny64mryf7bf) 中的问题的影响。如果用户连接到恶意或受损的 RDP 服务器，则可能导致内存泄露和可能的远程代码执行。
 
-- 8 月：Apache Struts 中存在一个漏洞 （[CVE-2019-0230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0230)），可能导致任意代码执行。为了利用此漏洞，攻击者需要将恶意对象图导航语言 （OGNL） 表达式注入到 OGNL 表达式中使用的属性中。尽管 Struts 具有解决潜在注入表达式的缓解措施，但 2.5.22 之前的版本保留了一个打开的攻击媒介，该攻击媒介已在此问题的[更新中修复](https://cwiki.apache.org/confluence/display/WW/S2-059)。存在一个针对此问题的 metasploit 漏洞利用。
+- 8 月：Apache Struts 中存在一个漏洞 （[CVE-2019-0230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0230)），可能导致任意代码执行。为了利用此漏洞，攻击者需要将恶意对象图导航语言 （OGNL） 表达式注入到 OGNL 表达式中使用的属性中。尽管 Struts 具有解决潜在注入表达式的缓解措施，但 2.5.22 之前的版本保留了一个打开的攻击界面，该攻击媒介已在此问题的[更新中修复](https://cwiki.apache.org/confluence/display/WW/S2-059)。存在一个针对此问题的 metasploit 漏洞利用。
 
 - 11 月：以前，每个ASF项目都负责编写自己的CVE条目并将其提交给Mitre。这导致 CVE 数据库中的许多延迟更新为 Apache 问题，因为条目经常被拒绝，因为旧格式会导致问题。我们发布了一个内部工具，为处理安全问题的项目提供了一种编辑、验证和提交其条目到 Mitre 的方法。我们的目标是在问题发布后的一天内更新 CVE 数据库。
 
