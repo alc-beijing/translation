@@ -53,6 +53,8 @@
 | Contributor                                             | 贡献者                                     |
 | Committer                                               | 提交者                                     |
 | podling                                                 | 孵化项目（incubating project）             |
+| assets                                                  | 资产                                      | 
+| tarball                                                 | 打包文件                                   |
 
 ## 术语表
 
