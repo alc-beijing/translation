@@ -1,9 +1,10 @@
+原文链接 ：http://www.apache.org/legal/release-policy.html
+
 本页记录软件版本的 ASF 政策。本文档的内容针对 ASF 发版经理和 [PMC][uPMC] 成员。还提供了供 [最终用户][uend_user] 和 [分发镜像操作员][umirror] 使用的信息。
 
 
 其他文档总结了该政策的 [发行过程][urelease] 和 [设计目标][udesign]。   
 # 目录
-  - [目录](# 目录)
 - [**发行政策**](#发行政策)
   - [**“发行版” 的定义**](#发行版-的定义)
   - [**发行版的批准**](#发行版的批准)
@@ -54,23 +55,6 @@
   - [有关发行统计信息的问题](#有关发行统计信息的问题)
     - [有什么方法可以测量某软件包被下载了多少次吗？](#有什么方法可以测量某软件包被下载了多少次吗)
 
-
-***(下面这一部分词打算加到术语表里，有的还没想好怎么加)，如果审查后没问题的话，我会单独再提一次术语表的 pull request***
-nightly builds 是不是也不翻译更好  
-artifact: 文件 (直译是 “文件” 的意思，特指组成项目的源文件，因为它们不具有独立的功能)
-XYZ 直接翻译成软件包了 我觉得就是指代特定软件包 但不知道为啥不写清楚点  
-nightly builds: 每夜构建版本
-对 DISTRIBUTION 一词的翻译，可能是 “发行版” 或 “分发”，具体取决于语境。
-对 release 一词一般直接译为 “发行版”。
-assets 一词译为资产
-tarball 一词译为原始文件
-***end***
-**问题**
-They should not be mirrored; only blessed GA releases should be mirrored.
-以及
-prior to being, potentially, formally blessed as a GA release
-上面两句中的‘blessed’如何理解，我译为 “获准”
-**end**
 
 ## **发行政策**
 ### **“发行版” 的定义**
@@ -246,7 +230,7 @@ Apache 软件基金会生产开源软件。所有发行版均以更改发行软�
 如果 Apache Foo 1.2 是一个新的分支，并且 Foo 1.1.a 将继续并行开发，那么可以从 `/dist` 同时提供 1.1.a 和 1.2.x 的发行版。
 
 #### **如何上传发行版？**
-可以将发行版原始文件提交到 `https://dist.apache.org/repos/dist/release/` 存储库下相应的子目录中（即 TLP 名称）来完成上传。我们的同步过程将在 15 分钟内将文件推送到 [主镜像站点][master-mirror]。不过，仍然需要 24 小时等待镜像（因为 [镜像使用每天 1/N 的重同步][1/n-rsync] 来保持和 dist / 目录的同步）。
+可以将发行版压缩打包文件提交到 `https://dist.apache.org/repos/dist/release/` 存储库下相应的子目录中（即 TLP 名称）来完成上传。我们的同步过程将在 15 分钟内将文件推送到 [主镜像站点][master-mirror]。不过，仍然需要 24 小时等待镜像（因为 [镜像使用每天 1/N 的重同步][1/n-rsync] 来保持和 dist / 目录的同步）。
 
 存储库目录 `https://dist.apache.org/repos/dist/release/<TLP name>/` 仅适用于**正式发行版**，即 PMC 已批准的存档（+ 签名，哈希）。因此，**默认情况下，只有 PMC 成员才能更新 dist/release 目录树。**
 
