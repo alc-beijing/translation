@@ -1,4 +1,6 @@
 原文链接 ：http://www.apache.org/legal/release-policy.html
+翻译：@taskmgr
+校对：@JesseZhou-1，@WillemJiang
 
 本页记录软件版本的 ASF 政策。本文档的内容针对 ASF 发版经理和 [PMC][uPMC] 成员。还提供了供 [最终用户][uend_user] 和 [分发镜像操作员][umirror] 使用的信息。
 
@@ -331,7 +333,7 @@ ASF 发行版通常包括源代码包及附加材料。附加材料可以包括�
 
 ****
 
-* 译者注：某些部分没有精确按字面翻译，因为英语和中文表达习惯并不相同，完全字字翻译会显得文章逻辑诡异、不通顺且令人费解。受译者水平所限，产生不恰当的翻译在所难免，还请批评指正。可以在 https://github.com/alc-beijing/translation/issues 提交改进意见，或发送电邮至 wwwwyccom at 163 . com*
+* 译者注：某些部分没有精确按字面翻译，因为英语和中文表达习惯并不相同，完全字字翻译会显得文章逻辑诡异、不通顺且令人费解。受译者水平所限，产生不恰当的翻译在所难免，还请批评指正。可以在 https://github.com/alc-beijing/translation/issues 提交改进意见，或发送电邮至 wwwwyccom at 163 . com
 
 [uPMC]:http://www.apache.org/foundation/governance/pmcs.html
 
