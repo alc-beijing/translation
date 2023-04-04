@@ -1,9 +1,13 @@
 ---
-title: 新提交者
+title : 新 Committer
+原文 : "https://community.apache.org/newcommitter.html"
+翻译 : @L-Y-L/87
+校对 : @tuohai666, @ShawnJim, @6freeair2016, @willemjiang
 ---
-发现潜在的新提交者，发起提名他们是提交者的投票并处理相关文档，是整个社区成员可以致力的任务。
 
-每个项目都有不同的方法来管理新提交者。本页面描述了在许多 Apache 项目中常见的过程，同时还提供了各种必要的沟通模板。
+发现潜在的新 Committer，发起提名他们是 Committer 的投票并处理相关文档，是整个社区成员可以致力的任务。
+
+每个项目都有不同的方法来管理 Committer。本页面描述了在许多 Apache 项目中常见的过程，同时还提供了各种必要的沟通模板。
 
 {{% toc %}}
 
@@ -15,7 +19,7 @@ title: 新提交者
 
 每个 PMC 可能希望创建自己的补充提交者指南；这是[Apache Forrest 提交者指南](https://forrest.apache.org/committed.html)。
 
-以下是在评估候选人的提交者资格时需要考虑的一些要点。
+以下是在评估候选人的 Committer 资格时需要考虑的一些要点。
 
 ### 与同行合作的能力。
 
@@ -61,7 +65,7 @@ title: 新提交者
 
 ### 概括
 
-1.  讨论提议的提交者/PMC 成员。如果是肯定的，请进行投票（templates/committerVote.txt）
+1.  讨论提议的 Committer/PMC 成员。如果是肯定的，请进行投票（templates/committerVote.txt）
 2.  关闭投票 (templates/closeVote.txt)
 3.  如果结果是肯定的，请邀请新的提交者 (templates/committerInvite.txt)
 
@@ -248,13 +252,13 @@ receive a follow-up message with the next steps for
 establishing you as a committer.
 ```
 
-### 提交者帐户创建
+### Committer 帐户创建
 
 [按照此处的](https://www.apache.org/dev/pmc.html#newcommitter)说明进行操作 。
 
 总之：
 
-如果 ICLA 标识了项目和有效的 Apache ID，并且 [RESULT][VOTE] 消息已发布到 PMC 私有列表，则帐户创建请求由提交 ICLA 的秘书或助理提出。
+如果 ICLA 标识了项目和有效的 Apache ID，并且 [RESULT][VOTE] 消息已发布到 PMC 私有邮件列表，则帐户创建请求由提交 ICLA 的秘书或助理提出。
 
 否则，新帐户请求应由 PMC 主席（如果主席不在，则由任何[ASF 成员提出）。](https://www.apache.org/foundation/glossary.html#Member)
 
@@ -262,9 +266,9 @@ PMC 主席需要使用[ASF 新账户申请](https://id.apache.org/acreq/pmc-chai
 
 对于在公共列表上举行的选举，请提供 [mail-archives.apache.org](https://mail-archives.apache.org/) url。对于私人列表，您可以使用[邮件搜索工具](https://mail-search.apache.org/)找到合适的 url。
 
-### 提交者公告模板
+### Committer 公告模板
 
-`[PROJECT]-dev`这是在创建帐户后向其宣布新提交者的电子邮件。
+`[PROJECT]-dev`这是在创建帐户后向其宣布新 Committer 的电子邮件。
 
 ```
 ------------------------------------------------------------
@@ -283,9 +287,9 @@ submission process. This should enable better productivity.
 A PMC member helps manage and guide the direction of the project.
 ```
 
-### 提交者完成模板
+### Committer 账号创建完成模板
 
-提交者账户建立后。
+Committer 账户建立后。
 ```
 ------------------------------------------------------------
 To: private@[PROJECT].a.o, ###JoBloggs@foo.net
