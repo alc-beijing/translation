@@ -1,6 +1,6 @@
 ---
 title : 新 Committer
-原文 : "https://community.apache.org/newcommitter.html"
+原文 : 'https://community.apache.org/newcommitter.html'
 翻译 : @L-Y-L/87
 校对 : @tuohai666, @ShawnJim, @6freeair2016, @willemjiang
 ---
