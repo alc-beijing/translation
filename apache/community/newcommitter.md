@@ -1,9 +1,11 @@
----
-title : 新 Committer
-原文 : 'https://community.apache.org/newcommitter.html'
-翻译 : @L-Y-L/87
-校对 : @tuohai666, @ShawnJim, @6freeair2016, @willemjiang
----
+
+# Committer 迎新指南
+>原文地址 : https://community.apache.org/newcommitter.html
+>
+>翻译 : @L-Y-L/87
+>
+>校对 : @tuohai666, @ShawnJim, @6freeair2016, @willemjiang
+
 
 发现潜在的新 Committer，发起提名他们是 Committer 的投票并处理相关文档，是整个社区成员可以致力的任务。
 
