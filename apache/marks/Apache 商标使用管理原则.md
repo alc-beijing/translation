@@ -147,7 +147,7 @@ Apache 羽毛徽标的所有其他用途必须得到 VP，Apache 品牌管理或
 
 单独的 ASF 项目（例如“ Apache Foo ”）经常创建自己的会议和活动，或者与其他组织或公司联合举办联合会议或活动。与会议或活动相关的 ASF 商标（包括与我们的项目或产品相关的商标）的任何冲突使用，必须获得 VP，Apache 品牌管理或指定人员的书面批准。
 
-更多详情或请求批准，请参阅我们的[活动品牌政策](http://www.apache.org/foundation/marks/events.html)。 请提前申请批准，以避免遇到 ApacheCon 暂时停业的日期。
+更多详情或请求批准，请参阅我们的[活动品牌政策](http://www.apache.org/foundation/marks/events.html)。 请提前申请批准，以避免与 ApacheCon 举办日期冲突。
 
 # 关于我们
 
