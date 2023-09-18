@@ -508,12 +508,12 @@ It is a good idea to submit CLAs at the same time as the proposal. Nothing is lo
 Note this. Consider creating a separate section where interested developers can express an interest (and possibly leave a brief introduction) or ask them to post to the general list.
 
 示例 Example (OpenJPA):
-> Abe White (awhite at bea dot com)
-> Marc Prud'hommeaux (mprudhom at bea dot com)
-> Patrick Linskey (plinskey at bea dot com)
+> * Abe White (awhite at bea dot com)
+> * Marc Prud'hommeaux (mprudhom at bea dot com)
+> * Patrick Linskey (plinskey at bea dot com)
 > ... 
-> Geir Magnusson Jr (geirm at apache dot org)
->  * Craig Russell (clr at apache dot org) *
+> * Geir Magnusson Jr (geirm at apache dot org)
+> *  Craig Russell (clr at apache dot org)
 
 ## 保荐者 Sponsors
 
