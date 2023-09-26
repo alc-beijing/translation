@@ -601,102 +601,102 @@ this project was inside the Apache
 121
 00:06:11,930 --> 00:06:14,629
 foundation people found new uses for it
-基金会的人们发现了它的新用途，其中最令人惊讶的是
+基金会的人们就会发现它的新用途
 
 122
 00:06:14,629 --> 00:06:18,110
 and one of the most surprising one was a
-基金会的人们发现了它的新用途，其中最令人惊讶的是
+其中最令人惊讶的是一个
 
 123
 00:06:18,110 --> 00:06:20,150
 project we just learned about a few
-我们几个月前才刚刚了解的项目，
+我们几个月前才刚刚了解到的项目
 
 124
 00:06:20,150 --> 00:06:23,180
 months ago and it's somebody that built
-我们几个月前才刚刚了解的项目，
+几个月前有人将
 
 125
 00:06:23,180 --> 00:06:27,319
 an integration with slack and SMS
-与Slack和SMS系统集成，它们将使用Apache
+将slack和SMS系统集成在了一起
 
 126
 00:06:27,319 --> 00:06:30,020
 systems and they would use Apache you
-与Slack和SMS系统集成，它们将使用Apache
+让它们可以使用Apache
 
 127
 00:06:30,020 --> 00:06:33,740
 know me as sort of the orchestrating
-知道我是这两个外部系统之间的协调系统
+要知道我作为一种给这两个外部系统之间的协调系统
 
 128
 00:06:33,740 --> 00:06:36,710
 system between those two external
-知道我是这两个外部系统之间的协调系统
+要知道我作为一种给这两个外部系统之间的协调系统
 
 129
 00:06:36,710 --> 00:06:40,909
 systems and this was all done to manage
-系统，这基本上是为了管理医疗保健而试图遵循的
+这都是为了管理
 
 130
 00:06:40,909 --> 00:06:44,180
 healthcare basically trying to follow
-系统，这基本上是为了管理医疗保健而试图遵循的
+医疗保健，基本上是为了去跟踪
 
 131
 00:06:44,180 --> 00:06:45,800
 people that are suffering from
-上瘾的人，只是为了确保
+那些深受毒品成瘾所折磨的人
 
 132
 00:06:45,800 --> 00:06:48,469
 addictions and just to make sure that
-上瘾的人，只是为了确保
+只是为了确保你
 
 133
 00:06:48,469 --> 00:06:51,050
 you're actually using the system to make
-您实际上是在使用系统来确保他们不会迷路，我的意思是
+在真正使用这个系统时
 
 134
 00:06:51,050 --> 00:06:53,120
 sure that they don't get lost I mean
-您实际上是在使用系统来确保他们不会迷路，我的意思是
+保证他们不会消失或者说
 
 135
 00:06:53,120 --> 00:06:54,889
 they don't they'll get forgotten in a
-他们不是，他们会以某种方式被遗忘，所以这确实是相当
+他们不会在这种方式中被遗忘
 
 136
 00:06:54,889 --> 00:06:59,120
 way and so that's really something quite
-他们不是，他们会以某种方式被遗忘，所以这确实是相当
+这真的
 
 137
 00:06:59,120 --> 00:07:00,889
 incredible because you design a system
-令人难以置信，因为您针对特定用例设计了系统，然后
+很不可思议，因为你为了一个特定的用例而设计了一个系统
 
 138
 00:07:00,889 --> 00:07:02,990
 for a specific use case and then
-令人难以置信，因为您针对特定用例设计了系统，然后
+因为你为了一个特定的用例而设计了一个系统，然后
 
 139
 00:07:02,990 --> 00:07:04,669
 suddenly somebody surprises you with
-突然有人用一个完全不同的东西给你一个惊喜
+突然有人用一个完全不同的东西来给你一个惊喜
 
 140
 00:07:04,669 --> 00:07:06,589
 with a completely different one and
-突然有人用一个完全不同的东西给你一个惊喜
+突然有人用一个完全不同的东西来给你一个惊喜
 
 141
 00:07:06,589 --> 00:07:08,629
