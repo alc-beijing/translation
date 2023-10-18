@@ -462,7 +462,6 @@ Apache 项目可以依赖于在禁止类许可证下许可的组件，如果该�
 
 当发行版包含另一个Apache产品时，请参阅[绑定其他 ASF 产品](https://infra.apache.org/licensing-howto.html#bundle-asf-product)，获得所需声明的指引。
 
-————————————————————————————————————————————————————————————————————————————————————————————————————
+---
 
-Chinese translation contributed under CC-BY 4.0 by ALC Beijing and OpenAtom Legal & IP Team: translated by Jesse Zhou，modified by Vanessa Guo and Hazel Xue, and reviewed by Willem Jiang and Lotus Wang.
-【中文翻译内容由ALC北京和开放原子法务与知识产权团队基于CC-BY 4.0贡献：Jesse Zhou翻译，郭雪雯、薛杨洁修改，姜宁、王荷舒审校】
+*Chinese translation contributed under CC-BY 4.0 by ALC Beijing and OpenAtom Legal & IP Team: translated by Jesse Zhou，modified by Vanessa Guo and Hazel Xue, and reviewed by Willem Jiang and Lotus Wang.中文翻译内容由ALC北京和开放原子法务与知识产权团队基于CC-BY 4.0贡献：Jesse Zhou翻译，郭雪雯、薛杨洁修改，姜宁、王荷舒审校*
