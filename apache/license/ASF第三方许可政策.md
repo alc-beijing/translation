@@ -316,11 +316,11 @@ Apache 项目不得在版本控制或发布的源码包中包含此类许可证�
    - [OCamlMakefile](http://hg.ocaml.info/release/ocaml-make/)
    - [setup.rb](https://i.loveruby.net/en/projects/setup/)
 
-#### 在创建动态加载的XS模组时纳入 Perl 许可的头文件
+#### 在创建动态加载的 XS 模组时纳入 Perl 许可的头文件
 
 对链接已编译的 C 语言代码以创建动态加载的 XS 模组的 Perl 绑定程序进行开发，需要纳入 Perl 许可证（http://dev.perl.org/licenses/- GPL-any/Artistic1, 包含例外）下许可的头文件。
 
-您可以纳入这些头文件—— XSUB.h, perl.h 和 EXTERN.h (参见:[LEGAL-79](https://issues.apache.org/jira/browse/LEGAL-79))。
+您可以纳入这些头文件—— XSUB.h, perl.h 和 EXTERN.h (参见：[LEGAL-79](https://issues.apache.org/jira/browse/LEGAL-79))。
 
 #### 纳入 Doxygen 生成的配置文件
 
