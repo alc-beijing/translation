@@ -228,7 +228,7 @@
 
 如果您进行恰当标记（见上文），您可以在 Apache 产品中以二进制形式纳入基于以下许可证的软件：
 
-  - 通用发展和分发许可证：[CDDL 1.0](https://opensource.org/licenses/CDDL-1.0)和[CDDL 1.1](https://spdx.org/licenses/CDDL-1.1.html)
+  - 通用发展和分发许可证：[CDDL 1.0](https://opensource.org/licenses/CDDL-1.0)和 [CDDL 1.1](https://spdx.org/licenses/CDDL-1.1.html)
   
   - 通用公共许可证：[CPL 1.0](https://opensource.org/licenses/cpl1.0.php)
   
@@ -236,7 +236,7 @@
   
   - IBM 公共许可证：[IPL 1.0](http://www.opensource.org/licenses/ibmpl.php)
   
-  - Mozilla 公共许可证：[MPL 1.0](https://website-archive.mozilla.org/www.mozilla.org/mpl/mpl/1.0/)，[MPL 1.1](https://www.mozilla.org/en-US/MPL/1.1/)和[MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+  - Mozilla 公共许可证：[MPL 1.0](https://website-archive.mozilla.org/www.mozilla.org/mpl/mpl/1.0/)，[MPL 1.1](https://www.mozilla.org/en-US/MPL/1.1/)和 [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
   
   - Sun 公共许可证：[SPL 1.0](https://opensource.org/licenses/SPL-1.0)
   
@@ -252,7 +252,7 @@
   
   - [IPA 字体许可协议 1.0版](https://fedoraproject.org/wiki/Licensing/IPAFontLicense)
   
-  - [Ruby 许可证](https://www.ruby-lang.org/en/about/license.txt)（包括将 GPLv2 列为可选的[Ruby 1.9.2 旧版本许可证](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_9_2_320/COPYING?view=markup)
+  - [Ruby 许可证](https://www.ruby-lang.org/en/about/license.txt)（包括将 GPLv2 列为可选的 [Ruby 1.9.2 旧版本许可证](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_9_2_320/COPYING?view=markup)
   
   - Eclipse 公共许可证2.0：[EPL 2.0](https://www.eclipse.org/legal/epl-2.0/)
   
