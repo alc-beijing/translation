@@ -464,4 +464,4 @@ Apache 项目可以依赖于在禁止类许可证下许可的组件，如果该�
 
 ---
 
-*Chinese translation contributed under CC-BY 4.0 by ALC Beijing and OpenAtom Legal & IP Team: translated by missing-9，modified by Vanessa Guo and Hazel Xue, and reviewed by Willem Jiang and Lotus Wang.中文翻译内容由ALC北京和开放原子法务与知识产权团队基于CC-BY 4.0贡献：missing-9翻译，郭雪雯、薛杨洁修改，姜宁、王荷舒审校*
+*Chinese translation contributed under CC-BY 4.0 by ALC Beijing and OpenAtom Legal & IP Team: translated by missing-9，modified by Vanessa Guo and Hazel Xue, and reviewed by Willem Jiang and Lotus Wang.中文翻译内容由 ALC 北京和开放原子法务与知识产权团队基于 CC-BY 4.0贡献：missing-9翻译，郭雪雯、薛杨洁修改，姜宁、王荷舒审校*
