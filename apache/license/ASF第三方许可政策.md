@@ -424,7 +424,7 @@ Netscape 公共许可证是 Mozilla 原始许可证，包含针对 Netscape 适�
 
 **JSON 许可证**
 
-从2016年11月3日起，JSON license 被归到“X 类”许可证列表中。在此之前，是允许使用[Json Java 库](https://github.com/stleary/JSON-java)。请参阅 Debian 的页面获得[替代选择列表](https://wiki.debian.org/qa.debian.org/jsonevil)。
+从2016年11月3日起，JSON license 被归到“X 类”许可证列表中。在此之前，是允许使用 [Json Java 库](https://github.com/stleary/JSON-java)。请参阅 Debian 的页面获得[替代选择列表](https://wiki.debian.org/qa.debian.org/jsonevil)。
 
 #### 它们不能被分发
 
