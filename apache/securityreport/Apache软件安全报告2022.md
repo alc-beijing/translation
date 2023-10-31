@@ -3,6 +3,8 @@
 - **原文标题：** ASF Security Report: 2022
 - **原文链接：** https://blogs.apache.org/security/entry/asf-security-report-2022
 - **提交路径：** apache/securityreport/asf-security-report-2022
+- **翻译：** 王嘉树
+- **校对：** 姜宁
 
 
 
