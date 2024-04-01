@@ -3491,42 +3491,42 @@ well the first example that of that kind
 699
 00:31:31,480 --> 00:31:33,909
 of program was building an index of the
-的程序正在建立Web的索引，以便执行搜索引擎
+的程序正在建立 Web 的索引，以便执行搜索引擎
 
 700
 00:31:33,909 --> 00:31:36,730
 web so in order to do a search engine
-的程序正在建立Web的索引，以便执行搜索引擎
+的程序正在建立 Web 的索引，以便执行搜索引擎
 
 701
 00:31:36,730 --> 00:31:38,559
 you really need to have a complete
-您确实需要不仅对所有页面都有完整的了解
+您确实需要不仅对所有页面包含的文本都有完整的了解
 
 702
 00:31:38,559 --> 00:31:41,289
 understanding of not only all the pages
-您确实需要不仅对所有页面都有完整的了解
+您确实需要不仅对所有页面包含的文本都有完整的了解
 
 703
 00:31:41,289 --> 00:31:43,929
 on the web that text they contain but
-在网络上包含这些文本，但是它们如何链接在一起，因为
+更要了解它们如何链接在一起，因为
 
 704
 00:31:43,929 --> 00:31:46,240
 how they all linked together because the
-在网络上包含这些文本，但是它们如何链接在一起，因为
+更要了解它们如何链接在一起，因为
 
 705
 00:31:46,240 --> 00:31:49,899
 pages that are linked by more pages at
-在各个站点上由更多页面链接的页面
+一个被其他站点的更多页面链接的页面
 
 706
 00:31:49,899 --> 00:31:51,730
 various sites
-在各个站点上由更多页面链接的页面
+一个被其他站点的更多页面链接的页面
 
 707
 00:31:51,730 --> 00:31:54,760
@@ -3586,57 +3586,57 @@ which are the best pages what search
 718
 00:32:20,470 --> 00:32:23,470
 terms should be on each page and that
-哪个页面最好？每个页面上应包含哪些搜索词
+哪个页面最好？每个页面上应包含哪些搜索词？
 
 719
 00:32:23,470 --> 00:32:26,110
 was all done with Hadoop by the time we
-在完成工作时，所有工作都已由Hadoop完成，我们可以运行该流程
+在我们完成工作时，所有工作都已由 Hadoop 完成，
 
 720
 00:32:26,110 --> 00:32:27,970
 were done and we could run the process
-在完成工作时，所有工作都已由Hadoop完成，我们可以运行该流程
+在我们完成工作时，所有工作都已由 Hadoop 完成，
 
 721
 00:32:27,970 --> 00:32:30,160
 on I do much more quickly than we could
-我的工作速度比以前的系统快得多
+我们可以以快得多的速度运行该流程
 
 722
 00:32:30,160 --> 00:32:32,410
 do it on the previous system the
-我的工作速度比以前的系统快得多
+我们可以以快得多的速度运行该流程
 
 723
 00:32:32,410 --> 00:32:35,190
 previous system had taken a month to run
-以前的系统要花一个月的时间才能与Hadoop一起运行，所以我们将其减少到不到
+以前的系统要花一个月的时间才能与 Hadoop 一起运行，现在我们将其减少到不到一个星期
 
 724
 00:32:35,190 --> 00:32:38,260
 with Hadoop we got it down to less than
-以前的系统要花一个月的时间才能与Hadoop一起运行，所以我们将其减少到不到
+以前的系统要花一个月的时间才能与 Hadoop 一起运行，现在我们将其减少到不到一个星期
 
 725
 00:32:38,260 --> 00:32:41,110
 a week yes the idea of calcite did
-一个星期，方解石的想法确实发生在ASF之外
+方解石的想法确实发生在 ASF 之外
 
 726
 00:32:41,110 --> 00:32:44,590
 happen outside of the ASF it was
-一个星期，方解石的想法确实发生在ASF之外
+方解石的想法确实发生在 ASF 之外
 
 727
 00:32:44,590 --> 00:32:47,910
 originally a project called Optique I
-最初是一个名为Optique的项目，我有这个主意，实际上我创建了
+最初是一个名为 Optique 的项目，我有这个主意并且创建了
 
 728
 00:32:47,910 --> 00:32:50,890
 had the idea and actually I created the
-最初是一个名为Optique的项目，我有这个主意，实际上我创建了
+最初是一个名为 Optique 的项目，我有这个主意并且创建了
 
 729
 00:32:50,890 --> 00:32:54,070
@@ -3666,7 +3666,7 @@ successful and there was a lot of
 734
 00:33:08,230 --> 00:33:12,870
 activity in creating big data technology
-成功，创建大数据技术的活动很多
+成功，有关于大数据技术的研究也很多
 
 735
 00:33:12,870 --> 00:33:16,030
@@ -3691,42 +3691,42 @@ isn't a database this stuff is so
 739
 00:33:22,690 --> 00:33:26,530
 different we don't need sequel and I
-不一样，我们不需要续集，我有点不同意，我可以看到
+不一样，我们不需要 SQL，我有点不同意，因为我认为
 
 740
 00:33:26,530 --> 00:33:29,440
 kind of disagreed with that I could see
-不一样，我们不需要续集，我有点不同意，我可以看到
+不一样，我们不需要 SQL，我有点不同意，因为我认为
 
 741
 00:33:29,440 --> 00:33:33,310
 that you know Big Data and Hadoop it was
-您知道大数据和Hadoop是数据管理，人们将
+大数据和 Hadoop 是数据管理，人们将
 
 742
 00:33:33,310 --> 00:33:34,840
 data management and people were going to
-您知道大数据和Hadoop是数据管理，人们将
+大数据和 Hadoop 是数据管理，人们将
 
 743
 00:33:34,840 --> 00:33:37,630
 need sequel eventually so it made sense
-最终需要续集，所以我以前去过这个项目很有意义
+最终需要 SQL，所以这个项目很有意义
 
 744
 00:33:37,630 --> 00:33:41,140
 to take this project that I was I'd been
-最终需要续集，所以我以前去过这个项目很有意义
+最终需要续集，所以这个项目很有意义
 
 745
 00:33:41,140 --> 00:33:43,690
 working on as an individual and get how
-以个人的身份工作，并了解将其带入
+我以个人的身份工作，并将其带入
 
 746
 00:33:43,690 --> 00:33:45,220
 it made sense to bring it into the
-以个人的身份工作，并了解将其带入
+我以个人的身份工作，并将其带入
 
 747
 00:33:45,220 --> 00:33:48,040
@@ -3741,76 +3741,77 @@ Apache Software Foundation，以便它可以开始发展社区并
 749
 00:33:51,120 --> 00:33:53,920
 start to grow adoption within the other
-开始在其他项目和其他公司中被采用，
+开始在其他推动大数据运动的项目和公司中被采用，
 
 750
 00:33:53,920 --> 00:33:57,070
 projects and by the other companies that
-开始在其他项目和其他公司中被采用，
+开始在其他推动大数据运动的项目和公司中被采用，
 
 751
 00:33:57,070 --> 00:34:01,710
 were pushing the big data movement so I
-推动大数据运动，所以我实际上加入了Hortonworks
+所以我加入了 Hortonworks
 
 752
 00:34:01,710 --> 00:34:04,570
 actually joined Hortonworks which was
-推动大数据运动，所以我实际上加入了Hortonworks
+所以我加入了 Hortonworks
 
 753
 00:34:04,570 --> 00:34:05,140
 one of them
-其中一家支持Hadoop和
+其中一家支持 Hadoop 并且
 
 754
 00:34:05,140 --> 00:34:08,460
 companies that was backing Hadoop and
-其中一家支持Hadoop和
+其中一家支持 Hadoop 并且
 
 755
 00:34:08,460 --> 00:34:12,010
 they asked me to carry on working on
-他们要求我继续进行方解石的研究，这也有助于我提出疑问
+他们要求我继续进行 calcite 的研究，这也有助于我在 hive 中写出查询优化器
 
 756
 00:34:12,010 --> 00:34:15,489
 calcite would also help I've put a query
-他们要求我继续进行方解石的研究，这也有助于我提出疑问
+他们要求我继续进行 calcite 的研究，这也有助于我在 hive 中写出查询优化器
 
 757
 00:34:15,489 --> 00:34:18,909
 optimizer into hive using calcite and at
-与方解石同时使用方解石将优化器配置为蜂巢
+与 calcite 同时使用。
 
 758
 00:34:18,909 --> 00:34:20,979
 the same time as that I was working with
-与方解石同时使用方解石将优化器配置为蜂巢
+与 calcite 同时使用。
 
 759
 00:34:20,979 --> 00:34:20,980
 the same time as that I was working with
+与此同时，我正在开发 Apache drill，这是一个
 
 760
 00:34:20,980 --> 00:34:24,340
 the Apache drill project which was
-由map编写的Apache演练项目是
+与此同时，我正在开发 Apache drill，这是一个
 
 761
 00:34:24,340 --> 00:34:28,330
 written by map are a major competitor to
-由map编写的Apache演练项目是
+由 map 编写的 Apache 演练项目，是
 
 762
 00:34:28,330 --> 00:34:31,659
 Hortonworks so virtually from day one I
-Hortonworks几乎从我工作的第一天开始就被一家公司支付给
+Hortonworks 从我工作的第一天开始就支付给我用以
 
 763
 00:34:31,659 --> 00:34:35,739
 was working I was paid by one company to
-Hortonworks几乎从我工作的第一天开始就被一家公司支付给
+Hortonworks 从我工作的第一天开始就支付给我用以
 
 764
 00:34:35,739 --> 00:34:37,659
@@ -3824,7 +3825,7 @@ by that company's arch competitor and
 
 766
 00:34:41,009 --> 00:34:41,010
-by that company's arch competitor and
+by that company's arch competitor and (X) 该句重复
 
 767
 00:34:41,010 --> 00:34:43,239
@@ -3839,42 +3840,42 @@ that's how it works basically we were
 769
 00:34:47,380 --> 00:34:49,719
 all creating value you know we were
-所有创造价值的过程，您都知道我们正在创造，我不会说我们正在创造
+是创造价值的过程，我不会说我们正在创造
 
 770
 00:34:49,719 --> 00:34:52,210
 making I won't say we were making the
-所有创造价值的过程，您都知道我们正在创造，我不会说我们正在创造
+是创造价值的过程，我不会说我们正在创造
 
 771
 00:34:52,210 --> 00:34:54,040
 world a better place but we were making
-世界是一个更好的地方，但我们正在打造一个非常有趣的功能强大的地方
+一个更好的世界，但我们正在打造一个非常有趣的功能强大的
 
 772
 00:34:54,040 --> 00:34:57,220
 building a very interesting powerful
-世界是一个更好的地方，但我们正在打造一个非常有趣的功能强大的地方
+一个更好的世界，但我们正在打造一个非常有趣的功能强大的
 
 773
 00:34:57,220 --> 00:35:01,300
 technology stack that made it possible
-技术栈使我们两家公司都可以发布
+技术栈，这样我们两家公司都可以发布
 
 774
 00:35:01,300 --> 00:35:04,150
 for both of our companies to release
-技术栈使我们两家公司都可以发布
+技术栈，这样我们两家公司都可以发布
 
 775
 00:35:04,150 --> 00:35:06,750
 really good products for our customers
-对于我们的客户而言，真正好的产品不是那种零和游戏
+顾客认为真正好的产品。这样的产品不是那种开源的零和游戏
 
 776
 00:35:06,750 --> 00:35:10,510
 it's not a zero-sum game that's the kind
-对于我们的客户而言，真正好的产品不是那种零和游戏
+顾客认为真正好的产品。这样的产品不是那种开源的零和游戏
 
 777
 00:35:10,510 --> 00:35:12,880
@@ -3909,12 +3910,12 @@ code house was shutting down we were
 783
 00:35:22,630 --> 00:35:25,540
 looking for a new home for groovy there
-在寻找新的时髦住宅，有很多人投资了
+在寻找新的项目，有很多人开始学习 groovy
 
 784
 00:35:25,540 --> 00:35:27,640
 was lots of people who've invested in in
-在寻找新的时髦住宅，有很多人投资了
+在寻找新的项目，有很多人开始学习 groovy
 
 785
 00:35:27,640 --> 00:35:29,590
@@ -3939,12 +3940,12 @@ where all of those people could safely
 789
 00:35:36,670 --> 00:35:38,770
 Park groovy and all be contributing and
-公园风格，所有人都在贡献力量，社区可以蓬勃发展，而不是没有
+上传 groovy 库，所有人都在贡献力量，社区可以蓬勃发展，而没有
 
 790
 00:35:38,770 --> 00:35:42,190
 a community could thrive and not and no
-公园风格，所有人都在贡献力量，社区可以蓬勃发展，而不是没有
+上传 groovy 库，所有人都在贡献力量，社区可以蓬勃发展，而没有
 
 791
 00:35:42,190 --> 00:35:43,840
@@ -3969,32 +3970,32 @@ other players in the groovy ecosystem so
 795
 00:35:51,370 --> 00:35:53,410
 the ASF was a great place to bring
-ASF是带来时髦的好地方，这是社区的精神
+ASF 是发展 groovy 的好地方，这是社区的精神
 
 796
 00:35:53,410 --> 00:35:56,110
 groovy and it's the the community ethos
-ASF是带来时髦的好地方，这是社区的精神
+ASF 是发展 groovy 的好地方，这是社区的精神
 
 797
 00:35:56,110 --> 00:35:58,960
 that was in apache mirrored very much
-在Apache中，这非常反映了groovy所拥有的社区
+在 Apache 中有一种精神，这种精神反映了 groovy 一直
 
 798
 00:35:58,960 --> 00:36:00,700
 the kind of community that groovy had
-在Apache中，这非常反映了groovy所拥有的社区
+在 Apache 中有一种精神，这种精神反映了 groovy 一直
 
 799
 00:36:00,700 --> 00:36:03,390
 been fostering outside ASF and that was
-一直在ASF之外培养，这对我们以及我们
+在 ASF 之外蓬勃发展，这对我们以及我们
 
 800
 00:36:03,390 --> 00:36:06,220
 the big attraction for us and what we
-一直在ASF之外培养，这对我们以及我们
+在 ASF 之外蓬勃发展，这对我们以及我们
 
 801
 00:36:06,220 --> 00:36:08,080
