@@ -10,503 +10,503 @@
 
 3
 00:00:58,680 --> 00:01:01,630
-at its very simplest Tomcat is a web
-最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+at its very simplest, Tomcat is a web
+最简单的说，Tomcat是一种Web服务器，
 
 4
 00:01:01,630 --> 00:01:05,710
-server to expand on that a little bit
-最简单的Tomcat是Web服务器，可以在此基础上进行一点扩展
+server, to expand on that a little bit,
+在此基础上稍加补充一下，
 
 5
 00:01:05,710 --> 00:01:08,920
 there are a series of Java
-有一系列Java规范定义了一种
+有一系列Java规范
 
 6
 00:01:08,920 --> 00:01:13,030
 specifications that define a way that
-有一系列Java规范定义了一种
+定义了一种
 
 7
 00:01:13,030 --> 00:01:14,790
 web applications can be written and
-可以编写Web应用程序，而Tomcat实现这些规范
+Web应用程序的编写方式，
 
 8
 00:01:14,790 --> 00:01:17,590
 Tomcat implements those specifications
-可以编写Web应用程序，而Tomcat实现这些规范
+Tomcat实现了这些规范。
 
 9
 00:01:17,590 --> 00:01:20,229
 and it's one of a number of servers that
-它是众多服务器的其中之一，因此Web应用程序开发人员可以
+它是众多服务器中的一个，
 
 10
 00:01:20,229 --> 00:01:23,020
 do so a web application developer can
-它是众多服务器的其中之一，因此Web应用程序开发人员可以
+因此Web应用程序开发人员可以
 
 11
 00:01:23,020 --> 00:01:25,360
 write their web application using the
-使用标准API编写其Web应用程序，然后就可以在
+使用标准API编写其Web应用程序，
 
 12
 00:01:25,360 --> 00:01:28,090
 standard API and then it can run on
-使用标准API编写其Web应用程序，然后就可以在
+然后就可以在
 
 13
 00:01:28,090 --> 00:01:33,060
-Tomcat it can run on jetty it can run on
-Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+Tomcat, it can run on jetty, it can run on
+Tomcat上运行，可以在Jetty上运行，
 
 14
 00:01:33,060 --> 00:01:36,460
-WebSphere it can run on WebLogic and
-Tomcat，可以在Jetty上运行，可以在WebSphere上运行，可以在WebLogic和
+WebSphere, it can run on WebLogic and
+可以在WebSphere上运行，可以在WebLogic上运行，
 
 15
 00:01:36,460 --> 00:01:38,890
 because it's the same interface the same
-因为在任何地方都可以移动相同的界面和相同的标准
+因为在任何地方都是相同的接口，相同
 
 16
 00:01:38,890 --> 00:01:40,390
-standard everywhere you can move your
-因为在任何地方都可以移动相同的界面和相同的标准
+standard everywhere, you can move your
+的标准,你可以把你的
 
 17
 00:01:40,390 --> 00:01:42,160
 application from one to the other and it
-从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+应用程序程序从这里移植到那里，
 
 18
 00:01:42,160 --> 00:01:44,950
-will just work but at its simplest
-从一个应用程序到另一个应用程序，它将可以正常工作，但是最简单
+will just work but at its simplest.
+它都可以以最简单的方式运行起来。
 
 19
 00:01:44,950 --> 00:01:47,140
-Tomcat is a way of running websites is
-Tomcat是一种运行网站的方法，与Apache Web完全分开
+Tomcat is a way of running websites
+Tomcat 是一种完全分离于Apache Web 服务器
 
 20
 00:01:47,140 --> 00:01:48,850
-completely separate from the Apache web
-Tomcat是一种运行网站的方法，与Apache Web完全分开
+is completely separate from the Apache web
+运行网站的方法。
 
 21
 00:01:48,850 --> 00:01:51,850
-server however if you wish you can get
-服务器，但是，如果您希望，您可以使两者进行某种合作
+server.However if you wish you can get
+但是，如果您希望，
 
 22
 00:01:51,850 --> 00:01:53,979
-the two to sort of working cooperation
-服务器，但是，如果您希望，您可以使两者进行某种合作
+the two to sort of working cooperation,
+您可以让两者进行某种合作，
 
 23
 00:01:53,979 --> 00:01:57,760
 so one of the things that Tomcat doesn't
-因此，Tomcat本身内部不做的一件事就是负载概念
+Tomcat 本身内部没做的一件事
 
 24
 00:01:57,760 --> 00:02:00,250
 do within itself is the idea of load
-因此，Tomcat本身内部不做的一件事就是负载概念
+就是负载平衡这一概念，
 
 25
 00:02:00,250 --> 00:02:03,159
-balancing so if you've got more load
-进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+balancing, so if you've got more load
+因此如果您的负载超过一台
 
 26
 00:02:03,159 --> 00:02:05,290
 than one physical server can't handle
-进行平衡，因此如果您的负载超过一台物理服务器无法处理的负载
+物理服务器无法处理的负载
 
 27
 00:02:05,290 --> 00:02:06,400
 and you need to spread it between
-您需要将其分散在多个对象之间
+您需要将其引到多台服务器上面
 
 28
 00:02:06,400 --> 00:02:07,930
 multiple ones you need something to
-您需要将其分散在多个对象之间
+去分散负载。
 
 29
 00:02:07,930 --> 00:02:09,489
-spread that load what we often see
-分散负载我们经常看到人们正在做的事情就是将Apache网站
+spread that load. what we often see
+我们经常看到人们是将Apache Web
 
 30
 00:02:09,489 --> 00:02:12,010
 people doing is putting Apache web
-分散负载我们经常看到人们正在做的事情就是将Apache网站
+服务器放在它前面，
 
 31
 00:02:12,010 --> 00:02:13,959
-server in front of it because it can do
-服务器在它前面，因为它可以进行负载平衡，然后坐在
+server in front of it, because it can do
+因为它可以进行负载平衡，
 
 32
 00:02:13,959 --> 00:02:15,940
 the load balancing and then it sits in
-服务器在它前面，因为它可以进行负载平衡，然后坐在
+它挡在 Tomcat 的前面，
 
 33
 00:02:15,940 --> 00:02:17,530
 front of Tomcat and it spreads the load
-Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+将负载分散到
 
 34
 00:02:17,530 --> 00:02:19,209
 between the different Tomcat instances
-Tomcat的前端，它将负载分散到不同的Tomcat实例之间
+不同的 Tomcat 实例上面，
 
 35
 00:02:19,209 --> 00:02:20,470
 and then brings the responses back
-然后将响应汇总在一起，然后发送给用户
+将响应汇总在一起，
 
 36
 00:02:20,470 --> 00:02:22,720
 together and sends them off to the users
-然后将响应汇总在一起，然后发送给用户
+然后发送给用户。
 
 37
 00:02:22,720 --> 00:02:25,299
 and we have quite close cooperation
-而且我们在Tomcat项目的各个部分和
+我们的 Tomcat 项目
 
 38
 00:02:25,299 --> 00:02:27,519
 between bits of the Tomcat project and
-而且我们在Tomcat项目的各个部分和
+和 Apache Web 服务器项目
 
 39
 00:02:27,519 --> 00:02:30,790
-bits of the Apache web server project
-Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+bits of the Apache web server project.
+之间有相当密切的合作。
 
 40
 00:02:30,790 --> 00:02:33,220
 because we have effectively our own
-Apache Web服务器项目的一部分，因为我们有效地拥有了自己的
+因为实际上我们已经有了自己的
 
 41
 00:02:33,220 --> 00:02:34,930
 protocol that we use to do some of that
-我们用来进行某些通信的协议，因此我们共同致力于新的
+协议，我们用它来进行一些交流，
 
 42
 00:02:34,930 --> 00:02:39,850
-communication so we work together on new
-我们用来进行某些通信的协议，因此我们共同致力于新的
+communication, so we work together on new
+因此我们共同致力于新特性，
 
 43
 00:02:39,850 --> 00:02:41,890
-features developing that integration of
-开发整合功能的功能我专注于您的特定功能
+features, developing that integration of
+开发整合那些特性。
 
 44
 00:02:41,890 --> 00:02:44,170
-that I am focused on your particular
-开发整合功能的功能我专注于您的特定功能
+that. I am focused on the particular
+我专注于一些特定的
 
 45
 00:02:44,170 --> 00:02:46,959
-projects so I am currently a committer
-项目，因此我目前是PMC的提交者和比索的成员
+projects, so I am currently a committer,
+项目，因此我目前是一位提交者，
 
 46
 00:02:46,959 --> 00:02:49,329
-PMC member and a member of the peso
-项目，因此我目前是PMC的提交者和比索的成员
+PMC member and a member of the specific
+PMC 成员以及某些特定
 
 47
 00:02:49,329 --> 00:02:52,360
-software foundation I have been that for
-我从事软件工作很长一段时间，一直致力于
+software foundation. I have been that for
+软件基金会的一名成员。我从事软件工作
 
 48
 00:02:52,360 --> 00:02:54,340
-a long time I've been a committer for
-我从事软件工作很长一段时间，一直致力于
+a long time. I've been a committer for
+很长一段时间。我从事 Camel 项目开发，
 
 49
 00:02:54,340 --> 00:02:56,470
-the camel product for yeah as I said
-我说过的骆驼产品大约是12年，我目前的角色是
+the camel product for, yeah, as I said,
+正如我说过的，
 
 50
 00:02:56,470 --> 00:02:59,260
-about 12 years my current role is as a
-我说过的骆驼产品大约是12年，我目前的角色是
+about 12 years. My current role is as a
+大约有12年了。我目前的角色是作为一位
 
 51
 00:02:59,260 --> 00:03:01,120
-professional open source developer I'm
-我受雇于red的专业开源开发人员
+professional open source developer. I'm
+专业开源开发人员，
 
 52
 00:03:01,120 --> 00:03:02,540
-employed by red
-我受雇于red的专业开源开发人员
+employed by Red Hat
+受雇于 Red Hat。
 
 53
 00:03:02,540 --> 00:03:05,689
-and redhead uses camel in in the middle
-和红发在我们的产品中间使用骆驼，所以我目前
+and Red Hat uses camel in in the middle
+Red Hat 在我们项目的中间件中使用 camel ，
 
 54
 00:03:05,689 --> 00:03:08,120
-of our products so I am currently
-和红发在我们的产品中间使用骆驼，所以我目前
+of our products, so I am currently
+所以我目前
 
 55
 00:03:08,120 --> 00:03:10,489
-heavily involved with camel their camel
-大量参与骆驼活动的骆驼基本上是用于整合
+heavily involved with Camel their.
+大量参与 Camel 项目
 
 56
 00:03:10,489 --> 00:03:13,010
-is basically used for integration is to
-大量参与骆驼活动的骆驼基本上是用于整合
+Camel is basically used for integration
+Camel 基本上用于系统集成，
 
 57
 00:03:13,010 --> 00:03:14,840
-switch I mean I for integration
-开关我的意思是说，我参加了集成高科技大会吗？
+is to switch I mean that for integration
+是用来做集成的开关。
 
 58
 00:03:14,840 --> 00:03:16,459
-hi-c algunas ation do they have so many
-开关我的意思是说，我参加了集成高科技大会吗？
+IT organization do they have so many
+IT 组织确实有许多
 
 59
 00:03:16,459 --> 00:03:18,739
 different IT systems and they need to be
-不同的IT系统，它们需要集成在一起，您需要知道数据
+不同的 IT 系统，他们需要
 
 60
 00:03:18,739 --> 00:03:20,480
-integrated connected you know it data
-不同的IT系统，它们需要集成在一起，您需要知道数据
+integrated connected, you know it, data
+整合连接。你知道的，其中有很多数据
 
 61
 00:03:20,480 --> 00:03:22,129
 need to be transfer from different
-需要从不同的系统转移，其中有很多，所以有很多
+需要在不同的系统中传输
 
 62
 00:03:22,129 --> 00:03:23,750
 system many of them so there are so many
-需要从不同的系统转移，其中有很多，所以有很多
+所以有很多
 
 63
 00:03:23,750 --> 00:03:26,209
 different protocols languages and IT
-不同的协议语言，IT系统和操作系统以及
+不同的协议语言，IT 系统，
 
 64
 00:03:26,209 --> 00:03:28,400
 systems and operating systems and
-不同的协议语言，IT系统和操作系统以及
+以及操作系统，
 
 65
 00:03:28,400 --> 00:03:30,739
-whatnot and data formats and camel is
-whatnot和数据格式以及骆驼有点像介于两者之间的胶水
+whatnot the data formats and Camel is
+以及不同的数据格式。
 
 66
 00:03:30,739 --> 00:03:32,150
 sort of like the glue that sits between
-whatnot和数据格式以及骆驼有点像介于两者之间的胶水
+Camel 有点像介于两者之间的胶水
 
 67
 00:03:32,150 --> 00:03:34,069
-and you can easily more easily integrate
-您可以更轻松地集成它们，我从更多系统开始
+and you can easily more easily integrate them
+您可以轻松地，更轻松地集成它们
 
 68
 00:03:34,069 --> 00:03:36,290
-them I started with more system
-您可以更轻松地集成它们，我从更多系统开始
+I started with more system
+我是从多系统集成开始的
 
 69
 00:03:36,290 --> 00:03:39,250
 integration so more project related to
-集成，因此有更多与应用程序运行时相关的项目，因此可以运行一些
+因此有更多与应用程序运行时相关的项目，
 
 70
 00:03:39,250 --> 00:03:43,010
-application runtimes so running some
-集成，因此有更多与应用程序运行时相关的项目，因此可以运行一些
+application runtimes, so running some
+因此很容易为你运行一些
 
 71
 00:03:43,010 --> 00:03:47,780
 stuff and application easily for you and
-东西和应用程序很容易为您提供许多功能，您可以
+东西和应用程序
 
 72
 00:03:47,780 --> 00:03:49,430
 providing a lot of features you can
-东西和应用程序很容易为您提供许多功能，您可以
+提供许多你可以利用的特性
 
 73
 00:03:49,430 --> 00:03:53,659
-leverage so I started with this kind of
-杠杆，所以我从Apache这样的项目开始，现在我仍在从事
+leverage, so I started with this kind of
+所以我从Apache这样的项目开始。
 
 74
 00:03:53,659 --> 00:03:56,689
-project Apache now I'm still working on
-杠杆，所以我从Apache这样的项目开始，现在我仍在从事
+project Apache. now I'm still working on
+现在我仍在从事
 
 75
 00:03:56,689 --> 00:03:59,510
 this project still very happy and and
-这个项目仍然很开心，是的，这仍然是我的项目，但是我
+这个项目，依然很开心，
 
 76
 00:03:59,510 --> 00:04:02,989
 and yeah it's still my project but I
-这个项目仍然很开心，是的，这仍然是我的项目，但是我
+是的，这仍然是我的项目，但是我
 
 77
 00:04:02,989 --> 00:04:06,409
-like a lot I'm also working on big data
-像很多人一样，我也在开发与大数据相关的产品，像Apache这样的大数据
+like a lot, I'm also working on big data
+像很多人一样，我也在开发与大数据相关的产品
 
 78
 00:04:06,409 --> 00:04:11,180
 related products so big data like Apache
-像很多人一样，我也在开发与大数据相关的产品，像Apache这样的大数据
+比如像Apache CarbonData这样的大数据，
 
 79
 00:04:11,180 --> 00:04:15,039
-carbon data for instances is a database
-碳数据实例是为大数据设计的数据库，我真的很高兴
+CarbonData for instances is a database
+是一款为
 
 80
 00:04:15,039 --> 00:04:18,560
-designed for big data I'm really happy
-碳数据实例是为大数据设计的数据库，我真的很高兴
+designed for big data. I'm really happy
+大数据设计的数据库。我真的很满意
 
 81
 00:04:18,560 --> 00:04:20,389
 about this product because it's one of
-关于这个产品，因为这是我做过的第一个项目
+这款产品，因为这是我做过的第一个项目
 
 82
 00:04:20,389 --> 00:04:21,949
 the first project that I did with
-关于这个产品，因为这是我做过的第一个项目
+关于这个产品，因为这是我与中国人
 
 83
 00:04:21,949 --> 00:04:25,060
-Chinese guys and it was really great
-中国人，我正在研究的大数据真的很棒
+Chinese guys and it was really great.
+合作的第一个项目之一，真的很棒。
 
 84
 00:04:25,060 --> 00:04:28,039
-around big data I'm also working on
-中国人，我正在研究的大数据真的很棒
+Around big data I'm also working on
+在大数据方面，我也在开发 Apache beam
 
 85
 00:04:28,039 --> 00:04:32,650
-Apache beam which is a very key project
-Apache Beam是一个非常关键的项目，提供了针对以下语言的API
+Apache beam, which is a very key project
+Apache Beam是一个非常关键的项目，
 
 86
 00:04:32,650 --> 00:04:35,300
 providing an API for a language that
-Apache Beam是一个非常关键的项目，提供了针对以下语言的API
+提供了针对以下语言的API
 
 87
 00:04:35,300 --> 00:04:39,020
 allows you to design some big data
-允许您设计一些大数据管道或分布式处理
+允许您设计一些大数据
 
 88
 00:04:39,020 --> 00:04:42,530
 pipelines or distributed processing of
-允许您设计一些大数据管道或分布式处理
+管道或分布式数据处理，
 
 89
 00:04:42,530 --> 00:04:46,820
-data so this project historically on
-数据，因此该项目历来在哪个项目上进行
+data, so this project historically on
+因此该项目历来
 
 90
 00:04:46,820 --> 00:04:48,860
 which are working on another project
-数据，因此该项目历来在哪个项目上进行
+在另外一个命名为 Apache Unomi 的项目上
 
 91
 00:04:48,860 --> 00:04:51,770
-which is nama Apache you know me is more
-那是纳玛·阿帕奇，你知道我更多关于用户配置文件，gdpr之类的东西
+which is named Apache Unomi is more
+进行，Unomi 更多是
 
 92
 00:04:51,770 --> 00:04:55,370
 about user profiling and gdpr and stuff
-那是纳玛·阿帕奇，你知道我更多关于用户配置文件，gdpr之类的东西
+关于用户配置文件，GDPR 之类的东西
 
 93
 00:04:55,370 --> 00:04:58,250
 like that and the thing that I really
-这样，我真正喜欢的东西之间存在某种联系
+这样的东西，我真正喜欢的东西
 
 94
 00:04:58,250 --> 00:05:00,139
 like is there some connection between
-这样，我真正喜欢的东西之间存在某种联系
+是在所有这些项目之间
 
 95
 00:05:00,139 --> 00:05:02,990
-all these products the connection is
-所有这些产品的连接是一些项目用户之间的联系
+all these products. The connection is
+存在某种联系。
 
 96
 00:05:02,990 --> 00:05:05,780
-between some project user others for
-所有这些产品的连接是一些项目用户之间的联系
+between some project user authors for
+一些项目用户作者之间的联系，比如，
 
 97
 00:05:05,780 --> 00:05:07,550
-example you know me is based on Apache
-例如，您知道我基于Apache Cara，而Apache Cara是我所负责的项目之一
+example Unomi is based on Apache
+Unomi 基于 Apache Karaf，
 
 98
 00:05:07,550 --> 00:05:10,130
-Cara which is one of project arm I'm
-例如，您知道我基于Apache Cara，而Apache Cara是我所负责的项目之一
+Karaf which is one of projects umm I'm
+而 Apache Karaf 是我长期负责的项目之一,
 
 99
 00:05:10,130 --> 00:05:13,700
-working on for a long time beam using
-使用扫射和火花对光束进行长时间工作，因此有很多
+working on for a long time,be my using
+Karaf 用到了
 
 100
 00:05:13,700 --> 00:05:15,919
-fling and spark so there are a lot of
-使用扫射和火花对光束进行长时间工作，因此有很多
+Flink and Spark so there are a lot of
+Flink 和 Spark，因此里面有很多
 
 101
 00:05:15,919 --> 00:05:17,930
 connection between the products it's
-产品之间的联系是我所喜欢的东西
+项目之间的联系，这就是我所喜欢的东西
 
 102
 00:05:17,930 --> 00:05:19,729
-what I like you I've been involved with
-产品之间的联系是我所喜欢的东西
+what I like yeah. I've been involved with
+我一直参与
 
 103
 00:05:19,729 --> 00:05:22,039
